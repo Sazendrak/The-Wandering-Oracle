@@ -29,6 +29,9 @@ def read_json_data(file_name):
     except json.JSONDecodeError:
         print(f"Error decoding JSON in {filepath}")
         return None
+    except OSError as e:
+        print(f"Error reading {filepath}: {e}")
+        return None
 
 @bot.event
 async def on_ready():
