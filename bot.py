@@ -14,8 +14,8 @@ bot = commands.Bot(command_prefix='!', intents=intents)
 
 def read_json_data(file_name):
     """
-    Utility function to read JSON files from the /data/avrae directory.
-    Assumes the data directory is relative to the bot root.
+    Utility function to read JSON files from the data/avrae directory.
+    The data directory is resolved relative to this file (bot.py).
     """
     # Use absolute path from current directory or relative.
     # Usually better to be safe and use relative to bot.py
