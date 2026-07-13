@@ -1,0 +1,557 @@
+<!doctype html>
+<html lang="en" dir="ltr" class="docs-wrapper plugin-docs plugin-id-default docs-version-current docs-doc-page docs-doc-id-homebrew/classes/sage" data-has-hydrated="false">
+<head>
+<meta charset="UTF-8">
+<meta name="generator" content="Docusaurus v3.10.1">
+<title data-rh="true">Sage | The Wandering Handbook</title><meta data-rh="true" name="viewport" content="width=device-width,initial-scale=1"><meta data-rh="true" name="twitter:card" content="summary_large_image"><meta data-rh="true" property="og:url" content="https://sazendrak.github.io/The-Wandering-Handbook/docs/homebrew/classes/sage"><meta data-rh="true" property="og:locale" content="en"><meta data-rh="true" name="docusaurus_locale" content="en"><meta data-rh="true" name="docsearch:language" content="en"><meta data-rh="true" name="docusaurus_version" content="current"><meta data-rh="true" name="docusaurus_tag" content="docs-default-current"><meta data-rh="true" name="docsearch:version" content="current"><meta data-rh="true" name="docsearch:docusaurus_tag" content="docs-default-current"><meta data-rh="true" property="og:title" content="Sage | The Wandering Handbook"><meta data-rh="true" name="description" content="Sage homebrew content for The Wandering Realm."><meta data-rh="true" property="og:description" content="Sage homebrew content for The Wandering Realm."><link data-rh="true" rel="icon" href="/The-Wandering-Handbook/img/favicon.ico"><link data-rh="true" rel="canonical" href="https://sazendrak.github.io/The-Wandering-Handbook/docs/homebrew/classes/sage"><link data-rh="true" rel="alternate" href="https://sazendrak.github.io/The-Wandering-Handbook/docs/homebrew/classes/sage" hreflang="en"><link data-rh="true" rel="alternate" href="https://sazendrak.github.io/The-Wandering-Handbook/docs/homebrew/classes/sage" hreflang="x-default"><script data-rh="true" type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Classes","item":"https://sazendrak.github.io/The-Wandering-Handbook/docs/category/classes"},{"@type":"ListItem","position":2,"name":"Sage","item":"https://sazendrak.github.io/The-Wandering-Handbook/docs/homebrew/classes/sage"}]}</script><link rel="stylesheet" href="/The-Wandering-Handbook/assets/css/styles.6f418af7.css">
+<script src="/The-Wandering-Handbook/assets/js/runtime~main.06a65f28.js" defer="defer"></script>
+<script src="/The-Wandering-Handbook/assets/js/main.772cdbc1.js" defer="defer"></script>
+</head>
+<body>
+<svg style="display: none;"><defs>
+<symbol id="theme-svg-external-link" viewBox="0 0 24 24"><path fill="currentColor" d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"/></symbol>
+</defs></svg>
+<script>!function(){var t=function(){try{return new URLSearchParams(window.location.search).get("docusaurus-theme")}catch(t){}}()||function(){try{return window.localStorage.getItem("theme")}catch(t){}}();document.documentElement.setAttribute("data-theme",t||"light"),document.documentElement.setAttribute("data-theme-choice",t||"light")}(),function(){try{const c=new URLSearchParams(window.location.search).entries();for(var[t,e]of c)if(t.startsWith("docusaurus-data-")){var a=t.replace("docusaurus-data-","data-");document.documentElement.setAttribute(a,e)}}catch(t){}}()</script><div id="__docusaurus"><div role="region" aria-label="Skip to main content"><a class="skipToContent_fXgn" href="#__docusaurus_skipToContent_fallback">Skip to main content</a></div><nav aria-label="Main" class="theme-layout-navbar navbar navbar--fixed-top"><div class="navbar__inner"><div class="theme-layout-navbar-left navbar__items"><button aria-label="Toggle navigation bar" aria-expanded="false" class="navbar__toggle clean-btn" type="button"><svg width="30" height="30" viewBox="0 0 30 30" aria-hidden="true"><path stroke="currentColor" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2" d="M4 7h22M4 15h22M4 23h22"></path></svg></button><a class="navbar__brand" href="/The-Wandering-Handbook/"><b class="navbar__title text--truncate">The Wandering Handbook</b></a><a class="navbar__item navbar__link" href="/The-Wandering-Handbook/docs/core/character/character-creation">Core Rules</a><a aria-current="page" class="navbar__item navbar__link navbar__link--active" href="/The-Wandering-Handbook/docs/category/classes">Homebrew</a><a class="navbar__item navbar__link" href="/The-Wandering-Handbook/docs/lore/elysium:-floating-city-in-the-sky">Lore</a><a class="navbar__item navbar__link" href="/The-Wandering-Handbook/catalog">Catalog</a></div><div class="theme-layout-navbar-right navbar__items navbar__items--right"><a href="https://github.com/Sazendrak/The-Wandering-Handbook" target="_blank" rel="noopener noreferrer" class="navbar__item navbar__link">GitHub<svg width="13.5" height="13.5" aria-label="(opens in new tab)" class="iconExternalLink_nPIU"><use href="#theme-svg-external-link"></use></svg></a><div class="toggle_vylO colorModeToggle_DEke"><button class="clean-btn toggleButton_gllP toggleButtonDisabled_aARS" type="button" disabled="" title="system mode" aria-label="Switch between dark and light mode (currently system mode)"><svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" class="toggleIcon_g3eP lightToggleIcon_pyhR"><path fill="currentColor" d="M12,9c1.65,0,3,1.35,3,3s-1.35,3-3,3s-3-1.35-3-3S10.35,9,12,9 M12,7c-2.76,0-5,2.24-5,5s2.24,5,5,5s5-2.24,5-5 S14.76,7,12,7L12,7z M2,13l2,0c0.55,0,1-0.45,1-1s-0.45-1-1-1l-2,0c-0.55,0-1,0.45-1,1S1.45,13,2,13z M20,13l2,0c0.55,0,1-0.45,1-1 s-0.45-1-1-1l-2,0c-0.55,0-1,0.45-1,1S19.45,13,20,13z M11,2v2c0,0.55,0.45,1,1,1s1-0.45,1-1V2c0-0.55-0.45-1-1-1S11,1.45,11,2z M11,20v2c0,0.55,0.45,1,1,1s1-0.45,1-1v-2c0-0.55-0.45-1-1-1C11.45,19,11,19.45,11,20z M5.99,4.58c-0.39-0.39-1.03-0.39-1.41,0 c-0.39,0.39-0.39,1.03,0,1.41l1.06,1.06c0.39,0.39,1.03,0.39,1.41,0s0.39-1.03,0-1.41L5.99,4.58z M18.36,16.95 c-0.39-0.39-1.03-0.39-1.41,0c-0.39,0.39-0.39,1.03,0,1.41l1.06,1.06c0.39,0.39,1.03,0.39,1.41,0c0.39-0.39,0.39-1.03,0-1.41 L18.36,16.95z M19.42,5.99c0.39-0.39,0.39-1.03,0-1.41c-0.39-0.39-1.03-0.39-1.41,0l-1.06,1.06c-0.39,0.39-0.39,1.03,0,1.41 s1.03,0.39,1.41,0L19.42,5.99z M7.05,18.36c0.39-0.39,0.39-1.03,0-1.41c-0.39-0.39-1.03-0.39-1.41,0l-1.06,1.06 c-0.39,0.39-0.39,1.03,0,1.41s1.03,0.39,1.41,0L7.05,18.36z"></path></svg><svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" class="toggleIcon_g3eP darkToggleIcon_wfgR"><path fill="currentColor" d="M9.37,5.51C9.19,6.15,9.1,6.82,9.1,7.5c0,4.08,3.32,7.4,7.4,7.4c0.68,0,1.35-0.09,1.99-0.27C17.45,17.19,14.93,19,12,19 c-3.86,0-7-3.14-7-7C5,9.07,6.81,6.55,9.37,5.51z M12,3c-4.97,0-9,4.03-9,9s4.03,9,9,9s9-4.03,9-9c0-0.46-0.04-0.92-0.1-1.36 c-0.98,1.37-2.58,2.26-4.4,2.26c-2.98,0-5.4-2.42-5.4-5.4c0-1.81,0.89-3.42,2.26-4.4C12.92,3.04,12.46,3,12,3L12,3z"></path></svg><svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" class="toggleIcon_g3eP systemToggleIcon_QzmC"><path fill="currentColor" d="m12 21c4.971 0 9-4.029 9-9s-4.029-9-9-9-9 4.029-9 9 4.029 9 9 9zm4.95-13.95c1.313 1.313 2.05 3.093 2.05 4.95s-0.738 3.637-2.05 4.95c-1.313 1.313-3.093 2.05-4.95 2.05v-14c1.857 0 3.637 0.737 4.95 2.05z"></path></svg></button></div><div class="navbarSearchContainer_Bca1"><div class="navbar__search searchBarContainer_NW3z" dir="ltr"><input placeholder="Search" aria-label="Search" class="navbar__search-input searchInput_YFbd" value=""><div class="loadingRing_RJI3 searchBarLoadingRing_YnHq"><div></div><div></div><div></div><div></div></div></div></div></div></div><div role="presentation" class="navbar-sidebar__backdrop"></div></nav><div id="__docusaurus_skipToContent_fallback" class="theme-layout-main main-wrapper mainWrapper_z2l0"><div class="docsWrapper_hBAB"><button aria-label="Scroll back to top" class="clean-btn theme-back-to-top-button backToTopButton_sjWU" type="button"></button><div class="docRoot_UBD9"><aside class="theme-doc-sidebar-container docSidebarContainer_YfHR"><div class="sidebarViewport_aRkj"><div class="sidebar_njMd"><nav aria-label="Docs sidebar" class="menu thin-scrollbar menu_SIkG"><ul class="theme-doc-sidebar-menu menu__list"><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item"><div class="menu__list-item-collapsible"><a class="categoryLink_byQd menu__link menu__link--sublist menu__link--active" href="/The-Wandering-Handbook/docs/category/classes"><span title="Classes" class="categoryLinkLabel_W154">Classes</span></a><button aria-label="Collapse sidebar category &#x27;Classes&#x27;" aria-expanded="true" type="button" class="clean-btn menu__caret"></button></div><ul class="menu__list"><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/The-Wandering-Handbook/docs/homebrew/classes/blood-hunter-(version-x)"><span title="Blood Hunter (Version X)" class="linkLabel_WmDU">Blood Hunter (Version X)</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/The-Wandering-Handbook/docs/homebrew/classes/bombardier"><span title="Bombardier" class="linkLabel_WmDU">Bombardier</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/The-Wandering-Handbook/docs/homebrew/classes/channeler"><span title="Channeler" class="linkLabel_WmDU">Channeler</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/The-Wandering-Handbook/docs/homebrew/classes/drifter"><span title="Drifter" class="linkLabel_WmDU">Drifter</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/The-Wandering-Handbook/docs/homebrew/classes/exorcist"><span title="Exorcist" class="linkLabel_WmDU">Exorcist</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/The-Wandering-Handbook/docs/homebrew/classes/greaser"><span title="Greaser" class="linkLabel_WmDU">Greaser</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/The-Wandering-Handbook/docs/homebrew/classes/harbinger"><span title="Harbinger" class="linkLabel_WmDU">Harbinger</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/The-Wandering-Handbook/docs/homebrew/classes/jade-lord"><span title="Jade Lord" class="linkLabel_WmDU">Jade Lord</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/The-Wandering-Handbook/docs/homebrew/classes/juggernaut"><span title="Juggernaut" class="linkLabel_WmDU">Juggernaut</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/The-Wandering-Handbook/docs/homebrew/classes/medic"><span title="Medic" class="linkLabel_WmDU">Medic</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/The-Wandering-Handbook/docs/homebrew/classes/medium"><span title="Medium" class="linkLabel_WmDU">Medium</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/The-Wandering-Handbook/docs/homebrew/classes/oracle"><span title="Oracle" class="linkLabel_WmDU">Oracle</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/The-Wandering-Handbook/docs/homebrew/classes/performer"><span title="Performer" class="linkLabel_WmDU">Performer</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/The-Wandering-Handbook/docs/homebrew/classes/physicist"><span title="Physicist" class="linkLabel_WmDU">Physicist</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/The-Wandering-Handbook/docs/homebrew/classes/practitioner"><span title="Practitioner" class="linkLabel_WmDU">Practitioner</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/The-Wandering-Handbook/docs/homebrew/classes/psi-tracker"><span title="Psi Tracker" class="linkLabel_WmDU">Psi Tracker</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/The-Wandering-Handbook/docs/homebrew/classes/ranger-(version-x)"><span title="Ranger (Version X)" class="linkLabel_WmDU">Ranger (Version X)</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/The-Wandering-Handbook/docs/homebrew/classes/rook"><span title="Rook" class="linkLabel_WmDU">Rook</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item homebrew-class"><a class="menu__link menu__link--active" aria-current="page" tabindex="0" href="/The-Wandering-Handbook/docs/homebrew/classes/sage"><span title="Sage" class="linkLabel_WmDU">Sage</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/The-Wandering-Handbook/docs/homebrew/classes/scrapper"><span title="Scrapper" class="linkLabel_WmDU">Scrapper</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/The-Wandering-Handbook/docs/homebrew/classes/shinobi"><span title="Shinobi" class="linkLabel_WmDU">Shinobi</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/The-Wandering-Handbook/docs/homebrew/classes/spiritualist"><span title="Spiritualist" class="linkLabel_WmDU">Spiritualist</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/The-Wandering-Handbook/docs/homebrew/classes/swindler"><span title="Swindler" class="linkLabel_WmDU">Swindler</span></a></li></ul></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="categoryLink_byQd menu__link menu__link--sublist" href="/The-Wandering-Handbook/docs/category/subclasses--archetypes"><span title="Subclasses &amp; Archetypes" class="categoryLinkLabel_W154">Subclasses &amp; Archetypes</span></a><button aria-label="Expand sidebar category &#x27;Subclasses &amp; Archetypes&#x27;" aria-expanded="false" type="button" class="clean-btn menu__caret"></button></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="categoryLink_byQd menu__link menu__link--sublist" href="/The-Wandering-Handbook/docs/category/races"><span title="Races" class="categoryLinkLabel_W154">Races</span></a><button aria-label="Expand sidebar category &#x27;Races&#x27;" aria-expanded="false" type="button" class="clean-btn menu__caret"></button></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="categoryLink_byQd menu__link menu__link--sublist" href="/The-Wandering-Handbook/docs/category/spells"><span title="Spells" class="categoryLinkLabel_W154">Spells</span></a><button aria-label="Expand sidebar category &#x27;Spells&#x27;" aria-expanded="false" type="button" class="clean-btn menu__caret"></button></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="categoryLink_byQd menu__link menu__link--sublist" href="/The-Wandering-Handbook/docs/category/feats"><span title="Feats" class="categoryLinkLabel_W154">Feats</span></a><button aria-label="Expand sidebar category &#x27;Feats&#x27;" aria-expanded="false" type="button" class="clean-btn menu__caret"></button></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="categoryLink_byQd menu__link menu__link--sublist" href="/The-Wandering-Handbook/docs/category/boons--blessings"><span title="Boons &amp; Blessings" class="categoryLinkLabel_W154">Boons &amp; Blessings</span></a><button aria-label="Expand sidebar category &#x27;Boons &amp; Blessings&#x27;" aria-expanded="false" type="button" class="clean-btn menu__caret"></button></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="categoryLink_byQd menu__link menu__link--sublist" href="/The-Wandering-Handbook/docs/category/items"><span title="Items" class="categoryLinkLabel_W154">Items</span></a><button aria-label="Expand sidebar category &#x27;Items&#x27;" aria-expanded="false" type="button" class="clean-btn menu__caret"></button></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="categoryLink_byQd menu__link menu__link--sublist" href="/The-Wandering-Handbook/docs/category/class-feature-mods"><span title="Class Feature Mods" class="categoryLinkLabel_W154">Class Feature Mods</span></a><button aria-label="Expand sidebar category &#x27;Class Feature Mods&#x27;" aria-expanded="false" type="button" class="clean-btn menu__caret"></button></div></li></ul></nav></div></div></aside><main class="docMainContainer_TBSr"><div class="container padding-top--md padding-bottom--lg"><div class="row"><div class="col docItemCol_VOVn"><div class="docItemContainer_Djhp"><article><nav class="theme-doc-breadcrumbs breadcrumbsContainer_Z_bl" aria-label="Breadcrumbs"><ul class="breadcrumbs"><li class="breadcrumbs__item"><a aria-label="Home page" class="breadcrumbs__link" href="/The-Wandering-Handbook/"><svg viewBox="0 0 24 24" class="breadcrumbHomeIcon_YNFT"><path d="M10 19v-5h4v5c0 .55.45 1 1 1h3c.55 0 1-.45 1-1v-7h1.7c.46 0 .68-.57.33-.87L12.67 3.6c-.38-.34-.96-.34-1.34 0l-8.36 7.53c-.34.3-.13.87.33.87H5v7c0 .55.45 1 1 1h3c.55 0 1-.45 1-1z" fill="currentColor"></path></svg></a></li><li class="breadcrumbs__item"><a class="breadcrumbs__link" href="/The-Wandering-Handbook/docs/category/classes"><span>Classes</span></a></li><li class="breadcrumbs__item breadcrumbs__item--active"><span class="breadcrumbs__link">Sage</span></li></ul></nav><div class="tocCollapsible_ETCw theme-doc-toc-mobile tocMobile_ITEo"><button type="button" class="clean-btn tocCollapsibleButton_TO0P">On this page</button></div><div class="theme-doc-markdown markdown"><header><h1>Sage</h1></header>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="the-sage-class">The Sage Class<a href="#the-sage-class" class="hash-link" aria-label="Direct link to The Sage Class" title="Direct link to The Sage Class" translate="no">​</a></h2>
+<p>Alone in a cave sits a near withered old human. Having spent decades honing his very mind, he finally stands. And the very land quakes as he does.</p>
+<p>A traveling monk spends years visiting temples across the world in an attempt to understand the nature of the very gods themselves. In doing so, a divine presence has rubbed off on them.</p>
+<p>A ridiculed gnome stomps out of a mages college, kicked out on the grounds of being unteachable. Unknown to both the gnome and the college, the abstract and unpredictable are a conduit of power themselves.</p>
+<p>A sage carries a deep understanding of arcane secrets, as well as knowledge of how magic truly works in regards to their spells and lives. Different ways of thinking are the true distinctions between sages, as no two have the exact same experiences or conclusions to their magical capabilities, even those who might have studied together. A sage draws on their understanding and connection to magic to call forth spells of great power.</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="how-to-think">How to Think<a href="#how-to-think" class="hash-link" aria-label="Direct link to How to Think" title="Direct link to How to Think" translate="no">​</a></h3>
+<p>Sages do not tend to study upon actual arcane knowledge, much like a wizard might. Instead using what they already know, and using that to expand upon their capabilities. The only true limiting factor of a sage is their own minds.</p>
+<p>As such, the ways a sage reflects upon their magic can greatly influence how it is formed and projected. Very rarely does a sage know from the beginning how their magic will take shape as they allow it to grow.</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="creating-a-sage">Creating a Sage<a href="#creating-a-sage" class="hash-link" aria-label="Direct link to Creating a Sage" title="Direct link to Creating a Sage" translate="no">​</a></h3>
+<p>When creating a sage, knowing how your character perceives the world around them is crucial to both their development and their philosophies that shape their magic. Is your sage a hard working arcanist? Or perhaps more laid back? Your decisions should reflect your character&#x27;s abilities and spells in how they are projected and used.</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="sage-table">Sage Table<a href="#sage-table" class="hash-link" aria-label="Direct link to Sage Table" title="Direct link to Sage Table" translate="no">​</a></h2>
+<table><thead><tr><th>Level</th><th>Proficiency Bonus</th><th>Features</th><th>Focused Spells</th><th>Cantrips Known</th><th>Spells Known</th><th>-Spell Slots per Spell Level-</th><th>-Spell Slots per Spell Level-</th><th>-Spell Slots per Spell Level-</th><th>-Spell Slots per Spell Level-</th><th>-Spell Slots per Spell Level-</th><th>-Spell Slots per Spell Level-</th><th>-Spell Slots per Spell Level-</th><th>-Spell Slots per Spell Level-</th><th>-Spell Slots per Spell Level-</th></tr></thead><tbody><tr><td>1st</td><td>2nd</td><td>3rd</td><td>4th</td><td>5th</td><td>6th</td><td>7th</td><td>8th</td><td>9th</td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>1st</td><td>+2</td><td>Spellcasting, Meditation</td><td>-</td><td>2</td><td>2</td><td>2</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td></tr><tr><td>2nd</td><td>+2</td><td>Philosophical Study</td><td>-</td><td>2</td><td>3</td><td>3</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td></tr><tr><td>3rd</td><td>+2</td><td>Mind Shaper</td><td>1</td><td>2</td><td>4</td><td>4</td><td>2</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td></tr><tr><td>4th</td><td>+2</td><td>Ability Score Improvement</td><td>1</td><td>3</td><td>5</td><td>4</td><td>3</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td></tr><tr><td>5th</td><td>+3</td><td>-</td><td>1</td><td>3</td><td>6</td><td>4</td><td>3</td><td>2</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td></tr><tr><td>6th</td><td>+3</td><td>Study Feature</td><td>1</td><td>3</td><td>7</td><td>4</td><td>3</td><td>3</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td></tr><tr><td>7th</td><td>+3</td><td>-</td><td>2</td><td>3</td><td>8</td><td>4</td><td>3</td><td>3</td><td>1</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td></tr><tr><td>8th</td><td>+3</td><td>Ability Score Improvement</td><td>2</td><td>3</td><td>9</td><td>4</td><td>3</td><td>3</td><td>2</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td></tr><tr><td>9th</td><td>+4</td><td>-</td><td>2</td><td>3</td><td>10</td><td>4</td><td>3</td><td>3</td><td>3</td><td>1</td><td>-</td><td>-</td><td>-</td><td>-</td></tr><tr><td>10th</td><td>+4</td><td>Greater Meditation, Improved ShapingImproved Shaping</td><td>2</td><td>4</td><td>11</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td><td>-</td><td>-</td><td>-</td><td>-</td></tr><tr><td>11th</td><td>+4</td><td>-</td><td>3</td><td>4</td><td>12</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td><td>1</td><td>-</td><td>-</td><td>-</td></tr><tr><td>12th</td><td>+4</td><td>Ability Score Improvement</td><td>3</td><td>4</td><td>12</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td><td>1</td><td>-</td><td>-</td><td>-</td></tr><tr><td>13th</td><td>+5</td><td>-</td><td>3</td><td>4</td><td>13</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td><td>1</td><td>1</td><td>-</td><td>-</td></tr><tr><td>14th</td><td>+5</td><td>Study Feature</td><td>3</td><td>4</td><td>13</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td><td>1</td><td>1</td><td>-</td><td>-</td></tr><tr><td>15th</td><td>+5</td><td>-</td><td>3</td><td>4</td><td>14</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td><td>1</td><td>1</td><td>1</td><td>-</td></tr><tr><td>16th</td><td>+5</td><td>Ability Score Improvement</td><td>3</td><td>4</td><td>14</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td><td>1</td><td>1</td><td>1</td><td>-</td></tr><tr><td>17th</td><td>+6</td><td>Replenish</td><td>4</td><td>4</td><td>15</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td><td>1</td><td>1</td><td>1</td><td>1</td></tr><tr><td>18th</td><td>+6</td><td>Study Feature</td><td>4</td><td>4</td><td>16</td><td>4</td><td>3</td><td>3</td><td>3</td><td>3</td><td>1</td><td>1</td><td>1</td><td>1</td></tr><tr><td>19th</td><td>+6</td><td>Ability Score Improvement</td><td>4</td><td>4</td><td>17</td><td>4</td><td>3</td><td>3</td><td>3</td><td>3</td><td>2</td><td>1</td><td>1</td><td>1</td></tr><tr><td>20th</td><td>+6</td><td>Enlightenment</td><td>4</td><td>4</td><td>17</td><td>4</td><td>3</td><td>3</td><td>3</td><td>3</td><td>2</td><td>2</td><td>1</td><td>1</td></tr></tbody></table>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="class-features">Class Features<a href="#class-features" class="hash-link" aria-label="Direct link to Class Features" title="Direct link to Class Features" translate="no">​</a></h2>
+<p>As a Sage, you gain the following class features.</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="base-class-features">Base Class Features<a href="#base-class-features" class="hash-link" aria-label="Direct link to Base Class Features" title="Direct link to Base Class Features" translate="no">​</a></h3>
+<h4 class="anchor anchorTargetStickyNavbar_Vzrq" id="hit-points">Hit Points<a href="#hit-points" class="hash-link" aria-label="Direct link to Hit Points" title="Direct link to Hit Points" translate="no">​</a></h4>
+<p><strong>Hit Dice:</strong> 1d6 per sage level.</p>
+<p><strong>Hit Points at 1st Level</strong>: 6 + your constitution modifier</p>
+<p><strong>Hit Points at Higher Levels:</strong> 1d6 (or 4) + your constitution modifier per Sage level after first.</p>
+<h4 class="anchor anchorTargetStickyNavbar_Vzrq" id="proficiencies">Proficiencies<a href="#proficiencies" class="hash-link" aria-label="Direct link to Proficiencies" title="Direct link to Proficiencies" translate="no">​</a></h4>
+<p><strong>Armor:</strong> none</p>
+<p><strong>Weapons:</strong> Daggers, darts, slings, quarterstaffs, light crossbows</p>
+<p><strong>Tools:</strong> none</p>
+<p><strong>Saving Throws:</strong> Intelligence, Wisdom</p>
+<p><strong>Skills:</strong> Choose two from Arcana, History, Insight, Medicine, Nature, Perception, Religion, Survival</p>
+<h4 class="anchor anchorTargetStickyNavbar_Vzrq" id="equipment">Equipment<a href="#equipment" class="hash-link" aria-label="Direct link to Equipment" title="Direct link to Equipment" translate="no">​</a></h4>
+<p>You start with the following equipment, in addition to the equipment granted by your background:</p>
+<ul>
+<li class="">(a) a quarterstaff or (b) two daggers</li>
+<li class="">A component pouch</li>
+<li class="">(a) a scholar’s pack or (b) an explorer’s back</li>
+<li class="">(a) a light crossbow and 20 bolts or (b) a sling and 20 bullets</li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="spellcasting">Spellcasting<a href="#spellcasting" class="hash-link" aria-label="Direct link to Spellcasting" title="Direct link to Spellcasting" translate="no">​</a></h3>
+<p>A deep connection to the weave and your surroundings allow you to tap into and utilize magic.</p>
+<h4 class="anchor anchorTargetStickyNavbar_Vzrq" id="cantrips">Cantrips<a href="#cantrips" class="hash-link" aria-label="Direct link to Cantrips" title="Direct link to Cantrips" translate="no">​</a></h4>
+<p>At first level, you know two cantrips of your choice from the Sage spell list. You learn additional Sage cantrips of your choice at higher levels, as shown in the Cantrips Known column of the Sage table.</p>
+<h4 class="anchor anchorTargetStickyNavbar_Vzrq" id="spell-slots">Spell Slots<a href="#spell-slots" class="hash-link" aria-label="Direct link to Spell Slots" title="Direct link to Spell Slots" translate="no">​</a></h4>
+<p>The Sage table shows how many slots you have to cast your sage spells of 1st level or higher. To cast one of these sage spells, you must expend a slot of the spell’s level or higher. You regain all expended spell slots when you finish a long rest.</p>
+<h4 class="anchor anchorTargetStickyNavbar_Vzrq" id="spells-known-of-1st-level-and-higher">Spells Known of 1st Level and Higher<a href="#spells-known-of-1st-level-and-higher" class="hash-link" aria-label="Direct link to Spells Known of 1st Level and Higher" title="Direct link to Spells Known of 1st Level and Higher" translate="no">​</a></h4>
+<p>You know two 1st-level spells of your choice from the sage spell list.</p>
+<p>The Spells Known column of the Sage table shows you when you learn more sage spells of your choice. Each of these spells must be of a level for which you have spell slots. For instance, when you reach 3rd level in this class, you can learn one new spell of 1st or 2nd level.</p>
+<h4 class="anchor anchorTargetStickyNavbar_Vzrq" id="spellcasting-ability">Spellcasting Ability<a href="#spellcasting-ability" class="hash-link" aria-label="Direct link to Spellcasting Ability" title="Direct link to Spellcasting Ability" translate="no">​</a></h4>
+<p>Wisdom is your spellcasting ability for your sage spells, since your magic relies on a deep understanding and connection to the weave. You use your Wisdom whenever a spell refers to your spellcasting ability. In addition, you use your Wisdom modifier when setting the saving throw DC for a sage spell you cast and when making an attack roll with one.</p>
+<p>Spell save DC = 8 + your proficiency bonus + your Wisdom modifier</p>
+<p>Spell Attack Modifier = your proficiency bonus + your Wisdom modifier</p>
+<h4 class="anchor anchorTargetStickyNavbar_Vzrq" id="spellcasting-focus">Spellcasting Focus<a href="#spellcasting-focus" class="hash-link" aria-label="Direct link to Spellcasting Focus" title="Direct link to Spellcasting Focus" translate="no">​</a></h4>
+<p>A Sage cannot use a spellcasting focus for their sage spells, as they require a direct path to the source of their magic without interruption. A Sage must provide any material components their spells call for. Magical spellcasting foci do not provide benefits to sage spells.</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="meditation">Meditation<a href="#meditation" class="hash-link" aria-label="Direct link to Meditation" title="Direct link to Meditation" translate="no">​</a></h3>
+<p>You can spend a time in meditation to reflect and relearn what magic you have learned. When you finish a short rest, you can replace one sage spell you know for another. The new spell you learn must be of a level for which you have spell slots.</p>
+<p>Additionally, once per long rest, when you replace a spell with this feature, you regain one expended spell slot of a level equal to the new spell or lower, but not higher than 5th level.</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="philosophical-study">Philosophical Study<a href="#philosophical-study" class="hash-link" aria-label="Direct link to Philosophical Study" title="Direct link to Philosophical Study" translate="no">​</a></h3>
+<p>When you reach 2nd level, you choose a philosophical study that guides the way you project your magic.</p>
+<ul>
+<li class=""><a class="" href="/The-Wandering-Handbook/docs/homebrew/subclasses/philosophy-of-diligence">Philosophy of Diligence</a></li>
+<li class=""><a class="" href="/The-Wandering-Handbook/docs/homebrew/subclasses/philosophy-of-fallacy">Philosophy of Fallacy</a></li>
+<li class=""><a class="" href="/The-Wandering-Handbook/docs/homebrew/subclasses/philosophy-of-finality">Philosophy of Finality</a></li>
+<li class=""><a class="" href="/The-Wandering-Handbook/docs/homebrew/subclasses/philosophy-of-mysticism">Philosophy of Mysticism</a></li>
+<li class=""><a class="" href="/The-Wandering-Handbook/docs/homebrew/subclasses/philosophy-of-patience">Philosophy of Patience</a></li>
+</ul>
+<p>Your choice grants you features at 2nd level and again at 6th, 10th, 14th, and 18th level.</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="mind-shaper">Mind Shaper<a href="#mind-shaper" class="hash-link" aria-label="Direct link to Mind Shaper" title="Direct link to Mind Shaper" translate="no">​</a></h3>
+<p>At 3rd level, you gain an increased ability to weave together both your own thoughts and the magic you cast. When you use your [Meditation] feature and learn a new spell, you can choose to make the new spell into your focused spell.</p>
+<p>When you finish a long rest, you can replace any of your focused spells with another spell of 1st level or higher that you know. You can have a number of focused spells as designated by the Focused Spells column of the Sage Table.</p>
+<p>When you focus on a spell, choose two of the following shapes to place on the spell. You can only have any given shape on one focused spell at a time. A mind shape’s effects apply only to the focused spell they are attached to, unless otherwise stated.</p>
+<h4 class="anchor anchorTargetStickyNavbar_Vzrq" id="clarity"><strong>Clarity</strong><a href="#clarity" class="hash-link" aria-label="Direct link to clarity" title="Direct link to clarity" translate="no">​</a></h4>
+<ul>
+<li class="">The spell ignores material components, except for those consumed by the spell</li>
+</ul>
+<h4 class="anchor anchorTargetStickyNavbar_Vzrq" id="cruel"><strong>Cruel</strong><a href="#cruel" class="hash-link" aria-label="Direct link to cruel" title="Direct link to cruel" translate="no">​</a></h4>
+<ul>
+<li class="">When a creature takes damage from the spell, it has disadvantage on ability checks until the end of its next turn.</li>
+</ul>
+<h4 class="anchor anchorTargetStickyNavbar_Vzrq" id="ethereal"><strong>Ethereal</strong><a href="#ethereal" class="hash-link" aria-label="Direct link to ethereal" title="Direct link to ethereal" translate="no">​</a></h4>
+<ul>
+<li class="">The spell’s effects can travel through solid objects, and can target creatures and objects behind total cover. If a spell specifies you must see your target, you still must meet this requirement.</li>
+</ul>
+<h4 class="anchor anchorTargetStickyNavbar_Vzrq" id="flowing"><strong>Flowing</strong><a href="#flowing" class="hash-link" aria-label="Direct link to flowing" title="Direct link to flowing" translate="no">​</a></h4>
+<ul>
+<li class="">You can change the casting time from one action to one bonus action.</li>
+</ul>
+<h4 class="anchor anchorTargetStickyNavbar_Vzrq" id="focused"><strong>Focused</strong><a href="#focused" class="hash-link" aria-label="Direct link to focused" title="Direct link to focused" translate="no">​</a></h4>
+<ul>
+<li class="">You can treat your wisdom modifier as being 50% higher for the purposes of setting your spell save DC, your spell attack modifier, and for making any checks relating to the spell for the spell’s duration.</li>
+</ul>
+<h4 class="anchor anchorTargetStickyNavbar_Vzrq" id="growing"><strong>Growing</strong><a href="#growing" class="hash-link" aria-label="Direct link to growing" title="Direct link to growing" translate="no">​</a></h4>
+<ul>
+<li class="">While you maintain concentration on the spell, you gain a +1 bonus to damage rolls for each round you do so. This bonus can be no greater than half your sage level.</li>
+</ul>
+<h4 class="anchor anchorTargetStickyNavbar_Vzrq" id="guiding"><strong>Guiding</strong><a href="#guiding" class="hash-link" aria-label="Direct link to guiding" title="Direct link to guiding" translate="no">​</a></h4>
+<ul>
+<li class="">A creature targeted by the spell has advantage on ability checks until the end of its next turn.</li>
+</ul>
+<h4 class="anchor anchorTargetStickyNavbar_Vzrq" id="prepared"><strong>Prepared</strong><a href="#prepared" class="hash-link" aria-label="Direct link to prepared" title="Direct link to prepared" translate="no">​</a></h4>
+<ul>
+<li class="">When you cast the spell, your proficiency bonus increases by 1 until the start of your next turn.  This mind shape does not exclusively affect this focused spell.</li>
+</ul>
+<h4 class="anchor anchorTargetStickyNavbar_Vzrq" id="shared"><strong>Shared</strong><a href="#shared" class="hash-link" aria-label="Direct link to shared" title="Direct link to shared" translate="no">​</a></h4>
+<ul>
+<li class="">If the spell has a range of self, you can cast it targeting a willing creature within 30 feet of you.</li>
+</ul>
+<h4 class="anchor anchorTargetStickyNavbar_Vzrq" id="siphoning"><strong>Siphoning</strong><a href="#siphoning" class="hash-link" aria-label="Direct link to siphoning" title="Direct link to siphoning" translate="no">​</a></h4>
+<ul>
+<li class="">When you target a creature with the spell, you gain temporary hit points equal to the spell’s level.</li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="ability-score-improvement">Ability Score Improvement<a href="#ability-score-improvement" class="hash-link" aria-label="Direct link to Ability Score Improvement" title="Direct link to Ability Score Improvement" translate="no">​</a></h3>
+<p>When you reach 4th level, and again at 8th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can’t increase an ability score above 20 using this feature.</p>
+<p>Using the optional feats rule, you can forgo taking this feature to take a feat of your choice instead.</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="greater-meditation">Greater Meditation<a href="#greater-meditation" class="hash-link" aria-label="Direct link to Greater Meditation" title="Direct link to Greater Meditation" translate="no">​</a></h3>
+<p>At 10th level, you can perfectly clear your mind during meditation. When you replace a spell with your [Meditation] Feature, you can replace a number of spells equal to your wisdom modifier. You still gain only a single spell slot from meditation.</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="replenish">Replenish<a href="#replenish" class="hash-link" aria-label="Direct link to Replenish" title="Direct link to Replenish" translate="no">​</a></h3>
+<p>As high level magic is used for your spells, an amount flows back to you to fill the void it left behind. When you reach 17th level, casting a spell of 6th level or higher will replenish an expended spell slot of a level equal to half the level of the spell you cast (rounded up). You can use this feature a number of times equal to your proficiency bonus, regaining all uses when you complete a long rest.</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="enlightenment">Enlightenment<a href="#enlightenment" class="hash-link" aria-label="Direct link to Enlightenment" title="Direct link to Enlightenment" translate="no">​</a></h3>
+<p>At 20th level, your mind transcends your own body, sustaining you by mere thought alone. You no longer need to eat, drink, or sleep, and you are immune to the charmed and frightened conditions.</p>
+<p>Additionally, you gain one additional reaction per round, that can only be used to cast a spell that has a casting time of one reaction.</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="spell-list">Spell List<a href="#spell-list" class="hash-link" aria-label="Direct link to Spell List" title="Direct link to Spell List" translate="no">​</a></h2>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="cantrips-1">Cantrips<a href="#cantrips-1" class="hash-link" aria-label="Direct link to Cantrips" title="Direct link to Cantrips" translate="no">​</a></h3>
+<ul>
+<li class="">Acid Splash</li>
+<li class="">Blade Ward</li>
+<li class="">Booming Blade</li>
+<li class="">Chill Touch</li>
+<li class="">Control Flames</li>
+<li class="">Create Bonfire</li>
+<li class="">Dancing Lights</li>
+<li class="">Fire Bolt</li>
+<li class="">Friends</li>
+<li class="">Frostbite</li>
+<li class="">Green-Flame Blade</li>
+<li class="">Guidance</li>
+<li class="">Gust</li>
+<li class="">Light</li>
+<li class="">Lightning Lure</li>
+<li class="">Mage Hand</li>
+<li class="">Mending</li>
+<li class="">Message</li>
+<li class="">Mind Sliver</li>
+<li class="">Minor Illusion</li>
+<li class="">Mold Earth</li>
+<li class="">Poison Spray</li>
+<li class="">Prestidigitation</li>
+<li class="">Ray of Frost</li>
+<li class="">Resistance</li>
+<li class="">Sacred Flame</li>
+<li class="">Shape Water</li>
+<li class="">Shocking Grasp</li>
+<li class="">Spare the Dying</li>
+<li class="">Sword Burst</li>
+<li class="">Thunderclap</li>
+<li class="">Toll the Dead</li>
+<li class="">True Strike</li>
+<li class="">Word of Radiance</li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="1st-level">1st Level<a href="#1st-level" class="hash-link" aria-label="Direct link to 1st Level" title="Direct link to 1st Level" translate="no">​</a></h3>
+<ul>
+<li class="">Absorb Elements</li>
+<li class="">Alarm</li>
+<li class="">Bane</li>
+<li class="">Burning Hands</li>
+<li class="">Catapult</li>
+<li class="">Cause Fear</li>
+<li class="">Ceremony</li>
+<li class="">Charm Person</li>
+<li class="">Chromatic Orb</li>
+<li class="">Color Spray</li>
+<li class="">Command</li>
+<li class="">Comprehend Languages</li>
+<li class="">Cure Wounds</li>
+<li class="">Detect Evil and Good</li>
+<li class="">Detect Magic</li>
+<li class="">Disguise Self</li>
+<li class="">Earth Tremor</li>
+<li class="">Expeditious Retreat</li>
+<li class="">Faerie Fire</li>
+<li class="">False Life</li>
+<li class="">Feather Fall</li>
+<li class="">Fog Cloud</li>
+<li class="">Grease</li>
+<li class="">Guiding Bolt</li>
+<li class="">Hideous Laughter</li>
+<li class="">Ice Knife</li>
+<li class="">Identify</li>
+<li class="">Illusory Script</li>
+<li class="">Jump</li>
+<li class="">Longstrider</li>
+<li class="">Mage Armor</li>
+<li class="">Magic Missile</li>
+<li class="">Protection from Evil and Good</li>
+<li class="">Ray of Sickness</li>
+<li class="">Sanctuary</li>
+<li class="">Shield</li>
+<li class="">Silent Image</li>
+<li class="">Silvery Barbs</li>
+<li class="">Sleep</li>
+<li class="">Thunderwave</li>
+<li class="">Unseen Servant</li>
+<li class="">Witch Bolt</li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="2nd-level">2nd Level<a href="#2nd-level" class="hash-link" aria-label="Direct link to 2nd Level" title="Direct link to 2nd Level" translate="no">​</a></h3>
+<ul>
+<li class="">Acid Arrow</li>
+<li class="">Aganazzar’s Scorcher</li>
+<li class="">Aid</li>
+<li class="">Air Bubble</li>
+<li class="">Alter Self</li>
+<li class="">Arcane Lock</li>
+<li class="">Arcanist’s Magic Aura</li>
+<li class="">Blindness/Deafness</li>
+<li class="">Blur</li>
+<li class="">Borrowed Knowledge</li>
+<li class="">Calm Emotions</li>
+<li class="">Cloud of Daggers</li>
+<li class="">Continual Flame</li>
+<li class="">Crown of Madness</li>
+<li class="">Darkness</li>
+<li class="">Darkvision</li>
+<li class="">Detect Thoughts</li>
+<li class="">Dragon’s Breath</li>
+<li class="">Earthbind</li>
+<li class="">Enhance Ability</li>
+<li class="">Enlarge/Reduce</li>
+<li class="">Gentle Repose</li>
+<li class="">Gust of Wind</li>
+<li class="">Hold Person</li>
+<li class="">Invisibility</li>
+<li class="">Kinetic Jaunt</li>
+<li class="">Knock</li>
+<li class="">Lesser Restoration</li>
+<li class="">Levitate</li>
+<li class="">Locate Object</li>
+<li class="">Magic Weapon</li>
+<li class="">Maximilian’s Earthen Grasp</li>
+<li class="">Mind Spike</li>
+<li class="">Mirror Image</li>
+<li class="">Misty Step</li>
+<li class="">Phantasmal Force</li>
+<li class="">Pyrotechnics</li>
+<li class="">Ray of Enfeeblement</li>
+<li class="">Rime’s Binding Ice</li>
+<li class="">Scorching Ray</li>
+<li class="">See Invisibility</li>
+<li class="">Shadow Blade</li>
+<li class="">Shatter</li>
+<li class="">Silence</li>
+<li class="">Snilloc’s Snowball Swarm</li>
+<li class="">Spider Climb</li>
+<li class="">Spray of Cards</li>
+<li class="">Suggestion</li>
+<li class="">Vortex Warp</li>
+<li class="">Warding Bond</li>
+<li class="">Warding Wind</li>
+<li class="">Warp Sense</li>
+<li class="">Web</li>
+<li class="">Wither and Bloom</li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="3rd-level">3rd Level<a href="#3rd-level" class="hash-link" aria-label="Direct link to 3rd Level" title="Direct link to 3rd Level" translate="no">​</a></h3>
+<ul>
+<li class="">Ashardalon’s Stride</li>
+<li class="">Beacon of Hope</li>
+<li class="">Bestow Curse</li>
+<li class="">Blink</li>
+<li class="">Catnap</li>
+<li class="">Clairvoyance</li>
+<li class="">Counterspell</li>
+<li class="">Daylight</li>
+<li class="">Dispel Magic</li>
+<li class="">Elemental Weapon</li>
+<li class="">Enemies Abound</li>
+<li class="">Erupting Earth</li>
+<li class="">Fear</li>
+<li class="">Fireball</li>
+<li class="">Fly</li>
+<li class="">Gaseous Form</li>
+<li class="">Glyph of Warding</li>
+<li class="">Haste</li>
+<li class="">Hypnotic Pattern</li>
+<li class="">Incite Greed</li>
+<li class="">Intellect Fortress</li>
+<li class="">Life Transference</li>
+<li class="">Lightning Bolt</li>
+<li class="">Magic Circle</li>
+<li class="">Major Image</li>
+<li class="">Melf’s Minute Meteors</li>
+<li class="">Nondetection</li>
+<li class="">Protection from Energy</li>
+<li class="">Sending</li>
+<li class="">Sleet Storm</li>
+<li class="">Slow</li>
+<li class="">Speak with Dead</li>
+<li class="">Summon Fey</li>
+<li class="">Summon Shadowspawn</li>
+<li class="">Thunder Step</li>
+<li class="">Tiny Hut</li>
+<li class="">Tongues</li>
+<li class="">Vampiric Touch</li>
+<li class="">Wall of Water</li>
+<li class="">Waterbreathing</li>
+<li class="">Water Walk</li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="4th-level">4th Level<a href="#4th-level" class="hash-link" aria-label="Direct link to 4th Level" title="Direct link to 4th Level" translate="no">​</a></h3>
+<ul>
+<li class="">Banishment</li>
+<li class="">Blight</li>
+<li class="">Charm Monster</li>
+<li class="">Compulsion</li>
+<li class="">Confusion</li>
+<li class="">Conjure Minor Elementals</li>
+<li class="">Control Water</li>
+<li class="">Dimension Door</li>
+<li class="">Divination</li>
+<li class="">Elemental Bane</li>
+<li class="">Fire Shield</li>
+<li class="">Galder’s Speedy Courier</li>
+<li class="">Gate Seal</li>
+<li class="">Greater Invisibility</li>
+<li class="">Hallucinatory Terrain</li>
+<li class="">Ice Storm</li>
+<li class="">Leomund’s Secret Chest</li>
+<li class="">Otilike’s Resilient Sphere</li>
+<li class="">Phantasmal Killer</li>
+<li class="">Polymorph</li>
+<li class="">Private Sanctum</li>
+<li class="">Raulothim’s Psychic Lance</li>
+<li class="">Sickening Radiance</li>
+<li class="">Spirit of Death</li>
+<li class="">Stone Shape</li>
+<li class="">Storm Sphere</li>
+<li class="">Summon Aberration</li>
+<li class="">Summon Elemental</li>
+<li class="">Vitriolic Sphere</li>
+<li class="">Wall of Fire</li>
+<li class="">Watery Sphere</li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="5th-level">5th Level<a href="#5th-level" class="hash-link" aria-label="Direct link to 5th Level" title="Direct link to 5th Level" translate="no">​</a></h3>
+<ul>
+<li class="">Animate Objects</li>
+<li class="">Arcane Hand</li>
+<li class="">Cloudkill</li>
+<li class="">Cone of Cold</li>
+<li class="">Conjure Elemental</li>
+<li class="">Contact other Plane</li>
+<li class="">Control Winds</li>
+<li class="">Creation</li>
+<li class="">Dawn</li>
+<li class="">Dominate Person</li>
+<li class="">Dream</li>
+<li class="">Enervation</li>
+<li class="">Far Step</li>
+<li class="">Geas</li>
+<li class="">Hold Monster</li>
+<li class="">Immolation</li>
+<li class="">Legend Lore</li>
+<li class="">Mislead</li>
+<li class="">Negative Energy Flood</li>
+<li class="">Planar Binding</li>
+<li class="">Scrying</li>
+<li class="">Seeming</li>
+<li class="">Skill Empowerment</li>
+<li class="">Summon Celestial</li>
+<li class="">Summon Draconic Spirit</li>
+<li class="">Synaptic Static</li>
+<li class="">Telekinesis</li>
+<li class="">Telepathic Bond</li>
+<li class="">Teleportation Circle</li>
+<li class="">Wall of Force</li>
+<li class="">Wall of Light</li>
+<li class="">Wall of Stone</li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="6th-level">6th Level<a href="#6th-level" class="hash-link" aria-label="Direct link to 6th Level" title="Direct link to 6th Level" translate="no">​</a></h3>
+<ul>
+<li class="">Arcane Gate</li>
+<li class="">Chain Lightning</li>
+<li class="">Circle of Death</li>
+<li class="">Contingency</li>
+<li class="">Disintegrate</li>
+<li class="">Eyebite</li>
+<li class="">Fizban’s Platinum Shield</li>
+<li class="">Flesh to Stone</li>
+<li class="">Freezing Sphere</li>
+<li class="">Globe of Invulnerability</li>
+<li class="">Guards and Wards</li>
+<li class="">Instant Summons</li>
+<li class="">Investiture of Flame</li>
+<li class="">Investiture of Ice</li>
+<li class="">Investiture of Stone</li>
+<li class="">Investiture of Wind</li>
+<li class="">Mass Suggestion</li>
+<li class="">Mental Prison</li>
+<li class="">Move Earth</li>
+<li class="">Programmed Illusion</li>
+<li class="">Scatter</li>
+<li class="">Soul Cage</li>
+<li class="">Sunbeam</li>
+<li class="">Tasha’s Otherworldly Guise</li>
+<li class="">Tenser&#x27;s Transformation</li>
+<li class="">True Seeing</li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="7th-level">7th Level<a href="#7th-level" class="hash-link" aria-label="Direct link to 7th Level" title="Direct link to 7th Level" translate="no">​</a></h3>
+<ul>
+<li class="">Crown of Stars</li>
+<li class="">Delayed Blast Fireball</li>
+<li class="">Draconic Transformation</li>
+<li class="">Dream of the Blue Veil</li>
+<li class="">Etherealness</li>
+<li class="">Finger of Death</li>
+<li class="">Forcecage</li>
+<li class="">Mirage Arcane</li>
+<li class="">Plane Shift</li>
+<li class="">Power Word Pain</li>
+<li class="">Prismatic Spray</li>
+<li class="">Project Image</li>
+<li class="">Reverse Gravity</li>
+<li class="">Sequester</li>
+<li class="">Symbol</li>
+<li class="">Teleport</li>
+<li class="">Whirlwind</li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="8th-level">8th Level<a href="#8th-level" class="hash-link" aria-label="Direct link to 8th Level" title="Direct link to 8th Level" translate="no">​</a></h3>
+<ul>
+<li class="">Abi-Dalzim’s Horrid Wilting</li>
+<li class="">Antimagic Field</li>
+<li class="">Control Weather</li>
+<li class="">Demiplane</li>
+<li class="">Dominate Monster</li>
+<li class="">Feeblemind</li>
+<li class="">Incendiary Cloud</li>
+<li class="">Maddening Darkness</li>
+<li class="">Mind Blank</li>
+<li class="">Power Word Stun</li>
+<li class="">Sunburst</li>
+<li class="">Telepathy</li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="9th-level">9th Level<a href="#9th-level" class="hash-link" aria-label="Direct link to 9th Level" title="Direct link to 9th Level" translate="no">​</a></h3>
+<ul>
+<li class="">Astral Projection</li>
+<li class="">Blade of Disaster</li>
+<li class="">Foresight</li>
+<li class="">Gate</li>
+<li class="">Imprisonment</li>
+<li class="">Meteor Swarm</li>
+<li class="">Power Word Kill</li>
+<li class="">Prismatic Wall</li>
+<li class="">Psychic Scream</li>
+<li class="">Shapechange</li>
+<li class="">Time Stop</li>
+<li class="">True Polymorph</li>
+<li class="">Wish</li>
+</ul>
+<h1>Subclasses</h1>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="philosophy-of-diligence">Philosophy of Diligence<a href="#philosophy-of-diligence" class="hash-link" aria-label="Direct link to Philosophy of Diligence" title="Direct link to Philosophy of Diligence" translate="no">​</a></h2>
+<p><em>A sage who focuses on refining their own mind to fully control the magic they wield. Such arcanists hold themselves to particularly high degrees of perfection, allowing little room for failure even among the most basic of tasks. Their work in achieving this perfection however is reflected in full by their arcane mastery.</em></p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="quality-spellcasting">Quality Spellcasting<a href="#quality-spellcasting" class="hash-link" aria-label="Direct link to Quality Spellcasting" title="Direct link to Quality Spellcasting" translate="no">​</a></h2>
+<p>Meticulous work has gone into perfecting your spellcasting. When you cast a spell of 1st level or higher that deals damage, you may treat a roll of 1 on any damage die as a 2.</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="empowered-will">Empowered Will<a href="#empowered-will" class="hash-link" aria-label="Direct link to Empowered Will" title="Direct link to Empowered Will" translate="no">​</a></h2>
+<p>Through your constant work, your mental fortitude is nigh unbreakable. At 6th level, you gain proficiency in Charisma saving throws.</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="shaper-of-willpower">Shaper of Willpower<a href="#shaper-of-willpower" class="hash-link" aria-label="Direct link to Shaper of Willpower" title="Direct link to Shaper of Willpower" translate="no">​</a></h2>
+<p>At 10th level, you can further shape your spells to reflect your diligence. When you cast a focused spell, it ignores a target’s resistance to damage.</p>
+<p>You also gain the following Mind Shape, which can be placed on your focused spells as normal:</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="willful">Willful<a href="#willful" class="hash-link" aria-label="Direct link to Willful" title="Direct link to Willful" translate="no">​</a></h3>
+<p>When you roll damage with the spell, you can treat a dice roll of one below its maximum amount as its maximum amount.</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="invariable-effect">Invariable Effect<a href="#invariable-effect" class="hash-link" aria-label="Direct link to Invariable Effect" title="Direct link to Invariable Effect" translate="no">​</a></h2>
+<p>At 14th level, control over your spells has given you a large degree of control over their success. When you cast a spell that requires you to make a check using your spellcasting ability, you can treat any d20 roll of 9 or lower as a 10.</p>
+<p>Additionally, your Quality Spellcasting feature now treats a roll of 1 or 2 on any damage die as a 3.</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="absolution">Absolution<a href="#absolution" class="hash-link" aria-label="Direct link to Absolution" title="Direct link to Absolution" translate="no">​</a></h2>
+<p>At 18th level, your mastery over your very mind has granted you the power to exert your will on others to a greater, and invariable effect. When a creature succeeds on a saving throw against one of your focused spells, you can choose to make them fail instead. Alternatively, if you miss on an attack roll with a focused spell, you can cause the attack to hit instead. Once you use this feature, you cannot do so again until you finish a long rest.</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="philosophy-of-fallacy">Philosophy of Fallacy<a href="#philosophy-of-fallacy" class="hash-link" aria-label="Direct link to Philosophy of Fallacy" title="Direct link to Philosophy of Fallacy" translate="no">​</a></h2>
+<p><em>There are ways of thinking that are often called incorrect by many, exhibiting illogical methods, or even simply being incorrect. However, certain Sages can utilize these ways of thinking in shaping their magic into something truly bizarre.</em></p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="bandwagon">Bandwagon<a href="#bandwagon" class="hash-link" aria-label="Direct link to Bandwagon" title="Direct link to Bandwagon" translate="no">​</a></h2>
+<p>The spells you cast carry the capacity to trick the very weave itself into allowing extra magic to be cast. When you cast a focused spell by expending a spell slot of first level or higher, the next time you or a creature within 30 feet of you casts that same spell at the same level before the start of your next turn, they do so without expending a spell slot, so long as the spell is of 5th level or lower.</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="straw-man">Straw Man<a href="#straw-man" class="hash-link" aria-label="Direct link to Straw Man" title="Direct link to Straw Man" translate="no">​</a></h2>
+<p>Your illogical reasoning extends far enough to prevent harm to you, though opening you to potentially greater damage.</p>
+<p>Starting at 6th level, as a reaction when you take damage, you can teleport to an unoccupied space you can see within 30 feet of you, creating an illusory copy to take the damage instead. If you take damage from any source before the start of your next turn, you are vulnerable to that damage.</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="shaper-of-delusion">Shaper of Delusion<a href="#shaper-of-delusion" class="hash-link" aria-label="Direct link to Shaper of Delusion" title="Direct link to Shaper of Delusion" translate="no">​</a></h2>
+<p>At 10th level, you can further shape your spells to your own fallacy. When a creature casts one of your focused spells that benefits from your [Bandwagon] feature, that creature gets advantage on the next attack roll, ability check, or saving throw they make within the next minute.</p>
+<p>You also gain the following Mind Shape, which can be placed on your focused spells as normal:</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="delusional">Delusional<a href="#delusional" class="hash-link" aria-label="Direct link to Delusional" title="Direct link to Delusional" translate="no">​</a></h3>
+<p>When you cast the spell, you can choose to have it not take effect until you cast your next spell.</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="red-herring">Red Herring<a href="#red-herring" class="hash-link" aria-label="Direct link to Red Herring" title="Direct link to Red Herring" translate="no">​</a></h2>
+<p>You learn to use your thoughts to distract those around you at 14th level. When a creature within 60 feet of you makes an attack roll, ability check, or saving throw, you can use your reaction to impose disadvantage on the roll. If the creature fails their ability check, saving throw, or attack roll, it takes psychic damage equal to half your sage level. If it succeeds, you take the damage instead.</p>
+<p>You can do so a number of times equal to your Wisdom modifier, regaining all uses after you finish a long rest.</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="anti-logic">Anti-Logic<a href="#anti-logic" class="hash-link" aria-label="Direct link to Anti-Logic" title="Direct link to Anti-Logic" translate="no">​</a></h2>
+<p>At 18th level, you gain the ability to turn other’s perceptions to better serve your spellcasting, and at a heavy detriment to them. As an action, you can force a creature within 60 feet of you to make a charisma saving throw against your spell save DC. On a failed save, the creature will willingly fail any saving throw against your sage spells, and is no longer considered willing for beneficial effects from allies. This effect lasts for 1 minute.</p>
+<p>Once you use this feature, you cannot do so again until you finish a long rest.</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="philosophy-of-finality">Philosophy of Finality<a href="#philosophy-of-finality" class="hash-link" aria-label="Direct link to Philosophy of Finality" title="Direct link to Philosophy of Finality" translate="no">​</a></h2>
+<p><em>Those who undertake the Philosophy of Finality hold the understanding that all things must come to their eventual end. Inclusive of their foes, and themselves. A Sage who follows this study may work to bring, delay, or even stop the meddling with of such events. Regardless of how these Sage’s may work, they have a full understanding that it cannot, and will not last forever.</em></p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="last-cast">Last Cast<a href="#last-cast" class="hash-link" aria-label="Direct link to Last Cast" title="Direct link to Last Cast" translate="no">​</a></h2>
+<p>As your pool of magic runs out, you manage to extort additional power drawing from its end. When you cast a spell of 1st level or higher, and expend the last spell slot of a given level, you gain a bonus to one damage roll equal to 2d8.</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="resolve-to-end">Resolve to End<a href="#resolve-to-end" class="hash-link" aria-label="Direct link to Resolve to End" title="Direct link to Resolve to End" translate="no">​</a></h2>
+<p>At 6th level, lasting harmful effects are far less effective against you, as your understanding forces them to end. When you are targeted by a harmful effect with a duration of one minute or longer, you can choose to end the effect at the end of your next turn (no action required). Once you do so, you cannot do so again until you complete a short or long rest.</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="shaper-of-denial">Shaper of Denial<a href="#shaper-of-denial" class="hash-link" aria-label="Direct link to Shaper of Denial" title="Direct link to Shaper of Denial" translate="no">​</a></h2>
+<p>At 10th level, your spells reflect the absolute finality that shapes your spells. When a focused spell ends on a creature, you can choose to end all beneficial or detrimental effects currently affecting them.</p>
+<p>You also gain the following Mind Shape, which can be placed on your focused spells as normal:</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="denying">Denying<a href="#denying" class="hash-link" aria-label="Direct link to Denying" title="Direct link to Denying" translate="no">​</a></h3>
+<p>If the spell causes a creature to be reduced to 0 hit points, it does not consume a spell slot. Once your denying spell prevents a spell slot from being expended, it cannot do so again until you create a new denying spell.</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="forced-stop">Forced Stop<a href="#forced-stop" class="hash-link" aria-label="Direct link to Forced Stop" title="Direct link to Forced Stop" translate="no">​</a></h2>
+<p>Your understanding of the end of all around you can allow you to bring it to the present instantly, empowering you in the process.</p>
+<p>At 14th level, you learn the Dispel Magic spell if you don’t already know it. You cannot replace this spell through meditation, and it does not count towards the total number of spells you know.</p>
+<p>When you successfully end a spell or effect with Dispel Magic, you can use your Last Cast feature on the next spell you cast of 1st level or higher, even if you have spell slots remaining of the level you cast.</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="denial-and-acceptance">Denial and Acceptance<a href="#denial-and-acceptance" class="hash-link" aria-label="Direct link to Denial and Acceptance" title="Direct link to Denial and Acceptance" translate="no">​</a></h2>
+<p>At 18th level, the knowledge of your end fuels you to persist should you fall before your time. If you die to any source other than old age, you are returned to life 24 hours later with all of your hit points at the location you died, so long as your soul is able to. If your body was destroyed, a new one is created. Once you are restored to life by this feature, you cannot do so again until you finish a long rest.</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="philosophy-of-mysticism">Philosophy of Mysticism<a href="#philosophy-of-mysticism" class="hash-link" aria-label="Direct link to Philosophy of Mysticism" title="Direct link to Philosophy of Mysticism" translate="no">​</a></h2>
+<p><em>There are those who take their connection to magic to a completely higher level, sometimes utilizing understanding through godly entities or beings of similar power. Sages who undertake the Philosophy of Mysticism may work closely with clerics, paladins, or even warlocks to further strengthen their connection to the divine.</em></p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="divine-initiate">Divine Initiate<a href="#divine-initiate" class="hash-link" aria-label="Direct link to Divine Initiate" title="Direct link to Divine Initiate" translate="no">​</a></h2>
+<p>When you take this philosophy at 2nd level, you gain a small spark connecting you to a divine entity, granting you enhanced magic. Choose two spells of 1st level from the Cleric or Warlock spell lists. Both spells need not be from the same list. These spells count as sage spells for you, and do not count towards your number of spells learned. If you choose to replace either of these spells through Meditation[1], you can learn a Cleric or Warlock spell of any level of which you have spell slots to cast in its place.</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="medicinal-spells">Medicinal Spells<a href="#medicinal-spells" class="hash-link" aria-label="Direct link to Medicinal Spells" title="Direct link to Medicinal Spells" translate="no">​</a></h2>
+<p>Your spells carry with them the capacity to heal both yourself and your allies. At 6th level, when you cast a sage spell of 1st level or higher that targets either you or an ally, you can cause that creature to restore a number of hit points equal to your sage level. You can do so a number of times equal to your wisdom modifier, and regain all expended uses when you finish a long rest.</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="shaper-of-fanaticism">Shaper of Fanaticism<a href="#shaper-of-fanaticism" class="hash-link" aria-label="Direct link to Shaper of Fanaticism" title="Direct link to Shaper of Fanaticism" translate="no">​</a></h2>
+<p>At 10th level, you can further shape your spells to more closely fit the divinity you follow. When you cast a focused spell from the cleric or warlock spell lists, you can choose to have the spell count as one level higher than the slot used to cast it. In doing so, you can cast no spells other than focused spells for the next minute.</p>
+<p>You also gain the following Mind Shape[1], which can be placed on your focused spells as normal:</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="fanatical">Fanatical<a href="#fanatical" class="hash-link" aria-label="Direct link to Fanatical" title="Direct link to Fanatical" translate="no">​</a></h3>
+<p>When a celestial, fiend, or undead fails a saving throw against the spell, or are hit with a spell attack roll, they take extra damage equal to half your sage level.</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="enhanced-divinity">Enhanced Divinity<a href="#enhanced-divinity" class="hash-link" aria-label="Direct link to Enhanced Divinity" title="Direct link to Enhanced Divinity" translate="no">​</a></h2>
+<p>Your mental connections to divine magic have had a profound effect on both your mind and body at 14th level. When you make a charisma check, you can add your wisdom modifier to the total.</p>
+<p>Additionally, angel or bat wings sprout from your back (your choice) giving you a flying speed of 30 ft. You also gain resistance to radiant damage (if you chose angel wings), or necrotic damage (if you chose bat wings).</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="envoy-of-the-heavens">Envoy of the Heavens<a href="#envoy-of-the-heavens" class="hash-link" aria-label="Direct link to Envoy of the Heavens" title="Direct link to Envoy of the Heavens" translate="no">​</a></h2>
+<p>At 18th level, your spells carry with them the very essence of the divine entities you’ve spent your life connected with. You gain the following benefits.</p>
+<ul>
+<li class="">You can replace the damage type of your focused spells with radiant or necrotic.</li>
+<li class="">Celestials, Fiends and Undead have disadvantage on saving throws against your sage spells.</li>
+<li class="">When you restore hit points of another creature with a sage spell, you regain hit points equal to half the amount you healed.</li>
+</ul>
+<ol>
+<li class="">↑ 1.0 1.1 <a class="" href="/The-Wandering-Handbook/docs/homebrew/classes/sage">Sage</a></li>
+</ol>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="philosophy-of-patience">Philosophy of Patience<a href="#philosophy-of-patience" class="hash-link" aria-label="Direct link to Philosophy of Patience" title="Direct link to Philosophy of Patience" translate="no">​</a></h2>
+<p><em>So it is said that with patience comes wisdom. That wisdom can come in the form of great magical power for those who take upon patience into their very being. A sage who has undertaken the philosophy of patience is never the first to start conflict, but is rarely the first to fall as a result of it.</em></p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="bonus-proficiencies">Bonus Proficiencies<a href="#bonus-proficiencies" class="hash-link" aria-label="Direct link to Bonus Proficiencies" title="Direct link to Bonus Proficiencies" translate="no">​</a></h2>
+<p>A sage of patience is always prepared should theirs outweigh that of others. As such, you gain proficiency in light armor, medium armor, and shields.</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="delayed-potency">Delayed Potency<a href="#delayed-potency" class="hash-link" aria-label="Direct link to Delayed Potency" title="Direct link to Delayed Potency" translate="no">​</a></h2>
+<p>Starting at 2nd level, you gain the ability to enhance your longer lasting spells at the cost of a slower start. When you cast a spell that makes multiple damage rolls, or lasts for multiple rounds, the first damage roll, or damage rolls during the first round, have all damage dice treated as their lowest value. In return, the last damage roll, or damage rolls during the final round, have all damage dice treated as their highest amount.</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="evasive-casting">Evasive Casting<a href="#evasive-casting" class="hash-link" aria-label="Direct link to Evasive Casting" title="Direct link to Evasive Casting" translate="no">​</a></h2>
+<p>Your spells open a window of clarity to you, allowing you to avoid harm for a short time immediately after casting them. Starting at 6th level, you can take the dodge action as a bonus action if you use your action to cast a sage spell of 1st level or higher.</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="shaper-of-composure">Shaper of Composure<a href="#shaper-of-composure" class="hash-link" aria-label="Direct link to Shaper of Composure" title="Direct link to Shaper of Composure" translate="no">​</a></h2>
+<p>At 10th level, your spells further evolve to reflect your patience. When you cast a focused spell, you gain temporary hit-points equal to your sage level.</p>
+<p>You also gain the following Mind Shape, which can be placed on your focused spells as normal:</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="composed">Composed<a href="#composed" class="hash-link" aria-label="Direct link to Composed" title="Direct link to Composed" translate="no">​</a></h3>
+<p>Creatures cannot react to you casting this spell.</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="consummate-concentration">Consummate Concentration<a href="#consummate-concentration" class="hash-link" aria-label="Direct link to Consummate Concentration" title="Direct link to Consummate Concentration" translate="no">​</a></h2>
+<p>While concentrating on spells, both your mind and body become far more rigid. Starting at 14th level, while you maintain concentration on a spell, you gain a +2 bonus to your armor class and saving throws. Your concentration also cannot be broken as a result of taking damage.</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="paragon-of-patience">Paragon of Patience<a href="#paragon-of-patience" class="hash-link" aria-label="Direct link to Paragon of Patience" title="Direct link to Paragon of Patience" translate="no">​</a></h2>
+<p>At 18th level your patience opens opportunities to you that others could not even hope to achieve. When you roll initiative, you may choose to instead place yourself at initiative 0. If you do so, you may take a second turn immediately after your first turn in the first round of combat.</p></div><footer class="theme-doc-footer docusaurus-mt-lg"><div class="row margin-top--sm theme-doc-footer-tags-row"><div class="col"><b>Tags:</b><ul class="tags_jXut padding--none margin-left--sm"><li class="tag_QGVx"><a rel="tag" class="tag_zVej tagRegular_sFm0" href="/The-Wandering-Handbook/docs/tags/class">class</a></li><li class="tag_QGVx"><a rel="tag" class="tag_zVej tagRegular_sFm0" href="/The-Wandering-Handbook/docs/tags/homebrew">homebrew</a></li></ul></div></div><div class="row margin-top--sm theme-doc-footer-edit-meta-row"><div class="col noPrint_WFHX"><a href="https://github.com/Sazendrak/The-Wandering-Handbook/edit/main/docs/homebrew/classes/sage.md" target="_blank" rel="noopener noreferrer" class="theme-edit-this-page"><svg fill="currentColor" height="20" width="20" viewBox="0 0 40 40" class="iconEdit_Z9Sw" aria-hidden="true"><g><path d="m34.5 11.7l-3 3.1-6.3-6.3 3.1-3q0.5-0.5 1.2-0.5t1.1 0.5l3.9 3.9q0.5 0.4 0.5 1.1t-0.5 1.2z m-29.5 17.1l18.4-18.5 6.3 6.3-18.4 18.4h-6.3v-6.2z"></path></g></svg>Edit this page</a></div><div class="col lastUpdated_JAkA"></div></div></footer></article><nav class="docusaurus-mt-lg pagination-nav" aria-label="Docs pages"><a class="pagination-nav__link pagination-nav__link--prev" href="/The-Wandering-Handbook/docs/homebrew/classes/rook"><div class="pagination-nav__sublabel">Previous</div><div class="pagination-nav__label">Rook</div></a><a class="pagination-nav__link pagination-nav__link--next" href="/The-Wandering-Handbook/docs/homebrew/classes/scrapper"><div class="pagination-nav__sublabel">Next</div><div class="pagination-nav__label">Scrapper</div></a></nav></div></div><div class="col col--3"><div class="tableOfContents_bqdL thin-scrollbar theme-doc-toc-desktop"><ul class="table-of-contents table-of-contents__left-border"><li><a href="#the-sage-class" class="table-of-contents__link toc-highlight">The Sage Class</a><ul><li><a href="#how-to-think" class="table-of-contents__link toc-highlight">How to Think</a></li><li><a href="#creating-a-sage" class="table-of-contents__link toc-highlight">Creating a Sage</a></li></ul></li><li><a href="#sage-table" class="table-of-contents__link toc-highlight">Sage Table</a></li><li><a href="#class-features" class="table-of-contents__link toc-highlight">Class Features</a><ul><li><a href="#base-class-features" class="table-of-contents__link toc-highlight">Base Class Features</a></li><li><a href="#spellcasting" class="table-of-contents__link toc-highlight">Spellcasting</a></li><li><a href="#meditation" class="table-of-contents__link toc-highlight">Meditation</a></li><li><a href="#philosophical-study" class="table-of-contents__link toc-highlight">Philosophical Study</a></li><li><a href="#mind-shaper" class="table-of-contents__link toc-highlight">Mind Shaper</a></li><li><a href="#ability-score-improvement" class="table-of-contents__link toc-highlight">Ability Score Improvement</a></li><li><a href="#greater-meditation" class="table-of-contents__link toc-highlight">Greater Meditation</a></li><li><a href="#replenish" class="table-of-contents__link toc-highlight">Replenish</a></li><li><a href="#enlightenment" class="table-of-contents__link toc-highlight">Enlightenment</a></li></ul></li><li><a href="#spell-list" class="table-of-contents__link toc-highlight">Spell List</a><ul><li><a href="#cantrips-1" class="table-of-contents__link toc-highlight">Cantrips</a></li><li><a href="#1st-level" class="table-of-contents__link toc-highlight">1st Level</a></li><li><a href="#2nd-level" class="table-of-contents__link toc-highlight">2nd Level</a></li><li><a href="#3rd-level" class="table-of-contents__link toc-highlight">3rd Level</a></li><li><a href="#4th-level" class="table-of-contents__link toc-highlight">4th Level</a></li><li><a href="#5th-level" class="table-of-contents__link toc-highlight">5th Level</a></li><li><a href="#6th-level" class="table-of-contents__link toc-highlight">6th Level</a></li><li><a href="#7th-level" class="table-of-contents__link toc-highlight">7th Level</a></li><li><a href="#8th-level" class="table-of-contents__link toc-highlight">8th Level</a></li><li><a href="#9th-level" class="table-of-contents__link toc-highlight">9th Level</a></li></ul></li><li><a href="#philosophy-of-diligence" class="table-of-contents__link toc-highlight">Philosophy of Diligence</a></li><li><a href="#quality-spellcasting" class="table-of-contents__link toc-highlight">Quality Spellcasting</a></li><li><a href="#empowered-will" class="table-of-contents__link toc-highlight">Empowered Will</a></li><li><a href="#shaper-of-willpower" class="table-of-contents__link toc-highlight">Shaper of Willpower</a><ul><li><a href="#willful" class="table-of-contents__link toc-highlight">Willful</a></li></ul></li><li><a href="#invariable-effect" class="table-of-contents__link toc-highlight">Invariable Effect</a></li><li><a href="#absolution" class="table-of-contents__link toc-highlight">Absolution</a></li><li><a href="#philosophy-of-fallacy" class="table-of-contents__link toc-highlight">Philosophy of Fallacy</a></li><li><a href="#bandwagon" class="table-of-contents__link toc-highlight">Bandwagon</a></li><li><a href="#straw-man" class="table-of-contents__link toc-highlight">Straw Man</a></li><li><a href="#shaper-of-delusion" class="table-of-contents__link toc-highlight">Shaper of Delusion</a><ul><li><a href="#delusional" class="table-of-contents__link toc-highlight">Delusional</a></li></ul></li><li><a href="#red-herring" class="table-of-contents__link toc-highlight">Red Herring</a></li><li><a href="#anti-logic" class="table-of-contents__link toc-highlight">Anti-Logic</a></li><li><a href="#philosophy-of-finality" class="table-of-contents__link toc-highlight">Philosophy of Finality</a></li><li><a href="#last-cast" class="table-of-contents__link toc-highlight">Last Cast</a></li><li><a href="#resolve-to-end" class="table-of-contents__link toc-highlight">Resolve to End</a></li><li><a href="#shaper-of-denial" class="table-of-contents__link toc-highlight">Shaper of Denial</a><ul><li><a href="#denying" class="table-of-contents__link toc-highlight">Denying</a></li></ul></li><li><a href="#forced-stop" class="table-of-contents__link toc-highlight">Forced Stop</a></li><li><a href="#denial-and-acceptance" class="table-of-contents__link toc-highlight">Denial and Acceptance</a></li><li><a href="#philosophy-of-mysticism" class="table-of-contents__link toc-highlight">Philosophy of Mysticism</a></li><li><a href="#divine-initiate" class="table-of-contents__link toc-highlight">Divine Initiate</a></li><li><a href="#medicinal-spells" class="table-of-contents__link toc-highlight">Medicinal Spells</a></li><li><a href="#shaper-of-fanaticism" class="table-of-contents__link toc-highlight">Shaper of Fanaticism</a><ul><li><a href="#fanatical" class="table-of-contents__link toc-highlight">Fanatical</a></li></ul></li><li><a href="#enhanced-divinity" class="table-of-contents__link toc-highlight">Enhanced Divinity</a></li><li><a href="#envoy-of-the-heavens" class="table-of-contents__link toc-highlight">Envoy of the Heavens</a></li><li><a href="#philosophy-of-patience" class="table-of-contents__link toc-highlight">Philosophy of Patience</a></li><li><a href="#bonus-proficiencies" class="table-of-contents__link toc-highlight">Bonus Proficiencies</a></li><li><a href="#delayed-potency" class="table-of-contents__link toc-highlight">Delayed Potency</a></li><li><a href="#evasive-casting" class="table-of-contents__link toc-highlight">Evasive Casting</a></li><li><a href="#shaper-of-composure" class="table-of-contents__link toc-highlight">Shaper of Composure</a><ul><li><a href="#composed" class="table-of-contents__link toc-highlight">Composed</a></li></ul></li><li><a href="#consummate-concentration" class="table-of-contents__link toc-highlight">Consummate Concentration</a></li><li><a href="#paragon-of-patience" class="table-of-contents__link toc-highlight">Paragon of Patience</a></li></ul></div></div></div></div></main></div></div></div><footer class="theme-layout-footer footer footer--dark"><div class="container container-fluid"><div class="row footer__links"><div class="theme-layout-footer-column col footer__col"><div class="footer__title">Handbook</div><ul class="footer__items clean-list"><li class="footer__item"><a class="footer__link-item" href="/The-Wandering-Handbook/docs/core/character/character-creation">Character Creation</a></li><li class="footer__item"><a class="footer__link-item" href="/The-Wandering-Handbook/docs/core/gameplay/gameplay-rules">Gameplay Rules</a></li><li class="footer__item"><a class="footer__link-item" href="/The-Wandering-Handbook/docs/homebrew/items/homebrew-system-&amp;-index">Homebrew Index</a></li></ul></div><div class="theme-layout-footer-column col footer__col"><div class="footer__title">Community</div><ul class="footer__items clean-list"><li class="footer__item"><a href="https://the-wandering-realm.fandom.com" target="_blank" rel="noopener noreferrer" class="footer__link-item">TWR Fandom Wiki<svg width="13.5" height="13.5" aria-label="(opens in new tab)" class="iconExternalLink_nPIU"><use href="#theme-svg-external-link"></use></svg></a></li><li class="footer__item"><a href="https://github.com/Sazendrak/The-Wandering-Handbook" target="_blank" rel="noopener noreferrer" class="footer__link-item">GitHub<svg width="13.5" height="13.5" aria-label="(opens in new tab)" class="iconExternalLink_nPIU"><use href="#theme-svg-external-link"></use></svg></a></li></ul></div></div><div class="footer__bottom text--center"><div class="footer__copyright">Content sourced from The Wandering Realm Fandom Wiki. Site built with Docusaurus.</div></div></div></footer></div>
+</body>
+</html>
