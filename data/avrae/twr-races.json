@@ -1,0 +1,263 @@
+{
+  "_meta": {
+    "generated": "2026-07-12T20:32:30.305Z",
+    "source": "The Wandering Handbook — Phase 11",
+    "total_races": 19
+  },
+  "races": [
+    {
+      "slug": "amonkhet-naga",
+      "name": "Amonkhet Naga",
+      "size": null,
+      "speed": 30,
+      "darkvision": null,
+      "ability_score_increases": [
+        {
+          "ability": "Constitution",
+          "bonus": 2
+        },
+        {
+          "ability": "Intelligence",
+          "bonus": 1
+        }
+      ],
+      "description": "## Ability Score Increase\n\nYour Constitution score increases by 2, and your Intelligence score increases by 1.\n\n## Age\n\nLike humans, naga reach adulthood in their late teens. They show no signs of aging beyond that point except for growing larger, so in theory, a naga could live well over a century.\n\n## Alignment\n\nMost naga are either neutral or neutral evil in alignment.\n\n## Size\n\nNaga stand about 5 feet tall when upright, but the total length of their bodies, head to tail, ranges from 10 to as much as 20 feet. Your size is Medium.\n\n## Speed\n\nYour base walking speed is 30 feet.\n\n## Speed Burst\n\nUsing your tail as a propellant you can give yourself a speed boost. Immediately after you move at least 10 feet in a straight line, you can propel yourself 15 feet in the same direction without provoking opportunity attacks. You can use this a number of times equal to your proficiency bonus, and regain all expended uses when you finish a long rest.\n\n## Natural Weapons\n\nYour fanged maw and constricting serpentine body are natural weapons, which you can use to make unarmed strikes. If you hit with your bite, you deal piercing damage equal to 1d4 + your Strength modifier, and your target must make a Constitution saving throw (DC 8 + your proficiency bonus + your Constitution modifier). On a failed save, the target takes 1d4 poison damage.\n\nIf you hit with your constrict attack, you deal bludgeoning damage equal to 1d6 + your Strength modifier, and if the target is one size larger or smaller than the naga, the target is grappled (escape DC 8 + your proficiency bonus + your Strength modifier). Until this grapple ends, the target is restrained, and you can’t constrict another target.\n\n## Poison Immunity\n\nYou are immune to poison damage and can’t be poisoned.\n\n## Poison Affinity\n\nYou gain proficiency with the poisoner’s kit.\n\n## Languages\n\nYou can speak, read, and write Common and Naga.",
+      "source_url": "https://the-wandering-realm.fandom.com/wiki/Amonkhet_Naga"
+    },
+    {
+      "slug": "avariel",
+      "name": "Avariel",
+      "size": null,
+      "speed": 30,
+      "darkvision": null,
+      "ability_score_increases": [
+        {
+          "ability": "Dexterity",
+          "bonus": 2
+        },
+        {
+          "ability": "Wisdom",
+          "bonus": 1
+        }
+      ],
+      "description": "## Ability Score Increase\n\nYour Dexterity score increases by 2.\n\nYour Wisdom score increases by 1.\n\n## Age\n\nAlthough elves reach physical maturity at about the same age as humans, the elven understanding of adulthood goes beyond physical growth to encompass worldly experience. An elf typically claims adulthood and an adult name around the age of 100 and can live to be 750 years old.\n\n## Size\n\nAvariel typically range from under four and a half to over five and a half feet tall and have slender builds with hollow bones. Your size is Medium.\n\n## Speed\n\nYour base walking speed is 30 feet.\n\n## Flight\n\nThanks to your wings, you have a flying speed equal to your walking speed. You can’t use this flying speed if you’re wearing medium or heavy armor.\n\n## Darkvision\n\nAccustomed to twilit mountains and the night sky, you have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can’t discern color in darkness, only shades of gray.\n\n## Keen Senses\n\nYou have proficiency in the Perception skill.\n\n## Fey Ancestry\n\nYou have advantage on saving throws against being charmed, and magic can’t put you to sleep.\n\n## Trance\n\nElves don’t need to sleep. Instead, they meditate deeply, remaining semiconscious, for 4 hours a day. (The Common word for such meditation is “trance.”) While meditating, you can dream after a fashion; such dreams are actually mental exercises that have become reflexive through years of practice. After resting in this way, you gain the same benefit that a human does from 8 hours of sleep.\n\n## Languages\n\nYou can speak, read, and write Elvish and one other language of your choice, typically Common, also known as Thorasta. Avariel typically speak the Skaevrym variant of Thorasta which is derived from North Eeastern Faerun near Sossel, the region nearest their settlement atop Mount Sundabar. Elvish is fluid, with subtle intonations and intricate grammar, which some Avariel speak with a more relaxed and breathy intonation akin to Auran, and the language is sometimes mixed with their own unique form of sign language based around aerial movement. Involving things such as flaps, stalls, and wind dips. It was a less subtle sign language than those of non-flying races, having been developed primarily for communication during flight.",
+      "source_url": "https://the-wandering-realm.fandom.com/wiki/Avariel"
+    },
+    {
+      "slug": "changeling-metamorphosis",
+      "name": "Changeling Metamorphosis",
+      "size": null,
+      "speed": null,
+      "darkvision": null,
+      "ability_score_increases": [],
+      "description": "Prerequisite: Changeling\n\nYour ability to shapechange is more than skin deep, and you are able to assume more forms than the average Changeling. You gain the following benefits:\n\nIncrease your Consititution score by 1, to a maximum of 20\n\nWhen you use your Shapechanging trait, you can choose one of these benefits which lasts until you change your shape again:\n\n\\- **Darkvision** You adapt your eyes and gain Darkvision out to 60ft.\n\n\\- **Aquatic Adaption** You sprout gills and are able to breath underwater, and you gain a swimming speed equal to your walking speed.\n\n\\- **Natural Weapons** You grow claws, fangs, spines, horns or a different natural weapon of your choice. Your unarmed strikes deal 1d6 bludgeoning, piercing, or slashing damage as appropriate, and you are considered proficient with unarmed strikes.\n\n\\- **Wings** You grow wings, which can take on whatever appearance/shape you desire. You gain 30 ft. of flying speed.\n\n\\- **Extra Appendage** You grow a prehensile tail, tentacles, crab claws, or another limb of your choice, which can only be used to grapple someone as an action (even if your main hands are currently full), and cannot be used to hold equipment, weapons, or any other objects.\n\nYou can use these features an amount of times equal to your proficiency bonus (shared among all), resetting on a Long Rest.",
+      "source_url": "https://the-wandering-realm.fandom.com/wiki/Changeling_Metamorphosis"
+    },
+    {
+      "slug": "dragonwrought-kobold",
+      "name": "Dragonwrought Kobold",
+      "size": null,
+      "speed": 30,
+      "darkvision": null,
+      "ability_score_increases": [],
+      "description": "## Description\n\nA rare type of kobold, with a stronger connection to true dragons. Often bearing the scale colors of their related dragons, and even some of their elemental abilities. Dragonwrought kobolds also tend to posses wings, and increased durability compared to the more common kobolds.\n\n## Languages\n\nYour character can speak, read and write common and draconic.\n\n## Creature Type\n\nYour draconic lineage makes you closer to the dragons than other kobolds. Your creature type is Dragon.\n\n## Size\n\nDragonwrought kobolds stand between 2 and 4 feet tall, and weigh between 30 and 45 pounds. Your size is small or tiny.\n\n## Speed\n\nYour base walking speed in 30 feet.\n\n## Darkvision\n\nYou can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can’t discern color in darkness, only shades of gray.\n\n## Draconic Wings\n\nYou either hatched with, or later grew a pair of leathery dragon wings. At 5th level, they become usable, granting you a flying speed of 30 feet.\n\n## Treasure Appraiser\n\nYou have a knack for appraising gemstones and other such treasures. By spending 1 minute studying an object, you can determine its approximate value to the nearest 100 gp.\n\n## Dragonwrought Lineage\n\nYour connection to dragons can manifest in a number of ways, choose one of the following traits when you select this race:\n\n*   **Draconic Endurance** - Your hit point maximum increases by 1, and it increases by 1 every time you gain a level.\n*   **Unhindered** - Magic cannot cause you to have the paralyzed condition.\n*   **Elemental Potency** - Once on each of your turns when you deal damage, you can deal 1d6 extra damage of a type correlating to your draconic lineage",
+      "source_url": "https://the-wandering-realm.fandom.com/wiki/Dragonwrought_Kobold"
+    },
+    {
+      "slug": "faerie-elf",
+      "name": "Faerie Elf",
+      "size": null,
+      "speed": 20,
+      "darkvision": null,
+      "ability_score_increases": [
+        {
+          "ability": "Charisma",
+          "bonus": 1
+        }
+      ],
+      "description": "***Physical Description***\n\n*Faerie elves are roughly the same height as gnomes but weigh roughly 25 to 60 lbs. Faeries tend to have more vibrant eye colors of shimmering greens, blues, and reds. They have a pair of transparent wings that allow them to fly. Other than that they look like most wood elves.*\n\n***History***\n\n*Although not many people have seen these crossbreeds, the faerie elf is a mixture of a elf and a fey. They tend to keep their societies and culture hidden from public view. Faerie elves are known to have many conflicts within their society, from what little has been observed. They tend to have very different views of other races and cultures.*\n\n***Society***\n\n*Faerie elves tend to keep to themselves and tend to hide from other outside sources, mainly due to the harsh discrimination and prejudice their ancestors have experienced. They are buried deep within forests and caves and have a strong sense of family. They tend to have a hard time developing new relations with others, especially if they're neither fey, elf, or faerie. The ones who do leave the villages tend to be brave adventurers determined to prove the old ways are over.*\n\nElf Subrace\n\n#### **Ability Score Increase**\n\nYour Charisma score increases by 1.\n\n#### **Size**\n\nUnlike most elves Faerie elves range from 3 to over 4 foot tall but have slender builds and weigh very little. Your size is Small.\n\n#### **Speed**\n\nYour base walking speed is 20 feet and your flying speed is 30 feet.\n\n#### **Fairy Wings**\n\nYou have a pair of light, transparent wings that grant you a fly speed of 30-feet, allowing you a certain degree of flight. However, these wings can only fly up to a height of 10 feet, any higher and they fail until you are 10 feet above the ground again. This flight speed cannot negate damage inflicted from falling a height of 20 feet or more, only halve it. You lose your flying speed until you complete a short or long rest if they are directly exposed to water.\n\n#### **Tranquil Magic**\n\nThe typical faerie focuses more on their mind rather than their strength. You know one cantrip of your choice from the cleric spell list. Wisdom is your spellcasting ability for it.",
+      "source_url": "https://the-wandering-realm.fandom.com/wiki/Faerie_Elf"
+    },
+    {
+      "slug": "half-gnoll",
+      "name": "Half Gnoll",
+      "size": null,
+      "speed": 35,
+      "darkvision": null,
+      "ability_score_increases": [],
+      "description": "*Be it from the merging of peaceful clans, or a more unwelcome coupling of savage gnolls and their victims, some cases of Half-Gnolls can appear.*\n\n*Half-Gnoll's heritages are human and gnoll, as different as night and day. The result of this often portrays itself as instinctual and common sense confusion: with two separate parts fighting on what the proper choice is. The only thing all can agree on is the strong sense of being part of a group, be it a village or a hunting pack. Whether they attempt to do so with humans or gnolls, they often face an uphill battle.*\n\n*Half-Gnolls still have a craving for chaos and killing that their Gnoll blood possesses, but it is mostly easier to control, and can often be quelled with hunting and the occasional consuming of any blood and guts. If they end up killing or consuming an intelligent creature, however, there is still a high risk of them going on similar rampages.*\n\n## Ability Score Increase\n\nWhen determining your character’s ability scores, increase one score by 2 and increase a different score by 1, or increase three different scores by 1. Follow this rule regardless of the method you use to determine the scores, such as rolling or point buy. The “Quick Build” section for your character’s class offers suggestions on which scores to increase. You can follow those suggestions or ignore them, but you can’t raise any of your scores above 20.\n\n## Age\n\nHalf-Gnolls usually mature by the age of ten, and they often die of various reasons by the age of 35, but there are cases where they live up to the age of 75 without a real sign of old age, before seeming to lose all their strength immediately and falling into an eternal slumber.\n\n## Size\n\nHalf Gnolls are lean, lanky and tower over humans, often found in the range between 6 and 7 feet tall. Your size is Medium.\n\n## Speed\n\nYour base walking speed is 35 feet\n\n## Darkvision\n\nThanks to your gnoll blood,  you can see in 60ft of darkness as if in bright light, and the rest in dim light. You can't discern colour in the dark, only black and white.\n\n## Septic Bite\n\nYour jaws are a natural weapon, and your mouth is a breeding ground for disease. If you hit with this bite attack, you deal 1d4 + STR piercing damage plus an additional 1d4 poison damage.\n\n## Keen Smell\n\nYou gain advantage on any Wisdom (Perception) or Intelligence (Investigation) checks that involve smell.\n\n## Rampage\n\nWhen you reduce a creature to 0 hit points with a melee attack on your turn, you may use a bonus action to move up to half your speed and make a bite attack\n\n## Languages\n\nYou can speak, read and write Common, Gnoll.\n\nGnoll is an abrasive language, communicating in growls, barks and broken Abyssal. Beings that can speak Gnoll can understand general concepts and few keywords in Abyssal.\n\nIt has no script of its own, often using Infernal script.",
+      "source_url": "https://the-wandering-realm.fandom.com/wiki/Half_Gnoll"
+    },
+    {
+      "slug": "imp",
+      "name": "Imp",
+      "size": null,
+      "speed": null,
+      "darkvision": null,
+      "ability_score_increases": [],
+      "description": "Cowardly tricksters which are often used as battle fodder, and yet even so they are deft thieves and shapeshifters.\n\n**Ability Score Improvements:**\n\nWhen determining your character’s ability scores, increase one score by 2 and increase a different score by 1, or increase three different scores by 1. You can't raise any of your scores above 20.\n\n**Age:**\n\nImps reach maturity at around 5 and live until they are killed.\n\n**Creature Type:**\n\nImps are considered fiends.\n\n**Size:**\n\nYour size is tiny.\n\n**Speed:**\n\nYour walking speed is 20ft.\n\n**Languages:**\n\nYou speak common and infernal\n\n**Darkvision:**\n\nThanks to your infernal heritage, you have superior vision in dark and dim conditions.\n\nYou can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can’t discern color in darkness, only shades of gray.\n\n**Hellish Resistance:**\n\nYou gain resistance to fire damage.\n\n**Fiendish Trickery:**\n\nYou gain proficiency in Stealth or Deception checks, and starting at 5th level you can cast Invisibility once per long rest.\n\n**Flight:**\n\nYou have a flying speed of 40ft while not wearing medium or heavy armor.\n\n**Barbed Stinger:**\n\nYou have a have stinger as a natural weapon attack which deals 1d4+your dexterity or strength modifier piercing damage and any target hit by this attack must make a dc 11 constitution saving throw or take 2d4 poison damage.",
+      "source_url": "https://the-wandering-realm.fandom.com/wiki/Imp"
+    },
+    {
+      "slug": "kitsune",
+      "name": "Kitsune",
+      "size": null,
+      "speed": 35,
+      "darkvision": null,
+      "ability_score_increases": [
+        {
+          "ability": "Dexterity",
+          "bonus": 2
+        }
+      ],
+      "description": "## Ability Score Increase.\n\nYour Dexterity score increases by 2. You may put +1 to any ability that does not already benefit from a racial ASI.\n\n## Age.\n\nA typical kitsune lives to 600 to 1000. It gains an additional century for every tail it grows, to a maximum of 9 tails.\n\n## Alignment.\n\nAs kitsune are natural tricksters, they tend towards gentler forms of chaos.\n\n## Size.\n\nA kitsune is usually between 4'5inch and 5'10inch. Your size is Medium.\n\n## Speed.\n\nYour base walking speed is 35 feet.\n\n## Darkvision.\n\nYou can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray.\n\n## Keen Senses.\n\nMuch like the foxes they resemble, kitsunes have heightened senses. You are proficient in the Perception skill.\n\n## Fey Ancestry.\n\nYour fey lineage gives you advantage on saving throws against being charmed. Magic cannot put you to sleep.\n\n## Human form.\n\nYou can appear as a human indefinitely using a very simple illusion magic. However, on a (DC 10 + proficiency bonus + Charisma Modifier) Investigation check, a person looking directly at you can tell that you are not what you appear. You always appear to be the same human when you cast this spell. While in human form you have -1 to all dice rolls.\n\n## Fox Tails.\n\nYou have one tail when you are born and every 3 levels you gain another tail; lvl3 = 2, lvl6 = 3, etc. A kitsune's tails are a symbol of growth and realization for themselves and reflects how powerful they are. To your DM's discretion, A kitsune can also grow tail's for pivotal moments in its life or personal growth.\n\n## Fox Fire.\n\nSo long as your tails are not severed, you can cast certain spells. You know the dancing lights cantrip. At 3rd level you gain the ability to cast faerie fire once per long rest. Charisma is your casting ability for these spells.\n\n## Languages.\n\nYou can read and write both Common and Sylvan.",
+      "source_url": "https://the-wandering-realm.fandom.com/wiki/Kitsune"
+    },
+    {
+      "slug": "kuo-toa",
+      "name": "Kuo-Toa",
+      "size": "Medium",
+      "speed": null,
+      "darkvision": null,
+      "ability_score_increases": [
+        {
+          "ability": "Wisdom",
+          "bonus": 2
+        },
+        {
+          "ability": "Constitution",
+          "bonus": 1
+        }
+      ],
+      "description": "## Description\n\nOnce mad servants of ancient gods, kuo-toa are strange, amphibious humanoids capable of surviving both land and sea.\n\n## Creature Type\n\nHumanoid\n\n## Ability Score Increase\n\n+2 Wisdom, +1 Constitution\n\n## Age\n\nMature by 10, live up to 70 years.\n\n## Size\n\nMedium\n\n## Speed\n\nWalk 30 ft., Swim 30 ft.\n\n## Amphibious\n\nYou can breathe air and water.\n\n## Slippery\n\nAdvantage on ability checks and saving throws made to escape a grapple or restraint.\n\n## Sunlight Sensitivity\n\nDisadvantage on attack rolls and Perception checks relying on sight in sunlight.\n\n## Languages\n\nUndercommon, Aquan",
+      "source_url": "https://the-wandering-realm.fandom.com/wiki/Kuo-Toa"
+    },
+    {
+      "slug": "leonin-pride",
+      "name": "Leonin Pride",
+      "size": null,
+      "speed": null,
+      "darkvision": null,
+      "ability_score_increases": [],
+      "description": "**Prerequisite**\n\nLeonin\n\n**Description**\n\nYour ancestry manifests in your fierceness; the pride of Oreskos echoes through you. You gain the following benefits:\n\n*   Increase your Strength or Constitution score by 1, to a maximum of 20.\n*   You have advantage on saving throws to avoid or end the frightened condition on yourself.\n*   Your natural weapons count as magical for the purpose of overcoming resistance and immunity to nonmagical attacks and damage.\n*   The range of your Daunting Roar trait increases to 30 feet and you can add your Charisma modifier to its Save DC. Additionally, you regain a use of this trait when you bring a Huge or larger creature to 0 hit points.",
+      "source_url": "https://the-wandering-realm.fandom.com/wiki/Leonin_Pride"
+    },
+    {
+      "slug": "merfolk",
+      "name": "Merfolk",
+      "size": "Medium",
+      "speed": null,
+      "darkvision": null,
+      "ability_score_increases": [
+        {
+          "ability": "Dexterity",
+          "bonus": 2
+        },
+        {
+          "ability": "Charisma",
+          "bonus": 1
+        }
+      ],
+      "description": "## Description\n\nGraceful denizens of the sea, merfolk are at home beneath the waves, rarely surfacing except to defend their homes or trade with land-dwellers.\n\n## Creature Type\n\nHumanoid\n\n## Ability Score Increase\n\n+2 Dexterity, +1 Charisma\n\n## Age\n\nMature at the same rate as humans and live about 120 years.\n\n## Size\n\nMedium (7–9 feet from head to tail)\n\n## Speed\n\nWalk 10 ft., Swim 40 ft.\n\n## Amphibious\n\nYou can breathe air and water.\n\n## Languages\n\nCommon, Aquan\n\n## Subraces\n\n### Bioluminescent Merfolk\n\nYou know the light cantrip. Once per long rest, you can cast color spray (Charisma).\n\n### Deep Sea Merfolk\n\nYou have darkvision (60 ft.) and resistance to cold damage.\n\n### Siren Merfolk\n\nYou know the friends cantrip. Once per long rest, you can cast charm person (Charisma).",
+      "source_url": "https://the-wandering-realm.fandom.com/wiki/Merfolk"
+    },
+    {
+      "slug": "myconid",
+      "name": "Myconid",
+      "size": null,
+      "speed": 30,
+      "darkvision": null,
+      "ability_score_increases": [
+        {
+          "ability": "Wisdom",
+          "bonus": 2
+        },
+        {
+          "ability": "Constitution",
+          "bonus": 1
+        }
+      ],
+      "description": "## Ability Score Increase.\n\nYour Wisdom score increases by 2 and your Constitution score increases by 1.\n\n## Age.\n\nMyconids reach maturity at 6 years old and can live to be over 1000 with the oldest ones becoming sovereigns.\n\n## Alignment.\n\nMost myconids are True Neutral with good myconids are fairly common and evil myconids are very rare.\n\n## Size.\n\nMyconids range from 4 to 8 feet and weigh 70 to 180 lbs. Your size is Medium.\n\n## Speed\n\nYour base walking speed is 30 feet.\n\n## Superior Darkvision\n\nAccustomed to the darkness of the underdark, you have superior vision in dark and dim conditions. You can see in dim light within 120 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern colours in darkness, only shades of grey.\n\n## Sunlight Sensitivity\n\nYou have disadvantage on attack rolls and Wisdom (Perception) checks that rely on sight whenever you, the target of your attack, or whatever you are trying to perceive is in direct sunlight.\n\n## A Fistful of Spores\n\nYour fists are home to toxic spores that can harm your enemies upon contact, and count as natural weapons that you can use to make unarmed attacks. If you hit with them, you deal 1d4 + your Strength modifier poison damage.\n\n## Pacifying Spores\n\nAs an action, you can eject spores at one creature you can see within 15 foot of you. At the start of the target’s turn, it must succeed on a Constitution saving throw equal to 8 + your proficiency modifier + your Constitution modifier or be stunned for 1 minute or until it takes damage. The target can repeat the saving throw at the start of each of its turns, ending the effect on itself on a success. The effect also ends if the target takes damage. You regain use of this trait once you have completed a short or long rest.\n\n## Rapport Spores\n\nYou may, as an action, extend rapport spores in a 20-foot radius. These spores can go around corners and affect only creatures with an Intelligence of 2 or higher that aren't undead, constructs, or elementals. Affected creatures can communicate telepathically with one another while within 60 feet. The effect lasts for 1 hour.",
+      "source_url": "https://the-wandering-realm.fandom.com/wiki/Myconid"
+    },
+    {
+      "slug": "phoenix",
+      "name": "Phoenix",
+      "size": null,
+      "speed": null,
+      "darkvision": null,
+      "ability_score_increases": [],
+      "description": "## Ignite\n\nAt 1st level, you gain the ability to start fires with a touch. As an action, you can magically ignite a flammable object you touch with your hand—an object such as a torch, a piece of tinder, or the hem of drapes.\n\n## Mantle of Flame\n\nStarting at 1st level, you can unleash the phoenix fire that blazes within you. As a bonus action, you magically wreathe yourself in swirling fire, as your eyes glow like hot coals. For 1 minute, you gain the following benefits:\n\n*   You shed bright light in a 30-foot radius and dim light for an additional 30 feet.\n*   Any creature takes fire damage equal to your Charisma modifier if it hits you with a melee attack from within 5 feet of you or if it touches you.\n*   Whenever you roll fire damage on your turn, the roll gains a bonus to equal to your Charisma modifier.\n\nOnce you use this feature, you can't use it again until you finish a long rest.\n\n## Phoenix Spark\n\nStarting at 6th level, the fiery energy within you grows restless and vengeful. In the face of defeat, it surges outward to preserve you in a fiery roar. If you are reduced to 0 hit points, you can use your reaction to draw on the spark of the phoenix. You are instead reduced to 1 hit point, and each creature within 10 feet of you takes fire damage equal to half your sorcerer level + your Charisma modifier. If you use this feature while under the effects of your Mantle of Flame, this feature instead deals fire damage equal to your sorcerer level + double your Charisma modifier, and your Mantle of Flame immediately ends. Once you use this feature, you can't use it again until you finish a long rest.\n\n## Nourishing Fire\n\nStarting at 14th level, your fire spells soothe and restore you. When you expend a spell slot to cast a spell that includes a fire damage roll, you regain hit points equal to the slot's level + your Charisma modifier.\n\n## Form of the Phoenix\n\nAt 18th level, you finally master the spark of fire that dances within you. While under the effect of your Mantle of Flame feature, you gain additional benefits:\n\n*   You have a flying speed of 40 feet and can hover.\n*   You have resistance to Poison & Fire\n*   If you use your Phoenix Spark, that feature deals an extra 20 fire damage to each creature.",
+      "source_url": "https://the-wandering-realm.fandom.com/wiki/Phoenix"
+    },
+    {
+      "slug": "revenant",
+      "name": "Revenant",
+      "size": null,
+      "speed": null,
+      "darkvision": null,
+      "ability_score_increases": [],
+      "description": "**Prerequisite**\n\nElf\n\n**Description**\n\nYou are descended from a master of the double-bladed scimitar, and some of that mastery has passed on to you. You gain the following benefits:\n\n*   Increase your Dexterity or Strength score by 1, to a maximum of 20.\n*   While you are holding a double-bladed scimitar with two hands, you gain a +1 bonus to Armor Class.\n*   A double-bladed scimitar has the finesse property when you wield it.",
+      "source_url": "https://the-wandering-realm.fandom.com/wiki/Revenant"
+    },
+    {
+      "slug": "selkie",
+      "name": "Selkie",
+      "size": "Medium",
+      "speed": null,
+      "darkvision": null,
+      "ability_score_increases": [
+        {
+          "ability": "Dexterity",
+          "bonus": 2
+        },
+        {
+          "ability": "Wisdom",
+          "bonus": 1
+        }
+      ],
+      "description": "## **Description**\n\nSeal-folk who slip between human and animal forms, selkies are gentle and mysterious beings tied to coastal waters.\n\n## Creature Type\n\nMonstrosity\n\n## Ability Score Increase\n\n+2 Dexterity, +1 Wisdom\n\n## Age\n\nUp to 150 years.\n\n## Size\n\nMedium\n\n## Speed\n\nWalk 30 ft., Swim 40 ft.\n\n## Seal Shape\n\nYou can assume the form of a seal by donning or removing your sealskin (use a seal stat block).\n\n## Fey Ancestry\n\nYou have advantage on saving throws against being charmed, and magic can’t put you to sleep.\n\n## Languages\n\nCommon, Aquan",
+      "source_url": "https://the-wandering-realm.fandom.com/wiki/Selkie"
+    },
+    {
+      "slug": "shardmind",
+      "name": "Shardmind",
+      "size": null,
+      "speed": 30,
+      "darkvision": null,
+      "ability_score_increases": [],
+      "description": "## Ability Score Increase.\n\nWhen determining your character’s ability scores, increase one score by 2 and increase a different score by 1, or increase three different scores by 1. You can't raise any of your scores above 20.\n\n## Creature Type\n\nYou are a construct.\n\n## Size.\n\nYour size is small or medium (your choice).\n\n## Speed\n\nYour base walking speed is 30 feet.\n\n## Languages\n\nYou speak Common, and Deep Speech.\n\n## Astral Mind\n\nWhen you take a long rest, you must spend at least six hours in an inactive, motionless state, rather than sleeping. In this state, you appear inert, but it doesn’t render you unconscious, and you can see and hear as normal.\n\n## Crystaline Soul\n\nIf the Mending spell is cast on you, you can spend a Hit Die, roll it, and regain a number of hit points equal to the roll plus your Constitution modifier (minimum of 1 hit point). In addition, your nature has allowed you to benefit from several spells that preserve life but that normally don't affect Constructs: Cure Wounds, Healing Word, Mass Cure Wounds, Mass Healing Word, and Spare the Dying.\n\n## Telepathic\n\nYou can speak telepathically to any creature you can see, provided the creature is within 30ft of you. You don't need to share a language with the creature for it to understand your telepathic utterances, but the creature must be able to understand at least one language. Either creature can break this connection at any time.\n\n## Crystalline Resilience\n\nCrystalline nature is represented by the following benefits:\n\n*   You have advantage on saving throws against being poisoned, and you have resistance to poison damage.\n*   You don’t need to eat, drink, or breathe.\n*   You are immune to disease.\n*   You don't need to sleep.\n\n## Outer Shell\n\nYour crystalline shell provides you a base AC of 17 (your Dexterity modifier doesn’t affect this number). You can’t wear light, medium, or heavy armor, but if you are using a shield, you can apply the shield’s bonus as normal.\n\n## Astral Knowledge\n\nYou gain proficiency in Arcana or Religion checks.",
+      "source_url": "https://the-wandering-realm.fandom.com/wiki/Shardmind"
+    },
+    {
+      "slug": "skeleton-(race)",
+      "name": "Skeleton (Race)",
+      "size": null,
+      "speed": 30,
+      "darkvision": null,
+      "ability_score_increases": [],
+      "description": "## Description\n\n*The reanimated corpse of a once living creature given new purpose in undeath. Often created by necromancers, sapient skeletons or other undead can arise when rituals go awry. Such skeletons walk in undeath for as long as they remain intact, often seeing the world undergo grand changes should they go undisturbed.*\n\n## Language\n\nYou know common and one other language of your choice.\n\n## Creature Type\n\nOne of the most famous examples of it, your creature type is undead.\n\n## Size\n\nSkeletons come in many shapes and sizes. Your size is medium or small.\n\n## Speed\n\nYou have a walking speed of 30 feet.\n\n## Frailty\n\nBludgeoning damage dealt to you is doubled.\n\n## Undead Nature\n\nBeing undead sets you drastically apart from living creatures, granting you the following effects:\n\n*   You are immune to poison damage, and the poisoned and exhaustion conditions.\n*   You do not bleed. You succeed on death saving throws on a d20 roll of 5 or higher, rather than 10 or higher.\n*   Nothing can cause you to add more than one failed death saving throw at once.\n*   You do not need to eat, drink, sleep, or breathe.\n*   If you die, you are destroyed, and cannot be returned to undeath via resurrection spells such as revivify or raise dead.\n\n## Raised For War\n\nYou are proficient in light armor, medium armor, shields, and two weapons of your choice.\n\n## Faded Knowledge\n\nYou gain one skill and one tool proficiency of your choice.\n\n## Necromantic Healing\n\nWhen you would take necrotic damage, you can choose to instead gain temporary hit points equal to the damage you would have taken. You can do so a number of times equal to your proficiency bonus, and regain all expended uses when you finish a long rest.",
+      "source_url": "https://the-wandering-realm.fandom.com/wiki/Skeleton_(Race)"
+    },
+    {
+      "slug": "star-spawn",
+      "name": "Star Spawn",
+      "size": null,
+      "speed": null,
+      "darkvision": null,
+      "ability_score_increases": [],
+      "description": "## Description\n\n*Star Spawn are created emissaries for various outer beings, they present themselves as somewhat humanoid with some “oddities” associated with the eldritch being that sent them.*\n\n## **Ability Score Increase**\n\nWhen determining your character’s ability scores, increase one score by 2 and increase a different score by 1, or increase three different scores by 1. You can't raise any of your scores above 20.\n\n## **Creature Type**\n\nYou are an aberration.\n\n## **Size**\n\nYour size is small or medium (your choice)\n\n## **Speed**\n\nYour walking speed is 30ft.\n\n## **Languages**\n\nYou speak Common, and Deep Speech.\n\n## **Unsettling Physiology**\n\nYour body possesses an unnatural resilience and autonomy. You do not need to breathe, eat, drink, or sleep. Magic cannot force you to sleep. To gain the benefits of a long rest, you must spend 8 hours in a motionless state.\n\n## **Eldritch Preservation**\n\nWhen you are forced to make an Intelligence, Wisdom, or Charisma saving throw, you can call upon the unnatural resilience granted by your eldritch connection, granting yourself advantage on that saving throw (no action required). You can use this feature a number of times equal to your Proficiency Bonus. You regain all expended uses when you finish a long rest.\n\n## **See Beyond**\n\nYou commune with the entity that guides you. You can cast the spell Augury once per day, requiring no material components. The spell otherwise functions as normal.\n\n## **Far Traveled**\n\nDue to your nature you are more resistant to things that would terrify others, you have advantage on saving throws against being frightened.\n\n## **Gifts From Beyond**\n\nYou gain proficiency in a skill or tool of your choice.",
+      "source_url": "https://the-wandering-realm.fandom.com/wiki/Star_Spawn"
+    },
+    {
+      "slug": "tortle-protector",
+      "name": "Tortle Protector",
+      "size": null,
+      "speed": null,
+      "darkvision": null,
+      "ability_score_increases": [],
+      "description": "**Prerequisite**\n\nTortle\n\n**Description**\n\nYou have a higher grasp in making full use of your shell to better protect yourself and others. You gain the following benefits:\n\n*   Increase your Strength or Wisdom by 1, to a maximum of 20.\n*   Your *Natural Armor* trait now provides a base AC of 18 (your Dexterity modifier doesn't affect this number).\n*   As a reaction when you are forced to make a Dexterity saving throw, you can choose which of the two will take effect:\n    *   You gain a +4 bonus to Dexterity saving throws until the end of your next turn.\n    *   All creatures within 5 feet of you are considered to have half cover against any harmful attacks or effects while within range until the end of your next turn.\n\nOnce you use this ability, you can't use it again until you've finished a short or long rest.",
+      "source_url": "https://the-wandering-realm.fandom.com/wiki/Tortle_Protector"
+    }
+  ]
+}

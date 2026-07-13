@@ -1,0 +1,445 @@
+{
+  "_meta": {
+    "generated": "2026-07-12T20:32:30.303Z",
+    "source": "The Wandering Handbook — Phase 11",
+    "total_feats": 23,
+    "total_boons": 34
+  },
+  "feats": [
+    {
+      "slug": "cartomancer",
+      "name": "Cartomancer",
+      "prerequisite": "4th Level, Spellcasting Feature",
+      "description": "You have learned to channel your magic through a deck of cards. You can use a card deck as your spellcasting focus, and you gain the following benefits:\n\n**Card Tricks.** You learn the Prestidigitation cantrip and can use it to create illusions that duplicate the effects of stage magic. When you use Prestidigitation in this way, you can conceal the verbal and somatic components of the spell as ordinary conversation and card handling.\n\n**Hidden Ace.** When you finish a long rest, you can choose one first level spell from your class's spell list and imbue that spell into a card. The chosen spell must have a casting time of 1 action. The card remains imbued with this spell for 8 hours. While the card is imbued with the spell, you can use a bonus action to flourish the card and cast the spell within. The card then immediately loses its magic.",
+      "source_url": "https://the-wandering-realm.fandom.com/wiki/Cartomancer"
+    },
+    {
+      "slug": "celestial-legacy",
+      "name": "Celestial Legacy",
+      "prerequisite": "Aasimar",
+      "description": "You learn how to better control your celestial power, and are able to draw more energy from it. You gain one of the following benefits, which will replace your Celestial Revelation feature. You may activate your Celestial Legacy as a bonus action or an action (your choice). Your transformation lasts for 1 minute or until you end it as a bonus action. Once you transform using your Celestial Legacy, you can't use it again until you finish a long rest.\n\nCelestial Reaper.\n\nThis feature replaces your Necrotic Shroud. Your eyes briefly become pools of darkness, and ghostly, flightless wings sprout from your back temporarily. Creatures of your choice within 30 feet of you that can see you must succeed on a Charisma saving throw (DC 8 + your proficiency bonus + your Charisma modifier) or become frightened of you until the end of your next turn. Furthermore, while they are frightened in this way, you have advantage on any attack rolls against them. Until the transformation ends, once on each of your turns, you can deal extra necrotic damage to one target when you deal damage to it with an attack or a spell. The extra damage equals your level.",
+      "source_url": "https://the-wandering-realm.fandom.com/wiki/Celestial_Legacy"
+    },
+    {
+      "slug": "daredevil",
+      "name": "Daredevil",
+      "prerequisite": null,
+      "description": "## Daredevil\n\n*The Daredevil fighter thrives on style, versatility and unpredictably. Their use of different weapon types makes them dangerous to any foe and they gain more confidence the more stylish their fighting is.*\n\n### Daredevil impulse\n\nStarting at 3rd level, every time you make an attack of a type different from the previous attack in the current combat, you gain one Style point. You have a maximum amount of style points equal to your proficiency bonus. When you roll Initiative your Style points reset to 0.\n\nAttack types are classified as: Melee weapon attack, Ranged weapon attack and thrown attacks.\n\nStyle Points can be used to power your Flairs.\n\n#### Flairs:\n\n*   **Wide attack:** If you hit with a melee attack, you may spend 2 Style points to deal melee damage equal to half your Fighter level to all foes within 5 feet of your target.\n*   **Laser Focus:** Spend 2 Style Points to gain advantage on your next attack roll.\n*   **Range Extender:** You can add 10 feet to any ranged or thrown weapon's normal range for every point spent\n*   **Rush:** Gain 10 feet of movement speed for each Style Point spent until the end of your turn.\n*   **Burst (4th level and up):** As a bonus action, Spend 3 Style points to make a weapon attack.\n\n### **Hotswap:**\n\nAt 3rd level, whenever you make an attack roll with a weapon, you can sheathe it and draw another in the same action. You can only do this once per action.\n\n### Fight or Flight\n\nFrom 7th level you have a choice between staying in action and fighting defensively or moving around or to continue as is.  As a bonus action you can choose to either fight or flee from combat.\n\n*   **Fight:** As a Bonus action you can give yourself a Bonus to your AC equal to the amount of Style Points you spend. This bonus lasts until the end of your next turn or until you are incapacitated. While Fight is active you cannot gain more Style points.\n*   **Flight:** You can spend 2 Style points to disengage, you can't be targeted by opportunity attacks. You gain an additional 10 feet of movement until the end of your turn for every additional Style Point spent.\n\n### Double Trouble\n\nYou can choose an additional Fighting Style.\n\nAdditionally, using the Disengage, Dodge or Dash actions also builds your Style chain. For example: If you use a dodge action and make an attack on your next turn or vice versa you also gain a Style Point\n\n### Wild Rush:\n\nStarting at 15th level, when an enemy within 30 feet of you gets incapacitated or restrained you can use 2 Style Points as an reaction to dash straight toward the enemy. You move 10 feet for every point spent (minimum 2 points) and can spend additional Style for added Rush movement. You can  sheath your current weapon and draw another as part of the dash and make a single attack against that target.\n\n### Inferno Trigger:\n\nFrom 18th level, once per short rest you can expend 6 Style points as an action to trigger your Inferno action.\n\n**Inferno action:** Can attack 6 times, ignore the loading and ammunition properties if the weapon has it. Any Critical hit deals an additional 10 damage of the weapons damage type. These attacks don't provide any Style points",
+      "source_url": "https://the-wandering-realm.fandom.com/wiki/Daredevil"
+    },
+    {
+      "slug": "deadeye",
+      "name": "Deadeye",
+      "prerequisite": null,
+      "description": "## The Deadeye\n\n*The embodiment of grit, luck, and a well-placed shot, fighters who choose this martial archetype strive to emulate paradigms of accuracy. Deadeyes generally prefer fighting from comfortable ranges, employing the use of crossbows, firearms, and even throwing knives if a situation calls for them.*\n\n*   [3rd Level - Perfect Sixth](#3rd-level---perfect-sixth)\n*   [7th Level - Line ‘em Up](#3rd-level---perfect-sixth)\n*   [10th Level - Gambit](#3rd-level---perfect-sixth)\n*   [15th Level - Duelist’s Aim](#3rd-level---perfect-sixth)\n*   [18th Level - High Noon](#3rd-level---perfect-sixth)\n\n## 3rd Level - Perfect Sixth\n\nOnce per attack action beginning at 3rd level, when you make a ranged weapon attack roll against a creature, you can add a d6 to the result. You can add the d6 before or after seeing the results of the attack roll, but before the effects are applied. If the result of the d6 is a 6, you severely injure your target. Roll on the severe injury table to see the effect of the injury.\n\n##### Severe Injury Table\n\n2d6 | Severe Injury\n\n2 | **Shock**. The target is stunned until the end of its next turn.\n\n3 | **Fracture**. The target can only take either an action, bonus action, or move on its next turn.\n\n4 | **Punctured Lung**. The target gains one level of exhaustion for the next minute.\n\n5 | **Crushed Throat**. The target cannot speak, use verbal components, or use any features that involve its voice until the end of its next turn.\n\n6 | **Crushed Grip**. The target drops anything it is currently holding, including grappled creatures.\n\n7 | **Whiplash**. The attack deals one additional die of weapon damage.\n\n8 | **Broken Leg**. The target’s movement speed is halved until the end of its next turn.\n\n9 | **Embedded Ammunition**. Until the end of its next turn, for every 5 feet the target moves, it takes 1d6 slashing damage.\n\n10| **Tear**. The target has disadvantage on melee attacks until the end of its next turn.\n\n11| **Blind.** The target is blinded until the end of its next turn.\n\n12| **Dead Shot.** The triggering hit becomes a critical hit.\n\n*   Before you make a ranged weapon attack, you can take a -5 penalty to the attack roll. If you hit, you apply a severe injury immediately. You can only apply one severe injury with each attack action.\n*   A creature cannot be affected by the same severe injury more than once at a time, and a creature can expend one use of legendary resistance to ignore a severe injury’s effect.\n\n## 7th Level - Line ‘em Up\n\nAt 7th level, you become a master at hitting successive targets. When you take the attack action on your turn, each time you target a different creature than any other you’ve targeted this turn, you gain a cumulative +1 bonus to the attack roll.\n\n## 10th Level - Gambit\n\nAt 10th level, when you roll initiative, you can gambit a d4, d6, d8, or d10. Roll the chosen die and subtract it from your initiative. Until the end of your next turn, every creature below you in initiative takes extra damage when hit with your ranged attack rolls equal to the chosen die.\n\n## 15th Level - Duelist’s Aim\n\nAt 15th level, when you use the attack action to make a ranged weapon attack and you hit at least three consecutive attacks, your third attack inflicts a severe injury.\n\n## 18th Level - High Noon\n\nAt 18th level, you are adept at ending multiple targets at once. As an action, choose any number of targets that you can see within a cone the size of your weapon’s short range, up to 60 feet. You may make one ranged weapon attack against each target you chose inflicting the Dead Shot severe injury with each of them. You may use this feature a number of times equal to your proficiency bonus, regaining all uses on a long rest.",
+      "source_url": "https://the-wandering-realm.fandom.com/wiki/Deadeye"
+    },
+    {
+      "slug": "draconic-expansion",
+      "name": "Draconic Expansion",
+      "prerequisite": null,
+      "description": "Dragonborn and Draconic Bloodline Sorcerers, Drakewarden Rangers and Ascendant Dragon Monks are updated to include the new types of dragons. New racial types follows gem dragonborn guidelines, This updated only changes the given Damage and Resistance types.\n\n\\-NEW-\n\nTime Force\n\nMoonstone Radiant\n\nSolar Radiant\n\nLunar Cold\n\nDeep Psychic\n\n\\-Traditional-\n\nBlack    Acid\n\nBlue    Lightning\n\nBrass    Fire\n\nBronze    Lightning\n\nCopper    Acid\n\nGold    Fire\n\nGreen    Poison\n\nRed    Fire\n\nSilver    Cold\n\nWhite    Cold\n\n\\-Gem-\n\nAmethyst    Force\n\nCrystal    Radiant\n\nEmerald    Psychic\n\nSapphire    Thunder\n\nTopaz    Necrotic",
+      "source_url": "https://the-wandering-realm.fandom.com/wiki/Draconic_Expansion"
+    },
+    {
+      "slug": "dual-wielding-master",
+      "name": "Dual Wielding Master",
+      "prerequisite": "Dual Wielder feat",
+      "description": "Excessive training and mastery of fighting with two weapons has allowed you to make use of your attacking momentum as well as to strike swiftly against those that would grant you an opportunity\n\n*   If you have hit with at least three attacks on your turn, including your two-weapon fighting bonus attack. You can make another attack as part of that bonus action\n*   When a creature provokes an opportunity attack from you while you are engaged in two-weapon fighting, you can make one attack with each weapon you are wielding as part of that reaction, instead of a single attack.",
+      "source_url": "https://the-wandering-realm.fandom.com/wiki/Dual_Wielding_Master"
+    },
+    {
+      "slug": "far-touched",
+      "name": "Far Touched",
+      "prerequisite": null,
+      "description": "Exposure to distant forces - those that observe from beyond time or space - has left a mark on your soul. You now wield magic that shields and strikes in equal measure.\n\n*   Increase your Intelligence, Wisdom, or Charisma score by 1, to a maximum of 20.,\n*   You learn the sanctuary spell and one 1st-level spell of your choice. The 1st-level spell must be from the abjuration or evocation school of magic. You can cast each of these spells without expending a spell slot. Once you cast either of these spells in this way, you can't cast that spell in this way again until you finish a long rest. You can also cast these spells using spell slots you have of the appropriate level. The spells' spellcasting ability is the ability increased by this feat.",
+      "source_url": "https://the-wandering-realm.fandom.com/wiki/Far_Touched"
+    },
+    {
+      "slug": "flashfingers",
+      "name": "Flashfingers",
+      "prerequisite": null,
+      "description": "*Wondrous Item, varies*\n\n**Attunement**\n\nRequires Attunement\n\nThese magical gloves allow you to throw objects at astounding speeds. When you make a ranged weapon attack using a non-magical thrown weapon, the weapon gains a bonus to attack and damage rolls and is considered magical for the purposes of overcoming resistance and immunity to non-magical damage. The bonus depends on this item’s rarity.\n\nAdditionally, if you attack with a thrown weapon with advantage, you deal one additional weapon damage die in addition to the weapon’s normal damage.\n\n+1 : Uncommon\n\n+2 : Rare\n\n+3 : Very Rare",
+      "source_url": "https://the-wandering-realm.fandom.com/wiki/Flashfingers"
+    },
+    {
+      "slug": "forward-battalion",
+      "name": "Forward Battalion",
+      "prerequisite": null,
+      "description": "*Weapon (glaive), legendary*\n\n**Attunement**\n\nRequires Attunement by a creature with a Strength score of 15 or higher\n\nThis magic glaive has tattered remains of a banner from the base of its blade and coiled around its shaft. The color and symbol have long faded and forgotten but whose task still persists. This weapon feels heavier than it looks to the wielder. Some say the banner appears at moments when the glaive is swung, showing the vibrant colors it once had. You have a +2 bonus to attack rolls made with this weapon. You also gain the following abilities.\n\n**Strength in Numbers**. You gain an additional +1 bonus to attack rolls for each friendly creature within 20 feet of you up to a maximum of +3(total bonus of +5). You also give a +1 bonus to attack rolls to friendly creatures within range.\n\n**Assisted Assault.** While you have at least one friendly creature within 30 feet of you, you deal an extra 3d4 of the weapon's damage on hit. Alternatively, you can forgo the extra damage at the start of your turn to give one friendly creature an extra 3d4 weapon damage on one attack they make on their next turn.",
+      "source_url": "https://the-wandering-realm.fandom.com/wiki/Forward_Battalion"
+    },
+    {
+      "slug": "gladiator-(ua)",
+      "name": "Gladiator (UA)",
+      "prerequisite": null,
+      "description": "## Description\n\n*Master Brutality and Blood Sport*\n\n*Gladiators are just as much performers as they are warriors. Whether brawling in underground fighting rings or fighting for survival in bloodstained arenas, a Gladiator combines martial skill with theatrics to awe and intimidate their audiences.*\n\n**Features:**\n\n*   [Level 3 - Brutality](#level-3---brutality)\n*   [Level 3 - Combat Theatrics](#level-3---combat-theatrics)\n*   [Level 7 - Flourish Parry](#level-7---flourish-parry)\n*   [Level 10 - Bolder Brutalities](#level-10---bolder-brutalities)\n*   [Level 15 - Brutal Resurgence](#level-15---brutal-resurgence)\n*   [Level 18 - Mutilate](#level-18---mutilate)\n\n## Level 3 - Brutality\n\nShaped by the intensity of the arena, you’ve learned to execute brutal martial moves. Once per turn, when you hit a creature with an attack roll using a Melee weapon, you can add one of the following Brutality effects of your choice. You can do this a number of times equal to your Charisma modifier (minimum of once), and you regain all expended uses when you finish a Short or Long Rest.\n\n**Bleed.** You can activate the Sap mastery property in addition to a different mastery property you’re using with that weapon, and the target takes extra damage equal to your Charisma modifier (minimum of 1 damage). The extra damage’s type is the same type as the weapon’s type.\n\n**Bluff.** You can activate the Vex mastery property in addition to a different mastery property you’re using with that weapon, and you have Advantage on the next saving throw you make before the end of your next turn.\n\n**Stumble**. You can activate the Topple mastery property in addition to a different mastery property you’re using with that weapon, and on its next turn, the target can take only an action or a Bonus Action, not both.\n\n## Level 3 - Combat Theatrics\n\nYou’ve honed your combat skills to entertain, devastating opponents and dazzling onlookers. You gain the following benefits.\n\n**Athletic Flair.** Whenever you make a Dexterity (Acrobatics) or Strength (Athletics) check, you gain a bonus to the check equal to your Charisma modifier (minimum of +1).\n\n**Bonus Proficiency.** You gain proficiency in one of these skills of your choice: Acrobatics, Athletics, Deception, Intimidation, or Performance.\n\n## Level 7 - Flourish Parry\n\nYou’ve learned to stylishly counter blows from your opponents. When an enemy hits you with a melee attack roll, you can take a Reaction to add your Charisma modifier (minimum of +1) to your AC against the attack, potentially causing the attack to miss.\n\n**Flourish Counter.** If this Reaction causes the attack to miss, you can retaliate with a powerful counterattack as part of the same Reaction. Make an attack roll with a Melee weapon against the triggering creature. If this attack hits, you can use one of your Brutality effects on the target without expending a use of that feature. Once this counterattack hits, you can’t use this feature to make another counterattack until you finish a Long Rest. You can also restore your use of this counterattack by expending a use of Second Wind (no action required).\n\n## Level 10 - Bolder Brutalities\n\nYour brutal martial prowess has improved. The following effects are added to your Brutality options.\n\n**Rive.** You can activate the Cleave mastery property in addition to a different mastery property you’re using with that weapon, and you can add your ability modifier to the damage of the additional attack made as part of that property’s activation.\n\n**Rush.** You can activate the Push mastery property in addition to a different mastery property you’re using with that weapon, and you can immediately move up to your Speed without provoking Opportunity Attacks.\n\n**Stagger.** You can activate the Slow mastery property in addition to a different mastery property you’re using with that weapon, and the target has Disadvantage on the next saving throw it makes before the end of your next turn.\n\n## Level 15 - Brutal Resurgence\n\nWhenever you use your Second Wind to regain Hit Points, you regain an expended use of Brutality. You al",
+      "source_url": "https://the-wandering-realm.fandom.com/wiki/Gladiator_(UA)"
+    },
+    {
+      "slug": "hammer-mastery",
+      "name": "Hammer Mastery",
+      "prerequisite": "Proficiency with at least one type of hammer",
+      "description": "When you wield a hammer and attack a creature with it, the target's AC is reduced by 2 for that attack, and you ignore the detrimental effects of the heavy property of hammers.\n\nAdditionally, once per turn, when you hit a creature with a hammer, you can immediately take the shove action targeting the same creature.\n\nHammers: Light Hammer, Warhammer, Lucerne Hammer, Maul",
+      "source_url": "https://the-wandering-realm.fandom.com/wiki/Hammer_Mastery"
+    },
+    {
+      "slug": "hurler",
+      "name": "Hurler",
+      "prerequisite": null,
+      "description": "You are a master hurler of thrown weapons and can make shots that others find impossible, impaling your foes with the greatest of ease. You gain the following benefits:\n\n*   Attacking at long range doesn't impose disadvantage on your thrown weapon attack rolls.\n*   **Pinning Impalement:** When you hit a creature with a thrown weapon attack from a spear, javelin or trident, you may attempt to impale them onto an adjacent surface. The creature must make a DC 8+PB+STR strength saving throw. On a failed save, a creature is pinned to the surface for 1 minute, or until it or another creature within reach of it uses an action to remove the weapon. A creature impaled by the weapon has its speed reduced to 0. If a flying creature with no adjacent surface is impaled this way, instead reduce their movement speed by 10ft until the weapon is removed as an action. Pinning Impalement can be used a number of times equal to your proficiency bonus and you regain all uses on a long rest.",
+      "source_url": "https://the-wandering-realm.fandom.com/wiki/Hurler"
+    },
+    {
+      "slug": "iaijutsu",
+      "name": "Iaijutsu",
+      "prerequisite": "Proficiency in a Martial weapon",
+      "description": "Iaijutsu is the martial art of drawing a weapon and attacking with it in the same fluid motion. It is the foundation of some forms of dueling in Kara-Tur, and its masters are feared and respected throughout Rokugan and other lands where iaijutsu is practiced. When you draw a weapon in combat, you have advantage on the first attack you make with that weapon until the end of the turn. If that attack hits, you may reroll the weapon's damage dice, taking the higher rolls.",
+      "source_url": "https://the-wandering-realm.fandom.com/wiki/Iaijutsu"
+    },
+    {
+      "slug": "iterative-perfection",
+      "name": "Iterative Perfection",
+      "prerequisite": "Vedalken",
+      "description": "Your relentless pursuit of improvement turns every flaw into a chance for refinement. You gain the following benefits:\n\n*   +1 ASI to any ability score up to a maximum of 20\n*   Analytical Adjustment. When you miss a melee/ranged/spell attack, should the next attack be made with the same weapon, or the same spell, against the same creature/object, that attack can be made with advantage and adding half of your ability modifier to that attack roll.",
+      "source_url": "https://the-wandering-realm.fandom.com/wiki/Iterative_Perfection"
+    },
+    {
+      "slug": "light-blade-mastery",
+      "name": "Light-Blade Mastery",
+      "prerequisite": "Proficiency with at least one type of light-blade",
+      "description": "You have become adept at using light-blades, allowing you to quickly put out attacks with them.\n\n*   When you hit with a light-blade, the target and up to one other creature within 5 feet of you takes slashing damage equal to half your dexterity modifier as you cut across them.\n*   Additionally, when you score a critical hit with a light-blade, the weapon's damage die becomes 1d12 instead of it's usual amount.\n\nLight-Blades: Dagger, Sickle",
+      "source_url": "https://the-wandering-realm.fandom.com/wiki/Light-Blade_Mastery"
+    },
+    {
+      "slug": "mace-mastery",
+      "name": "Mace Mastery",
+      "prerequisite": "Proficiency with at least one type of mace",
+      "description": "You have become adept at using maces, and can lever their use more effectively.\n\n*   When you attack with a mace, you deal bludgeoning damage equal to your strength modifier if you miss on the attack roll.\n*   Additionally, when you hit a creature with a mace, you can reduce that targets AC by 1 for one minute so long as they are wearing armor. You can do so no more than once per turn, and you cannot reduce a targets AC to a score lower than they would be without armor.\n\nMaces: Flail, Mace, Morningstar",
+      "source_url": "https://the-wandering-realm.fandom.com/wiki/Mace_Mastery"
+    },
+    {
+      "slug": "monk-initiate",
+      "name": "Monk Initiate",
+      "prerequisite": null,
+      "description": "Your training has taught you to strike faster and in key points rather than rely on brute force. You gain the following benefits:\n\n*   Increase your Dexterity score by 1, to a maximum of 20.\n*   You can use Dexterity instead of Strength for the attack and damage rolls of your unarmed strikes.\n*   You can roll a d4 in place of the normal damage of your unarmed strikes.",
+      "source_url": "https://the-wandering-realm.fandom.com/wiki/Monk_Initiate"
+    },
+    {
+      "slug": "phalanx",
+      "name": "Phalanx",
+      "prerequisite": null,
+      "description": "## Description\n\n*A Phalanx draws their strength from their allies and coordination. Phalanx make excellent commanders as their leadership and guidance helps to assure not only their own success, but their entire unit’s as well.*\n\n**Features:**\n\n*   [3rd Level - Tactical Commander](#3rd-level---tactical-commander)\n*   [3rd Level - Unbreakable Formation](#3rd-level---unbreakable-formation)\n*   [7th Level - Tactical Authority](#7th-level---tactical-authority)\n*   [13th Level - Perfect Block](#13th-level---perfect-block)\n*   [18th Level - Battle Tide](#18th-level---battle-tide)\n\n## 3rd Level - Tactical Commander\n\nWhen you select this specialization at 3rd level, you gain access to your cohesion die, which is a d4. Other features will refer to your cohesion die, and will allow you to roll it. Your cohesion die is not expended when rolled.\n\nYour cohesion die increases to a d6 at 7th level, to a d8 at 13th, and to a d10 at 18th.\n\n## 3rd Level - Unbreakable Formation\n\nAdditionally at 3rd level, you learn to weave your own defenses into those around you, resulting in a stronger whole for both you and your allies. Each creature of your choice within 10 feet of you gains a bonus to saving throws equal to one roll of your cohesion die. Additionally, creatures of your choice that start their turn within that range gain a +1 bonus to their armor class for each creature within 10 feet of you, with a maximum bonus equal to half your proficiency bonus.\n\n## 7th Level - Tactical Authority\n\nAt 7th level, you gain the ability to have greater control over how a fight will play out. When you enter your defensive stance, choose either the dodge, disengage, or dash action. Creatures of your choice within 5 feet of you while your stance is active will be unable to take the chosen action. You may select a new action from the specified list at the start of each of your turns until your stance ends (no action required).\n\nAdditionally, creatures of your choice within the same range (other than you) gain a bonus to damage rolls equal to a roll of your cohesion die. They can use this bonus no more than once per turn.\n\n## 13th Level - Perfect Block\n\nYour ability to use shields extends to protecting your allies as well as you beginning at 13th level. When an ally within 5 feet of you is hit by an attack, you can use your reaction to give them a bonus to their armor class equal to one roll of your cohesion die. If this bonus causes the attack to miss, you may use this reaction again, even if you have already used your reaction this round.\n\n## 18th Level - Battle Tide\n\nWhen you reach 18th level, your ability to shift the tide of battle with your presence alone has been realized. As an action, you can grant each creature of your choice within 20 feet of you temporary hit points equal to twice your Bulwark level, and remove all conditions of your choice from them. Once you use this feature, you cannot do so again until you finish a long rest.",
+      "source_url": "https://the-wandering-realm.fandom.com/wiki/Phalanx"
+    },
+    {
+      "slug": "polearm-master,-revised",
+      "name": "Polearm Master, Revised",
+      "prerequisite": null,
+      "description": "You can keep your enemies at bay with reach weapons. You gain the following benefits:\n\n*   When you take the Attack action and attack with only a glaive, lance, pike, quarterstaff, spear, or trident, you can use a bonus action to make a melee attack with the opposite end of the weapon. This attack uses the same ability modifier as the primary attack. The weapon's damage die for this attack is a d4, and it deals bludgeoning damage.\n*   While you are wielding a glaive, halberd, lance, pike, quarterstaff, spear, or trident, other creatures provoke an opportunity attack from you when they enter the reach you have with that weapon.",
+      "source_url": "https://the-wandering-realm.fandom.com/wiki/Polearm_Master,_Revised"
+    },
+    {
+      "slug": "shifter-adaptation",
+      "name": "Shifter Adaptation",
+      "prerequisite": "Shifter",
+      "description": "Your heritage has opened you to exceptional abilities as you tap into the unchecked powers that dwell in your blood.\n\n*   Increase your Strength, Dexterity, Constitution, or Wisdom by 1, to a maximum of 20.\n*   You can use your Shifting trait as a reaction to taking damage (you apply the temporary hit points before taking the damage).\n*   Each of your transformations also gain one more effect:\n    *   **Beasthide**. You gain resistance to nonmagical bludgeoning, piercing, or slashing damage (Your choice when you shift).\n    *   **Longstooth**. You count as one size larger when determining your carrying capacity and the weight you can push, drag, or lift. If you use your Shifting trait as a reaction, you can use your fangs to make an unarmed strike against a target within range as part of the reaction.\n    *   **Swiftstride**. You gain climbing speed equal to your movement speed.\n    *   **Wildhunt**. You don't suffer from disadvantage when making an attack roll against a target within 30 feet of you.",
+      "source_url": "https://the-wandering-realm.fandom.com/wiki/Shifter_Adaptation"
+    },
+    {
+      "slug": "swift-action",
+      "name": "Swift Action",
+      "prerequisite": "Dexterity 15 or higher",
+      "description": "Your reflexes show moments of great ability as a result of your training. You have the following benefits:\n\n*   When you attack for the first time on your turn, you can have advantage on the attack roll. You can use this feature a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest.\n*   When your speed reaches to zero due to using it all or from an effect, you can use your reaction to gain an extra 10 feet to your speed. You can't use this reaction if the effect inflicted you with the grappled or restrained condition.",
+      "source_url": "https://the-wandering-realm.fandom.com/wiki/Swift_Action"
+    },
+    {
+      "slug": "sword-mastery",
+      "name": "Sword Mastery",
+      "prerequisite": "Proficiency with at least one type of sword",
+      "description": "You have become adept at using swords and can maneuver them effectively as a result.\n\n*   When you wield a sword, it gains the finesse property if it does not already have it and lacks the heavy property.\n*   Additionally, when a creature misses you with a melee attack while you are wielding a sword, you can use your reaction to make one attack with the sword against that creature.\n\nSwords: Short Sword, Scimitar, Rapier, Longsword, Greatsword",
+      "source_url": "https://the-wandering-realm.fandom.com/wiki/Sword_Mastery"
+    },
+    {
+      "slug": "weapon-master",
+      "name": "Weapon Master",
+      "prerequisite": null,
+      "description": "## Deft Grip\n\nStarting at 3rd level, after you make a weapon attack using the attack action you can use a free action to swap to another weapon.\n\nWhen you attack with a weapon, you receive a bonus to the attack based on the list below, however you may only benefit from a single bonus once per turn, even if your attack misses; You can however receive an additional bonus if you attack with a different weapon that causes a different type of damage. Ranged weapons do not benefit from Deft Grip, nor do generic “Elemental Weapons” (which collectively count as a single weapon), consumable items that grant additional damage, or spells.\n\nDeft Grip DC: 8 + your proficiency bonus + your Dexterity modifier\n\n\n\n| Damage Type | Effect | Bonus Damage |\n| --- | --- | --- |\n| Bludgeoning | The heavy blow causes both stone and steel to crumple. Additional 1d6 damage if AC ≥ 15 | 1d6 or 2d6 bludgeoning damage |\n| Piercing | A swift thrust gives you extra reach. +5ft attack range | 1d6 piercing damage |\n| Slashing | A swift slice carves through lightly armored opponents with ease. Additional 1d6 damage if AC ≤ 15 | 1d6 or 2d6 slashing damage |\n| Acid | The acid begins to eat away at flesh and damage armor. Dexterity saving throw. Upon a failure, the creature’s AC is reduced by 1 until the end of your next turn. At level 10 the AC reduction is increased to 2, and at level 20 it is increased to 3. | 1d6 acid damage |\n| Cold | Frost begins to coalesce around the creature’s body, restricting movement. Constitution saving throw. Upon a failure the creature’s speed is reduced by half until the end of your next turn. | 1d6 cold damage |\n| Fire | Flames engulf the target. Dexterity saving throw. Upon a failure the creature is set ablaze and takes 1d6 fire damage at the end of their turn. The fame can be put out by a suitable liquid or by using an action to extinguish it. | 1d6 fire damage |\n| Force | The weapon impacts with incredible force. Strength saving throw. Upon a failure the creature is knocked prone. | 1d6 force damage |\n| Lightning | Lightning arcs to the flesh of another creature on impact. A random hostile creature within 10ft is chosen. That creature makes a dexterity saving throw. Upon a failure, they take the full damage of the attack. | 1d6 lightning damage |\n| Necrotic | The necrotic energy tears apart facsimiles of life. Doubled damage against temporary hp and creatures not in their original form (wildshape, poly, true-poly, shapechange, etc). Any damage that goes over the temp HP or the HP of the transformed creature is not doubled when applied to their HP/base form. | 1d6 necrotic damage |\n| Poison | Poison seeps into the wound. Constitution saving throw. Upon a failure the creature suffers from the poisoned condition. The creature can repeat the save at the end of each of their turns. | 1d6 poison damage |\n| Psychic | Psychic damage racks the mind of the target. The creature has disadvantage on any concentration saving throws for the damage caused by this attack. | 1d6 psychic damage |\n| Radiant | Radiant light bursts from the weapon. Constitution saving throw. Upon a failure the creature is blinded. The creature can repeat the saving throw at the end of each of its turns. | 1d6 radiant damage |\n| Thunder | A thundercrack roars forth from the weapon. Constitution saving throw. Upon a failure the creature is deafened. The creature can repeat the saving throw at the end of each of its turns. | 1d6 thunder damage |\n\n\n\n## Flowing Stance\n\nAt 3rd level, when you successfully hit another creature with a weapon that benefits from the Deft Grip bonus you receive a +1 to hit and to damage for your next attack if your next attack will also benefit from the Deft Grip bonus. These bonuses stack then reset to zero at the end of your turn.\n\n## Rapid Strike\n\nStarting at 7th level, you learn to trade accuracy for swift strikes. If you take the Attack action on your turn and have advantage on an attack roll against against one of the targets, you can forgo the advantage for that roll to make an additional weapon attack against that target, as par",
+      "source_url": "https://the-wandering-realm.fandom.com/wiki/Weapon_Master"
+    }
+  ],
+  "boons": [
+    {
+      "slug": "blessing-of-arvandor",
+      "name": "Blessing of Arvandor",
+      "boon_type": "blessing",
+      "condition": null,
+      "description": "Once every 7 days you can summon 1d4 +2 Spectral Warriors to fight by your side for 1 hour.\n\nThese warriors use the same statblock as the Bandit captain, but can be flavored as any relevant type of ally.",
+      "source_url": "https://the-wandering-realm.fandom.com/wiki/Blessing_of_Arvandor"
+    },
+    {
+      "slug": "blessing-of-health-(rework)",
+      "name": "Blessing of Health (Rework)",
+      "boon_type": "blessing",
+      "condition": null,
+      "description": "Your constitution score increases to 19. If it is already 19 or above, it instead increases the score by 2, to a maximum of 30.",
+      "source_url": "https://the-wandering-realm.fandom.com/wiki/Blessing_of_Health_(Rework)"
+    },
+    {
+      "slug": "blessing-of-knowledge",
+      "name": "Blessing of Knowledge",
+      "boon_type": "blessing",
+      "condition": null,
+      "description": "The time it takes you to gain tool and language proficiencies is reduced by 15%.",
+      "source_url": "https://the-wandering-realm.fandom.com/wiki/Blessing_of_Knowledge"
+    },
+    {
+      "slug": "blessing-of-moradin",
+      "name": "Blessing of Moradin",
+      "boon_type": "blessing",
+      "condition": null,
+      "description": "Your crafting tools are enchanted by the gods. 15% reduction to your crafting time.",
+      "source_url": "https://the-wandering-realm.fandom.com/wiki/Blessing_of_Moradin"
+    },
+    {
+      "slug": "blessing-of-the-masked-lord-(soulbind)",
+      "name": "Blessing of the Masked Lord (Soulbind)",
+      "boon_type": "blessing",
+      "condition": null,
+      "description": "***Prerequisite:** Blessing of the Masked Lord (Soultheft)*\n\n*The practice of Soultheft has become second nature to you, allowing you to better subjugate the souls you capture and extract even greater potential.*\n\nWhen you use Soultheft, and you can exploit a soul up to 12 times before the soul is released instead of 6. In addition you gain two new ways in which you may exploit souls:\n\n*   Ethereal Stride (2 uses). As a Bonus Action you can teleport to the Ethereal Plane from the Material Plane for up to 1 minute or until you end the effect (no action required). You can expend another use of this exploit to extend the duration by up to 1 minute per use expended. At the end of the duration, you reappear in the same location on the Material Plane, or the nearest unoccupied space if that space is occupied.,\n\n*   Soul Mask (3 uses). You can use an action to call the Soul to you and disguise your appearance. When you do so, your appearance magically transforms into the souls as it was in life, healthy and alive. Another creature can see through this disguise by succeeding on a Wisdom (Insight) check contested by your Charisma (Deception) check. You gain a +5 bonus to your check. This disguise lasts for 1 hour or until you end it as a bonus action. You can expend another use of this exploit to extend the duration by up to 1 hour per use expended.",
+      "source_url": "https://the-wandering-realm.fandom.com/wiki/Blessing_of_the_Masked_Lord_(Soulbind)"
+    },
+    {
+      "slug": "blessing-of-the-masked-lord-(soultheft)",
+      "name": "Blessing of the Masked Lord (Soultheft)",
+      "boon_type": "blessing",
+      "condition": null,
+      "description": "*Guided by the Masked Lord himself, the caster can snare a departing soul to fuel their spells, a practice called Soultheft.*\n\n*   Once per day as an action, the caster can touch their holy symbol to a creature that’s been dead no longer than 1 minute, and capture their departing soul into the holy symbol, placing them under the effects of the ‘Soul Cage’ spell until the soul is released, or this blessing is used again.\n*   In addition to the spell's normal effects, the caster can also dispel the effects to cast a spell they know or have prepared without expending a spell slot, of a level equal to proficiency bonus of the captured creature. When casting a spell in this way, the creatures soul is damaged, and cannot be revived by any means short of a wish or divine intervention.\n\n*Souls obtained via the Soultheft blessing MUST be canon. Hunts, Trials, Delves or Raids do not count, the usage must explicitly be approved by staff*",
+      "source_url": "https://the-wandering-realm.fandom.com/wiki/Blessing_of_the_Masked_Lord_(Soultheft)"
+    },
+    {
+      "slug": "blessing-of-the-metallic-dragon",
+      "name": "Blessing of the Metallic Dragon",
+      "boon_type": "blessing",
+      "condition": null,
+      "description": "This blessing is bestowed by a powerful metallic dragon upon a creature it recognizes as a dragon friend—one who has proven loyalty, courage, or respect worthy of draconic favor.\n\n**Draconic Recognition**\n\nOther metallic dragons instinctively recognize the bearer of this blessing as friendly, unless the bearer acts with obvious hostility. This recognition does not compel obedience or trust, but it greatly improves initial attitudes.\n\n**Draconic Transformation**\n\nYou learn the Draconic Transformation spell. Once per long rest, you can cast a special version of the Draconic Transformation spell without expending a spell slot or material components. Charisma is your spellcasting ability for this spell. While concentrating on the Special Draconic Transformation spell cast in this way, you gain the following additional benefits:\n\n*   **Scaled Majesty**. You gain 60 Temporary Hit Point as scales harden around your skin.\n*   **Draconic Potency.** Whenever you roll damage dice of the same type as the dragon that granted this blessing (such as fire for a gold dragon or lightning for a bronze dragon), any roll of 1 or 2 on a damage die is treated as a 3.\n*   **Altered Breath**: You can change the damage type of the Draconic Transformation spell's breath to the type associate to the dragon that granted the blessing.\n\n**Draconic Gift**\n\nThis blessing can only be granted directly by a dragon. It cannot be replicated, transferred, or bestowed through training, magic items, divine intervention, or the wish spell. OOC clarification, you cannot learn this blessing via wish or the free boon or blessing, it must be quested for.",
+      "source_url": "https://the-wandering-realm.fandom.com/wiki/Blessing_of_the_Metallic_Dragon"
+    },
+    {
+      "slug": "blessing-of-the-moon-weaver",
+      "name": "Blessing of the Moon Weaver",
+      "boon_type": "blessing",
+      "condition": null,
+      "description": "*The blessings of a deity aligned to the moon protect and empower you. You gain resistance to radiant damage, and are empowered in the following ways at night:*\n\n**Lunar Magic**\n\nYour learn the Moonbeam (DC19) and the Healing Spirit spells, and they are always prepared for you. You can cast each of these once per Short Rest without expending a spell slot, empowering it. While empowered, these spells are centered on and follow you, and their radius is increased to 15ft instead of 5 ft. You are immune to the damage caused by your own Moonbeam cast in this way.\n\n**Moon Fever**\n\nAs a reaction immediately after you take damage or fail a saving throw against a creature you can see within 60 feet of yourself, you can force the creature to make a Wisdom saving throw (DC19). On a failed save, the creature feels an intense urge to move towards or away from you (your choice). It must move as close or as far (depending on your choice) as its movement allows on its turn, taking the safest and most direct path available. You can use this feature a number of times equal half to your proficiency bonus. You regain all expended uses when you finish a short or long rest.",
+      "source_url": "https://the-wandering-realm.fandom.com/wiki/Blessing_of_the_Moon_Weaver"
+    },
+    {
+      "slug": "blessing-of-the-swift-hunter",
+      "name": "Blessing of the Swift Hunter",
+      "boon_type": "blessing",
+      "condition": null,
+      "description": "*The Cat Lord, god of tabaxi, sometimes confers the blessings of his people to those who prove to be great allies of his people.*\n\n*   You are granted Feline Agility.\n*   Your reflexes and agility allow you to move with a burst of speed. When you move on your tum in combat, you can double your speed until the end of the turn. Once you use this trait, you can't use it again until you move 0 feet on one of your turns.\n*   If you are a tabaxi and receive this boon, your walking speed increases by 15ft.",
+      "source_url": "https://the-wandering-realm.fandom.com/wiki/Blessing_of_the_Swift_Hunter"
+    },
+    {
+      "slug": "blessing-of-understanding-(rework)",
+      "name": "Blessing of Understanding (Rework)",
+      "boon_type": "blessing",
+      "condition": null,
+      "description": "Your intelligence or wisdom score increases by 2, to a max of 30.\n\nIn addition, skill checks of the chosen ability score are rolled with advantage.",
+      "source_url": "https://the-wandering-realm.fandom.com/wiki/Blessing_of_Understanding_(Rework)"
+    },
+    {
+      "slug": "blessing-of-valkur",
+      "name": "Blessing of Valkur",
+      "boon_type": "blessing",
+      "condition": null,
+      "description": "*Granted by the god of sailors, storms, and naval prowess, Valkur, this blessing imbues the recipient with the courage, resilience, and maritime skill befitting a legendary seafarer.*\n\n*   **Storm's Resilience:** You have resistance to lightning and thunder damage\n*   **Navigator’s Instinct**: You always know which direction is north, and you have advantage on Wisdom (Survival) checks made to navigate or predict weather conditions at sea.\n*   **Mariner's Migh**t Your swim speed is equal to your walking speed, and you can hold your breath for double beyond your normal capacity.\n*   **Blessing of the Sea:** You gain proficiency with navigator's tools and vehicles (water). If you already have these proficiencies, you add double your proficiency bonus to checks you make with them.",
+      "source_url": "https://the-wandering-realm.fandom.com/wiki/Blessing_of_Valkur"
+    },
+    {
+      "slug": "blessing-of-weapon-enhancement",
+      "name": "Blessing of Weapon Enhancement",
+      "boon_type": "blessing",
+      "condition": null,
+      "description": "*   When wielding a ranged or melee weapon, you receive a +1 to attack and damage rolls with the affected weapon.\n*   In addition, you can add a +5 bonus to attack rolls affected by the blessing a number of times equal to your proficiency bonus, resetting at dawn. You can use this after you see the roll, but before you know the result.",
+      "source_url": "https://the-wandering-realm.fandom.com/wiki/Blessing_of_Weapon_Enhancement"
+    },
+    {
+      "slug": "boon-of-accuracy",
+      "name": "Boon of Accuracy",
+      "boon_type": "boon",
+      "condition": "Cannot be taken with Elven Accuracy",
+      "description": "Whenever you have advantage on an attack roll, you can reroll one of the dice once.\n\nCondition: Cannot be taken with Elven Accuracy",
+      "source_url": "https://the-wandering-realm.fandom.com/wiki/Boon_of_Accuracy"
+    },
+    {
+      "slug": "boon-of-attunement",
+      "name": "Boon of Attunement",
+      "boon_type": "boon",
+      "condition": null,
+      "description": "*   You gain the ability to attune to one additional magical item, through a special attunement slot.\n*   Additionally, as an action, you may end your attunement to the item in the slot granted by this boon, unless the item is cursed, to immediately attune to another. Once you do this, you cannot do so again until you finish a short or long rest.",
+      "source_url": "https://the-wandering-realm.fandom.com/wiki/Boon_of_Attunement"
+    },
+    {
+      "slug": "boon-of-bewitching-appeal",
+      "name": "Boon of Bewitching Appeal",
+      "boon_type": "boon",
+      "condition": null,
+      "description": "You can bypass the charmed condition immunity of creatures",
+      "source_url": "https://the-wandering-realm.fandom.com/wiki/Boon_of_Bewitching_Appeal"
+    },
+    {
+      "slug": "boon-of-elemental-expertise",
+      "name": "Boon of Elemental Expertise",
+      "boon_type": "boon",
+      "condition": null,
+      "description": "**Prerequisites**: Elemental Adept Feat\n\n*   The chosen element for this boon is the element chosen in the elemental adept feat. If you have taken the feat multiple times, you may choose which of these elements applies to this boon. This element cannot be later changed.\n*   You can treat immunity to the given element as resistance. this resistance cannot be overcome by the elemental adept feat.\n*   When you cast a spell of 5th level or lower that deals damage of your chosen element, you can choose to treat all damage dice rolled as their maximum amount. once you use this feature, you cannot do so again until you finish a long rest.",
+      "source_url": "https://the-wandering-realm.fandom.com/wiki/Boon_of_Elemental_Expertise"
+    },
+    {
+      "slug": "boon-of-firepower",
+      "name": "Boon of Firepower",
+      "boon_type": "boon",
+      "condition": null,
+      "description": "**Prerequisite**: Crossbow Expert or Gunner\n\nYour mastery over the weights of these weapons has allowed you to use them at higher efficiencies. You can use any two-handed crossbow or firearm with one hand, and you do not require a free hand to load ammunition into one.\n\nUsing a two-handed crossbow or firearm with one hand gives a -2 penalty to attack rolls. Additionally, two-weapon fighting now applies to any crossbow or firearm you wield.",
+      "source_url": "https://the-wandering-realm.fandom.com/wiki/Boon_of_Firepower"
+    },
+    {
+      "slug": "boon-of-fortitude-(update)",
+      "name": "Boon of Fortitude (Update)",
+      "boon_type": "boon",
+      "condition": null,
+      "description": "Your hit point maximum increases by 40.\n\nIf, instead, you have gestalted or ascended, your hit point maximum increases by 80.",
+      "source_url": "https://the-wandering-realm.fandom.com/wiki/Boon_of_Fortitude_(Update)"
+    },
+    {
+      "slug": "boon-of-ice's-heart",
+      "name": "Boon of Ice's Heart",
+      "boon_type": "boon",
+      "condition": null,
+      "description": "You have immunity to cold damage. You can cast Frost Fingers (save DC 15) at will, without expending a spell slot or using components.",
+      "source_url": "https://the-wandering-realm.fandom.com/wiki/Boon_of_Ice's_Heart"
+    },
+    {
+      "slug": "boon-of-ice's-reign",
+      "name": "Boon of Ice's Reign",
+      "boon_type": "boon",
+      "condition": null,
+      "description": "As an action, you unleash a freezing aura that radiates from your body in a persistent chill. This aura remains active until you dismiss it as a free action or until you become incapacitated, at which point you must reactivate it to regain its effects. While this boon is active, any creature that touches you or hits you with a melee attack takes 10 (3d6) cold damage. Additionally, any creature or object that is grappling, restraining, carrying, or otherwise holding you takes the same cold damage at the start of each of your turns.",
+      "source_url": "https://the-wandering-realm.fandom.com/wiki/Boon_of_Ice's_Reign"
+    },
+    {
+      "slug": "boon-of-implacable-terror",
+      "name": "Boon of Implacable Terror",
+      "boon_type": "boon",
+      "condition": null,
+      "description": "You can bypass the frightened condition immunity of creatures",
+      "source_url": "https://the-wandering-realm.fandom.com/wiki/Boon_of_Implacable_Terror"
+    },
+    {
+      "slug": "boon-of-legend-slaying",
+      "name": "Boon of Legend Slaying",
+      "boon_type": "boon",
+      "condition": null,
+      "description": "Once per turn, if a legendary monster would use a legendary resistance to succeed on a saving throw, you can use your reaction to have them use a second legendary resistance to succeed on that save. If they cannot, they fail the save.",
+      "source_url": "https://the-wandering-realm.fandom.com/wiki/Boon_of_Legend_Slaying"
+    },
+    {
+      "slug": "boon-of-life's-embrace",
+      "name": "Boon of Life's Embrace",
+      "boon_type": "boon",
+      "condition": null,
+      "description": "You have a certain level of mastery over positive energies.  You have resistance to necrotic damage, and your maximum hp cannot be reduced.  Additionally, when you cast a spell or use an ability that restores hit points to other creatures, you may apply one of the following additional effects to targets other than yourself:\n\n*   One of the targets gains double the hit points.\n*   All of the targets benefit from a Lesser Restoration\n*   The targets regain lost maximum hp equal to twice the healing done.\n\nAdding on an effect can be done an amount of times equal to your proficiency bonus, resetting upon finishing a long rest.",
+      "source_url": "https://the-wandering-realm.fandom.com/wiki/Boon_of_Life's_Embrace"
+    },
+    {
+      "slug": "boon-of-limited-magic-immunity",
+      "name": "Boon of Limited Magic Immunity",
+      "boon_type": "boon",
+      "condition": null,
+      "description": "**Prerequisite**: Boon of Magic Resistance\n\nYou may not be affected or detected by spells of 3rd level and lower unless you choose to be. (Disclaimer that upcasting spells past third level bypasses this immunity)",
+      "source_url": "https://the-wandering-realm.fandom.com/wiki/Boon_of_Limited_Magic_Immunity"
+    },
+    {
+      "slug": "boon-of-poison-mastery",
+      "name": "Boon of Poison Mastery",
+      "boon_type": "boon",
+      "condition": null,
+      "description": "**Prerequisites**: Poisoner Feat\n\nYou can treat immunity to poison damage as resistance. This resistance cannot be overcome by the poisoner feat.\n\n*   When you cast a spell of 5th level or lower that deals poison damage, you can choose to treat all damage dice rolled as their maximum amount.\n*   When you hit with a weapon attack that deals poison damage, you can choose to treat all damage dice rolled as their maximum amount.\n\nOnce you use one of these features, you cannot use either again until you finish a long rest.",
+      "source_url": "https://the-wandering-realm.fandom.com/wiki/Boon_of_Poison_Mastery"
+    },
+    {
+      "slug": "boon-of-reactivness",
+      "name": "Boon of Reactivness",
+      "boon_type": "boon",
+      "condition": null,
+      "description": "You gain one additional reaction per round. This additional reaction is subject to the following restrictions:\n\n**Diminishing Returns:** You cannot use this reaction to take a Reaction Option that you have already taken this round (such as Cast a Spell, Opportunity Attack, or a specific class feature), nor can you take it in response to a trigger you have already reacted to.\n\n**Defense Limit:** You cannot apply a bonus to your Armor Class if you have already done so since the start of your last turn.",
+      "source_url": "https://the-wandering-realm.fandom.com/wiki/Boon_of_Reactivness"
+    },
+    {
+      "slug": "boon-of-resilience-(update)",
+      "name": "Boon of Resilience (Update)",
+      "boon_type": "boon",
+      "condition": null,
+      "description": "You have resistance to bludgeoning, piercing, and slashing damage from weapon attacks.",
+      "source_url": "https://the-wandering-realm.fandom.com/wiki/Boon_of_Resilience_(Update)"
+    },
+    {
+      "slug": "boon-of-the-cloud-scion",
+      "name": "Boon of the Cloud Scion",
+      "boon_type": "boon",
+      "condition": null,
+      "description": "**Prerequisite:** Boon of the Storm Born\n\n**Calamity of the Storm:** First there was lightning…then there was thunder! Once per turn, you may add 10 extra lightning damage to an attack . After you've dealt this damage three times you become supercharged allowing the recipient as a bonus action to emit a wave of thunder dealing 2d8 thunder damage in a 15 ft cube originating from the recipient. When you would take lightning damage you may instead add half of that damage to your next thunder wave.\n\n**Cloud Jumper:** The recipient of this boon gains a flight speed equal to half their movement speed\n\n**Where the wind takes you:**  As an action the recipient of this boon to assume the form of a cloud. While in this cloud form, a creature has a flying speed of 150 feet and has resistance to damage from nonmagical weapons. The only actions a creature can take in this form are the Dash action or to revert to its normal form. Reverting back take a full round during which time the recipient is incapacitated as they reconstitute themselves. If hit by lightning while in cloud form the recipient becomes 'Charged' for 1 minute, while Charged they may cast call lightning at will in the area directly below them (dc 15)",
+      "source_url": "https://the-wandering-realm.fandom.com/wiki/Boon_of_the_Cloud_Scion"
+    },
+    {
+      "slug": "boon-of-the-magical-gardener",
+      "name": "Boon of the Magical Gardener",
+      "boon_type": "boon",
+      "condition": null,
+      "description": "*   You gain a +5 bonus on Arcana, Nature, or Survival checks made to discern plants.\n*   In addition, you may cast the spell *Find Familiar* and summon a Chwinga (Missing it's magical gift) using it",
+      "source_url": "https://the-wandering-realm.fandom.com/wiki/Boon_of_the_Magical_Gardener"
+    },
+    {
+      "slug": "boon-of-the-phoenix",
+      "name": "Boon of the Phoenix",
+      "boon_type": "boon",
+      "condition": null,
+      "description": "**Prerequisite:** Boon of the Fire Soul\n\nWhenever you are subjected to fire damage, you take none of that damage and regain a number of hit points equal to half the fire damage dealt.\n\n***Fire Form.*** The recipient of this boon can move through a space as narrow as 1 inch wide without squeezing. Any creature that touches the phoenix or hits it with a melee attack while within 5 feet of it takes 5 (1d10) fire damage. In addition, the recipient of this boon can enter a hostile creature’s space and stop there. The first time it enters a creature’s space on a turn, that creature takes 5 (1d10) fire damage. With a touch, the recipient of this boon can also ignite flammable objects that aren’t worn or carried (no action required).\n\n***Fiery Death and Rebirth.*** When the recipient of this boon dies, it explodes. Each creature within 60-feet of it must make a DC 20 Dexterity saving throw, taking 22 (4d10) fire damage on a failed save, or half as much damage on a successful one. The fire ignites flammable objects in the area that aren’t worn or carried.\n\nThe explosion destroys the recipient's body and carried items and leaves behind an egg-shaped cinder that weighs 5 pounds. The cinder is blazing hot, dealing 21 (6d6) fire damage to any creature that touches it, though no more than once per round. The cinder is immune to all damage, and after 1d6 days, it hatches a new Phoenix. Due to the strain put on the Phoenix’s soul, this forces a new prestige, requiring a small tattood Roman numeral on their body to increase by one. The tattoo can be placed wherever this boon recipient wishes. If the recipient of this boon has paragon levels, they are reset to the beginning of a gestalt prestige in their current Paragon.",
+      "source_url": "https://the-wandering-realm.fandom.com/wiki/Boon_of_the_Phoenix"
+    },
+    {
+      "slug": "boon-of-the-shapechanger",
+      "name": "Boon of the Shapechanger",
+      "boon_type": "boon",
+      "condition": null,
+      "description": "The CR range for wildshape, shapechange, and polymorph is increased by half of your post 20 lvl rounded down.\n\nThis does not function for things such as chain polymorphing, shapechanging, etc; For example you can not poly into a CR23 creature, then a CR26, then CR29. You are limited to CR23 at lvl 20 with 6 post 20 lvls. For clarity, avilable CR is 21 at lvl 20p2, 22 at 20p4, and 23 at 20p6.",
+      "source_url": "https://the-wandering-realm.fandom.com/wiki/Boon_of_the_Shapechanger"
+    },
+    {
+      "slug": "boon-of-the-true-trickster",
+      "name": "Boon of the True Trickster",
+      "boon_type": "boon",
+      "condition": null,
+      "description": "Your illusions have become so perfectly crafted that even those with true sight have become impaired by their effects. Your illusion spells appear real to any creature.\n\nTruesight no longer automatically succeeds through your illusions and will now provide only advantage on saving throws and checks made to discern your illusions.",
+      "source_url": "https://the-wandering-realm.fandom.com/wiki/Boon_of_the_True_Trickster"
+    },
+    {
+      "slug": "boon-of-trolls-heart",
+      "name": "Boon of Trolls Heart",
+      "boon_type": "boon",
+      "condition": null,
+      "description": "You regain 5 hitpoints at the start of your turn. If you are damaged by fire, acid, or radiant damage, this trait ceases to function until your next short or long rest.",
+      "source_url": "https://the-wandering-realm.fandom.com/wiki/Boon_of_Trolls_Heart"
+    },
+    {
+      "slug": "boon-of-vampiric-strikes",
+      "name": "Boon of Vampiric Strikes",
+      "boon_type": "boon",
+      "condition": null,
+      "description": "*   Your melee weapon attacks deal an additional 1d8 necrotic damage.\n*   Additionally, you regain hit points equal to half the amount of necrotic damage dealt by this boon, unless the target is an undead or construct.",
+      "source_url": "https://the-wandering-realm.fandom.com/wiki/Boon_of_Vampiric_Strikes"
+    }
+  ]
+}

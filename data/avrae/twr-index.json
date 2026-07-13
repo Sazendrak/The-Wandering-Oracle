@@ -1,0 +1,2256 @@
+{
+  "_meta": {
+    "generated": "2026-07-12T22:15:27.404Z",
+    "source": "The Wandering Handbook — Phase 11",
+    "total_entries": 400
+  },
+  "entries": {
+    "aura of kineses": {
+      "type": "spell",
+      "name": "Aura of Kineses",
+      "level": 2,
+      "school": "Abjuration"
+    },
+    "avasculate": {
+      "type": "spell",
+      "name": "Avasculate",
+      "level": 8,
+      "school": "Necromancy"
+    },
+    "awaken undead": {
+      "type": "spell",
+      "name": "Awaken Undead",
+      "level": 9,
+      "school": "Necromancy"
+    },
+    "backbiter": {
+      "type": "spell",
+      "name": "Backbiter",
+      "level": 2,
+      "school": "Necromancy"
+    },
+    "beacon": {
+      "type": "spell",
+      "name": "Beacon",
+      "level": 4,
+      "school": "Divination"
+    },
+    "boneblade": {
+      "type": "spell",
+      "name": "Boneblade",
+      "level": 3,
+      "school": "Necromancy"
+    },
+    "breath of life": {
+      "type": "spell",
+      "name": "Breath of Life",
+      "level": 2,
+      "school": "Necromancy"
+    },
+    "caustic spell": {
+      "type": "spell",
+      "name": "Caustic Spell",
+      "level": 0,
+      "school": "Unknown"
+    },
+    "devastation": {
+      "type": "spell",
+      "name": "Devastation",
+      "level": 6,
+      "school": "Evocation"
+    },
+    "divine reprisal": {
+      "type": "spell",
+      "name": "Divine Reprisal",
+      "level": 1,
+      "school": "Evocation"
+    },
+    "ethical planar binding": {
+      "type": "spell",
+      "name": "Ethical Planar Binding",
+      "level": 5,
+      "school": "Abjuration"
+    },
+    "flame stride": {
+      "type": "spell",
+      "name": "Flame Stride",
+      "level": 5,
+      "school": "Conjuration"
+    },
+    "form undead": {
+      "type": "spell",
+      "name": "Form Undead",
+      "level": 9,
+      "school": "Necromancy"
+    },
+    "glacial shard": {
+      "type": "spell",
+      "name": "Glacial Shard",
+      "level": 1,
+      "school": "Transmutation"
+    },
+    "glimpse": {
+      "type": "spell",
+      "name": "Glimpse",
+      "level": 5,
+      "school": "Divination"
+    },
+    "greater reincarnate": {
+      "type": "spell",
+      "name": "Greater Reincarnate",
+      "level": 7,
+      "school": "Transmutation"
+    },
+    "holy arrow": {
+      "type": "spell",
+      "name": "Holy Arrow",
+      "level": 0,
+      "school": "Evocation"
+    },
+    "hot shot": {
+      "type": "spell",
+      "name": "Hot Shot",
+      "level": 0,
+      "school": "Evocation"
+    },
+    "light trap": {
+      "type": "spell",
+      "name": "Light Trap",
+      "level": 3,
+      "school": "Abjuration"
+    },
+    "magic toggle": {
+      "type": "spell",
+      "name": "Magic Toggle",
+      "level": 0,
+      "school": "Unknown"
+    },
+    "magicked bolt": {
+      "type": "spell",
+      "name": "Magicked Bolt",
+      "level": 4,
+      "school": "Evocation"
+    },
+    "menny's ephemeral script": {
+      "type": "spell",
+      "name": "Menny's Ephemeral Script",
+      "level": 1,
+      "school": "Illusion"
+    },
+    "moonlight's shadow": {
+      "type": "spell",
+      "name": "Moonlight's Shadow",
+      "level": 5,
+      "school": "Evocation"
+    },
+    "phantom coach": {
+      "type": "spell",
+      "name": "Phantom Coach",
+      "level": 4,
+      "school": "Illusion"
+    },
+    "power word defile": {
+      "type": "spell",
+      "name": "Power Word Defile",
+      "level": 8,
+      "school": "Necromancy"
+    },
+    "programmed light": {
+      "type": "spell",
+      "name": "Programmed Light",
+      "level": 2,
+      "school": "Illusion"
+    },
+    "protection from elements": {
+      "type": "spell",
+      "name": "Protection from Elements",
+      "level": 2,
+      "school": "Transmutation"
+    },
+    "rakshasa's claw": {
+      "type": "spell",
+      "name": "Rakshasa's Claw",
+      "level": 3,
+      "school": "Evocation"
+    },
+    "reflection": {
+      "type": "spell",
+      "name": "Reflection",
+      "level": 6,
+      "school": "Abjuration"
+    },
+    "roaring thunder": {
+      "type": "spell",
+      "name": "Roaring Thunder",
+      "level": 4,
+      "school": "Evocation"
+    },
+    "skeleton surplus!": {
+      "type": "spell",
+      "name": "Skeleton Surplus!",
+      "level": 9,
+      "school": "Necromancy"
+    },
+    "skeleton surprise": {
+      "type": "spell",
+      "name": "Skeleton Surprise",
+      "level": 8,
+      "school": "Necromancy"
+    },
+    "spirit ejection": {
+      "type": "spell",
+      "name": "Spirit Ejection",
+      "level": 5,
+      "school": "Necromancy"
+    },
+    "spirit ward": {
+      "type": "spell",
+      "name": "Spirit Ward",
+      "level": 5,
+      "school": "Necromancy"
+    },
+    "tenser's unbound transformation": {
+      "type": "spell",
+      "name": "Tenser's Unbound Transformation",
+      "level": 7,
+      "school": "Transmutation"
+    },
+    "thought forms": {
+      "type": "spell",
+      "name": "Thought Forms",
+      "level": 7,
+      "school": "Transmutation"
+    },
+    "toxic spike": {
+      "type": "spell",
+      "name": "Toxic Spike",
+      "level": 2,
+      "school": "Evocation"
+    },
+    "transdimensional expansion": {
+      "type": "spell",
+      "name": "Transdimensional Expansion",
+      "level": 8,
+      "school": "Conjuration"
+    },
+    "true awaken": {
+      "type": "spell",
+      "name": "True Awaken",
+      "level": 0,
+      "school": "Unknown"
+    },
+    "true reincarnate": {
+      "type": "spell",
+      "name": "True Reincarnate",
+      "level": 9,
+      "school": "Transmutation"
+    },
+    "vexatious venom": {
+      "type": "spell",
+      "name": "Vexatious Venom",
+      "level": 0,
+      "school": "Evocation"
+    },
+    "virulent infection": {
+      "type": "spell",
+      "name": "Virulent Infection",
+      "level": 3,
+      "school": "Evocation"
+    },
+    "warp ward": {
+      "type": "spell",
+      "name": "Warp Ward",
+      "level": 2,
+      "school": "Conjuration"
+    },
+    "weighted weapon": {
+      "type": "spell",
+      "name": "Weighted Weapon",
+      "level": 5,
+      "school": "Transmutation"
+    },
+    "withering smite": {
+      "type": "spell",
+      "name": "Withering Smite",
+      "level": 1,
+      "school": "Necromancy"
+    },
+    "absorbing shield": {
+      "type": "item",
+      "name": "Absorbing Shield",
+      "rarity": "very rare",
+      "item_type": "Armor"
+    },
+    "accretion beam": {
+      "type": "item",
+      "name": "Accretion Beam",
+      "rarity": "very rare",
+      "item_type": "Weapon"
+    },
+    "aci feather": {
+      "type": "item",
+      "name": "Aci Feather",
+      "rarity": "common",
+      "item_type": "Wondrous"
+    },
+    "alchemist's soothing tea": {
+      "type": "item",
+      "name": "Alchemist's Soothing Tea",
+      "rarity": "uncommon",
+      "item_type": "Wondrous"
+    },
+    "alchemy blade": {
+      "type": "item",
+      "name": "Alchemy Blade",
+      "rarity": "rare",
+      "item_type": "Weapon"
+    },
+    "amentum": {
+      "type": "item",
+      "name": "Amentum",
+      "rarity": "uncommon",
+      "item_type": "Ring"
+    },
+    "arcane core": {
+      "type": "item",
+      "name": "Arcane Core",
+      "rarity": "rare",
+      "item_type": "Wondrous"
+    },
+    "arcane filter": {
+      "type": "item",
+      "name": "Arcane Filter",
+      "rarity": "uncommon",
+      "item_type": "Wondrous"
+    },
+    "arcane guardian": {
+      "type": "item",
+      "name": "Arcane Guardian",
+      "rarity": "unknown",
+      "item_type": "Other"
+    },
+    "arcane tent": {
+      "type": "item",
+      "name": "Arcane Tent",
+      "rarity": "rare",
+      "item_type": "Wondrous"
+    },
+    "arcanist's magnificent magnifier": {
+      "type": "item",
+      "name": "Arcanist's Magnificent Magnifier",
+      "rarity": "rare",
+      "item_type": "Wondrous"
+    },
+    "archivist's tome": {
+      "type": "item",
+      "name": "Archivist's Tome",
+      "rarity": "uncommon",
+      "item_type": "Wondrous"
+    },
+    "armament tattoo": {
+      "type": "item",
+      "name": "Armament Tattoo",
+      "rarity": "varies",
+      "item_type": "Wondrous"
+    },
+    "arrow's reach talisman": {
+      "type": "item",
+      "name": "Arrow's Reach Talisman",
+      "rarity": "uncommon",
+      "item_type": "Wondrous"
+    },
+    "artificer's blueprint": {
+      "type": "item",
+      "name": "Artificer's Blueprint",
+      "rarity": "uncommon",
+      "item_type": "Wondrous"
+    },
+    "audioshard": {
+      "type": "item",
+      "name": "Audioshard",
+      "rarity": "common",
+      "item_type": "Wondrous"
+    },
+    "augmenter": {
+      "type": "item",
+      "name": "Augmenter",
+      "rarity": "unknown",
+      "item_type": "Other"
+    },
+    "avenger": {
+      "type": "item",
+      "name": "Avenger",
+      "rarity": "unknown",
+      "item_type": "Armor"
+    },
+    "bag of colding": {
+      "type": "item",
+      "name": "Bag of Colding",
+      "rarity": "uncommon",
+      "item_type": "Wondrous"
+    },
+    "balance": {
+      "type": "item",
+      "name": "Balance",
+      "rarity": "legendary",
+      "item_type": "Weapon"
+    },
+    "bandolier of scroll storing": {
+      "type": "item",
+      "name": "Bandolier of Scroll Storing",
+      "rarity": "rare",
+      "item_type": "Wondrous"
+    },
+    "bard-in-a-box": {
+      "type": "item",
+      "name": "Bard-in-a-Box",
+      "rarity": "common",
+      "item_type": "Wondrous"
+    },
+    "barkers bugle": {
+      "type": "item",
+      "name": "Barkers Bugle",
+      "rarity": "uncommon",
+      "item_type": "Wondrous"
+    },
+    "belt of returning": {
+      "type": "item",
+      "name": "Belt of Returning",
+      "rarity": "rare",
+      "item_type": "Wondrous"
+    },
+    "black cleaver": {
+      "type": "item",
+      "name": "Black Cleaver",
+      "rarity": "very rare",
+      "item_type": "Weapon"
+    },
+    "bladed cestus": {
+      "type": "item",
+      "name": "Bladed Cestus",
+      "rarity": "unknown",
+      "item_type": "Weapon"
+    },
+    "blightstaff": {
+      "type": "item",
+      "name": "Blightstaff",
+      "rarity": "rare",
+      "item_type": "Staff"
+    },
+    "blood magic": {
+      "type": "item",
+      "name": "Blood Magic",
+      "rarity": "unknown",
+      "item_type": "Other"
+    },
+    "bloodhunters brand": {
+      "type": "item",
+      "name": "Bloodhunters Brand",
+      "rarity": "uncommon",
+      "item_type": "Wondrous"
+    },
+    "bloodneedle": {
+      "type": "item",
+      "name": "Bloodneedle",
+      "rarity": "legendary",
+      "item_type": "Weapon"
+    },
+    "body back-up": {
+      "type": "item",
+      "name": "Body Back-up",
+      "rarity": "unknown",
+      "item_type": "Other"
+    },
+    "book of instant copying": {
+      "type": "item",
+      "name": "Book of Instant Copying",
+      "rarity": "common",
+      "item_type": "Wondrous"
+    },
+    "book of misspells": {
+      "type": "item",
+      "name": "Book of Misspells",
+      "rarity": "rare",
+      "item_type": "Wondrous"
+    },
+    "boomburst hammer": {
+      "type": "item",
+      "name": "Boomburst Hammer",
+      "rarity": "very rare",
+      "item_type": "Weapon"
+    },
+    "bottle of storing": {
+      "type": "item",
+      "name": "Bottle of Storing",
+      "rarity": "uncommon",
+      "item_type": "Wondrous"
+    },
+    "bow of silence": {
+      "type": "item",
+      "name": "Bow of Silence",
+      "rarity": "rare",
+      "item_type": "Weapon"
+    },
+    "bulwark": {
+      "type": "item",
+      "name": "Bulwark",
+      "rarity": "unknown",
+      "item_type": "Armor"
+    },
+    "buster bat": {
+      "type": "item",
+      "name": "Buster Bat",
+      "rarity": "legendary",
+      "item_type": "Weapon"
+    },
+    "cestus": {
+      "type": "item",
+      "name": "Cestus",
+      "rarity": "unknown",
+      "item_type": "Weapon"
+    },
+    "chakram": {
+      "type": "item",
+      "name": "Chakram",
+      "rarity": "unknown",
+      "item_type": "Weapon"
+    },
+    "champions weapon": {
+      "type": "item",
+      "name": "Champions Weapon",
+      "rarity": "legendary",
+      "item_type": "Weapon"
+    },
+    "channel of artistry": {
+      "type": "item",
+      "name": "Channel of Artistry",
+      "rarity": "unknown",
+      "item_type": "Other"
+    },
+    "channel of containment": {
+      "type": "item",
+      "name": "Channel of Containment",
+      "rarity": "unknown",
+      "item_type": "Other"
+    },
+    "channel of devastation": {
+      "type": "item",
+      "name": "Channel of Devastation",
+      "rarity": "unknown",
+      "item_type": "Other"
+    },
+    "channel of madness": {
+      "type": "item",
+      "name": "Channel of Madness",
+      "rarity": "unknown",
+      "item_type": "Other"
+    },
+    "channel of volatility": {
+      "type": "item",
+      "name": "Channel of Volatility",
+      "rarity": "unknown",
+      "item_type": "Other"
+    },
+    "channeler's clay": {
+      "type": "item",
+      "name": "Channeler's Clay",
+      "rarity": "uncommon",
+      "item_type": "Wondrous"
+    },
+    "claw caps": {
+      "type": "item",
+      "name": "Claw caps",
+      "rarity": "unknown",
+      "item_type": "Weapon"
+    },
+    "clawshot": {
+      "type": "item",
+      "name": "Clawshot",
+      "rarity": "very rare",
+      "item_type": "Wondrous"
+    },
+    "cloak of levitation": {
+      "type": "item",
+      "name": "Cloak of Levitation",
+      "rarity": "legendary",
+      "item_type": "Wondrous"
+    },
+    "cloud in a bottle": {
+      "type": "item",
+      "name": "Cloud in a Bottle",
+      "rarity": "uncommon",
+      "item_type": "Wondrous"
+    },
+    "cold cube": {
+      "type": "item",
+      "name": "Cold Cube",
+      "rarity": "common",
+      "item_type": "Wondrous"
+    },
+    "cold hypercube": {
+      "type": "item",
+      "name": "Cold Hypercube",
+      "rarity": "legendary",
+      "item_type": "Wondrous"
+    },
+    "communication mouthpiece": {
+      "type": "item",
+      "name": "Communication Mouthpiece",
+      "rarity": "uncommon",
+      "item_type": "Wondrous"
+    },
+    "consecrated scabbard": {
+      "type": "item",
+      "name": "Consecrated Scabbard",
+      "rarity": "very rare",
+      "item_type": "Wondrous"
+    },
+    "conspirator's coat": {
+      "type": "item",
+      "name": "Conspirator's Coat",
+      "rarity": "rare",
+      "item_type": "Wondrous"
+    },
+    "container of heat and frost": {
+      "type": "item",
+      "name": "Container of Heat and Frost",
+      "rarity": "uncommon",
+      "item_type": "Wondrous"
+    },
+    "corrosion cube": {
+      "type": "item",
+      "name": "Corrosion Cube",
+      "rarity": "uncommon",
+      "item_type": "Wondrous"
+    },
+    "courier's cradle": {
+      "type": "item",
+      "name": "Courier's Cradle",
+      "rarity": "very rare",
+      "item_type": "Wondrous"
+    },
+    "craorag dromlach": {
+      "type": "item",
+      "name": "Craorag Dromlach",
+      "rarity": "unknown",
+      "item_type": "Weapon"
+    },
+    "crown of the four seasons": {
+      "type": "item",
+      "name": "Crown of the Four Seasons",
+      "rarity": "uncommon",
+      "item_type": "Wondrous"
+    },
+    "cryomancy": {
+      "type": "item",
+      "name": "Cryomancy",
+      "rarity": "unknown",
+      "item_type": "Other"
+    },
+    "darkweavers mantle": {
+      "type": "item",
+      "name": "Darkweavers Mantle",
+      "rarity": "very rare",
+      "item_type": "Wondrous"
+    },
+    "dawnbreak pearl": {
+      "type": "item",
+      "name": "Dawnbreak Pearl",
+      "rarity": "legendary",
+      "item_type": "Wondrous"
+    },
+    "designated mage's rifle": {
+      "type": "item",
+      "name": "Designated Mage's Rifle",
+      "rarity": "varies",
+      "item_type": "Weapon"
+    },
+    "double-bladed scythe": {
+      "type": "item",
+      "name": "Double-Bladed Scythe",
+      "rarity": "unknown",
+      "item_type": "Weapon"
+    },
+    "dragon fang gun": {
+      "type": "item",
+      "name": "Dragon Fang Gun",
+      "rarity": "rare",
+      "item_type": "Weapon"
+    },
+    "dragonscale knuckles": {
+      "type": "item",
+      "name": "Dragonscale Knuckles",
+      "rarity": "rare",
+      "item_type": "Wondrous"
+    },
+    "drow shadow blade": {
+      "type": "item",
+      "name": "Drow Shadow Blade",
+      "rarity": "uncommon",
+      "item_type": "Weapon"
+    },
+    "duality blade": {
+      "type": "item",
+      "name": "Duality Blade",
+      "rarity": "rare",
+      "item_type": "Weapon"
+    },
+    "dugger's tome": {
+      "type": "item",
+      "name": "Dugger's Tome",
+      "rarity": "rare",
+      "item_type": "Wondrous"
+    },
+    "elemental weapon": {
+      "type": "item",
+      "name": "Elemental Weapon",
+      "rarity": "rare",
+      "item_type": "Weapon"
+    },
+    "endless flask of hot cocoa": {
+      "type": "item",
+      "name": "Endless Flask of Hot Cocoa",
+      "rarity": "uncommon",
+      "item_type": "Wondrous"
+    },
+    "enduring scabbard": {
+      "type": "item",
+      "name": "Enduring Scabbard",
+      "rarity": "unknown",
+      "item_type": "Wondrous"
+    },
+    "eye of the bookworm": {
+      "type": "item",
+      "name": "Eye of the Bookworm",
+      "rarity": "uncommon",
+      "item_type": "Wondrous"
+    },
+    "faceless cloak": {
+      "type": "item",
+      "name": "Faceless Cloak",
+      "rarity": "uncommon",
+      "item_type": "Wondrous"
+    },
+    "failnaught": {
+      "type": "item",
+      "name": "Failnaught",
+      "rarity": "legendary",
+      "item_type": "Other"
+    },
+    "fallen king's halberd": {
+      "type": "item",
+      "name": "Fallen King's Halberd",
+      "rarity": "legendary",
+      "item_type": "Weapon"
+    },
+    "fey duelist": {
+      "type": "item",
+      "name": "Fey Duelist",
+      "rarity": "unknown",
+      "item_type": "Other"
+    },
+    "fighter's band": {
+      "type": "item",
+      "name": "Fighter's Band",
+      "rarity": "uncommon",
+      "item_type": "Wondrous"
+    },
+    "final messenger": {
+      "type": "item",
+      "name": "Final Messenger",
+      "rarity": "unknown",
+      "item_type": "Wondrous"
+    },
+    "flame cartridge": {
+      "type": "item",
+      "name": "Flame Cartridge",
+      "rarity": "uncommon",
+      "item_type": "Weapon"
+    },
+    "flameburst devastator": {
+      "type": "item",
+      "name": "Flameburst Devastator",
+      "rarity": "very rare",
+      "item_type": "Weapon"
+    },
+    "fortune's shadow": {
+      "type": "item",
+      "name": "Fortune's Shadow",
+      "rarity": "unknown",
+      "item_type": "Other"
+    },
+    "frostflames of the north": {
+      "type": "item",
+      "name": "Frostflames of the North",
+      "rarity": "very rare",
+      "item_type": "Wondrous"
+    },
+    "gambler's weapon": {
+      "type": "item",
+      "name": "Gambler's Weapon",
+      "rarity": "unknown",
+      "item_type": "Weapon"
+    },
+    "gauntlets of gunslinging": {
+      "type": "item",
+      "name": "Gauntlets Of Gunslinging",
+      "rarity": "uncommon",
+      "item_type": "Wondrous"
+    },
+    "gift of the upper planes": {
+      "type": "item",
+      "name": "Gift of the Upper Planes",
+      "rarity": "unknown",
+      "item_type": "Other"
+    },
+    "glider staff": {
+      "type": "item",
+      "name": "Glider Staff",
+      "rarity": "rare",
+      "item_type": "Weapon"
+    },
+    "gloves of the spirit shroud": {
+      "type": "item",
+      "name": "Gloves of the Spirit Shroud",
+      "rarity": "rare",
+      "item_type": "Wondrous"
+    },
+    "greater healing kit": {
+      "type": "item",
+      "name": "Greater Healing Kit",
+      "rarity": "rare",
+      "item_type": "Wondrous"
+    },
+    "greater ritual casting": {
+      "type": "item",
+      "name": "Greater Ritual Casting",
+      "rarity": "unknown",
+      "item_type": "Other"
+    },
+    "guardian angel": {
+      "type": "item",
+      "name": "Guardian Angel",
+      "rarity": "very rare",
+      "item_type": "Armor"
+    },
+    "guild palace lance": {
+      "type": "item",
+      "name": "Guild Palace Lance",
+      "rarity": "legendary",
+      "item_type": "Weapon"
+    },
+    "guild palace shield": {
+      "type": "item",
+      "name": "Guild Palace Shield",
+      "rarity": "legendary",
+      "item_type": "Armor"
+    },
+    "hammer of the ram": {
+      "type": "item",
+      "name": "Hammer of the Ram",
+      "rarity": "rare",
+      "item_type": "Weapon"
+    },
+    "healing bow": {
+      "type": "item",
+      "name": "Healing bow",
+      "rarity": "rare",
+      "item_type": "Weapon"
+    },
+    "heartseeker bow": {
+      "type": "item",
+      "name": "Heartseeker Bow",
+      "rarity": "legendary",
+      "item_type": "Weapon"
+    },
+    "homebrew system & index": {
+      "type": "item",
+      "name": "Homebrew System & Index",
+      "rarity": "unknown",
+      "item_type": "Other"
+    },
+    "impact cannon": {
+      "type": "item",
+      "name": "Impact Cannon",
+      "rarity": "rare",
+      "item_type": "Weapon"
+    },
+    "iron heart": {
+      "type": "item",
+      "name": "Iron Heart",
+      "rarity": "very rare",
+      "item_type": "Wondrous"
+    },
+    "kusarigama": {
+      "type": "item",
+      "name": "Kusarigama",
+      "rarity": "unknown",
+      "item_type": "Weapon"
+    },
+    "last stand handgun": {
+      "type": "item",
+      "name": "Last Stand Handgun",
+      "rarity": "very rare",
+      "item_type": "Weapon"
+    },
+    "lesser sun blade": {
+      "type": "item",
+      "name": "Lesser Sun Blade",
+      "rarity": "uncommon",
+      "item_type": "Weapon"
+    },
+    "lesser thought gem": {
+      "type": "item",
+      "name": "Lesser Thought Gem",
+      "rarity": "uncommon",
+      "item_type": "Wondrous"
+    },
+    "light weaver": {
+      "type": "item",
+      "name": "Light Weaver",
+      "rarity": "unknown",
+      "item_type": "Other"
+    },
+    "long bo staff": {
+      "type": "item",
+      "name": "Long Bo Staff",
+      "rarity": "unknown",
+      "item_type": "Weapon"
+    },
+    "lucerne hammer": {
+      "type": "item",
+      "name": "Lucerne Hammer",
+      "rarity": "unknown",
+      "item_type": "Weapon"
+    },
+    "luminite armor": {
+      "type": "item",
+      "name": "Luminite Armor",
+      "rarity": "unknown",
+      "item_type": "Armor"
+    },
+    "magebane": {
+      "type": "item",
+      "name": "Magebane",
+      "rarity": "unknown",
+      "item_type": "Other"
+    },
+    "marshwarden bow": {
+      "type": "item",
+      "name": "Marshwarden Bow",
+      "rarity": "rare",
+      "item_type": "Weapon"
+    },
+    "marvelous magic marker": {
+      "type": "item",
+      "name": "Marvelous Magic Marker",
+      "rarity": "uncommon",
+      "item_type": "Wondrous"
+    },
+    "mask of kings": {
+      "type": "item",
+      "name": "Mask of Kings",
+      "rarity": "legendary",
+      "item_type": "Wondrous"
+    },
+    "mask of the wild beasts": {
+      "type": "item",
+      "name": "Mask of the Wild Beasts",
+      "rarity": "varies",
+      "item_type": "Wondrous"
+    },
+    "masquerade mask": {
+      "type": "item",
+      "name": "Masquerade Mask",
+      "rarity": "common",
+      "item_type": "Wondrous"
+    },
+    "maul of unbridled rage": {
+      "type": "item",
+      "name": "Maul of Unbridled Rage",
+      "rarity": "unknown",
+      "item_type": "Weapon"
+    },
+    "megaton hammer": {
+      "type": "item",
+      "name": "Megaton Hammer",
+      "rarity": "legendary",
+      "item_type": "Weapon"
+    },
+    "millwood giantbow": {
+      "type": "item",
+      "name": "Millwood Giantbow",
+      "rarity": "unknown",
+      "item_type": "Weapon"
+    },
+    "millwood greatbow": {
+      "type": "item",
+      "name": "Millwood Greatbow",
+      "rarity": "unknown",
+      "item_type": "Weapon"
+    },
+    "monocle of clarity": {
+      "type": "item",
+      "name": "Monocle of Clarity",
+      "rarity": "rare",
+      "item_type": "Wondrous"
+    },
+    "monster hunter armor": {
+      "type": "item",
+      "name": "Monster Hunter Armor",
+      "rarity": "very rare",
+      "item_type": "Armor"
+    },
+    "necklace of the second heart": {
+      "type": "item",
+      "name": "Necklace of the Second Heart",
+      "rarity": "rare",
+      "item_type": "Wondrous"
+    },
+    "night reaver": {
+      "type": "item",
+      "name": "Night Reaver",
+      "rarity": "unknown",
+      "item_type": "Other"
+    },
+    "occult seal": {
+      "type": "item",
+      "name": "Occult Seal",
+      "rarity": "uncommon",
+      "item_type": "Wondrous"
+    },
+    "orb of remembrance": {
+      "type": "item",
+      "name": "Orb of Remembrance",
+      "rarity": "uncommon",
+      "item_type": "Wondrous"
+    },
+    "phial of petulant peculiarities": {
+      "type": "item",
+      "name": "Phial of Petulant Peculiarities",
+      "rarity": "uncommon",
+      "item_type": "Potion"
+    },
+    "powderkeg": {
+      "type": "item",
+      "name": "Powderkeg",
+      "rarity": "unknown",
+      "item_type": "Other"
+    },
+    "precision gloves": {
+      "type": "item",
+      "name": "Precision Gloves",
+      "rarity": "varies",
+      "item_type": "Wondrous"
+    },
+    "pyromancy": {
+      "type": "item",
+      "name": "Pyromancy",
+      "rarity": "unknown",
+      "item_type": "Other"
+    },
+    "quicksilver clay": {
+      "type": "item",
+      "name": "Quicksilver Clay",
+      "rarity": "common",
+      "item_type": "Wondrous"
+    },
+    "raven knight": {
+      "type": "item",
+      "name": "Raven Knight",
+      "rarity": "unknown",
+      "item_type": "Other"
+    },
+    "raven's claw crossbow": {
+      "type": "item",
+      "name": "Raven's Claw Crossbow",
+      "rarity": "rare",
+      "item_type": "Weapon"
+    },
+    "reaper’s kusarigama": {
+      "type": "item",
+      "name": "Reaper’s Kusarigama",
+      "rarity": "very rare",
+      "item_type": "Weapon"
+    },
+    "reassemble": {
+      "type": "item",
+      "name": "Reassemble",
+      "rarity": "unknown",
+      "item_type": "Other"
+    },
+    "red powder": {
+      "type": "item",
+      "name": "Red Powder",
+      "rarity": "unknown",
+      "item_type": "Other"
+    },
+    "ring of cantrip storing": {
+      "type": "item",
+      "name": "Ring of Cantrip Storing",
+      "rarity": "uncommon",
+      "item_type": "Ring"
+    },
+    "ring of emotional suppression": {
+      "type": "item",
+      "name": "Ring of Emotional Suppression",
+      "rarity": "uncommon",
+      "item_type": "Ring"
+    },
+    "ring of roses": {
+      "type": "item",
+      "name": "Ring of Roses",
+      "rarity": "common",
+      "item_type": "Ring"
+    },
+    "ring of silverware": {
+      "type": "item",
+      "name": "Ring of Silverware",
+      "rarity": "common",
+      "item_type": "Ring"
+    },
+    "ring of triggered spells": {
+      "type": "item",
+      "name": "Ring of Triggered Spells",
+      "rarity": "rare",
+      "item_type": "Wondrous"
+    },
+    "rocket spear": {
+      "type": "item",
+      "name": "Rocket Spear",
+      "rarity": "unknown",
+      "item_type": "Weapon"
+    },
+    "rosso di oakheart": {
+      "type": "item",
+      "name": "Rosso di Oakheart",
+      "rarity": "uncommon",
+      "item_type": "Wondrous"
+    },
+    "sash of the eldr rune": {
+      "type": "item",
+      "name": "Sash of the Eldr Rune",
+      "rarity": "very rare",
+      "item_type": "Wondrous"
+    },
+    "scouting knife": {
+      "type": "item",
+      "name": "Scouting Knife",
+      "rarity": "uncommon",
+      "item_type": "Weapon"
+    },
+    "scythe": {
+      "type": "item",
+      "name": "Scythe",
+      "rarity": "unknown",
+      "item_type": "Weapon"
+    },
+    "scythe of reaping": {
+      "type": "item",
+      "name": "Scythe of Reaping",
+      "rarity": "very rare",
+      "item_type": "Weapon"
+    },
+    "seat belt": {
+      "type": "item",
+      "name": "Seat Belt",
+      "rarity": "common",
+      "item_type": "Wondrous"
+    },
+    "sentinel blade": {
+      "type": "item",
+      "name": "Sentinel Blade",
+      "rarity": "unknown",
+      "item_type": "Shield"
+    },
+    "shock cube": {
+      "type": "item",
+      "name": "Shock Cube",
+      "rarity": "uncommon",
+      "item_type": "Wondrous"
+    },
+    "shock hypercube": {
+      "type": "item",
+      "name": "Shock Hypercube",
+      "rarity": "legendary",
+      "item_type": "Wondrous"
+    },
+    "silver bow": {
+      "type": "item",
+      "name": "Silver Bow",
+      "rarity": "very rare",
+      "item_type": "Weapon"
+    },
+    "siren’s crescent": {
+      "type": "item",
+      "name": "Siren’s Crescent",
+      "rarity": "very rare",
+      "item_type": "Weapon"
+    },
+    "slug shotgun": {
+      "type": "item",
+      "name": "Slug Shotgun",
+      "rarity": "rare",
+      "item_type": "Weapon"
+    },
+    "snowball mittens": {
+      "type": "item",
+      "name": "Snowball Mittens",
+      "rarity": "common",
+      "item_type": "Wondrous"
+    },
+    "solar six-shooter": {
+      "type": "item",
+      "name": "Solar Six-Shooter",
+      "rarity": "legendary",
+      "item_type": "Weapon"
+    },
+    "spellbreaker": {
+      "type": "item",
+      "name": "Spellbreaker",
+      "rarity": "unknown",
+      "item_type": "Other"
+    },
+    "spiked cestus": {
+      "type": "item",
+      "name": "Spiked Cestus",
+      "rarity": "unknown",
+      "item_type": "Weapon"
+    },
+    "spy lord’s scepter": {
+      "type": "item",
+      "name": "Spy Lord’s Scepter",
+      "rarity": "legendary",
+      "item_type": "Weapon"
+    },
+    "staff of elemental harmony": {
+      "type": "item",
+      "name": "Staff of Elemental Harmony",
+      "rarity": "rare",
+      "item_type": "Weapon"
+    },
+    "star blade": {
+      "type": "item",
+      "name": "Star Blade",
+      "rarity": "unknown",
+      "item_type": "Other"
+    },
+    "star gels": {
+      "type": "item",
+      "name": "Star Gels",
+      "rarity": "uncommon",
+      "item_type": "Wondrous"
+    },
+    "storm chaser": {
+      "type": "item",
+      "name": "Storm Chaser",
+      "rarity": "unknown",
+      "item_type": "Other"
+    },
+    "sub-ninth rifle": {
+      "type": "item",
+      "name": "Sub-Ninth Rifle",
+      "rarity": "legendary",
+      "item_type": "Weapon"
+    },
+    "sundisk": {
+      "type": "item",
+      "name": "Sundisk",
+      "rarity": "very rare",
+      "item_type": "Wondrous"
+    },
+    "sunlight globe": {
+      "type": "item",
+      "name": "Sunlight Globe",
+      "rarity": "uncommon",
+      "item_type": "Wondrous"
+    },
+    "survivalist's wayfinder": {
+      "type": "item",
+      "name": "Survivalist's Wayfinder",
+      "rarity": "uncommon",
+      "item_type": "Wondrous"
+    },
+    "sword saint": {
+      "type": "item",
+      "name": "Sword Saint",
+      "rarity": "unknown",
+      "item_type": "Weapon"
+    },
+    "teleportation codex": {
+      "type": "item",
+      "name": "Teleportation Codex",
+      "rarity": "very rare",
+      "item_type": "Wondrous"
+    },
+    "temperature controlled lining": {
+      "type": "item",
+      "name": "Temperature Controlled Lining",
+      "rarity": "rare",
+      "item_type": "Wondrous"
+    },
+    "the extraplanar": {
+      "type": "item",
+      "name": "The Extraplanar",
+      "rarity": "unknown",
+      "item_type": "Other"
+    },
+    "thermal hypercube": {
+      "type": "item",
+      "name": "Thermal Hypercube",
+      "rarity": "legendary",
+      "item_type": "Wondrous"
+    },
+    "thornmail": {
+      "type": "item",
+      "name": "Thornmail",
+      "rarity": "legendary",
+      "item_type": "Armor"
+    },
+    "thought gem": {
+      "type": "item",
+      "name": "Thought Gem",
+      "rarity": "very rare",
+      "item_type": "Wondrous"
+    },
+    "thumper": {
+      "type": "item",
+      "name": "Thumper",
+      "rarity": "legendary",
+      "item_type": "Weapon"
+    },
+    "thunderlord's maul": {
+      "type": "item",
+      "name": "Thunderlord's Maul",
+      "rarity": "very rare",
+      "item_type": "Weapon"
+    },
+    "thunderstrike musket": {
+      "type": "item",
+      "name": "Thunderstrike Musket",
+      "rarity": "rare",
+      "item_type": "Weapon"
+    },
+    "tidepiercer": {
+      "type": "item",
+      "name": "Tidepiercer",
+      "rarity": "legendary",
+      "item_type": "Weapon"
+    },
+    "totem of inception": {
+      "type": "item",
+      "name": "Totem of Inception",
+      "rarity": "common",
+      "item_type": "Wondrous"
+    },
+    "tower shield": {
+      "type": "item",
+      "name": "Tower Shield",
+      "rarity": "unknown",
+      "item_type": "Armor"
+    },
+    "tracking bookmark": {
+      "type": "item",
+      "name": "Tracking Bookmark",
+      "rarity": "common",
+      "item_type": "Wondrous"
+    },
+    "treblecuff": {
+      "type": "item",
+      "name": "Treblecuff",
+      "rarity": "uncommon",
+      "item_type": "Wondrous"
+    },
+    "trick card": {
+      "type": "item",
+      "name": "Trick Card",
+      "rarity": "uncommon",
+      "item_type": "Wondrous"
+    },
+    "trinket of freshness": {
+      "type": "item",
+      "name": "Trinket of Freshness",
+      "rarity": "uncommon",
+      "item_type": "Wondrous"
+    },
+    "true path": {
+      "type": "item",
+      "name": "True Path",
+      "rarity": "unknown",
+      "item_type": "Other"
+    },
+    "tubes of trickery": {
+      "type": "item",
+      "name": "Tubes of Trickery",
+      "rarity": "uncommon",
+      "item_type": "Wondrous"
+    },
+    "tuneful earcuffs": {
+      "type": "item",
+      "name": "Tuneful Earcuffs",
+      "rarity": "rare",
+      "item_type": "Wondrous"
+    },
+    "unfettered": {
+      "type": "item",
+      "name": "Unfettered",
+      "rarity": "unknown",
+      "item_type": "Other"
+    },
+    "updated flame tongue": {
+      "type": "item",
+      "name": "Updated Flame Tongue",
+      "rarity": "rare",
+      "item_type": "Weapon"
+    },
+    "verdant breastplate": {
+      "type": "item",
+      "name": "Verdant Breastplate",
+      "rarity": "rare",
+      "item_type": "Armor"
+    },
+    "versipellis chain": {
+      "type": "item",
+      "name": "Versipellis Chain",
+      "rarity": "common",
+      "item_type": "Other"
+    },
+    "vial ring": {
+      "type": "item",
+      "name": "Vial Ring",
+      "rarity": "common",
+      "item_type": "Ring"
+    },
+    "vocal drops": {
+      "type": "item",
+      "name": "Vocal Drops",
+      "rarity": "uncommon",
+      "item_type": "Wondrous"
+    },
+    "voidknights maul": {
+      "type": "item",
+      "name": "Voidknights Maul",
+      "rarity": "unknown",
+      "item_type": "Weapon"
+    },
+    "vorpal weapon": {
+      "type": "item",
+      "name": "Vorpal Weapon",
+      "rarity": "legendary",
+      "item_type": "Weapon"
+    },
+    "warmog's armor": {
+      "type": "item",
+      "name": "Warmog's Armor",
+      "rarity": "legendary",
+      "item_type": "Armor"
+    },
+    "weapon of sniping": {
+      "type": "item",
+      "name": "Weapon of Sniping",
+      "rarity": "uncommon",
+      "item_type": "Weapon"
+    },
+    "weapon, +4": {
+      "type": "item",
+      "name": "Weapon, +4",
+      "rarity": "legendary",
+      "item_type": "Weapon"
+    },
+    "whip of constriction": {
+      "type": "item",
+      "name": "Whip of Constriction",
+      "rarity": "uncommon",
+      "item_type": "Weapon"
+    },
+    "wind-up phoenix": {
+      "type": "item",
+      "name": "Wind-Up Phoenix",
+      "rarity": "common",
+      "item_type": "Wondrous"
+    },
+    "windswept kite": {
+      "type": "item",
+      "name": "Windswept Kite",
+      "rarity": "uncommon",
+      "item_type": "Wondrous"
+    },
+    "blood hunter (version x)": {
+      "type": "class",
+      "name": "Blood Hunter (Version X)",
+      "hit_die": 12
+    },
+    "bombardier": {
+      "type": "class",
+      "name": "Bombardier"
+    },
+    "channeler": {
+      "type": "class",
+      "name": "Channeler",
+      "hit_die": 10
+    },
+    "drifter": {
+      "type": "class",
+      "name": "Drifter"
+    },
+    "exorcist": {
+      "type": "class",
+      "name": "Exorcist"
+    },
+    "greaser": {
+      "type": "class",
+      "name": "Greaser"
+    },
+    "harbinger": {
+      "type": "class",
+      "name": "Harbinger"
+    },
+    "jade lord": {
+      "type": "class",
+      "name": "Jade Lord"
+    },
+    "juggernaut": {
+      "type": "class",
+      "name": "Juggernaut"
+    },
+    "medic": {
+      "type": "class",
+      "name": "Medic"
+    },
+    "medium": {
+      "type": "class",
+      "name": "Medium"
+    },
+    "oracle": {
+      "type": "class",
+      "name": "Oracle"
+    },
+    "performer": {
+      "type": "class",
+      "name": "Performer"
+    },
+    "physicist": {
+      "type": "class",
+      "name": "Physicist"
+    },
+    "practitioner": {
+      "type": "class",
+      "name": "Practitioner",
+      "hit_die": 8
+    },
+    "psi tracker": {
+      "type": "class",
+      "name": "Psi Tracker"
+    },
+    "ranger (version x)": {
+      "type": "class",
+      "name": "Ranger (Version X)",
+      "hit_die": 10
+    },
+    "rook": {
+      "type": "class",
+      "name": "Rook"
+    },
+    "sage": {
+      "type": "class",
+      "name": "Sage",
+      "hit_die": 6
+    },
+    "scrapper": {
+      "type": "class",
+      "name": "Scrapper"
+    },
+    "shinobi": {
+      "type": "class",
+      "name": "Shinobi"
+    },
+    "spiritualist": {
+      "type": "class",
+      "name": "Spiritualist",
+      "hit_die": 6
+    },
+    "swindler": {
+      "type": "class",
+      "name": "Swindler"
+    },
+    "artificer subclasses": {
+      "type": "subclass",
+      "name": "Artificer Subclasses",
+      "parent_class": "Artificer"
+    },
+    "blood hunter subclasses": {
+      "type": "subclass",
+      "name": "Blood Hunter Subclasses",
+      "parent_class": "Blood Hunter"
+    },
+    "blood knight": {
+      "type": "subclass",
+      "name": "Blood Knight",
+      "parent_class": "Fighter"
+    },
+    "chaos domain": {
+      "type": "subclass",
+      "name": "Chaos Domain",
+      "parent_class": "Cleric"
+    },
+    "circle of beauty": {
+      "type": "subclass",
+      "name": "Circle of Beauty",
+      "parent_class": "Druid"
+    },
+    "circle of bravery": {
+      "type": "subclass",
+      "name": "Circle of Bravery",
+      "parent_class": "Bard"
+    },
+    "circle of the sky": {
+      "type": "subclass",
+      "name": "Circle of the Sky",
+      "parent_class": "Druid"
+    },
+    "circle of the verdant stalker": {
+      "type": "subclass",
+      "name": "Circle of the Verdant Stalker",
+      "parent_class": "Druid"
+    },
+    "circle of the warden": {
+      "type": "subclass",
+      "name": "Circle of the Warden",
+      "parent_class": "Druid"
+    },
+    "cleric subclasses": {
+      "type": "subclass",
+      "name": "Cleric Subclasses",
+      "parent_class": "Cleric"
+    },
+    "college of fables": {
+      "type": "subclass",
+      "name": "College of Fables",
+      "parent_class": "Bard"
+    },
+    "college of poetry": {
+      "type": "subclass",
+      "name": "College of Poetry",
+      "parent_class": "Bard"
+    },
+    "college of the moon (ua)": {
+      "type": "subclass",
+      "name": "College of the Moon (UA)",
+      "parent_class": "Druid"
+    },
+    "commerce domain": {
+      "type": "subclass",
+      "name": "Commerce Domain",
+      "parent_class": "Cleric"
+    },
+    "counterriposte duelist": {
+      "type": "subclass",
+      "name": "Counterriposte Duelist",
+      "parent_class": "Fighter"
+    },
+    "death knight": {
+      "type": "subclass",
+      "name": "Death Knight",
+      "parent_class": "Fighter"
+    },
+    "druid subclasses": {
+      "type": "subclass",
+      "name": "Druid Subclasses",
+      "parent_class": "Druid"
+    },
+    "fighter subclasses": {
+      "type": "subclass",
+      "name": "Fighter Subclasses",
+      "parent_class": "Fighter"
+    },
+    "grave conclave ranger": {
+      "type": "subclass",
+      "name": "Grave Conclave Ranger",
+      "parent_class": "Ranger"
+    },
+    "house of light": {
+      "type": "subclass",
+      "name": "House of Light",
+      "parent_class": "Cleric"
+    },
+    "inner elemental sorcery (2024 sorcerer)": {
+      "type": "subclass",
+      "name": "Inner Elemental Sorcery (2024 Sorcerer)",
+      "parent_class": "Sorcerer"
+    },
+    "leviathan's vessel sorcerous origin": {
+      "type": "subclass",
+      "name": "Leviathan's Vessel Sorcerous Origin",
+      "parent_class": "Sorcerer"
+    },
+    "love domain": {
+      "type": "subclass",
+      "name": "Love Domain",
+      "parent_class": "Cleric"
+    },
+    "memory thief sorcery (2024 sorcerer)": {
+      "type": "subclass",
+      "name": "Memory Thief Sorcery (2024 Sorcerer)",
+      "parent_class": "Sorcerer"
+    },
+    "monk subclasses": {
+      "type": "subclass",
+      "name": "Monk Subclasses",
+      "parent_class": "Monk"
+    },
+    "oath of deceit": {
+      "type": "subclass",
+      "name": "Oath of Deceit",
+      "parent_class": "Paladin"
+    },
+    "oath of providence": {
+      "type": "subclass",
+      "name": "Oath of Providence",
+      "parent_class": "Paladin"
+    },
+    "oath of the dusk": {
+      "type": "subclass",
+      "name": "Oath of the Dusk",
+      "parent_class": "Paladin"
+    },
+    "oath of the grave": {
+      "type": "subclass",
+      "name": "Oath of the Grave",
+      "parent_class": "Paladin"
+    },
+    "oath of the howling moon": {
+      "type": "subclass",
+      "name": "Oath of the Howling Moon",
+      "parent_class": "Paladin"
+    },
+    "oath of the sentinel": {
+      "type": "subclass",
+      "name": "Oath of the Sentinel",
+      "parent_class": "Paladin"
+    },
+    "oath of the steelsoul": {
+      "type": "subclass",
+      "name": "Oath of the Steelsoul",
+      "parent_class": "Paladin"
+    },
+    "oath of the stormborn": {
+      "type": "subclass",
+      "name": "Oath of the Stormborn",
+      "parent_class": "Paladin"
+    },
+    "oath of the valiant guardian": {
+      "type": "subclass",
+      "name": "Oath of the Valiant Guardian",
+      "parent_class": "Paladin"
+    },
+    "order of the symbiote": {
+      "type": "subclass",
+      "name": "Order of the Symbiote",
+      "parent_class": "Blood Hunter"
+    },
+    "path of the brawler": {
+      "type": "subclass",
+      "name": "Path of the Brawler",
+      "parent_class": "Barbarian"
+    },
+    "path of the pact sealer": {
+      "type": "subclass",
+      "name": "Path of the Pact Sealer",
+      "parent_class": "Warlock"
+    },
+    "path of the ravager": {
+      "type": "subclass",
+      "name": "Path of The Ravager",
+      "parent_class": "Barbarian"
+    },
+    "philosophy of diligence": {
+      "type": "subclass",
+      "name": "Philosophy of Diligence",
+      "parent_class": "Sage"
+    },
+    "philosophy of evolution": {
+      "type": "subclass",
+      "name": "Philosophy of Evolution",
+      "parent_class": "Sage"
+    },
+    "philosophy of fallacy": {
+      "type": "subclass",
+      "name": "Philosophy of Fallacy",
+      "parent_class": "Sage"
+    },
+    "philosophy of finality": {
+      "type": "subclass",
+      "name": "Philosophy of Finality",
+      "parent_class": "Sage"
+    },
+    "philosophy of mysticism": {
+      "type": "subclass",
+      "name": "Philosophy of Mysticism",
+      "parent_class": "Cleric"
+    },
+    "philosophy of patience": {
+      "type": "subclass",
+      "name": "Philosophy of Patience",
+      "parent_class": "Sage"
+    },
+    "revised arcane archer": {
+      "type": "subclass",
+      "name": "Revised Arcane Archer",
+      "parent_class": "Fighter"
+    },
+    "revised path of the storm herald": {
+      "type": "subclass",
+      "name": "Revised Path of the Storm Herald",
+      "parent_class": "Barbarian"
+    },
+    "revised purple dragon knight": {
+      "type": "subclass",
+      "name": "Revised Purple Dragon Knight",
+      "parent_class": "Fighter"
+    },
+    "school of beating your ass": {
+      "type": "subclass",
+      "name": "School of Beating your Ass",
+      "parent_class": "Wizard"
+    },
+    "umbral lord patron": {
+      "type": "subclass",
+      "name": "Umbral Lord Patron",
+      "parent_class": "Warlock"
+    },
+    "undead warlock 2024": {
+      "type": "subclass",
+      "name": "Undead Warlock 2024",
+      "parent_class": "Warlock"
+    },
+    "warrior of the unbound mind": {
+      "type": "subclass",
+      "name": "Warrior of the Unbound Mind",
+      "parent_class": "Monk"
+    },
+    "way fo the feral fang": {
+      "type": "subclass",
+      "name": "Way fo the Feral Fang",
+      "parent_class": "Monk"
+    },
+    "way of the crimson veil": {
+      "type": "subclass",
+      "name": "Way of the Crimson Veil",
+      "parent_class": "Monk"
+    },
+    "way of the dragon turtle": {
+      "type": "subclass",
+      "name": "Way of the Dragon Turtle",
+      "parent_class": "Monk"
+    },
+    "way of the ki blade": {
+      "type": "subclass",
+      "name": "Way of the Ki Blade",
+      "parent_class": "Monk"
+    },
+    "way of the mirror soul": {
+      "type": "subclass",
+      "name": "Way of the Mirror Soul",
+      "parent_class": "Monk"
+    },
+    "cartomancer": {
+      "type": "feat",
+      "name": "Cartomancer",
+      "prerequisite": "4th Level, Spellcasting Feature"
+    },
+    "celestial legacy": {
+      "type": "feat",
+      "name": "Celestial Legacy",
+      "prerequisite": "Aasimar"
+    },
+    "daredevil": {
+      "type": "feat",
+      "name": "Daredevil",
+      "prerequisite": null
+    },
+    "deadeye": {
+      "type": "feat",
+      "name": "Deadeye",
+      "prerequisite": null
+    },
+    "draconic expansion": {
+      "type": "feat",
+      "name": "Draconic Expansion",
+      "prerequisite": null
+    },
+    "dual wielding master": {
+      "type": "feat",
+      "name": "Dual Wielding Master",
+      "prerequisite": "Dual Wielder feat"
+    },
+    "far touched": {
+      "type": "feat",
+      "name": "Far Touched",
+      "prerequisite": null
+    },
+    "flashfingers": {
+      "type": "feat",
+      "name": "Flashfingers",
+      "prerequisite": null
+    },
+    "forward battalion": {
+      "type": "feat",
+      "name": "Forward Battalion",
+      "prerequisite": null
+    },
+    "gladiator (ua)": {
+      "type": "feat",
+      "name": "Gladiator (UA)",
+      "prerequisite": null
+    },
+    "hammer mastery": {
+      "type": "feat",
+      "name": "Hammer Mastery",
+      "prerequisite": "Proficiency with at least one type of hammer"
+    },
+    "hurler": {
+      "type": "feat",
+      "name": "Hurler",
+      "prerequisite": null
+    },
+    "iaijutsu": {
+      "type": "feat",
+      "name": "Iaijutsu",
+      "prerequisite": "Proficiency in a Martial weapon"
+    },
+    "iterative perfection": {
+      "type": "feat",
+      "name": "Iterative Perfection",
+      "prerequisite": "Vedalken"
+    },
+    "light-blade mastery": {
+      "type": "feat",
+      "name": "Light-Blade Mastery",
+      "prerequisite": "Proficiency with at least one type of light-blade"
+    },
+    "mace mastery": {
+      "type": "feat",
+      "name": "Mace Mastery",
+      "prerequisite": "Proficiency with at least one type of mace"
+    },
+    "monk initiate": {
+      "type": "feat",
+      "name": "Monk Initiate",
+      "prerequisite": null
+    },
+    "phalanx": {
+      "type": "feat",
+      "name": "Phalanx",
+      "prerequisite": null
+    },
+    "polearm master, revised": {
+      "type": "feat",
+      "name": "Polearm Master, Revised",
+      "prerequisite": null
+    },
+    "shifter adaptation": {
+      "type": "feat",
+      "name": "Shifter Adaptation",
+      "prerequisite": "Shifter"
+    },
+    "swift action": {
+      "type": "feat",
+      "name": "Swift Action",
+      "prerequisite": "Dexterity 15 or higher"
+    },
+    "sword mastery": {
+      "type": "feat",
+      "name": "Sword Mastery",
+      "prerequisite": "Proficiency with at least one type of sword"
+    },
+    "weapon master": {
+      "type": "feat",
+      "name": "Weapon Master",
+      "prerequisite": null
+    },
+    "blessing of arvandor": {
+      "type": "boon",
+      "name": "Blessing of Arvandor",
+      "boon_type": "blessing"
+    },
+    "blessing of health (rework)": {
+      "type": "boon",
+      "name": "Blessing of Health (Rework)",
+      "boon_type": "blessing"
+    },
+    "blessing of knowledge": {
+      "type": "boon",
+      "name": "Blessing of Knowledge",
+      "boon_type": "blessing"
+    },
+    "blessing of moradin": {
+      "type": "boon",
+      "name": "Blessing of Moradin",
+      "boon_type": "blessing"
+    },
+    "blessing of the masked lord (soulbind)": {
+      "type": "boon",
+      "name": "Blessing of the Masked Lord (Soulbind)",
+      "boon_type": "blessing"
+    },
+    "blessing of the masked lord (soultheft)": {
+      "type": "boon",
+      "name": "Blessing of the Masked Lord (Soultheft)",
+      "boon_type": "blessing"
+    },
+    "blessing of the metallic dragon": {
+      "type": "boon",
+      "name": "Blessing of the Metallic Dragon",
+      "boon_type": "blessing"
+    },
+    "blessing of the moon weaver": {
+      "type": "boon",
+      "name": "Blessing of the Moon Weaver",
+      "boon_type": "blessing"
+    },
+    "blessing of the swift hunter": {
+      "type": "boon",
+      "name": "Blessing of the Swift Hunter",
+      "boon_type": "blessing"
+    },
+    "blessing of understanding (rework)": {
+      "type": "boon",
+      "name": "Blessing of Understanding (Rework)",
+      "boon_type": "blessing"
+    },
+    "blessing of valkur": {
+      "type": "boon",
+      "name": "Blessing of Valkur",
+      "boon_type": "blessing"
+    },
+    "blessing of weapon enhancement": {
+      "type": "boon",
+      "name": "Blessing of Weapon Enhancement",
+      "boon_type": "blessing"
+    },
+    "boon of accuracy": {
+      "type": "boon",
+      "name": "Boon of Accuracy",
+      "boon_type": "boon"
+    },
+    "boon of attunement": {
+      "type": "boon",
+      "name": "Boon of Attunement",
+      "boon_type": "boon"
+    },
+    "boon of bewitching appeal": {
+      "type": "boon",
+      "name": "Boon of Bewitching Appeal",
+      "boon_type": "boon"
+    },
+    "boon of elemental expertise": {
+      "type": "boon",
+      "name": "Boon of Elemental Expertise",
+      "boon_type": "boon"
+    },
+    "boon of firepower": {
+      "type": "boon",
+      "name": "Boon of Firepower",
+      "boon_type": "boon"
+    },
+    "boon of fortitude (update)": {
+      "type": "boon",
+      "name": "Boon of Fortitude (Update)",
+      "boon_type": "boon"
+    },
+    "boon of ice's heart": {
+      "type": "boon",
+      "name": "Boon of Ice's Heart",
+      "boon_type": "boon"
+    },
+    "boon of ice's reign": {
+      "type": "boon",
+      "name": "Boon of Ice's Reign",
+      "boon_type": "boon"
+    },
+    "boon of implacable terror": {
+      "type": "boon",
+      "name": "Boon of Implacable Terror",
+      "boon_type": "boon"
+    },
+    "boon of legend slaying": {
+      "type": "boon",
+      "name": "Boon of Legend Slaying",
+      "boon_type": "boon"
+    },
+    "boon of life's embrace": {
+      "type": "boon",
+      "name": "Boon of Life's Embrace",
+      "boon_type": "boon"
+    },
+    "boon of limited magic immunity": {
+      "type": "boon",
+      "name": "Boon of Limited Magic Immunity",
+      "boon_type": "boon"
+    },
+    "boon of poison mastery": {
+      "type": "boon",
+      "name": "Boon of Poison Mastery",
+      "boon_type": "boon"
+    },
+    "boon of reactivness": {
+      "type": "boon",
+      "name": "Boon of Reactivness",
+      "boon_type": "boon"
+    },
+    "boon of resilience (update)": {
+      "type": "boon",
+      "name": "Boon of Resilience (Update)",
+      "boon_type": "boon"
+    },
+    "boon of the cloud scion": {
+      "type": "boon",
+      "name": "Boon of the Cloud Scion",
+      "boon_type": "boon"
+    },
+    "boon of the magical gardener": {
+      "type": "boon",
+      "name": "Boon of the Magical Gardener",
+      "boon_type": "boon"
+    },
+    "boon of the phoenix": {
+      "type": "boon",
+      "name": "Boon of the Phoenix",
+      "boon_type": "boon"
+    },
+    "boon of the shapechanger": {
+      "type": "boon",
+      "name": "Boon of the Shapechanger",
+      "boon_type": "boon"
+    },
+    "boon of the true trickster": {
+      "type": "boon",
+      "name": "Boon of the True Trickster",
+      "boon_type": "boon"
+    },
+    "boon of trolls heart": {
+      "type": "boon",
+      "name": "Boon of Trolls Heart",
+      "boon_type": "boon"
+    },
+    "boon of vampiric strikes": {
+      "type": "boon",
+      "name": "Boon of Vampiric Strikes",
+      "boon_type": "boon"
+    },
+    "amonkhet naga": {
+      "type": "race",
+      "name": "Amonkhet Naga",
+      "size": null,
+      "speed": 30
+    },
+    "avariel": {
+      "type": "race",
+      "name": "Avariel",
+      "size": null,
+      "speed": 30
+    },
+    "changeling metamorphosis": {
+      "type": "race",
+      "name": "Changeling Metamorphosis",
+      "size": null,
+      "speed": null
+    },
+    "dragonwrought kobold": {
+      "type": "race",
+      "name": "Dragonwrought Kobold",
+      "size": null,
+      "speed": 30
+    },
+    "faerie elf": {
+      "type": "race",
+      "name": "Faerie Elf",
+      "size": null,
+      "speed": 20
+    },
+    "half gnoll": {
+      "type": "race",
+      "name": "Half Gnoll",
+      "size": null,
+      "speed": 35
+    },
+    "imp": {
+      "type": "race",
+      "name": "Imp",
+      "size": null,
+      "speed": null
+    },
+    "kitsune": {
+      "type": "race",
+      "name": "Kitsune",
+      "size": null,
+      "speed": 35
+    },
+    "kuo-toa": {
+      "type": "race",
+      "name": "Kuo-Toa",
+      "size": "Medium",
+      "speed": null
+    },
+    "leonin pride": {
+      "type": "race",
+      "name": "Leonin Pride",
+      "size": null,
+      "speed": null
+    },
+    "merfolk": {
+      "type": "race",
+      "name": "Merfolk",
+      "size": "Medium",
+      "speed": null
+    },
+    "myconid": {
+      "type": "race",
+      "name": "Myconid",
+      "size": null,
+      "speed": 30
+    },
+    "phoenix": {
+      "type": "race",
+      "name": "Phoenix",
+      "size": null,
+      "speed": null
+    },
+    "revenant": {
+      "type": "race",
+      "name": "Revenant",
+      "size": null,
+      "speed": null
+    },
+    "selkie": {
+      "type": "race",
+      "name": "Selkie",
+      "size": "Medium",
+      "speed": null
+    },
+    "shardmind": {
+      "type": "race",
+      "name": "Shardmind",
+      "size": null,
+      "speed": 30
+    },
+    "skeleton (race)": {
+      "type": "race",
+      "name": "Skeleton (Race)",
+      "size": null,
+      "speed": 30
+    },
+    "star spawn": {
+      "type": "race",
+      "name": "Star Spawn",
+      "size": null,
+      "speed": null
+    },
+    "tortle protector": {
+      "type": "race",
+      "name": "Tortle Protector",
+      "size": null,
+      "speed": null
+    }
+  }
+}

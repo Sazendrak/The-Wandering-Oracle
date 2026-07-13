@@ -1,0 +1,790 @@
+<!doctype html>
+<html lang="en" dir="ltr" class="docs-wrapper plugin-docs plugin-id-default docs-version-current docs-doc-page docs-doc-id-homebrew/classes/practitioner" data-has-hydrated="false">
+<head>
+<meta charset="UTF-8">
+<meta name="generator" content="Docusaurus v3.10.1">
+<title data-rh="true">Practitioner | The Wandering Handbook</title><meta data-rh="true" name="viewport" content="width=device-width,initial-scale=1"><meta data-rh="true" name="twitter:card" content="summary_large_image"><meta data-rh="true" property="og:url" content="https://sazendrak.github.io/The-Wandering-Handbook/docs/homebrew/classes/practitioner"><meta data-rh="true" property="og:locale" content="en"><meta data-rh="true" name="docusaurus_locale" content="en"><meta data-rh="true" name="docsearch:language" content="en"><meta data-rh="true" name="docusaurus_version" content="current"><meta data-rh="true" name="docusaurus_tag" content="docs-default-current"><meta data-rh="true" name="docsearch:version" content="current"><meta data-rh="true" name="docsearch:docusaurus_tag" content="docs-default-current"><meta data-rh="true" property="og:title" content="Practitioner | The Wandering Handbook"><meta data-rh="true" name="description" content="Practitioner homebrew content for The Wandering Realm."><meta data-rh="true" property="og:description" content="Practitioner homebrew content for The Wandering Realm."><link data-rh="true" rel="icon" href="/The-Wandering-Handbook/img/favicon.ico"><link data-rh="true" rel="canonical" href="https://sazendrak.github.io/The-Wandering-Handbook/docs/homebrew/classes/practitioner"><link data-rh="true" rel="alternate" href="https://sazendrak.github.io/The-Wandering-Handbook/docs/homebrew/classes/practitioner" hreflang="en"><link data-rh="true" rel="alternate" href="https://sazendrak.github.io/The-Wandering-Handbook/docs/homebrew/classes/practitioner" hreflang="x-default"><script data-rh="true" type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Classes","item":"https://sazendrak.github.io/The-Wandering-Handbook/docs/category/classes"},{"@type":"ListItem","position":2,"name":"Practitioner","item":"https://sazendrak.github.io/The-Wandering-Handbook/docs/homebrew/classes/practitioner"}]}</script><link rel="stylesheet" href="/The-Wandering-Handbook/assets/css/styles.6f418af7.css">
+<script src="/The-Wandering-Handbook/assets/js/runtime~main.b507b99a.js" defer="defer"></script>
+<script src="/The-Wandering-Handbook/assets/js/main.772cdbc1.js" defer="defer"></script>
+</head>
+<body>
+<svg style="display: none;"><defs>
+<symbol id="theme-svg-external-link" viewBox="0 0 24 24"><path fill="currentColor" d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"/></symbol>
+</defs></svg>
+<script>!function(){var t=function(){try{return new URLSearchParams(window.location.search).get("docusaurus-theme")}catch(t){}}()||function(){try{return window.localStorage.getItem("theme")}catch(t){}}();document.documentElement.setAttribute("data-theme",t||"light"),document.documentElement.setAttribute("data-theme-choice",t||"light")}(),function(){try{const c=new URLSearchParams(window.location.search).entries();for(var[t,e]of c)if(t.startsWith("docusaurus-data-")){var a=t.replace("docusaurus-data-","data-");document.documentElement.setAttribute(a,e)}}catch(t){}}()</script><div id="__docusaurus"><div role="region" aria-label="Skip to main content"><a class="skipToContent_fXgn" href="#__docusaurus_skipToContent_fallback">Skip to main content</a></div><nav aria-label="Main" class="theme-layout-navbar navbar navbar--fixed-top"><div class="navbar__inner"><div class="theme-layout-navbar-left navbar__items"><button aria-label="Toggle navigation bar" aria-expanded="false" class="navbar__toggle clean-btn" type="button"><svg width="30" height="30" viewBox="0 0 30 30" aria-hidden="true"><path stroke="currentColor" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2" d="M4 7h22M4 15h22M4 23h22"></path></svg></button><a class="navbar__brand" href="/The-Wandering-Handbook/"><b class="navbar__title text--truncate">The Wandering Handbook</b></a><a class="navbar__item navbar__link" href="/The-Wandering-Handbook/docs/core/character/character-creation">Core Rules</a><a aria-current="page" class="navbar__item navbar__link navbar__link--active" href="/The-Wandering-Handbook/docs/category/classes">Homebrew</a><a class="navbar__item navbar__link" href="/The-Wandering-Handbook/docs/lore/elysium:-floating-city-in-the-sky">Lore</a><a class="navbar__item navbar__link" href="/The-Wandering-Handbook/catalog">Catalog</a></div><div class="theme-layout-navbar-right navbar__items navbar__items--right"><a href="https://github.com/Sazendrak/The-Wandering-Handbook" target="_blank" rel="noopener noreferrer" class="navbar__item navbar__link">GitHub<svg width="13.5" height="13.5" aria-label="(opens in new tab)" class="iconExternalLink_nPIU"><use href="#theme-svg-external-link"></use></svg></a><div class="toggle_vylO colorModeToggle_DEke"><button class="clean-btn toggleButton_gllP toggleButtonDisabled_aARS" type="button" disabled="" title="system mode" aria-label="Switch between dark and light mode (currently system mode)"><svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" class="toggleIcon_g3eP lightToggleIcon_pyhR"><path fill="currentColor" d="M12,9c1.65,0,3,1.35,3,3s-1.35,3-3,3s-3-1.35-3-3S10.35,9,12,9 M12,7c-2.76,0-5,2.24-5,5s2.24,5,5,5s5-2.24,5-5 S14.76,7,12,7L12,7z M2,13l2,0c0.55,0,1-0.45,1-1s-0.45-1-1-1l-2,0c-0.55,0-1,0.45-1,1S1.45,13,2,13z M20,13l2,0c0.55,0,1-0.45,1-1 s-0.45-1-1-1l-2,0c-0.55,0-1,0.45-1,1S19.45,13,20,13z M11,2v2c0,0.55,0.45,1,1,1s1-0.45,1-1V2c0-0.55-0.45-1-1-1S11,1.45,11,2z M11,20v2c0,0.55,0.45,1,1,1s1-0.45,1-1v-2c0-0.55-0.45-1-1-1C11.45,19,11,19.45,11,20z M5.99,4.58c-0.39-0.39-1.03-0.39-1.41,0 c-0.39,0.39-0.39,1.03,0,1.41l1.06,1.06c0.39,0.39,1.03,0.39,1.41,0s0.39-1.03,0-1.41L5.99,4.58z M18.36,16.95 c-0.39-0.39-1.03-0.39-1.41,0c-0.39,0.39-0.39,1.03,0,1.41l1.06,1.06c0.39,0.39,1.03,0.39,1.41,0c0.39-0.39,0.39-1.03,0-1.41 L18.36,16.95z M19.42,5.99c0.39-0.39,0.39-1.03,0-1.41c-0.39-0.39-1.03-0.39-1.41,0l-1.06,1.06c-0.39,0.39-0.39,1.03,0,1.41 s1.03,0.39,1.41,0L19.42,5.99z M7.05,18.36c0.39-0.39,0.39-1.03,0-1.41c-0.39-0.39-1.03-0.39-1.41,0l-1.06,1.06 c-0.39,0.39-0.39,1.03,0,1.41s1.03,0.39,1.41,0L7.05,18.36z"></path></svg><svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" class="toggleIcon_g3eP darkToggleIcon_wfgR"><path fill="currentColor" d="M9.37,5.51C9.19,6.15,9.1,6.82,9.1,7.5c0,4.08,3.32,7.4,7.4,7.4c0.68,0,1.35-0.09,1.99-0.27C17.45,17.19,14.93,19,12,19 c-3.86,0-7-3.14-7-7C5,9.07,6.81,6.55,9.37,5.51z M12,3c-4.97,0-9,4.03-9,9s4.03,9,9,9s9-4.03,9-9c0-0.46-0.04-0.92-0.1-1.36 c-0.98,1.37-2.58,2.26-4.4,2.26c-2.98,0-5.4-2.42-5.4-5.4c0-1.81,0.89-3.42,2.26-4.4C12.92,3.04,12.46,3,12,3L12,3z"></path></svg><svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" class="toggleIcon_g3eP systemToggleIcon_QzmC"><path fill="currentColor" d="m12 21c4.971 0 9-4.029 9-9s-4.029-9-9-9-9 4.029-9 9 4.029 9 9 9zm4.95-13.95c1.313 1.313 2.05 3.093 2.05 4.95s-0.738 3.637-2.05 4.95c-1.313 1.313-3.093 2.05-4.95 2.05v-14c1.857 0 3.637 0.737 4.95 2.05z"></path></svg></button></div><div class="navbarSearchContainer_Bca1"><div class="navbar__search searchBarContainer_NW3z" dir="ltr"><input placeholder="Search" aria-label="Search" class="navbar__search-input searchInput_YFbd" value=""><div class="loadingRing_RJI3 searchBarLoadingRing_YnHq"><div></div><div></div><div></div><div></div></div></div></div></div></div><div role="presentation" class="navbar-sidebar__backdrop"></div></nav><div id="__docusaurus_skipToContent_fallback" class="theme-layout-main main-wrapper mainWrapper_z2l0"><div class="docsWrapper_hBAB"><button aria-label="Scroll back to top" class="clean-btn theme-back-to-top-button backToTopButton_sjWU" type="button"></button><div class="docRoot_UBD9"><aside class="theme-doc-sidebar-container docSidebarContainer_YfHR"><div class="sidebarViewport_aRkj"><div class="sidebar_njMd"><nav aria-label="Docs sidebar" class="menu thin-scrollbar menu_SIkG"><ul class="theme-doc-sidebar-menu menu__list"><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item"><div class="menu__list-item-collapsible"><a class="categoryLink_byQd menu__link menu__link--sublist menu__link--active" href="/The-Wandering-Handbook/docs/category/classes"><span title="Classes" class="categoryLinkLabel_W154">Classes</span></a><button aria-label="Collapse sidebar category &#x27;Classes&#x27;" aria-expanded="true" type="button" class="clean-btn menu__caret"></button></div><ul class="menu__list"><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/The-Wandering-Handbook/docs/homebrew/classes/blood-hunter-(version-x)"><span title="Blood Hunter (Version X)" class="linkLabel_WmDU">Blood Hunter (Version X)</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/The-Wandering-Handbook/docs/homebrew/classes/bombardier"><span title="Bombardier" class="linkLabel_WmDU">Bombardier</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/The-Wandering-Handbook/docs/homebrew/classes/channeler"><span title="Channeler" class="linkLabel_WmDU">Channeler</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/The-Wandering-Handbook/docs/homebrew/classes/drifter"><span title="Drifter" class="linkLabel_WmDU">Drifter</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/The-Wandering-Handbook/docs/homebrew/classes/exorcist"><span title="Exorcist" class="linkLabel_WmDU">Exorcist</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/The-Wandering-Handbook/docs/homebrew/classes/greaser"><span title="Greaser" class="linkLabel_WmDU">Greaser</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/The-Wandering-Handbook/docs/homebrew/classes/harbinger"><span title="Harbinger" class="linkLabel_WmDU">Harbinger</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/The-Wandering-Handbook/docs/homebrew/classes/jade-lord"><span title="Jade Lord" class="linkLabel_WmDU">Jade Lord</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/The-Wandering-Handbook/docs/homebrew/classes/juggernaut"><span title="Juggernaut" class="linkLabel_WmDU">Juggernaut</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/The-Wandering-Handbook/docs/homebrew/classes/medic"><span title="Medic" class="linkLabel_WmDU">Medic</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/The-Wandering-Handbook/docs/homebrew/classes/medium"><span title="Medium" class="linkLabel_WmDU">Medium</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/The-Wandering-Handbook/docs/homebrew/classes/oracle"><span title="Oracle" class="linkLabel_WmDU">Oracle</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/The-Wandering-Handbook/docs/homebrew/classes/performer"><span title="Performer" class="linkLabel_WmDU">Performer</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/The-Wandering-Handbook/docs/homebrew/classes/physicist"><span title="Physicist" class="linkLabel_WmDU">Physicist</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link menu__link--active" aria-current="page" tabindex="0" href="/The-Wandering-Handbook/docs/homebrew/classes/practitioner"><span title="Practitioner" class="linkLabel_WmDU">Practitioner</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/The-Wandering-Handbook/docs/homebrew/classes/psi-tracker"><span title="Psi Tracker" class="linkLabel_WmDU">Psi Tracker</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/The-Wandering-Handbook/docs/homebrew/classes/ranger-(version-x)"><span title="Ranger (Version X)" class="linkLabel_WmDU">Ranger (Version X)</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/The-Wandering-Handbook/docs/homebrew/classes/rook"><span title="Rook" class="linkLabel_WmDU">Rook</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item homebrew-class"><a class="menu__link" tabindex="0" href="/The-Wandering-Handbook/docs/homebrew/classes/sage"><span title="Sage" class="linkLabel_WmDU">Sage</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/The-Wandering-Handbook/docs/homebrew/classes/scrapper"><span title="Scrapper" class="linkLabel_WmDU">Scrapper</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/The-Wandering-Handbook/docs/homebrew/classes/shinobi"><span title="Shinobi" class="linkLabel_WmDU">Shinobi</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/The-Wandering-Handbook/docs/homebrew/classes/spiritualist"><span title="Spiritualist" class="linkLabel_WmDU">Spiritualist</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/The-Wandering-Handbook/docs/homebrew/classes/swindler"><span title="Swindler" class="linkLabel_WmDU">Swindler</span></a></li></ul></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="categoryLink_byQd menu__link menu__link--sublist" href="/The-Wandering-Handbook/docs/category/subclasses--archetypes"><span title="Subclasses &amp; Archetypes" class="categoryLinkLabel_W154">Subclasses &amp; Archetypes</span></a><button aria-label="Expand sidebar category &#x27;Subclasses &amp; Archetypes&#x27;" aria-expanded="false" type="button" class="clean-btn menu__caret"></button></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="categoryLink_byQd menu__link menu__link--sublist" href="/The-Wandering-Handbook/docs/category/races"><span title="Races" class="categoryLinkLabel_W154">Races</span></a><button aria-label="Expand sidebar category &#x27;Races&#x27;" aria-expanded="false" type="button" class="clean-btn menu__caret"></button></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="categoryLink_byQd menu__link menu__link--sublist" href="/The-Wandering-Handbook/docs/category/spells"><span title="Spells" class="categoryLinkLabel_W154">Spells</span></a><button aria-label="Expand sidebar category &#x27;Spells&#x27;" aria-expanded="false" type="button" class="clean-btn menu__caret"></button></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="categoryLink_byQd menu__link menu__link--sublist" href="/The-Wandering-Handbook/docs/category/feats"><span title="Feats" class="categoryLinkLabel_W154">Feats</span></a><button aria-label="Expand sidebar category &#x27;Feats&#x27;" aria-expanded="false" type="button" class="clean-btn menu__caret"></button></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="categoryLink_byQd menu__link menu__link--sublist" href="/The-Wandering-Handbook/docs/category/boons--blessings"><span title="Boons &amp; Blessings" class="categoryLinkLabel_W154">Boons &amp; Blessings</span></a><button aria-label="Expand sidebar category &#x27;Boons &amp; Blessings&#x27;" aria-expanded="false" type="button" class="clean-btn menu__caret"></button></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="categoryLink_byQd menu__link menu__link--sublist" href="/The-Wandering-Handbook/docs/category/items"><span title="Items" class="categoryLinkLabel_W154">Items</span></a><button aria-label="Expand sidebar category &#x27;Items&#x27;" aria-expanded="false" type="button" class="clean-btn menu__caret"></button></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="categoryLink_byQd menu__link menu__link--sublist" href="/The-Wandering-Handbook/docs/category/class-feature-mods"><span title="Class Feature Mods" class="categoryLinkLabel_W154">Class Feature Mods</span></a><button aria-label="Expand sidebar category &#x27;Class Feature Mods&#x27;" aria-expanded="false" type="button" class="clean-btn menu__caret"></button></div></li></ul></nav></div></div></aside><main class="docMainContainer_TBSr"><div class="container padding-top--md padding-bottom--lg"><div class="row"><div class="col docItemCol_VOVn"><div class="docItemContainer_Djhp"><article><nav class="theme-doc-breadcrumbs breadcrumbsContainer_Z_bl" aria-label="Breadcrumbs"><ul class="breadcrumbs"><li class="breadcrumbs__item"><a aria-label="Home page" class="breadcrumbs__link" href="/The-Wandering-Handbook/"><svg viewBox="0 0 24 24" class="breadcrumbHomeIcon_YNFT"><path d="M10 19v-5h4v5c0 .55.45 1 1 1h3c.55 0 1-.45 1-1v-7h1.7c.46 0 .68-.57.33-.87L12.67 3.6c-.38-.34-.96-.34-1.34 0l-8.36 7.53c-.34.3-.13.87.33.87H5v7c0 .55.45 1 1 1h3c.55 0 1-.45 1-1z" fill="currentColor"></path></svg></a></li><li class="breadcrumbs__item"><a class="breadcrumbs__link" href="/The-Wandering-Handbook/docs/category/classes"><span>Classes</span></a></li><li class="breadcrumbs__item breadcrumbs__item--active"><span class="breadcrumbs__link">Practitioner</span></li></ul></nav><div class="tocCollapsible_ETCw theme-doc-toc-mobile tocMobile_ITEo"><button type="button" class="clean-btn tocCollapsibleButton_TO0P">On this page</button></div><div class="theme-doc-markdown markdown"><header><h1>Practitioner</h1></header>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="practitioner-banned-from-20260104">Practitioner (Banned from 2026/01/04)<a href="#practitioner-banned-from-20260104" class="hash-link" aria-label="Direct link to Practitioner (Banned from 2026/01/04)" title="Direct link to Practitioner (Banned from 2026/01/04)" translate="no">​</a></h2>
+<p><em>Facing a horde of demons, a lone warrior raises their blade high. With a single cleave, the demonic horde is silenced, their ranks having been cleft in two without mercy nor hesitation.</em></p>
+<p><em>Pursued by the local militia, a figure dressed in black, ragged attire performs an ancient technique. With a dagger whirling about, she spins in a perfect arc and vanishes into thin air, losing her hunters with ease.</em></p>
+<p><em>Facing down his mortal enemy, a martial practitioner displays the ultimate killing technique that he had spent his entire life perfecting, just for this moment. In exactly ten steps, he thrusts his blade with the force of the very heavens, impaling the man who had taken his family from him.</em></p>
+<p><em>These warriors go by many names; the ninjas of Kozakura, the daoists of Shou Lung, and even the henshin mystics of Tabot. Focused on practicing various martial forms to employ in battle, subterfuge, or survival, this archetype of combatant hailing from the east is most commonly referred to under one name— the practitioner.</em></p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="form-and-tradition">Form and Tradition<a href="#form-and-tradition" class="hash-link" aria-label="Direct link to Form and Tradition" title="Direct link to Form and Tradition" translate="no">​</a></h3>
+<p><em>The martial forms trained by practitioners are rooted very heavily to worldly practices. Unlike a monk’s training, which is focused on spiritualism and purifying the soul, these forms are tied to more earthly aspects.</em></p>
+<p><em>Many martial forms are passed down through generations, existing as deep-rooted tradition, and others are lost arts created by long-forgotten ancestors. These forms spread throughout regions, often going by different names with various cultural adjustments made depending on their respective uses.</em></p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="martial-peak">Martial Peak<a href="#martial-peak" class="hash-link" aria-label="Direct link to Martial Peak" title="Direct link to Martial Peak" translate="no">​</a></h3>
+<p><em>For a practitioner, training in specific arts defines their existence. Whether it be making use of their ki, training their bodies to withstand the force of their forms, or perfecting the use of weaponry to their absolute peak, practitioners can eventually perform impossible feats and earth-shattering deeds.</em></p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="the-practitioner-class-table">The Practitioner Class Table<a href="#the-practitioner-class-table" class="hash-link" aria-label="Direct link to The Practitioner Class Table" title="Direct link to The Practitioner Class Table" translate="no">​</a></h3>
+<table><thead><tr><th>Level</th><th>Proficiency Bonus</th><th>Feature</th><th>Mastery</th></tr></thead><tbody><tr><td>1st</td><td>+2</td><td>Martial Forms</td><td>1</td></tr><tr><td>2nd</td><td>+2</td><td>Martial Path</td><td>1</td></tr><tr><td>3rd</td><td>+2</td><td>Cleanse, Fighting Style</td><td>2</td></tr><tr><td>4th</td><td>+2</td><td>Ability Score Improvement</td><td>2</td></tr><tr><td>5th</td><td>+3</td><td>-</td><td>3</td></tr><tr><td>6th</td><td>+3</td><td>Martial Path Feature</td><td>3</td></tr><tr><td>7th</td><td>+3</td><td>Signature Form</td><td>4</td></tr><tr><td>8th</td><td>+3</td><td>Ability Score Improvement</td><td>4</td></tr><tr><td>9th</td><td>+4</td><td>-</td><td>5</td></tr><tr><td>10th</td><td>+4</td><td>Greater Cleanse</td><td>5</td></tr><tr><td>11th</td><td>+4</td><td>-</td><td>6</td></tr><tr><td>12th</td><td>+4</td><td>Ability Score Improvement</td><td>6</td></tr><tr><td>13th</td><td>+5</td><td>-</td><td>7</td></tr><tr><td>14th</td><td>+5</td><td>Martial Path Feature</td><td>7</td></tr><tr><td>15th</td><td>+5</td><td>-</td><td>8</td></tr><tr><td>16th</td><td>+5</td><td>Ability Score Improvement</td><td>8</td></tr><tr><td>17th</td><td>+6</td><td>Signature Form</td><td>9</td></tr><tr><td>18th</td><td>+6</td><td>Martial Path Feature</td><td>9</td></tr><tr><td>19th</td><td>+6</td><td>Ability Score Improvement</td><td>10</td></tr><tr><td>20th</td><td>+6</td><td>Martial Peak</td><td>10</td></tr></tbody></table>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="creating-a-practitioner">Creating a Practitioner<a href="#creating-a-practitioner" class="hash-link" aria-label="Direct link to Creating a Practitioner" title="Direct link to Creating a Practitioner" translate="no">​</a></h2>
+<p>As you create a practitioner, think about your character’s motivations. What first drew you to practice martial forms? Did you have a master, or did you find an ancient technique in a hazardous area? What goal are you trying to achieve by reaching the peak of martial prowess?</p>
+<p>You may want to consider your training methods and the way you make these forms your own. Do you practice the same strike a thousand times before dawn? Maybe you practice in perilous conditions, like under a torrential waterfall or at the mouth of a volcano. Do you stick to tradition when performing forms, or do you add your own personal flair?</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="class-features">Class Features<a href="#class-features" class="hash-link" aria-label="Direct link to Class Features" title="Direct link to Class Features" translate="no">​</a></h2>
+<p>As a practitioner, you gain the following class features.</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="hit-points">Hit Points<a href="#hit-points" class="hash-link" aria-label="Direct link to Hit Points" title="Direct link to Hit Points" translate="no">​</a></h3>
+<hr>
+<p><strong>Hit Dice:</strong> 1d8 per practitioner level</p>
+<p><strong>Hit Points at 1st Level</strong>: 8 + your Constitution Modifier</p>
+<p><strong>Hit Points at Higher Levels</strong>: 1d8 (or 5) + your</p>
+<p>Constitution modifier per practitioner level after 1st</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="proficiencies">Proficiencies<a href="#proficiencies" class="hash-link" aria-label="Direct link to Proficiencies" title="Direct link to Proficiencies" translate="no">​</a></h3>
+<hr>
+<p><strong>Armor:</strong> Light armor, medium armor, heavy armor, shields</p>
+<p><strong>Weapons:</strong> Simple weapons, martial weapons</p>
+<p><strong>Tools:</strong> Herbalism Kit</p>
+<p><strong>Saving Throws:</strong> Strength, Wisdom</p>
+<p><strong>Skills:</strong> Choose two from Acrobatics, Athletics, History, Insight, Intimidation, Medicine, Perception, Performance, and Stealth</p>
+<h4 class="anchor anchorTargetStickyNavbar_Vzrq" id="equipment">Equipment<a href="#equipment" class="hash-link" aria-label="Direct link to Equipment" title="Direct link to Equipment" translate="no">​</a></h4>
+<hr>
+<p>You start with the following equipment, in addition to the equipment granted by your background:</p>
+<ul>
+<li class=""><em>(a)</em> chain mail, <em>(b)</em> scale mail, or <em>(c)</em> leather armor</li>
+<li class=""><em>(a)</em> a martial weapon and a shield or <em>(b)</em> two martial weapons</li>
+<li class=""><em>(a)</em> a scholar’s pack or <em>(b)</em> an explorer’s pack</li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="martial-forms">Martial Forms<a href="#martial-forms" class="hash-link" aria-label="Direct link to Martial Forms" title="Direct link to Martial Forms" translate="no">​</a></h3>
+<p>As a practitioner, you learn various styles and forms that you can use in and out of combat. These forms can create devastating effects, representing a practitioner’s mastery over it.</p>
+<p>The techniques you can use for each form depends on how well you have mastered the form. There are four levels of mastery: <strong>novice, intermediate, advanced,</strong> and <strong>master</strong>.</p>
+<p>At 1st level, you know one martial form of your choice. The Mastery section of the practitioner table represents your progress in mastering your various martial forms. Each time mastery increases, you can either learn a new martial form of your choosing, or raise the mastery level of a martial form you already know.</p>
+<h4 class="anchor anchorTargetStickyNavbar_Vzrq" id="martial-ability-types">Martial Ability Types<a href="#martial-ability-types" class="hash-link" aria-label="Direct link to Martial Ability Types" title="Direct link to Martial Ability Types" translate="no">​</a></h4>
+<p>Martial form techniques will be marked as either “physical” or “mental” types. Depending on which category the technique falls under, the DC of any related saving throws will depend on a different ability score. You can choose which ability score is used from the options below.</p>
+<p><strong>Physical save DC</strong> = 8 + your Proficiency Bonus + your Strength or Dexterity modifier</p>
+<p><strong>Mental save DC</strong> = 8 + your Proficiency Bonus + your Wisdom, Intelligence, or Charisma modifier</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="martial-techniques">Martial Techniques<a href="#martial-techniques" class="hash-link" aria-label="Direct link to Martial Techniques" title="Direct link to Martial Techniques" translate="no">​</a></h3>
+<p>Each martial form is composed of various techniques that seek to accomplish different goals. They are often individually named and sometimes numbered for simplicity’s sake.</p>
+<p>A good practitioner hand-picks forms and techniques that work well together and give them the edge in combat. A practitioner’s skill often comes down to how well they can use different forms and their respective techniques in tandem with each other.</p>
+<h4 class="anchor anchorTargetStickyNavbar_Vzrq" id="using-techniques">Using Techniques<a href="#using-techniques" class="hash-link" aria-label="Direct link to Using Techniques" title="Direct link to Using Techniques" translate="no">​</a></h4>
+<p>Each form has a list of techniques associated with it. The technique’s description describes a <strong>primary effect</strong> and a <strong>focused effect</strong>. The primary effect can be used at any time as an action, but the focused effect requires the consumption of <strong>mastery points</strong>.</p>
+<p>You have a number of mastery points equal to your current mastery, as shown in the Mastery section of the practitioner table. To use a focused effect, you must expend a number of mastery points as specified for the technique. You regain all consumed mastery points when you finish a short or long rest.</p>
+<p>Individual techniques are made up of a few elements that are covered below.</p>
+<h5 class="anchor anchorTargetStickyNavbar_Vzrq" id="prerequisites">Prerequisites<a href="#prerequisites" class="hash-link" aria-label="Direct link to Prerequisites" title="Direct link to Prerequisites" translate="no">​</a></h5>
+<p>Some techniques have prerequisites listed, whether it’s wielding a specific weapon type, having a certain mastery level, or miscellaneous prerequisite. All prerequisites must be satisfied before a technique can be used.</p>
+<h5 class="anchor anchorTargetStickyNavbar_Vzrq" id="duration">Duration<a href="#duration" class="hash-link" aria-label="Direct link to Duration" title="Direct link to Duration" translate="no">​</a></h5>
+<p>The duration of a technique specifies how long its effect lasts.</p>
+<p><strong>Instantaneous.</strong> If no duration is specified, the effect of the option is instantaneous.</p>
+<p><strong>Concentration.</strong> Some options require concentration to maintain their effects. This requirement is noted with “Concentration” in the technique’s description. The notation is followed by the maximum duration of the concentration. For example, if a technique says “Concentration, 1 min.,” you can concentrate on its effect for up to 1 minute.</p>
+<p>Concentrating on a technique follows the same rules as concentrating on a spell. This rule means you can’t concentrate on a spell and a discipline at the same time, nor can you concentrate on two disciplines at the same time. See chapter 10, “Spellcasting,” in the Player’s Handbook for how concentration works.</p>
+<h5 class="anchor anchorTargetStickyNavbar_Vzrq" id="targets-and-areas-of-effect">Targets and Areas of Effect<a href="#targets-and-areas-of-effect" class="hash-link" aria-label="Direct link to Targets and Areas of Effect" title="Direct link to Targets and Areas of Effect" translate="no">​</a></h5>
+<p>Techniques use the same rules as spells for determining targets and areas of effect, as presented in chapter 10, “Spellcasting,” of the Player’s Handbook.</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="martial-path">Martial Path<a href="#martial-path" class="hash-link" aria-label="Direct link to Martial Path" title="Direct link to Martial Path" translate="no">​</a></h3>
+<p>At 2nd level, you select a martial path from the list of available options. Each martial path determines how you employ the martial forms you learn. Your martial path grants you features at 2nd, 6th, 14th, and 18th level.</p>
+<p>At 2nd level, you learn your path’s martial form. At 6th, 14th, and 18th levels, the martial form’s mastery level increases to intermediate, advanced, and master respectively.</p>
+<ul>
+<li class=""><a class="" href="/The-Wandering-Handbook/docs/homebrew/items/sword-saint">Sword Saint</a></li>
+<li class=""><a class="" href="/The-Wandering-Handbook/docs/homebrew/items/true-path">True Path</a></li>
+<li class=""><a class="" href="/The-Wandering-Handbook/docs/homebrew/classes/drifter">Drifter</a></li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="fighting-style">Fighting Style<a href="#fighting-style" class="hash-link" aria-label="Direct link to Fighting Style" title="Direct link to Fighting Style" translate="no">​</a></h3>
+<p>At 3rd level, you adopt a style of fighting as your specialty. Choose one of the following options. You can’t take a Fighting Style option more than once, even if something in the game lets you choose again.</p>
+<h4 class="anchor anchorTargetStickyNavbar_Vzrq" id="archery">Archery<a href="#archery" class="hash-link" aria-label="Direct link to Archery" title="Direct link to Archery" translate="no">​</a></h4>
+<p>You gain a +2 bonus to attack rolls you make with ranged weapons.</p>
+<h4 class="anchor anchorTargetStickyNavbar_Vzrq" id="dueling">Dueling.<a href="#dueling" class="hash-link" aria-label="Direct link to Dueling." title="Direct link to Dueling." translate="no">​</a></h4>
+<p>When you are wielding a melee weapon in one hand and no other weapons, you gain a +2 bonus to damage rolls with that weapon.</p>
+<h4 class="anchor anchorTargetStickyNavbar_Vzrq" id="great-weapon-fighting">Great Weapon Fighting.<a href="#great-weapon-fighting" class="hash-link" aria-label="Direct link to Great Weapon Fighting." title="Direct link to Great Weapon Fighting." translate="no">​</a></h4>
+<p>When you roll a 1 or 2 on a damage die for an attack you make with a melee weapon that you are wielding with two hands, you can reroll the die and must use the new roll, even if the new roll is a 1 or a 2. The weapon must have the two-handed or versatile property for you to gain this benefit.</p>
+<h4 class="anchor anchorTargetStickyNavbar_Vzrq" id="two-weapon-fighting">Two-Weapon Fighting.<a href="#two-weapon-fighting" class="hash-link" aria-label="Direct link to Two-Weapon Fighting." title="Direct link to Two-Weapon Fighting." translate="no">​</a></h4>
+<p>When you engage in two-weapon fighting, you can add your ability modifier to the damage of the second attack.</p>
+<h4 class="anchor anchorTargetStickyNavbar_Vzrq" id="unarmed-fighting">Unarmed Fighting<a href="#unarmed-fighting" class="hash-link" aria-label="Direct link to Unarmed Fighting" title="Direct link to Unarmed Fighting" translate="no">​</a></h4>
+<p>Your unarmed strikes can deal bludgeoning damage equal to 1d6 + your Strength modifier on a hit. If you aren’t wielding any weapons or a shield when you make the attack roll, the d6 becomes a d8.</p>
+<p>At the start of each of your turns, you can deal 1d4 bludgeoning damage to one creature grappled by you.</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="cleanse">Cleanse<a href="#cleanse" class="hash-link" aria-label="Direct link to Cleanse" title="Direct link to Cleanse" translate="no">​</a></h3>
+<p>At 3rd level, whenever you use a technique’s focused effect, you can mend your wounds. You can roll a number of d6’s equal to the amount of mastery points spent and regain hit points equal to the total.</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="ability-score-improvement">Ability score improvement<a href="#ability-score-improvement" class="hash-link" aria-label="Direct link to Ability score improvement" title="Direct link to Ability score improvement" translate="no">​</a></h3>
+<p>When you reach 4th level, and again at 8th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can’t increase an ability score above 20 using this feature.</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="signature-form">Signature Form<a href="#signature-form" class="hash-link" aria-label="Direct link to Signature Form" title="Direct link to Signature Form" translate="no">​</a></h3>
+<p>At 7th level, you have developed a preference for one of your martial forms and have put extra effort into improving it. Choose one of your martial forms to be your signature form. During initiative, the first focused technique you use from your signature form does not require any mastery points.</p>
+<p>At 17th level, you can choose a second signature form.</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="greater-cleanse">Greater Cleanse<a href="#greater-cleanse" class="hash-link" aria-label="Direct link to Greater Cleanse" title="Direct link to Greater Cleanse" translate="no">​</a></h3>
+<p>At 10th level, your ability to cleanse your body of impurities strengthens. Whenever you use a technique’s focused effect, in addition to restoring hit points, you can also end one disease or condition afflicting yourself. This condition can be blinded, charmed, deafened, frightened, or poisoned.</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="martial-peak-1">Martial Peak<a href="#martial-peak-1" class="hash-link" aria-label="Direct link to Martial Peak" title="Direct link to Martial Peak" translate="no">​</a></h3>
+<p>At 20th level, you reach the peak of martial prowess. You gain the following benefits:</p>
+<ul>
+<li class="">You no longer age</li>
+<li class="">You are immune to disease, poison damage, and the poisoned condition</li>
+<li class="">You can learn four new martial forms, raise the mastery level of four martial forms, or any combination of the two.</li>
+</ul>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="martial-forms-1">Martial Forms<a href="#martial-forms-1" class="hash-link" aria-label="Direct link to Martial Forms" title="Direct link to Martial Forms" translate="no">  ​</a></h2>
+<p>This section details the various martial forms available to learn. Each martial form comes with its various techniques, going in-depth regarding their respective effects and details.</p>
+<ul>
+<li class="">Ascendant Lotus</li>
+<li class="">Blooming Corpse Flower</li>
+<li class="">Clear Flame Dance</li>
+<li class="">Frost Worm’s Maw</li>
+<li class="">Golden Roc</li>
+<li class="">Jade Dragon’s Descent</li>
+<li class="">Kraken’s Fury</li>
+<li class="">Leviathan Blade</li>
+<li class="">Metamorphic Seal</li>
+<li class="">Nine-Tailed Deception</li>
+<li class="">Owlbear’s Rage</li>
+<li class="">Quaking Zaratan</li>
+<li class="">Six-Headed Hydra</li>
+<li class="">Tarrasque Jaw</li>
+<li class="">Thousand Ooze</li>
+<li class="">Twin Dragon Equinox</li>
+<li class="">Vermilion Bird’s Feather</li>
+<li class="">Wraith Step</li>
+<li class="">Yarrow Petal’s Fall</li>
+<li class="">Zither’s Final Note</li>
+</ul>
+<p>The following martial forms are tied to a specific martial path. You must follow their specific paths in order to gain access to them.</p>
+<ul>
+<li class="">Flow State</li>
+<li class="">Infinite Armaments</li>
+<li class="">True Damage</li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="ascendant-lotus">Ascendant Lotus<a href="#ascendant-lotus" class="hash-link" aria-label="Direct link to Ascendant Lotus" title="Direct link to Ascendant Lotus" translate="no">​</a></h3>
+<p>This martial form imitates the mystical burning lotus, focusing on the three precepts: <em>burning</em>, <em>annihilating</em>, and <em>creation</em>. When used together, this form is extraordinarily destructive in nature.</p>
+<h4 class="anchor anchorTargetStickyNavbar_Vzrq" id="form-1-burning-lotus">Form 1: Burning Lotus<a href="#form-1-burning-lotus" class="hash-link" aria-label="Direct link to Form 1: Burning Lotus" title="Direct link to Form 1: Burning Lotus" translate="no">​</a></h4>
+<p><strong>Type:</strong></p>
+<p>Physical</p>
+<p><strong>Prequisites:</strong></p>
+<p>Novice</p>
+<p>Make a weapon attack against one creature within range. The attack deals an amount of d6s equal to your proficiency bonus in additional fire damage.</p>
+<p><strong>Focused (1 point).</strong> Additionally, the target must make a Dexterity saving throw or be set ablaze. At the start of each of their turns, they take an additional 1d10 fire damage until any creature uses their action to douse the flames.</p>
+<h4 class="anchor anchorTargetStickyNavbar_Vzrq" id="form-2-annihilating-lotus">Form 2: Annihilating Lotus<a href="#form-2-annihilating-lotus" class="hash-link" aria-label="Direct link to Form 2: Annihilating Lotus" title="Direct link to Form 2: Annihilating Lotus" translate="no">​</a></h4>
+<p><strong>Type:</strong></p>
+<p>Mental</p>
+<p><strong>Prequisites:</strong></p>
+<p>Intermediate</p>
+<p>Make a weapon attack against up to two different creatures within range. The attack’s damage becomes fire damage and deals an amount of d6s of additional fire damage equal to half your proficiency bonus (rounded down).</p>
+<p><strong>Focused (1 point, or 0 against a burning enemy).</strong> On a hit, one of the creatures unfurls in a flaming lotus. Creatures of your choice within 10 feet of that creature must make a Dexterity saving throw or take 5d6 fire damage, or half the fire damage on a success.</p>
+<h4 class="anchor anchorTargetStickyNavbar_Vzrq" id="form-3-lotus-creation">Form 3: Lotus Creation<a href="#form-3-lotus-creation" class="hash-link" aria-label="Direct link to Form 3: Lotus Creation" title="Direct link to Form 3: Lotus Creation" translate="no">​</a></h4>
+<p><strong>Type:</strong></p>
+<p>Mental</p>
+<p><strong>Prequisites:</strong></p>
+<p>Advanced</p>
+<p><strong>Duration:</strong></p>
+<p>Concentration, 1 min</p>
+<p>You create a blazing lotus on the ground up to 30 feet away. Creatures of your choice within 15 feet of the lotus cannot benefit from being invisible and have disadvantage on stealth checks.</p>
+<p><strong>Focused (1 point).</strong> Creatures within the lotus’s radius take an additional 1d8 fire damage whenever they are hit with a weapon attack.</p>
+<h4 class="anchor anchorTargetStickyNavbar_Vzrq" id="form-4-final-lotus">Form 4: Final Lotus<a href="#form-4-final-lotus" class="hash-link" aria-label="Direct link to Form 4: Final Lotus" title="Direct link to Form 4: Final Lotus" translate="no">​</a></h4>
+<p><strong>Type:</strong></p>
+<p>Mental</p>
+<p><strong>Prequisites:</strong></p>
+<p>Master, An existing blazing lotus</p>
+<p>You can cause your blazing lotus to explode, ending the effect. Creatures within the area must make a Dexterity saving throw or take 6d8 fire damage.</p>
+<p><strong>Focused (2 points, or 1 points if the burning lotus was focused).</strong> The target also takes 6d8 radiant damage. On a successful saving throw, the target takes half as much fire and radiant damage.</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="blooming-corpse-flower">Blooming Corpse Flower<a href="#blooming-corpse-flower" class="hash-link" aria-label="Direct link to Blooming Corpse Flower" title="Direct link to Blooming Corpse Flower" translate="no">​</a></h3>
+<p>This style uses a collection of quick jabs and stabs to embed festering seeds inside opponents.</p>
+<h4 class="anchor anchorTargetStickyNavbar_Vzrq" id="form-1-seeding">Form 1: Seeding<a href="#form-1-seeding" class="hash-link" aria-label="Direct link to Form 1: Seeding" title="Direct link to Form 1: Seeding" translate="no">​</a></h4>
+<p><strong>Type:</strong></p>
+<p>Physical</p>
+<p><strong>Prequisites:</strong></p>
+<p>Novice, Piercing weapon</p>
+<p>Make a weapon attack against a creature or object. The attack deals an amount of d6s equal to your proficiency bonus in additional piercing damage.</p>
+<p><strong>Focused (1 point).</strong> A seed is embedded into the target, reducing its movement speed by 10 feet for 1 minute.</p>
+<h4 class="anchor anchorTargetStickyNavbar_Vzrq" id="form-2-sprouting">Form 2: Sprouting<a href="#form-2-sprouting" class="hash-link" aria-label="Direct link to Form 2: Sprouting" title="Direct link to Form 2: Sprouting" translate="no">​</a></h4>
+<p><strong>Type:</strong></p>
+<p>Physical</p>
+<p><strong>Prequisites:</strong></p>
+<p>Intermediate, A target embedded with a seed</p>
+<p><strong>Duration:</strong></p>
+<p>Concentration, 1 min.</p>
+<p>The seed sprouts into vines, reducing the target’s movement speed to 0 until the vines are destroyed.</p>
+<p>The vines have 15 hit points, 14 AC, and are vulnerable to fire damage.</p>
+<p><strong>Focused (1 points).</strong> The target must make a Strength saving throw. On a failure, the target is restrained and the vines gain additional hit points equal to your practitioner level.</p>
+<h4 class="anchor anchorTargetStickyNavbar_Vzrq" id="form-3-blooming">Form 3: Blooming<a href="#form-3-blooming" class="hash-link" aria-label="Direct link to Form 3: Blooming" title="Direct link to Form 3: Blooming" translate="no">​</a></h4>
+<p><strong>Type:</strong></p>
+<p>Physical</p>
+<p><strong>Prequisites:</strong></p>
+<p>Advanced</p>
+<p>Make a weapon attack against one creature within range. The attack deals an additional 3d8 poison damage.</p>
+<p><strong>Focused (2 points, or 1 point if embedded with a seed, or 0 points if the seed sprouted into vines).</strong> The attack causes a corpse flower to bloom from the target’s body. The target must make a Constitution saving throw or be poisoned for 1 minute. While poisoned, the target takes 5d8 poison damage at the beginning of each of its turns and can repeat the saving throw, ending the effect on a success.</p>
+<h4 class="anchor anchorTargetStickyNavbar_Vzrq" id="form-4-burgeoning">Form 4: Burgeoning<a href="#form-4-burgeoning" class="hash-link" aria-label="Direct link to Form 4: Burgeoning" title="Direct link to Form 4: Burgeoning" translate="no">​</a></h4>
+<p><strong>Type:</strong></p>
+<p>Physical</p>
+<p><strong>Prequisites:</strong></p>
+<p>Master, A corpse embedded with a seed</p>
+<p>You can cause the seed to burgeon, destroying the seed and raising the corpse from the dead until the end of the turn. It shares the statistics of the creature it was raised from, except it has 10 hit points and cannot use legendary actions nor resistances. It shares your initiative, allowing you to control its actions verbally.</p>
+<p><strong>Focused (2 points).</strong> The corpse instead persists for 1 minute or until it dies.</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="clear-flame-dance">Clear Flame Dance<a href="#clear-flame-dance" class="hash-link" aria-label="Direct link to Clear Flame Dance" title="Direct link to Clear Flame Dance" translate="no">​</a></h3>
+<p>The clear flame dance is a form that uses whirling strikes while weaving between enemies and evading their attacks.</p>
+<h4 class="anchor anchorTargetStickyNavbar_Vzrq" id="form-1-whirling-embers">Form 1: Whirling Embers<a href="#form-1-whirling-embers" class="hash-link" aria-label="Direct link to Form 1: Whirling Embers" title="Direct link to Form 1: Whirling Embers" translate="no">​</a></h4>
+<p><strong>Type:</strong></p>
+<p>Physical</p>
+<p><strong>Prequisites:</strong></p>
+<p>Novice, Melee weapon</p>
+<p>Make a melee weapon attack against each enemy within range. For each successive attack past the first, you have a cumulative -2 penalty to attack rolls.</p>
+<p><strong>Focused (1 point).</strong> You no longer have a penalty for attacking opponents in succession, and for each time you hit, you gain +2 to your AC until the end of your next turn.</p>
+<h4 class="anchor anchorTargetStickyNavbar_Vzrq" id="form-2-wheel-of-fire">Form 2: Wheel of Fire<a href="#form-2-wheel-of-fire" class="hash-link" aria-label="Direct link to Form 2: Wheel of Fire" title="Direct link to Form 2: Wheel of Fire" translate="no">​</a></h4>
+<p><strong>Type:</strong></p>
+<p>Physical, Melee weapon</p>
+<p><strong>Prequisites:</strong></p>
+<p>Intermediate</p>
+<p>With a quick spin, you send a wheel of fire surging forward at a target within 60 feet. The target must make a Dexterity saving throw or take an amount of d10s equal to your proficiency bonus in fire damage.</p>
+<p><strong>Focused (1 point).</strong> You can immediately move up to your movement speed towards the target. If you end this movement within 5 feet of the target, you can make a melee weapon attack against that target.</p>
+<h4 class="anchor anchorTargetStickyNavbar_Vzrq" id="form-3-spinning-salvo">Form 3: Spinning Salvo<a href="#form-3-spinning-salvo" class="hash-link" aria-label="Direct link to Form 3: Spinning Salvo" title="Direct link to Form 3: Spinning Salvo" translate="no">​</a></h4>
+<p><strong>Type:</strong></p>
+<p>Physical, Melee weapon</p>
+<p><strong>Prequisites:</strong></p>
+<p>Advanced, Melee weapon</p>
+<p>With a quick spiral step, you fling out a flame primer to foes in range. Creatures within 10 feet must make a Dexterity saving throw. On a failure, they are primed for 1 minute, taking an additional 1d8 fire damage each time they take fire damage.</p>
+<p><strong>Focused (1 point).</strong> The additional damage increases to 2d8. You can immediately use Form 1: Whirling Embers.</p>
+<h4 class="anchor anchorTargetStickyNavbar_Vzrq" id="form-4-clearest-flame">Form 4: Clearest Flame<a href="#form-4-clearest-flame" class="hash-link" aria-label="Direct link to Form 4: Clearest Flame" title="Direct link to Form 4: Clearest Flame" translate="no">​</a></h4>
+<p><strong>Type:</strong></p>
+<p>Mental</p>
+<p><strong>Prerequisites:</strong></p>
+<p>Master</p>
+<p><strong>Duration:</strong></p>
+<p>Concentration, 1 min.</p>
+<p>Begin a whirling dance, giving you several benefits. Your saving throws gain a bonus equal to the modifier of the mental ability you selected, and you have advantage on Dexterity checks and saving throws.</p>
+<p><strong>Focused (1 point).</strong> You gain a bonus to your AC equal to half the modifier of the mental ability you selected (rounded down), and can immediately use another technique from this form.</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="frost-worms-maw">Frost Worm’s Maw<a href="#frost-worms-maw" class="hash-link" aria-label="Direct link to Frost Worm’s Maw" title="Direct link to Frost Worm’s Maw" translate="no">​</a></h3>
+<p>Featuring unpredictable and guttural techniques, this form is bestial in both theme and execution.</p>
+<h4 class="anchor anchorTargetStickyNavbar_Vzrq" id="form-1-frozen-maw">Form 1: Frozen Maw<a href="#form-1-frozen-maw" class="hash-link" aria-label="Direct link to Form 1: Frozen Maw" title="Direct link to Form 1: Frozen Maw" translate="no">​</a></h4>
+<p><strong>Type:</strong></p>
+<p>Physical</p>
+<p><strong>Prerequisites:</strong></p>
+<p>Novice</p>
+<p>Make a weapon attack against a creature or object. The attack deals an amount of d6s equal to your proficiency bonus in additional cold damage.</p>
+<p><strong>Focused (1 point).</strong> If the target is a large or smaller creature, it must make a Strength saving throw or be knocked prone and have its movement speed reduced to 0 until the end of its next turn.</p>
+<h4 class="anchor anchorTargetStickyNavbar_Vzrq" id="form-2-snowdiver">Form 2: Snowdiver<a href="#form-2-snowdiver" class="hash-link" aria-label="Direct link to Form 2: Snowdiver" title="Direct link to Form 2: Snowdiver" translate="no">​</a></h4>
+<p><strong>Type:</strong></p>
+<p>Physical</p>
+<p><strong>Prerequisites:</strong></p>
+<p>Intermediate</p>
+<p>You gain a burrow speed equal to your walking speed until the end of your turn. If you end your turn inside of an object, you take 1d10 bludgeoning damage and begin suffocating until you leave it.</p>
+<p><strong>Focused (1 point).</strong> If you move directly beneath a creature’s space, you can make a melee weapon attack against it. If the creature is prone, you can make a second melee weapon attack against it. Each of these attacks deal an additional 2d8 cold damage to the target.</p>
+<h4 class="anchor anchorTargetStickyNavbar_Vzrq" id="form-3-ice-heart">Form 3: Ice Heart<a href="#form-3-ice-heart" class="hash-link" aria-label="Direct link to Form 3: Ice Heart" title="Direct link to Form 3: Ice Heart" translate="no">​</a></h4>
+<p><strong>Type:</strong></p>
+<p>Physical</p>
+<p><strong>Prerequisites:</strong></p>
+<p>Advanced</p>
+<p><strong>Duration:</strong></p>
+<p>1 min.</p>
+<p>A grating flourish encases your midsection in ice. You gain temporary hit points equal to your level in this class.</p>
+<p><strong>Focused (1 point).</strong> Gain additional temporary hit points equal to your level. While these temporary hit points last, creatures that touch you or hit you with melee weapon attacks take 3d6 cold damage.</p>
+<h4 class="anchor anchorTargetStickyNavbar_Vzrq" id="form-4-twilight-trill">Form 4: Twilight Trill<a href="#form-4-twilight-trill" class="hash-link" aria-label="Direct link to Form 4: Twilight Trill" title="Direct link to Form 4: Twilight Trill" translate="no">​</a></h4>
+<p><strong>Type:</strong></p>
+<p>Mental</p>
+<p><strong>Prerequisites:</strong></p>
+<p>Master</p>
+<p>Disorienting sonic reverberations from your movements shake the ground in a 30-foot cone originating from you. Creatures in the area must make a Constitution saving throw or have disadvantage on attack rolls and ability checks until the end of their next turn.</p>
+<p><strong>Focused (3 points).</strong> Creatures that fail the saving throw take 5d8 thunder damage and are stunned until the end of their next turn. A prone creature has disadvantage on this saving throw.</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="golden-roc">Golden Roc<a href="#golden-roc" class="hash-link" aria-label="Direct link to Golden Roc" title="Direct link to Golden Roc" translate="no">​</a></h3>
+<p>This highly mobile form lets the user to take to the skies, allowing for simple repositioning and a series of diving strikes that can pick enemies off with ease.</p>
+<h4 class="anchor anchorTargetStickyNavbar_Vzrq" id="form-1-skyward-stride">Form 1: Skyward Stride<a href="#form-1-skyward-stride" class="hash-link" aria-label="Direct link to Form 1: Skyward Stride" title="Direct link to Form 1: Skyward Stride" translate="no">​</a></h4>
+<p><strong>Type:</strong></p>
+<p>Physical</p>
+<p><strong>Prerequisites:</strong></p>
+<p>Novice</p>
+<p>Make a weapon attack against a creature or object. Until the end of your turn, you gain a flying speed equal to your walking speed and don’t provoke opportunity attacks. If you end your turn in the air, you begin falling.</p>
+<p><strong>Focused (1 point).</strong> The attack deals an amount of d8’s equal to your proficiency bonus in additional radiant damage, and the additional flying speed lasts until the end of your next turn instead.</p>
+<h4 class="anchor anchorTargetStickyNavbar_Vzrq" id="form-2-setting-sun">Form 2: Setting Sun<a href="#form-2-setting-sun" class="hash-link" aria-label="Direct link to Form 2: Setting Sun" title="Direct link to Form 2: Setting Sun" translate="no">​</a></h4>
+<p><strong>Type:</strong></p>
+<p>Physical</p>
+<p><strong>Prerequisites:</strong></p>
+<p>Novice, At least 10 feet in the air</p>
+<p>You quickly and safely descend to a space directly below you on the ground and make a weapon attack against a creature or object. This attack deals an amount of d6’s equal to your proficiency bonus in additional radiant damage.</p>
+<p><strong>Focused (1 point).</strong> This attack deals an additional 1d8 radiant damage for every 10 feet you descended, up to 6d8 additional radiant damage.</p>
+<h4 class="anchor anchorTargetStickyNavbar_Vzrq" id="form-3-air-superiority">Form 3: Air Superiority<a href="#form-3-air-superiority" class="hash-link" aria-label="Direct link to Form 3: Air Superiority" title="Direct link to Form 3: Air Superiority" translate="no">​</a></h4>
+<p><strong>Type:</strong></p>
+<p>Physical</p>
+<p><strong>Prerequisites:</strong></p>
+<p>Advanced</p>
+<p>Make a weapon attack against a creature. If the creature’s elevation is lower than yours, you have advantage on the attack roll.</p>
+<p><strong>Focused (1 point, or 0 points if you’re in the air).</strong></p>
+<p>You can make an additional attack against the target. If either attack hits, you can immediately move up to your speed.</p>
+<h4 class="anchor anchorTargetStickyNavbar_Vzrq" id="form-4-bird-of-prey">Form 4: Bird of Prey<a href="#form-4-bird-of-prey" class="hash-link" aria-label="Direct link to Form 4: Bird of Prey" title="Direct link to Form 4: Bird of Prey" translate="no">​</a></h4>
+<p><strong>Type:</strong></p>
+<p>Physical</p>
+<p><strong>Prerequisites:</strong></p>
+<p>Master</p>
+<p>Make a weapon attack against a creature. On a hit, the creature must make a Strength saving throw or be pushed 30 feet in any direction of your choosing (you can push them directly upward).</p>
+<p><strong>Focused (1 point).</strong> If you push them within 5 feet of yourself, you can immediately attempt to grapple the creature. If successful, the creature is restrained for the duration of the grapple, and you suffer no penalty to your movement speed for moving them while grappled.</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="jade-dragons-descent">Jade Dragon’s Descent<a href="#jade-dragons-descent" class="hash-link" aria-label="Direct link to Jade Dragon’s Descent" title="Direct link to Jade Dragon’s Descent" translate="no">​</a></h3>
+<p>This royal martial form consists of oppressive arcing strikes, forcing enemies to bow down before your martial prowess.</p>
+<h4 class="anchor anchorTargetStickyNavbar_Vzrq" id="form-1-downward-dragon">Form 1: Downward Dragon<a href="#form-1-downward-dragon" class="hash-link" aria-label="Direct link to Form 1: Downward Dragon" title="Direct link to Form 1: Downward Dragon" translate="no">​</a></h4>
+<p><strong>Type:</strong></p>
+<p>Physical</p>
+<p><strong>Prerequisites:</strong></p>
+<p>Novice, Melee weapon</p>
+<p>Make a melee weapon attack against a creature or object. On a hit, the target must make a Strength saving throw or be knocked prone.</p>
+<p><strong>Focused (1 point).</strong> The attack deals a number of d8’s equal to your proficiency bonus in additional weapon damage to the target as well as other creatures of your choice within 5 feet of the target.</p>
+<h4 class="anchor anchorTargetStickyNavbar_Vzrq" id="form-2-dragon-drag">Form 2: Dragon Drag<a href="#form-2-dragon-drag" class="hash-link" aria-label="Direct link to Form 2: Dragon Drag" title="Direct link to Form 2: Dragon Drag" translate="no">​</a></h4>
+<p><strong>Type:</strong></p>
+<p>Physical</p>
+<p><strong>Prerequisites:</strong></p>
+<p>Intermediate, Melee weapon</p>
+<p>Make a melee weapon attack against a creature or object. You can immediately move up to your speed, and the target must make a Strength saving throw or be moved with you.</p>
+<p><strong>Focused (1 point, or 0 points if the target is prone).</strong> For every 10 feet that the target is moved, the target takes an additional 2d6 damage, up to 60 feet.</p>
+<h4 class="anchor anchorTargetStickyNavbar_Vzrq" id="form-3-jade-twister">Form 3: Jade Twister<a href="#form-3-jade-twister" class="hash-link" aria-label="Direct link to Form 3: Jade Twister" title="Direct link to Form 3: Jade Twister" translate="no">​</a></h4>
+<p><strong>Type:</strong></p>
+<p>Mental</p>
+<p><strong>Prerequisites:</strong></p>
+<p>Advanced, A prone target within range</p>
+<p><strong>Duration:</strong></p>
+<p>Concentration, 1 min</p>
+<p>Choose a target within 30 feet that’s prone. For the duration, the target must use an action to attempt to stand. The target must make a Strength save, ending this effect on a success.</p>
+<p><strong>Focused (1 point).</strong> The target is restrained for the duration of the effect and takes 5d6 bludgeoning damage at the beginning of each of its turns.</p>
+<h4 class="anchor anchorTargetStickyNavbar_Vzrq" id="form-4-dragons-charge">Form 4: Dragon’s Charge<a href="#form-4-dragons-charge" class="hash-link" aria-label="Direct link to Form 4: Dragon’s Charge" title="Direct link to Form 4: Dragon’s Charge" translate="no">​</a></h4>
+<p><strong>Type:</strong></p>
+<p>Physical</p>
+<p><strong>Prerequisites:</strong></p>
+<p>Master, Melee weapon</p>
+<p>You move up to your speed and make a melee weapon attack against a creature. The attack deals an amount of d6s equal to your proficiency bonus in additional damage.</p>
+<p><strong>Focused (2 points, or 1 point if the target is in a jade twister).</strong> You can immediately use Form 2: Dragon Drag.</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="krakens-fury">Kraken’s Fury<a href="#krakens-fury" class="hash-link" aria-label="Direct link to Kraken’s Fury" title="Direct link to Kraken’s Fury" translate="no">​</a></h3>
+<p>Implementing heavy and destructive lightning strikes, this martial form is often used in larger scale battles.</p>
+<h4 class="anchor anchorTargetStickyNavbar_Vzrq" id="form-1-lightning-strike">Form 1: Lightning Strike<a href="#form-1-lightning-strike" class="hash-link" aria-label="Direct link to Form 1: Lightning Strike" title="Direct link to Form 1: Lightning Strike" translate="no">​</a></h4>
+<p><strong>Type:</strong></p>
+<p>Physical</p>
+<p><strong>Prerequisites:</strong></p>
+<p>Novice, Heavy weapon</p>
+<p>Make a weapon attack against a creature. On a hit, that creature must make a Dexterity saving throw. The creature takes a number of d8’s equal to your proficiency bonus in additional lightning damage on a failed save, or half as much on a successful one.</p>
+<p><strong>Focused (1 point).</strong> Each creature of your choice adjacent to the target must also make the Dexterity saving throw.</p>
+<h4 class="anchor anchorTargetStickyNavbar_Vzrq" id="form-2-lightning-caller">Form 2: Lightning Caller<a href="#form-2-lightning-caller" class="hash-link" aria-label="Direct link to Form 2: Lightning Caller" title="Direct link to Form 2: Lightning Caller" translate="no">​</a></h4>
+<p><strong>Type:</strong></p>
+<p>Mental</p>
+<p><strong>Prerequisites:</strong></p>
+<p>Intermediate</p>
+<p><strong>Duration:</strong></p>
+<p>Concentration, 1 min.</p>
+<p>Choose a point on the ground within 60 feet. For the duration, creatures within 20 feet of that point take 1d8 lightning damage whenever they fail a saving throw.</p>
+<p><strong>Focused (1 point).</strong> The damage increases to 2d8. They also have disadvantage on saves against effects that would deal lightning damage.</p>
+<h4 class="anchor anchorTargetStickyNavbar_Vzrq" id="form-3-flinging-strike">Form 3: Flinging Strike<a href="#form-3-flinging-strike" class="hash-link" aria-label="Direct link to Form 3: Flinging Strike" title="Direct link to Form 3: Flinging Strike" translate="no">​</a></h4>
+<p><strong>Type:</strong></p>
+<p>Physical</p>
+<p><strong>Prerequisites:</strong></p>
+<p>Advanced, Heavy weapon</p>
+<p>Make a melee weapon attack against a creature or object. On a hit, the target must make a Strength saving throw or be pushed 30 feet away from you.</p>
+<p><strong>Focused (1 point).</strong> If it is pushed into a wall or another creature, any creatures involved in the collision take a number of d8’s equal to your proficiency bonus in lightning damage.</p>
+<h4 class="anchor anchorTargetStickyNavbar_Vzrq" id="form-4-stormfront">Form 4: Stormfront<a href="#form-4-stormfront" class="hash-link" aria-label="Direct link to Form 4: Stormfront" title="Direct link to Form 4: Stormfront" translate="no">​</a></h4>
+<p><strong>Type:</strong></p>
+<p>Mental</p>
+<p><strong>Prerequisites:</strong></p>
+<p>Master, Heavy weapon</p>
+<p>Each creature in a 30-foot cube originating from you must make a Dexterity saving throw. On a failure, they take a number of d8’s equal to your proficiency bonus in lightning damage, taking half on a success.</p>
+<p><strong>Focused (1 point).</strong> Also on a failure, you can push the creatures up to 20 feet away from you. If they land within your lightning caller, they take an additional 4d8 lightning damage.</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="leviathan-blade">Leviathan Blade<a href="#leviathan-blade" class="hash-link" aria-label="Direct link to Leviathan Blade" title="Direct link to Leviathan Blade" translate="no">​</a></h3>
+<p>The Leviathan Blade is a Kozakuran specialty, cutting opponents apart with unrivaled precision.</p>
+<h4 class="anchor anchorTargetStickyNavbar_Vzrq" id="form-1-cutting-tide">Form 1: Cutting Tide<a href="#form-1-cutting-tide" class="hash-link" aria-label="Direct link to Form 1: Cutting Tide" title="Direct link to Form 1: Cutting Tide" translate="no">​</a></h4>
+<p><strong>Type:</strong></p>
+<p>Physical</p>
+<p><strong>Prerequisites:</strong></p>
+<p>Novice, Slashing melee weapon</p>
+<p>Make a melee weapon attack against a creature or object. The target takes a number of d6’s equal to your proficiency bonus in additional slashing damage and is drenched with water until the end of your next turn.</p>
+<p><strong>Focused (1 point).</strong> Creatures and objects of your choice within 10 feet of your target are also drenched in water.</p>
+<h4 class="anchor anchorTargetStickyNavbar_Vzrq" id="form-2-leviathans-path">Form 2: Leviathan’s Path<a href="#form-2-leviathans-path" class="hash-link" aria-label="Direct link to Form 2: Leviathan’s Path" title="Direct link to Form 2: Leviathan’s Path" translate="no">​</a></h4>
+<p><strong>Type:</strong></p>
+<p>Physical</p>
+<p><strong>Prerequisites:</strong></p>
+<p>Intermediate, Slashing melee weapon</p>
+<p>You move up to your speed without provoking opportunity attacks. At any time during this movement, you can make one melee weapon attack against a creature or object.</p>
+<p><strong>Focused (2 points, or 0 points if you can see at least 3 drenched targets).</strong> The attack has advantage. Each time you move within 5 feet of a drenched target you haven’t already attacked, you can repeat this attack.</p>
+<h4 class="anchor anchorTargetStickyNavbar_Vzrq" id="form-3-hydro-blade">Form 3: Hydro Blade<a href="#form-3-hydro-blade" class="hash-link" aria-label="Direct link to Form 3: Hydro Blade" title="Direct link to Form 3: Hydro Blade" translate="no">​</a></h4>
+<p><strong>Type:</strong></p>
+<p>Mental</p>
+<p><strong>Prerequisites:</strong></p>
+<p>Advanced, Slashing melee weapon</p>
+<p><strong>Duration:</strong></p>
+<p>Concentration, 1 min.</p>
+<p>Your blade flows like a river. Drenched targets stay drenched for 1 minute, and recieve 1d8 more damage from this form’s techniques.</p>
+<p><strong>Focused (1 point).</strong> The additional damage increases to 2d8. You can immediately use Form 1: Cutting Tide. It costs no mastery points to focus.</p>
+<h4 class="anchor anchorTargetStickyNavbar_Vzrq" id="form-4-leviathans-end">Form 4: Leviathan’s End<a href="#form-4-leviathans-end" class="hash-link" aria-label="Direct link to Form 4: Leviathan’s End" title="Direct link to Form 4: Leviathan’s End" translate="no">​</a></h4>
+<p><strong>Type:</strong></p>
+<p>Physical</p>
+<p><strong>Prerequisites:</strong></p>
+<p>Master, Slashing melee weapon</p>
+<p>Every drenched target you can see must make a Dexterity saving throw or take a number of d8’s equal to your proficiency bonus in slashing damage.</p>
+<p><strong>Focused (2 points).</strong> You can then teleport to a space adjacent to one of the targets of your choosing and make a melee weapon attack against it. You can repeat this effect for every other target.</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="metamorphic-seal">Metamorphic Seal<a href="#metamorphic-seal" class="hash-link" aria-label="Direct link to Metamorphic Seal" title="Direct link to Metamorphic Seal" translate="no">​</a></h3>
+<p>A powerful body transformation form, the techniques involve using martial seals to enhance some capabilities at the cost of others.</p>
+<h4 class="anchor anchorTargetStickyNavbar_Vzrq" id="form-1-seal-of-divine-resolve">Form 1: Seal of Divine Resolve<a href="#form-1-seal-of-divine-resolve" class="hash-link" aria-label="Direct link to Form 1: Seal of Divine Resolve" title="Direct link to Form 1: Seal of Divine Resolve" translate="no">​</a></h4>
+<p><strong>Type:</strong></p>
+<p>Mental</p>
+<p><strong>Prerequisites:</strong></p>
+<p>Novice</p>
+<p><strong>Duration:</strong></p>
+<p>1 min.</p>
+<p>You cannot regain hit points. Once per turn when you use a technique that attacks a creature while this seal is active, you can bestow 2d8 temporary hit points to a creature of your choice within 60 feet.</p>
+<p><strong>Focused (1 point).</strong> Make a weapon attack against a creature or object. When you bestow temporary hit points to a creature with this technique, you restore an equal amount of hit points to that creature.</p>
+<h4 class="anchor anchorTargetStickyNavbar_Vzrq" id="form-2-seal-of-absolute-hatred">Form 2: Seal of Absolute Hatred<a href="#form-2-seal-of-absolute-hatred" class="hash-link" aria-label="Direct link to Form 2: Seal of Absolute Hatred" title="Direct link to Form 2: Seal of Absolute Hatred" translate="no">​</a></h4>
+<p><strong>Type:</strong></p>
+<p>Mental</p>
+<p><strong>Prerequisites:</strong></p>
+<p>Intermediate</p>
+<p><strong>Duration:</strong></p>
+<p>1 min.</p>
+<p>Attacks made against you have advantage. When you use a technique that involves an attack while this seal is active, you have advantage on the attack.</p>
+<p><strong>Focused (1 point).</strong> Make a weapon attack against a creature or object. The target takes a number of d10’s equal to your proficiency bonus in additional damage.</p>
+<h4 class="anchor anchorTargetStickyNavbar_Vzrq" id="form-3-seal-of-blazing-speed">Form 3: Seal of Blazing Speed<a href="#form-3-seal-of-blazing-speed" class="hash-link" aria-label="Direct link to Form 3: Seal of Blazing Speed" title="Direct link to Form 3: Seal of Blazing Speed" translate="no">​</a></h4>
+<p><strong>Type:</strong></p>
+<p>Physical</p>
+<p><strong>Prerequisites:</strong></p>
+<p>Advanced</p>
+<p><strong>Duration:</strong></p>
+<p>1 min.</p>
+<p>Once this seal expires, you gain a level of exhaustion. Once per turn after using a technique, your movement speed is doubled and you gain +2 AC until the end of the turn.</p>
+<p><strong>Focused (1 point).</strong> Make a weapon attack against a creature or object. You do not provoke attacks of opportunity while this technique is active.</p>
+<h4 class="anchor anchorTargetStickyNavbar_Vzrq" id="form-4-seal-of-immortal-body">Form 4: Seal of Immortal Body<a href="#form-4-seal-of-immortal-body" class="hash-link" aria-label="Direct link to Form 4: Seal of Immortal Body" title="Direct link to Form 4: Seal of Immortal Body" translate="no">​</a></h4>
+<p><strong>Type:</strong></p>
+<p>Physical</p>
+<p><strong>Prerequisites:</strong></p>
+<p>Master</p>
+<p><strong>Duration:</strong></p>
+<p>1 min.</p>
+<p>Your weapon attacks have disadvantage. You have resistance to all forms of damage except bludgeoning, piercing, and slashing damage.</p>
+<p><strong>Focused (1 point).</strong> Make a weapon attack against a creature or object. While this technique is active, when you miss with a weapon attack, the target automatically takes bludgeoning damage equal to your Constitution modifier.</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="nine-tailed-deception">Nine-Tailed Deception<a href="#nine-tailed-deception" class="hash-link" aria-label="Direct link to Nine-Tailed Deception" title="Direct link to Nine-Tailed Deception" translate="no">​</a></h3>
+<p>This cunning martial form makes use of subterfuge and trickery to gain leverage in combat.</p>
+<h4 class="anchor anchorTargetStickyNavbar_Vzrq" id="form-1-the-third-tail-mischief">Form 1: The Third Tail, Mischief<a href="#form-1-the-third-tail-mischief" class="hash-link" aria-label="Direct link to Form 1: The Third Tail, Mischief" title="Direct link to Form 1: The Third Tail, Mischief" translate="no">​</a></h4>
+<p><strong>Type:</strong></p>
+<p>Mental</p>
+<p><strong>Prerequisites:</strong></p>
+<p>Novice, One-handed melee weapon</p>
+<p>Make a weapon attack against a creature. The target takes a number of d6’s equal to your proficiency bonus in additional psychic damage.</p>
+<p><strong>Focused (1 point).</strong> The target must make a Wisdom saving throw or be charmed until the end of your next turn. While charmed, they must use all of the movement on their turn to move directly towards you using the safest available route. If the creature cannot reach you or doesn’t know your location, it can move freely.</p>
+<h4 class="anchor anchorTargetStickyNavbar_Vzrq" id="form-2-the-fifth-tail-omen">Form 2: The Fifth Tail, Omen<a href="#form-2-the-fifth-tail-omen" class="hash-link" aria-label="Direct link to Form 2: The Fifth Tail, Omen" title="Direct link to Form 2: The Fifth Tail, Omen" translate="no">​</a></h4>
+<p><strong>Type:</strong></p>
+<p>Mental</p>
+<p><strong>Prerequisites:</strong></p>
+<p>Intermediate</p>
+<p><strong>Duration:</strong></p>
+<p>1 min.</p>
+<p>You recieve a vague omen about an upcoming event. The next technique you focus costs 1 less mastery point (min. 1).</p>
+<p><strong>Focused (1 point).</strong> The next technique you focus costs no mastery points and attacks against you have disadvantage until you focus the technique.</p>
+<h4 class="anchor anchorTargetStickyNavbar_Vzrq" id="form-3-the-seventh-tail-fortune">Form 3: The Seventh Tail, Fortune<a href="#form-3-the-seventh-tail-fortune" class="hash-link" aria-label="Direct link to Form 3: The Seventh Tail, Fortune" title="Direct link to Form 3: The Seventh Tail, Fortune" translate="no">​</a></h4>
+<p><strong>Type:</strong></p>
+<p>Mental</p>
+<p><strong>Prerequisites:</strong></p>
+<p>Advanced</p>
+<p><strong>Duration:</strong></p>
+<p>Concentration, 1 min.</p>
+<p>For the next minute, you can add a d6 to one attack roll or saving throw you make each turn.</p>
+<p><strong>Focused (2 points).</strong> You can reroll one missed attack or failed saving throw each turn.</p>
+<h4 class="anchor anchorTargetStickyNavbar_Vzrq" id="form-4-the-ninth-tail-deception">Form 4: The Ninth Tail, Deception<a href="#form-4-the-ninth-tail-deception" class="hash-link" aria-label="Direct link to Form 4: The Ninth Tail, Deception" title="Direct link to Form 4: The Ninth Tail, Deception" translate="no">​</a></h4>
+<p><strong>Type:</strong></p>
+<p>Mental</p>
+<p><strong>Prerequisites:</strong></p>
+<p>Master, One-handed melee weapon</p>
+<p>You pounce forward, moving up to your speed against a creature and making a weapon attack against them. If the target is charmed by you, the attack hits automatically.</p>
+<p><strong>Focused (3 points).</strong> The attack deals an additional 10d8 psychic damage. If the target is charmed by you, the attack is an automatic critical hit.</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="owlbears-rage">Owlbear’s Rage<a href="#owlbears-rage" class="hash-link" aria-label="Direct link to Owlbear’s Rage" title="Direct link to Owlbear’s Rage" translate="no">​</a></h3>
+<p>Invented by the famed practitioner John Owlbear, this form is all the rage for owlbear enthusiasts.</p>
+<h4 class="anchor anchorTargetStickyNavbar_Vzrq" id="form-1-its-not-an-owl">Form 1: It’s Not an Owl<a href="#form-1-its-not-an-owl" class="hash-link" aria-label="Direct link to Form 1: It’s Not an Owl" title="Direct link to Form 1: It’s Not an Owl" translate="no">​</a></h4>
+<p><strong>Type:</strong></p>
+<p>Physical</p>
+<p><strong>Prerequisites:</strong></p>
+<p>Novice, Melee weapon</p>
+<p>Make a melee weapon attack against a creature or object. The target takes a number of d6’s equal to your proficiency bonus in additional damage.</p>
+<p><strong>Focused (1 point).</strong> Your attacks have advantage until the end of your next turn (including this attack).</p>
+<h4 class="anchor anchorTargetStickyNavbar_Vzrq" id="form-2-its-not-a-bear">Form 2: It’s Not a Bear<a href="#form-2-its-not-a-bear" class="hash-link" aria-label="Direct link to Form 2: It’s Not a Bear" title="Direct link to Form 2: It’s Not a Bear" translate="no">​</a></h4>
+<p><strong>Type:</strong></p>
+<p>Physical</p>
+<p><strong>Prerequisites:</strong></p>
+<p>Intermediate, Melee weapon</p>
+<p>Nothing happens.</p>
+<p><strong>Focused (2 points, or 0 points if you used Form 1: It’s Not An Owl on the previous turn).</strong> Make two melee weapon attacks against a creature or object. Your attacks have advantage until the end of your next turn.</p>
+<h4 class="anchor anchorTargetStickyNavbar_Vzrq" id="form-3-its-an-owlbear">Form 3: It’s an Owlbear<a href="#form-3-its-an-owlbear" class="hash-link" aria-label="Direct link to Form 3: It’s an Owlbear" title="Direct link to Form 3: It’s an Owlbear" translate="no">​</a></h4>
+<p><strong>Type:</strong></p>
+<p>Physical</p>
+<p><strong>Prerequisites:</strong></p>
+<p>Advanced, Melee weapon</p>
+<p>Nothing happens.</p>
+<p><strong>Focused (3 points, or 0 points if you used Form 2: It’s Not A Bear on the previous turn).</strong> Make two melee weapon attacks against a creature or object. If you use a technique from this martial form on the next turn, the first time you hit with a weapon attack is a critical hit. Your attacks have advantage and you gain a flying speed equal to your walking speed until the end of your next turn.</p>
+<h4 class="anchor anchorTargetStickyNavbar_Vzrq" id="form-4-from-the-top-rope">Form 4: From the Top Rope<a href="#form-4-from-the-top-rope" class="hash-link" aria-label="Direct link to Form 4: From the Top Rope" title="Direct link to Form 4: From the Top Rope" translate="no">​</a></h4>
+<p><strong>Type:</strong></p>
+<p>Physical</p>
+<p><strong>Prerequisites:</strong></p>
+<p>Master, Melee weapon, At least 30 feet in the air</p>
+<p>Nothing happens.</p>
+<p><strong>Focused (4 points, or 0 points if you used Form 3: It’s An Owlbear on the previous turn and Form 2: It’s Not a Bear on the turn before that).</strong> You come crashing down to the ground, taking fall damage as usual. Make a melee weapon attack against a creature or object. On a hit, the target takes an additional 1d10 bludgeoning damage for every 10 feet of height you fell. The maximum distance for this effect is 10 feet for each level you have in this class.</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="quaking-zaratan">Quaking Zaratan<a href="#quaking-zaratan" class="hash-link" aria-label="Direct link to Quaking Zaratan" title="Direct link to Quaking Zaratan" translate="no">​</a></h3>
+<p>This heavy and lumbering form is tough, able to take hits and deal massive blows back to the attacker.</p>
+<h4 class="anchor anchorTargetStickyNavbar_Vzrq" id="form-1-rumbling-smash">Form 1: Rumbling Smash<a href="#form-1-rumbling-smash" class="hash-link" aria-label="Direct link to Form 1: Rumbling Smash" title="Direct link to Form 1: Rumbling Smash" translate="no">​</a></h4>
+<p><strong>Type:</strong></p>
+<p>Physical</p>
+<p><strong>Prerequisites:</strong></p>
+<p>Novice, Two-handed bludgeoning weapon</p>
+<p>Make a melee weapon attack against a creature or object. The target takes a number of d6’s equal to your proficiency bonus in additional thunder damage.</p>
+<p><strong>Focused (1 point).</strong> If you have already used your reaction this round, you gain it back. You can only focus this technique once per turn.</p>
+<h4 class="anchor anchorTargetStickyNavbar_Vzrq" id="form-2-earthen-shell">Form 2: Earthen Shell<a href="#form-2-earthen-shell" class="hash-link" aria-label="Direct link to Form 2: Earthen Shell" title="Direct link to Form 2: Earthen Shell" translate="no">​</a></h4>
+<p><strong>Type:</strong></p>
+<p>Physical</p>
+<p><strong>Prerequisites:</strong></p>
+<p>Intermediate</p>
+<p><strong>Duration:</strong></p>
+<p>1 round</p>
+<p>Assume a guarding stance. When you take damage, you can use your reaction to halve that damage.</p>
+<p><strong>Focused (1 point).</strong> When you use your reaction to halve damage, you can perform a counter-attack. You can immediately use another technique, and if its focus cost is 2 points or lower, you can focus it for free.</p>
+<h4 class="anchor anchorTargetStickyNavbar_Vzrq" id="form-3-shattering-call">Form 3: Shattering Call<a href="#form-3-shattering-call" class="hash-link" aria-label="Direct link to Form 3: Shattering Call" title="Direct link to Form 3: Shattering Call" translate="no">​</a></h4>
+<p><strong>Type:</strong></p>
+<p>Mental</p>
+<p><strong>Prerequisites:</strong></p>
+<p>Advanced, Two-handed bludgeoning weapon</p>
+<p><strong>Duration:</strong></p>
+<p>Concentration, 1 min.</p>
+<p>Scream out with a mighty call, drawing your foes to you. Creatures within 120 feet that can hear you must make a Wisdom saving throw. On a failure, they must target you with attacks and spells if possible, and must use their movement at the beginning of their turn to move directly towards you. A creature can repeat the Wisdom save at the end of each of their turns, ending this effect on a success.</p>
+<p><strong>Focused (1 point).</strong> You can immediately use Form 2: Earthen Shell.</p>
+<h4 class="anchor anchorTargetStickyNavbar_Vzrq" id="form-4-sweeping-earth">Form 4: Sweeping Earth<a href="#form-4-sweeping-earth" class="hash-link" aria-label="Direct link to Form 4: Sweeping Earth" title="Direct link to Form 4: Sweeping Earth" translate="no">​</a></h4>
+<p><strong>Type:</strong></p>
+<p>Physical</p>
+<p><strong>Prerequisites:</strong></p>
+<p>Master, Two-handed bludgeoning weapon</p>
+<p>You drag your weapon across the ground and fling dirt and rocks towards your foes. Each creature in a 15-foot cone must make a Dexterity save or take an amount of d10s equal to your proficiency bonus in bludgeoning damage, or half on a successful save.</p>
+<p><strong>Focused (1 point).</strong> On a failed save, a creature is also blinded until the end of your next turn.</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="six-headed-hydra">Six-Headed Hydra<a href="#six-headed-hydra" class="hash-link" aria-label="Direct link to Six-Headed Hydra" title="Direct link to Six-Headed Hydra" translate="no">​</a></h3>
+<p>A form employing a flurry of rapid strikes to overwhelm the foes it’s up against. Many who have fought against it say it feels like fighting against several enemies at once.</p>
+<h4 class="anchor anchorTargetStickyNavbar_Vzrq" id="form-1-the-first-cut-of-a-thousand">Form 1: The First Cut of a Thousand<a href="#form-1-the-first-cut-of-a-thousand" class="hash-link" aria-label="Direct link to Form 1: The First Cut of a Thousand" title="Direct link to Form 1: The First Cut of a Thousand" translate="no">​</a></h4>
+<p><strong>Type:</strong></p>
+<p>Physical</p>
+<p><strong>Prerequisites:</strong></p>
+<p>Novice, A light weapon in both hands</p>
+<p>Make a weapon attack against a creature or object. The target takes a number of d6’s equal to half your proficiency bonus in additional damage (rounded down).</p>
+<p><strong>Focused (1 point, or 0 points if you targeted an exposed creature).</strong> You can immediately use a technique again. You can only focus this technique once per turn.</p>
+<h4 class="anchor anchorTargetStickyNavbar_Vzrq" id="form-2-two-headed-skewer">Form 2: Two-Headed Skewer<a href="#form-2-two-headed-skewer" class="hash-link" aria-label="Direct link to Form 2: Two-Headed Skewer" title="Direct link to Form 2: Two-Headed Skewer" translate="no">​</a></h4>
+<p><strong>Type:</strong></p>
+<p>Physical</p>
+<p><strong>Prerequisites:</strong></p>
+<p>Intermediate, A light weapon in both hands</p>
+<p>You strike with both of your weapons simultaneously. Make two weapon attacks against a creature.</p>
+<p><strong>Focused (1 point).</strong> If both attacks hit, the target is left exposed for 1 minute. While exposed, the target takes an additional 1d6 damage if it’s hit by your weapon attacks.</p>
+<h4 class="anchor anchorTargetStickyNavbar_Vzrq" id="form-3-four-headed-ravager">Form 3: Four-Headed Ravager<a href="#form-3-four-headed-ravager" class="hash-link" aria-label="Direct link to Form 3: Four-Headed Ravager" title="Direct link to Form 3: Four-Headed Ravager" translate="no">​</a></h4>
+<p><strong>Type:</strong></p>
+<p>Physical</p>
+<p><strong>Prerequisites:</strong></p>
+<p>Advanced, A light weapon in both hands</p>
+<p>You make four consecutive attacks against different targets, two with each weapon. Make up to four separate weapon attacks against up to four different creatures or objects in range.</p>
+<p><strong>Focused (1 point).</strong> If one of the targets was exposed, every other target also becomes exposed.</p>
+<h4 class="anchor anchorTargetStickyNavbar_Vzrq" id="form-4-six-headed-executioner">Form 4: Six-Headed Executioner<a href="#form-4-six-headed-executioner" class="hash-link" aria-label="Direct link to Form 4: Six-Headed Executioner" title="Direct link to Form 4: Six-Headed Executioner" translate="no">​</a></h4>
+<p><strong>Type:</strong></p>
+<p>Physical</p>
+<p><strong>Prerequisites:</strong></p>
+<p>Master, A light weapon in both hands</p>
+<p>Roll a d6 and note the result. You can then make that many weapon attacks against an exposed creature or object.</p>
+<p><strong>Focused (1 point).</strong> Roll another d6, and make a number of weapon attacks equal to whichever d6 rolled the highest result. Each attack has advantage.</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="tarrasque-jaw">Tarrasque Jaw<a href="#tarrasque-jaw" class="hash-link" aria-label="Direct link to Tarrasque Jaw" title="Direct link to Tarrasque Jaw" translate="no">​</a></h3>
+<p>The ultimate offensive form featuring a relentless and ruinous advance of attacks, like the style of its namesake. Extremely difficult to master for most practitioners, but effective all the same.</p>
+<h4 class="anchor anchorTargetStickyNavbar_Vzrq" id="form-1-dormancys-end">Form 1: Dormancy’s End<a href="#form-1-dormancys-end" class="hash-link" aria-label="Direct link to Form 1: Dormancy’s End" title="Direct link to Form 1: Dormancy’s End" translate="no">​</a></h4>
+<p><strong>Type:</strong></p>
+<p>Physical</p>
+<p><strong>Prerequisites:</strong></p>
+<p>Novice, A heavy melee weapon</p>
+<p>Make a melee weapon attack against a creature or object. The target takes a number of d8’s equal to your proficiency bonus in additional damage.</p>
+<p><strong>Focused (1 point).</strong> The target again takes a number of d8’s equal to your proficiency bonus in additional damage. If you kill the target, your next attack has advantage.</p>
+<h4 class="anchor anchorTargetStickyNavbar_Vzrq" id="form-2-the-onslaught-begins">Form 2: The Onslaught Begins<a href="#form-2-the-onslaught-begins" class="hash-link" aria-label="Direct link to Form 2: The Onslaught Begins" title="Direct link to Form 2: The Onslaught Begins" translate="no">​</a></h4>
+<p><strong>Type:</strong></p>
+<p>Physical</p>
+<p><strong>Prerequisites:</strong></p>
+<p>Intermediate, A heavy melee weapon</p>
+<p>You can move up to your speed directly towards a hostile creature and make a melee weapon attack against them. Each creature within 5 feet of that creature takes weapon damage equal to your Strength modifier.</p>
+<p><strong>Focused (2 points, or 0 points if you killed a hostile creature last turn).</strong> You can immediately use Form 1: Dormancy’s End.</p>
+<h4 class="anchor anchorTargetStickyNavbar_Vzrq" id="form-3-unconquerable">Form 3: Unconquerable<a href="#form-3-unconquerable" class="hash-link" aria-label="Direct link to Form 3: Unconquerable" title="Direct link to Form 3: Unconquerable" translate="no">​</a></h4>
+<p><strong>Type:</strong></p>
+<p>Mental</p>
+<p><strong>Prerequisites:</strong></p>
+<p>Advanced, You’re suffering a negative status condition</p>
+<p>You can use this technique while incapacitated. You have advantage on saving throws until the end of your turn (after you have made any relevant saving throws).</p>
+<p><strong>Focused (3 points, or 0 points if you killed a hostile creature last turn).</strong> You can free yourself from an effect that would cause you to be incapacitated, except for unconsciousness. If you do, you can immediately use another technique.</p>
+<h4 class="anchor anchorTargetStickyNavbar_Vzrq" id="form-4-god-eater">Form 4: God Eater<a href="#form-4-god-eater" class="hash-link" aria-label="Direct link to Form 4: God Eater" title="Direct link to Form 4: God Eater" translate="no">​</a></h4>
+<p><strong>Type:</strong></p>
+<p>Physical</p>
+<p><strong>Prerequisites:</strong></p>
+<p>Master, A heavy melee weapon</p>
+<p>Make a melee weapon attack against a creature. If the attack kills them, you gain temporary hit points equal to your level in this class.</p>
+<p><strong>Focused (4 points, or 1 point if you killed a hostile creature last turn).</strong> You have advantage on the attack and it deals an additional 10d10 damage.</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="thousand-ooze">Thousand Ooze<a href="#thousand-ooze" class="hash-link" aria-label="Direct link to Thousand Ooze" title="Direct link to Thousand Ooze" translate="no">​</a></h3>
+<p>A rancid martial form developed by Zang’an Cai, this form uses slippery techniques to cover every foe around in acidic slime.</p>
+<h4 class="anchor anchorTargetStickyNavbar_Vzrq" id="form-1-stretching-strikes">Form 1: Stretching Strikes<a href="#form-1-stretching-strikes" class="hash-link" aria-label="Direct link to Form 1: Stretching Strikes" title="Direct link to Form 1: Stretching Strikes" translate="no">​</a></h4>
+<p><strong>Type:</strong></p>
+<p>Physical</p>
+<p><strong>Prerequisites:</strong></p>
+<p>Novice</p>
+<p>Make a weapon attack against a creature with your weapon’s reach increased by 10 feet. The creature takes a number of d6’s equal to your proficiency bonus in additional acid damage and is stuck with an ooze leash. Up to two creatures can be leashed at a time. Leashing a third removes your oldest leash.</p>
+<p><strong>Focused (1 point).</strong> If two creatures are leashed and they are within 30 feet of each other, you can immediately drag both of them up to 15 feet together. They must then make a Strength saving throw or take 4d8 bludgeoning damage and be knocked prone.</p>
+<h4 class="anchor anchorTargetStickyNavbar_Vzrq" id="form-2-unstable-matter">Form 2: Unstable Matter<a href="#form-2-unstable-matter" class="hash-link" aria-label="Direct link to Form 2: Unstable Matter" title="Direct link to Form 2: Unstable Matter" translate="no">​</a></h4>
+<p><strong>Type:</strong></p>
+<p>Mental</p>
+<p><strong>Prerequisites:</strong></p>
+<p>Intermediate</p>
+<p>Explode outwards with ooze, forcing creatures within 10 feet to make a Dexterity save or be covered. Creatures covered in ooze take 3d6 acid damage at the start of their turns. The ooze stays for 1 minute or until it’s scraped off as an action.</p>
+<p><strong>Focused (1 point).</strong> Creatures covered in ooze also take 2d8 more acid damage whenever they are hit with an attack that deals acid damage.</p>
+<h4 class="anchor anchorTargetStickyNavbar_Vzrq" id="form-3-elastic-sling">Form 3: Elastic Sling<a href="#form-3-elastic-sling" class="hash-link" aria-label="Direct link to Form 3: Elastic Sling" title="Direct link to Form 3: Elastic Sling" translate="no">​</a></h4>
+<p><strong>Type:</strong></p>
+<p>Physical</p>
+<p><strong>Prerequisites:</strong></p>
+<p>Advanced</p>
+<p>You can launch yourself 30 feet in any direction, landing with a splash. Creatures within 5 feet of your landing area must make a Dexterity saving throw or take a number of d8’s equal to your proficiency bonus in acid damage, or half as much on a successful save.</p>
+<p><strong>Focused (1 point).</strong> A creature that fails the Dexterity saving throw is also knocked prone.</p>
+<h4 class="anchor anchorTargetStickyNavbar_Vzrq" id="form-4-bouncing-blows">Form 4: Bouncing Blows<a href="#form-4-bouncing-blows" class="hash-link" aria-label="Direct link to Form 4: Bouncing Blows" title="Direct link to Form 4: Bouncing Blows" translate="no">​</a></h4>
+<p><strong>Type:</strong></p>
+<p>Physical</p>
+<p><strong>Prerequisites:</strong></p>
+<p>Master</p>
+<p>You leap into the air and slam down in an area up to 15 feet away without provoking opportunity attacks. You can then make a weapon attack against a creature. Afterward, you can repeat this effect again.</p>
+<p><strong>Focused (1 point).</strong> You can perform this leaping attack once more. You can have the damage type of each attack become acid damage.</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="twin-dragon-equinox">Twin Dragon Equinox<a href="#twin-dragon-equinox" class="hash-link" aria-label="Direct link to Twin Dragon Equinox" title="Direct link to Twin Dragon Equinox" translate="no">​</a></h3>
+<p>A form of duality, the Twin Dragon Equinox form brings forth the balanced power of the sun and moon dragons.</p>
+<h4 class="anchor anchorTargetStickyNavbar_Vzrq" id="form-1-strike-of-the-solar-dragon">Form 1: Strike of the Solar Dragon<a href="#form-1-strike-of-the-solar-dragon" class="hash-link" aria-label="Direct link to Form 1: Strike of the Solar Dragon" title="Direct link to Form 1: Strike of the Solar Dragon" translate="no">​</a></h4>
+<p><strong>Type:</strong></p>
+<p>Physical</p>
+<p><strong>Prerequisites:</strong></p>
+<p>Novice</p>
+<p>Make a weapon attack against a creature or object. The target takes a number of d6’s equal to your proficiency bonus in additional radiant damage.</p>
+<p><strong>Focused (1 point).</strong> You become yang charged for 1 minute, gaining a resistance to radiant damage. Your techniques that deal radiant damage deal an additional 2d8 radiant damage.</p>
+<h4 class="anchor anchorTargetStickyNavbar_Vzrq" id="form-2-litany-of-the-lunar-dragon">Form 2: Litany of the Lunar Dragon<a href="#form-2-litany-of-the-lunar-dragon" class="hash-link" aria-label="Direct link to Form 2: Litany of the Lunar Dragon" title="Direct link to Form 2: Litany of the Lunar Dragon" translate="no">​</a></h4>
+<p><strong>Type:</strong></p>
+<p>Mental</p>
+<p><strong>Prerequisites:</strong></p>
+<p>Intermediate</p>
+<p>Make a weapon attack against a creature. On a hit, the part of the target is covered in ice until the end of your next turn or until it’s shattered, reducing its movement speed by 10 feet. If the target takes fire or radiant damage, the ice shatters, dealing a number of d8’s equal to your proficiency bonus in cold damage to the target.</p>
+<p><strong>Focused (1 point).</strong> You become yin charged for 1 minute, gaining a resistance to cold damage. Your techniques that deal cold damage deal an additional 2d8 cold damage.</p>
+<h4 class="anchor anchorTargetStickyNavbar_Vzrq" id="form-3-twin-dragons-dance">Form 3: Twin Dragon’s Dance<a href="#form-3-twin-dragons-dance" class="hash-link" aria-label="Direct link to Form 3: Twin Dragon’s Dance" title="Direct link to Form 3: Twin Dragon’s Dance" translate="no">​</a></h4>
+<p><strong>Type:</strong></p>
+<p>Mental</p>
+<p><strong>Prerequisites:</strong></p>
+<p>Advanced</p>
+<p><strong>Duration:</strong></p>
+<p>Concentration, 1 min.</p>
+<p>Begin the twin dragon dance, with effects varying depending on which charges are active:</p>
+<p><strong>Yin Charged.</strong> At the end of each of your turns, you gain 2d10 temporary hit points.</p>
+<p><strong>Yang Charged.</strong> At the end of each of your turns, you deal 2d10 radiant damage to every other creature within 10 feet.</p>
+<p><strong>Focused (1 point).</strong> You can immediately use another technique from this form.</p>
+<h4 class="anchor anchorTargetStickyNavbar_Vzrq" id="form-4-twin-dragon-burst">Form 4: Twin Dragon Burst<a href="#form-4-twin-dragon-burst" class="hash-link" aria-label="Direct link to Form 4: Twin Dragon Burst" title="Direct link to Form 4: Twin Dragon Burst" translate="no">​</a></h4>
+<p><strong>Type:</strong></p>
+<p>Physical</p>
+<p><strong>Prerequisites:</strong></p>
+<p>Master, Ying charged and yang charged</p>
+<p>Unleash the power of the twin dragons in a line that’s 120 feet long and 10 feet wide. Creatures in the area must make a Dexterity saving throw or take 5d6 radiant damage and 5d6 cold damage, taking half as much on a success. You are no longer yin charged or yang charged.</p>
+<p><strong>Focused (2 points).</strong> Creatures that fail the saving throw are blinded until the end of their next turn. You stay yin charged and yang charged.</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="vermilion-birds-feather">Vermilion Bird’s Feather<a href="#vermilion-birds-feather" class="hash-link" aria-label="Direct link to Vermilion Bird’s Feather" title="Direct link to Vermilion Bird’s Feather" translate="no">​</a></h3>
+<p>The vermilion bird, much like the phoenix, represents a fiery style— flashy strikes and lethal flames.</p>
+<h4 class="anchor anchorTargetStickyNavbar_Vzrq" id="form-1-kindling-feather">Form 1: Kindling Feather<a href="#form-1-kindling-feather" class="hash-link" aria-label="Direct link to Form 1: Kindling Feather" title="Direct link to Form 1: Kindling Feather" translate="no">​</a></h4>
+<p><strong>Type:</strong></p>
+<p>Physical</p>
+<p><strong>Prerequisites:</strong></p>
+<p>Novice</p>
+<p>Make a weapon attack against a creature or object. The attack deals an amount of d6s equal to your proficiency bonus in additional fire damage, and the next technique you use will be enkindled.</p>
+<p><strong>Focused (1 point).</strong> Techniques you use are considered enkindled until the end of your next turn.</p>
+<h4 class="anchor anchorTargetStickyNavbar_Vzrq" id="form-2-flashfire-strike">Form 2: Flashfire Strike<a href="#form-2-flashfire-strike" class="hash-link" aria-label="Direct link to Form 2: Flashfire Strike" title="Direct link to Form 2: Flashfire Strike" translate="no">​</a></h4>
+<p><strong>Type:</strong></p>
+<p>Mental</p>
+<p><strong>Prerequisites:</strong></p>
+<p>Intermediate</p>
+<p>Make a weapon attack against a creature. The creature must make a Constitution saving throw or be blinded until the end of your next turn. If enkindled, the deals an amount of d6s equal to your proficiency bonus in additional fire damage.</p>
+<p><strong>Focused (1 point, or 0 points if enkindled).</strong></p>
+<p>You can teleport up to 30 feet before the attack, and the creature has disadvantage on the save.</p>
+<h4 class="anchor anchorTargetStickyNavbar_Vzrq" id="form-3-rising-feather-falling-ember">Form 3: Rising Feather, Falling Ember<a href="#form-3-rising-feather-falling-ember" class="hash-link" aria-label="Direct link to Form 3: Rising Feather, Falling Ember" title="Direct link to Form 3: Rising Feather, Falling Ember" translate="no">​</a></h4>
+<p><strong>Type:</strong></p>
+<p>Physical</p>
+<p><strong>Prerequisites:</strong></p>
+<p>Advanced</p>
+<p>Make a weapon attack against a creature. Until the end of your turn, you gain a flight speed equal to your walking speed. If enkindled, you can immediately move without provoking opportunity attacks.</p>
+<p><strong>Focused (2 points, or 1 point if enkindled).</strong> If you’re in the air after the weapon attack and the enkindled movement, you can dive back down to the space below you without taking fall damage. If you do, you can immediately use another technique from this form.</p>
+<h4 class="anchor anchorTargetStickyNavbar_Vzrq" id="form-4-featherstorm">Form 4: Featherstorm<a href="#form-4-featherstorm" class="hash-link" aria-label="Direct link to Form 4: Featherstorm" title="Direct link to Form 4: Featherstorm" translate="no">​</a></h4>
+<p><strong>Type:</strong></p>
+<p>Mental</p>
+<p><strong>Prerequisites:</strong></p>
+<p>Master</p>
+<p>Creatures of your choice in a 30-foot cone must make a Dexterity saving throw or take 4d8 fire damage, taking half on a successful save. This fire damage increases to 8d8 if this move is enkindled.</p>
+<p><strong>Focused (2 points, or 1 point if enkindled).</strong> If this technique was used by focusing Form 3: Rising Feather, Falling Ember, the targets have disadvantage on the save. Also on a failed save, the target is set ablaze for 1 minute. At the start of each of their turns, they take 1d10 fire damage until any creature uses their action to douse the flames.</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="wraith-step">Wraith Step<a href="#wraith-step" class="hash-link" aria-label="Direct link to Wraith Step" title="Direct link to Wraith Step" translate="no">​</a></h3>
+<p>This form is notoriously hard to pin down, and is therefore favored by more unsavory individuals.</p>
+<h4 class="anchor anchorTargetStickyNavbar_Vzrq" id="form-1-life-tear">Form 1: Life Tear<a href="#form-1-life-tear" class="hash-link" aria-label="Direct link to Form 1: Life Tear" title="Direct link to Form 1: Life Tear" translate="no">​</a></h4>
+<p><strong>Type:</strong></p>
+<p>Mental</p>
+<p><strong>Prerequisites:</strong></p>
+<p>Novice</p>
+<p>Make a weapon attack against a creature. The attack deals an amount of d6s equal to your proficiency bonus in additional necrotic damage.</p>
+<p><strong>Focused (1 point).</strong> The creature must make a Constitution saving throw. On a failure, you restore hit points equal to the amount of additional necrotic damage dealt by this technique.</p>
+<h4 class="anchor anchorTargetStickyNavbar_Vzrq" id="form-2-vanishing-maneuver">Form 2: Vanishing Maneuver<a href="#form-2-vanishing-maneuver" class="hash-link" aria-label="Direct link to Form 2: Vanishing Maneuver" title="Direct link to Form 2: Vanishing Maneuver" translate="no">​</a></h4>
+<p><strong>Type:</strong></p>
+<p>Mental</p>
+<p><strong>Prerequisites:</strong></p>
+<p>Advanced</p>
+<p><strong>Duration:</strong></p>
+<p>Concentration, 1 min.</p>
+<p>While it’s not your turn, you are invisible to creatures further than 30 feet away from you.</p>
+<p><strong>Focused (1 point).</strong> If a creature fails its save against Form 1: Life Tear’s focused effect, you become invisible until the start of your next turn regardless of distance.</p>
+<h4 class="anchor anchorTargetStickyNavbar_Vzrq" id="form-3-phase-step">Form 3: Phase Step<a href="#form-3-phase-step" class="hash-link" aria-label="Direct link to Form 3: Phase Step" title="Direct link to Form 3: Phase Step" translate="no">​</a></h4>
+<p><strong>Type:</strong></p>
+<p>Mental</p>
+<p><strong>Prerequisites:</strong></p>
+<p>Intermediate</p>
+<p>Until the end of your turn, you can move through other creatures and objects as if they were difficult terrain. You take 5 (1d10) force damage if it ends its turn inside an object, and are immediately shunted into the nearest open space.</p>
+<p><strong>Focused (1 point).</strong> This effect lasts for 1 minute instead of until the end of your turn. If you move through a creature’s space, that creature must make a Constitution saving throw or take an amount of d8s equal to your proficiency bonus in necrotic damage. A creature can only take this damage once per turn.</p>
+<h4 class="anchor anchorTargetStickyNavbar_Vzrq" id="form-4-haunt">Form 4: Haunt<a href="#form-4-haunt" class="hash-link" aria-label="Direct link to Form 4: Haunt" title="Direct link to Form 4: Haunt" translate="no">​</a></h4>
+<p><strong>Type:</strong></p>
+<p>Mental</p>
+<p><strong>Prerequisites:</strong></p>
+<p>Master</p>
+<p>Choose a creature within 60 feet. You begin haunting that target until it dies or until you haunt another target. Each turn, you can teleport up to 30 feet directly towards a target you are haunting as part of your movement.</p>
+<p><strong>Focused (1 point).</strong> Targets you haunt have disadvantage on saves against techniques from this form and take 2d8 additional necrotic damage each time they take necrotic damage. You can immediately use another technique from this form.</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="yarrow-petals-fall">Yarrow Petal’s Fall<a href="#yarrow-petals-fall" class="hash-link" aria-label="Direct link to Yarrow Petal’s Fall" title="Direct link to Yarrow Petal’s Fall" translate="no">​</a></h3>
+<p>A martial form usually used with a bow, this form requires quick reflexes, precise aim, and a tactical mindset.</p>
+<h4 class="anchor anchorTargetStickyNavbar_Vzrq" id="form-1-the-yarrow-wilts">Form 1: The Yarrow Wilts<a href="#form-1-the-yarrow-wilts" class="hash-link" aria-label="Direct link to Form 1: The Yarrow Wilts" title="Direct link to Form 1: The Yarrow Wilts" translate="no">​</a></h4>
+<p><strong>Type:</strong></p>
+<p>Physical</p>
+<p><strong>Prerequisites:</strong></p>
+<p>Novice, Ranged weapon</p>
+<p><strong>Duration:</strong></p>
+<p>Make a ranged weapon attack against a creature or object, and you gain one yarrow petal. The ranged weapon attacks of your techniques deal an additional 1d6 force damage for each yarrow petal you have, and you can have a maximum of three. When initiative begins, any yarrow petals you have wither.</p>
+<p><strong>Focused (1 point).</strong> You gain two additional yarrow petals.</p>
+<h4 class="anchor anchorTargetStickyNavbar_Vzrq" id="form-2-the-petal-breaks">Form 2: The Petal Breaks<a href="#form-2-the-petal-breaks" class="hash-link" aria-label="Direct link to Form 2: The Petal Breaks" title="Direct link to Form 2: The Petal Breaks" translate="no">​</a></h4>
+<p><strong>Type:</strong></p>
+<p>Physical</p>
+<p><strong>Prerequisites:</strong></p>
+<p>Intermediate, Ranged weapon</p>
+<p>Make a ranged weapon attack against a creature or object. If it hits, you can consume a yarrow petal to deal a number of d6’s equal to your proficiency bonus in additional force damage.</p>
+<p><strong>Focused (1 points).</strong> If you consumed a yarrow petal, you gain temporary hit points equal to your level in this class.</p>
+<h4 class="anchor anchorTargetStickyNavbar_Vzrq" id="form-3-the-petal-descends">Form 3: The Petal Descends<a href="#form-3-the-petal-descends" class="hash-link" aria-label="Direct link to Form 3: The Petal Descends" title="Direct link to Form 3: The Petal Descends" translate="no">​</a></h4>
+<p><strong>Type:</strong></p>
+<p>Mental</p>
+<p><strong>Prerequisites:</strong></p>
+<p>Advanced, Ranged weapon</p>
+<p>You leap backwards up to 30 feet without provoking opportunity attacks.</p>
+<p><strong>Focused (1 points).</strong> You can immediately use Form 1: The Yarrow Wilts. If you have no yarrow petals, you can focus the technique for free.</p>
+<h4 class="anchor anchorTargetStickyNavbar_Vzrq" id="form-4-the-petal-lands">Form 4: The Petal Lands<a href="#form-4-the-petal-lands" class="hash-link" aria-label="Direct link to Form 4: The Petal Lands" title="Direct link to Form 4: The Petal Lands" translate="no">​</a></h4>
+<p><strong>Type:</strong></p>
+<p>Mental</p>
+<p><strong>Prerequisites:</strong></p>
+<p>Master, Ranged weapon</p>
+<p><strong>Duration:</strong></p>
+<p>Concentration, 1 min.</p>
+<p>You can consume up to three yarrow petals to begin a broken petal dance. You gain a bonus to ranged attack and damage rolls equal to the amount spent.</p>
+<p><strong>Focused (4 points, or 1 less point for every yarrow petal consumed).</strong> You can immediately use Form 1: The Yarrow Wilts and Form 2: The Petal Breaks.</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="zithers-final-note">Zither’s Final Note<a href="#zithers-final-note" class="hash-link" aria-label="Direct link to Zither’s Final Note" title="Direct link to Zither’s Final Note" translate="no">​</a></h3>
+<p>One of the most complex martial forms, Zither’s Final Note requires its wielder to compose the songs of their foes’ ends. This form requires careful planning and execution to use effectively.</p>
+<p>Using a technique plays a note, adding it to a queue. Only three notes can exist in the queue at once— playing a fourth note replaces the earliest played note. Once three notes are played in succession matching a song, an effect takes place immediately, as if added to the technique that triggered it. Afterwards, the queue is cleared of all notes. The list of note combinations and their effects can be found to the side.</p>
+<h4 class="anchor anchorTargetStickyNavbar_Vzrq" id="form-1-the-first-note-war-x">Form 1: The First Note, War (X)<a href="#form-1-the-first-note-war-x" class="hash-link" aria-label="Direct link to Form 1: The First Note, War (X)" title="Direct link to Form 1: The First Note, War (X)" translate="no">​</a></h4>
+<p><strong>Type:</strong></p>
+<p>Physical</p>
+<p><strong>Prerequisites:</strong></p>
+<p>Novice, Performance proficiency</p>
+<p>Make a weapon attack against a creature or object. The attack deals an amount of d6s equal to your proficiency bonus in additional thunder damage. Play the war note.</p>
+<p><strong>Focused (1 point).</strong> Play three war notes.</p>
+<h4 class="anchor anchorTargetStickyNavbar_Vzrq" id="form-2-the-second-note-impulse-">Form 2: The Second Note, Impulse (|||)<a href="#form-2-the-second-note-impulse-" class="hash-link" aria-label="Direct link to Form 2: The Second Note, Impulse (|||)" title="Direct link to Form 2: The Second Note, Impulse (|||)" translate="no">​</a></h4>
+<p><strong>Type:</strong></p>
+<p>Physical</p>
+<p><strong>Prerequisites:</strong></p>
+<p>Intermediate, Performance proficiency</p>
+<p>Make a weapon attack against a creature or object. The attack deals an amount of d6s equal to your proficiency bonus in additional thunder damage. Play the impulse note.</p>
+<p><strong>Focused (1 point).</strong> Play two impulse notes.</p>
+<h4 class="anchor anchorTargetStickyNavbar_Vzrq" id="form-3-the-third-note-unity-">Form 3: The Third Note, Unity (*)<a href="#form-3-the-third-note-unity-" class="hash-link" aria-label="Direct link to Form 3: The Third Note, Unity (*)" title="Direct link to Form 3: The Third Note, Unity (*)" translate="no">​</a></h4>
+<p><strong>Type:</strong></p>
+<p>Mental</p>
+<p><strong>Prerequisites:</strong></p>
+<p>Advanced, Performance proficiency (#)</p>
+<p>Make a weapon attack against a creature or object. The attack deals an amount of d6s equal to your proficiency bonus in additional thunder damage. Play the unity note.</p>
+<p><strong>Focused (2 points).</strong> Play two unity notes.</p>
+<h4 class="anchor anchorTargetStickyNavbar_Vzrq" id="form-4-the-final-note-legend">Form 4: The Final Note, Legend<a href="#form-4-the-final-note-legend" class="hash-link" aria-label="Direct link to Form 4: The Final Note, Legend" title="Direct link to Form 4: The Final Note, Legend" translate="no">​</a></h4>
+<p><strong>Type:</strong></p>
+<p>Mental</p>
+<p><strong>Prerequisites:</strong></p>
+<p>Master, Performance proficiency</p>
+<p>Make a weapon attack against a creature or object. The attack deals an amount of d6s equal to your proficiency bonus in additional thunder damage.</p>
+<p><strong>Focused (3 points).</strong> Play the legend note.</p>
+<h5 class="anchor anchorTargetStickyNavbar_Vzrq" id="zither-songs">Zither Songs<a href="#zither-songs" class="hash-link" aria-label="Direct link to Zither Songs" title="Direct link to Zither Songs" translate="no">​</a></h5>
+<table><thead><tr><th>Song</th><th>Effect</th></tr></thead><tbody><tr><td>X X X</td><td>All your attacks until the end of your next turn have advantage.</td></tr><tr><td></td><td></td></tr><tr><td></td><td></td></tr><tr><td></td><td></td></tr><tr><td>*</td><td></td></tr><tr><td>* * *</td><td>On your next turn, the first technique you use can be focused for free.</td></tr><tr><td>X * *</td><td>For the next minute, you can add 1d6 to your weapon attack rolls.</td></tr><tr><td>* *</td><td></td></tr><tr><td>* X X</td><td>Another creature of your choice within 30 feet has advantage on their next attack roll, ability check, or saving throw.</td></tr><tr><td># X X</td><td>The next time you are hit with an attack until the end of your next turn, you can use your reaction to become immune to that attack’s damage.</td></tr><tr><td>#</td><td></td></tr><tr><td>X *</td><td></td></tr><tr><td># * *</td><td>A creature of your choice within 30 feet of you gains temporary hit points equal to your level in this class.</td></tr><tr><td>#</td><td></td></tr><tr><td># # #</td><td>You can take an additional turn after this one.</td></tr></tbody></table></div><footer class="theme-doc-footer docusaurus-mt-lg"><div class="row margin-top--sm theme-doc-footer-tags-row"><div class="col"><b>Tags:</b><ul class="tags_jXut padding--none margin-left--sm"><li class="tag_QGVx"><a rel="tag" class="tag_zVej tagRegular_sFm0" href="/The-Wandering-Handbook/docs/tags/class">class</a></li><li class="tag_QGVx"><a rel="tag" class="tag_zVej tagRegular_sFm0" href="/The-Wandering-Handbook/docs/tags/homebrew">homebrew</a></li></ul></div></div><div class="row margin-top--sm theme-doc-footer-edit-meta-row"><div class="col noPrint_WFHX"><a href="https://github.com/Sazendrak/The-Wandering-Handbook/edit/main/docs/homebrew/classes/practitioner.md" target="_blank" rel="noopener noreferrer" class="theme-edit-this-page"><svg fill="currentColor" height="20" width="20" viewBox="0 0 40 40" class="iconEdit_Z9Sw" aria-hidden="true"><g><path d="m34.5 11.7l-3 3.1-6.3-6.3 3.1-3q0.5-0.5 1.2-0.5t1.1 0.5l3.9 3.9q0.5 0.4 0.5 1.1t-0.5 1.2z m-29.5 17.1l18.4-18.5 6.3 6.3-18.4 18.4h-6.3v-6.2z"></path></g></svg>Edit this page</a></div><div class="col lastUpdated_JAkA"></div></div></footer></article><nav class="docusaurus-mt-lg pagination-nav" aria-label="Docs pages"><a class="pagination-nav__link pagination-nav__link--prev" href="/The-Wandering-Handbook/docs/homebrew/classes/physicist"><div class="pagination-nav__sublabel">Previous</div><div class="pagination-nav__label">Physicist</div></a><a class="pagination-nav__link pagination-nav__link--next" href="/The-Wandering-Handbook/docs/homebrew/classes/psi-tracker"><div class="pagination-nav__sublabel">Next</div><div class="pagination-nav__label">Psi Tracker</div></a></nav></div></div><div class="col col--3"><div class="tableOfContents_bqdL thin-scrollbar theme-doc-toc-desktop"><ul class="table-of-contents table-of-contents__left-border"><li><a href="#practitioner-banned-from-20260104" class="table-of-contents__link toc-highlight">Practitioner (Banned from 2026/01/04)</a><ul><li><a href="#form-and-tradition" class="table-of-contents__link toc-highlight">Form and Tradition</a></li><li><a href="#martial-peak" class="table-of-contents__link toc-highlight">Martial Peak</a></li><li><a href="#the-practitioner-class-table" class="table-of-contents__link toc-highlight">The Practitioner Class Table</a></li></ul></li><li><a href="#creating-a-practitioner" class="table-of-contents__link toc-highlight">Creating a Practitioner</a></li><li><a href="#class-features" class="table-of-contents__link toc-highlight">Class Features</a><ul><li><a href="#hit-points" class="table-of-contents__link toc-highlight">Hit Points</a></li><li><a href="#proficiencies" class="table-of-contents__link toc-highlight">Proficiencies</a></li><li><a href="#martial-forms" class="table-of-contents__link toc-highlight">Martial Forms</a></li><li><a href="#martial-techniques" class="table-of-contents__link toc-highlight">Martial Techniques</a></li><li><a href="#martial-path" class="table-of-contents__link toc-highlight">Martial Path</a></li><li><a href="#fighting-style" class="table-of-contents__link toc-highlight">Fighting Style</a></li><li><a href="#cleanse" class="table-of-contents__link toc-highlight">Cleanse</a></li><li><a href="#ability-score-improvement" class="table-of-contents__link toc-highlight">Ability score improvement</a></li><li><a href="#signature-form" class="table-of-contents__link toc-highlight">Signature Form</a></li><li><a href="#greater-cleanse" class="table-of-contents__link toc-highlight">Greater Cleanse</a></li><li><a href="#martial-peak-1" class="table-of-contents__link toc-highlight">Martial Peak</a></li></ul></li><li><a href="#martial-forms-1" class="table-of-contents__link toc-highlight">Martial Forms</a><ul><li><a href="#ascendant-lotus" class="table-of-contents__link toc-highlight">Ascendant Lotus</a></li><li><a href="#blooming-corpse-flower" class="table-of-contents__link toc-highlight">Blooming Corpse Flower</a></li><li><a href="#clear-flame-dance" class="table-of-contents__link toc-highlight">Clear Flame Dance</a></li><li><a href="#frost-worms-maw" class="table-of-contents__link toc-highlight">Frost Worm’s Maw</a></li><li><a href="#golden-roc" class="table-of-contents__link toc-highlight">Golden Roc</a></li><li><a href="#jade-dragons-descent" class="table-of-contents__link toc-highlight">Jade Dragon’s Descent</a></li><li><a href="#krakens-fury" class="table-of-contents__link toc-highlight">Kraken’s Fury</a></li><li><a href="#leviathan-blade" class="table-of-contents__link toc-highlight">Leviathan Blade</a></li><li><a href="#metamorphic-seal" class="table-of-contents__link toc-highlight">Metamorphic Seal</a></li><li><a href="#nine-tailed-deception" class="table-of-contents__link toc-highlight">Nine-Tailed Deception</a></li><li><a href="#owlbears-rage" class="table-of-contents__link toc-highlight">Owlbear’s Rage</a></li><li><a href="#quaking-zaratan" class="table-of-contents__link toc-highlight">Quaking Zaratan</a></li><li><a href="#six-headed-hydra" class="table-of-contents__link toc-highlight">Six-Headed Hydra</a></li><li><a href="#tarrasque-jaw" class="table-of-contents__link toc-highlight">Tarrasque Jaw</a></li><li><a href="#thousand-ooze" class="table-of-contents__link toc-highlight">Thousand Ooze</a></li><li><a href="#twin-dragon-equinox" class="table-of-contents__link toc-highlight">Twin Dragon Equinox</a></li><li><a href="#vermilion-birds-feather" class="table-of-contents__link toc-highlight">Vermilion Bird’s Feather</a></li><li><a href="#wraith-step" class="table-of-contents__link toc-highlight">Wraith Step</a></li><li><a href="#yarrow-petals-fall" class="table-of-contents__link toc-highlight">Yarrow Petal’s Fall</a></li><li><a href="#zithers-final-note" class="table-of-contents__link toc-highlight">Zither’s Final Note</a></li></ul></li></ul></div></div></div></div></main></div></div></div><footer class="theme-layout-footer footer footer--dark"><div class="container container-fluid"><div class="row footer__links"><div class="theme-layout-footer-column col footer__col"><div class="footer__title">Handbook</div><ul class="footer__items clean-list"><li class="footer__item"><a class="footer__link-item" href="/The-Wandering-Handbook/docs/core/character/character-creation">Character Creation</a></li><li class="footer__item"><a class="footer__link-item" href="/The-Wandering-Handbook/docs/core/gameplay/gameplay-rules">Gameplay Rules</a></li><li class="footer__item"><a class="footer__link-item" href="/The-Wandering-Handbook/docs/homebrew/items/homebrew-system-&amp;-index">Homebrew Index</a></li></ul></div><div class="theme-layout-footer-column col footer__col"><div class="footer__title">Community</div><ul class="footer__items clean-list"><li class="footer__item"><a href="https://the-wandering-realm.fandom.com" target="_blank" rel="noopener noreferrer" class="footer__link-item">TWR Fandom Wiki<svg width="13.5" height="13.5" aria-label="(opens in new tab)" class="iconExternalLink_nPIU"><use href="#theme-svg-external-link"></use></svg></a></li><li class="footer__item"><a href="https://github.com/Sazendrak/The-Wandering-Handbook" target="_blank" rel="noopener noreferrer" class="footer__link-item">GitHub<svg width="13.5" height="13.5" aria-label="(opens in new tab)" class="iconExternalLink_nPIU"><use href="#theme-svg-external-link"></use></svg></a></li></ul></div></div><div class="footer__bottom text--center"><div class="footer__copyright">Content sourced from The Wandering Realm Fandom Wiki. Site built with Docusaurus.</div></div></div></footer></div>
+</body>
+</html>
