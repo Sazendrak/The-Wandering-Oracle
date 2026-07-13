@@ -43,11 +43,11 @@ async def two_status(ctx):
     """Diagnostic ping command to check status and read data file."""
     data = read_json_data("twr-items-1.json")
     if data is None:
-        await ctx.send("Bot is online, but I couldn't find or parse `/data/avrae/twr-items-1.json`.")
+        await ctx.send("Bot is online, but I couldn't find or parse `data/avrae/twr-items-1.json` (relative to bot.py).")
     else:
         # Assuming the JSON is a list or dictionary.
         count = len(data) if isinstance(data, (list, dict)) else 1
-        await ctx.send(f"Bot is online! Successfully parsed `/data/avrae/twr-items-1.json` containing {count} top-level keys/objects.")
+        await ctx.send(f"Bot is online! Successfully parsed `data/avrae/twr-items-1.json` containing {count} top-level keys/objects.")
 
 if __name__ == '__main__':
     if TOKEN:
