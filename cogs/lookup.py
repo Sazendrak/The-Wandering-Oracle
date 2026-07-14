@@ -62,8 +62,11 @@ class LookupCog(commands.Cog):
         # Access DataManager from bot
         dm = self.bot.data_manager
 
-        homebrew_results = dm.search_homebrew(query)
-        srd_results = dm.search_srd(query)
+homebrew_results = dm.search_homebrew(query)
+
+srd_results = []
+if effective_srd or not homebrew_results:
+    srd_results = dm.search_srd(query)
 
         if not homebrew_results and not srd_results:
             await interaction.response.send_message("No results found in either Homebrew or SRD archives.", ephemeral=True)
