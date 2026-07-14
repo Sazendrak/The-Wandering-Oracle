@@ -2,8 +2,8 @@ import json
 from pathlib import Path
 
 class DataManager:
-    def __init__(self, base_dir="."):
-        self.base_dir = Path(base_dir)
+def __init__(self, base_dir=None):
+        self.base_dir = Path(base_dir) if base_dir is not None else Path(__file__).resolve().parent
         # Strictly separated memory structures
         self.homebrew = {}
         self.srd = {}
