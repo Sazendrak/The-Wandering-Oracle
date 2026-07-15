@@ -20,9 +20,7 @@ def normalize_target(target):
 
 def check_site():
     base_dir = "docs_site"
-    valid_paths = get_valid_paths(base_dir)
-    valid_paths_lower = {p.lower(): p for p in valid_paths}
-
+    valid_paths_lower = {p.lower() for p in valid_paths}
     html_files = [p for p in valid_paths if p.endswith('.html')]
 
     broken_links = []
