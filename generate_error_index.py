@@ -117,12 +117,12 @@ def check_data():
 
     for f in srd_dir.glob("*.json"):
         try:
-            with open(f, 'r') as file:
+            with open(f, 'r', encoding='utf-8') as file:
                 content = file.read().lower()
                 if 'homebrew' in content:
                     misclassified.append((str(f), "Found 'homebrew' string in SRD JSON"))
-        except Exception:
-            pass
+        except Exception as e:
+            print(f"Error reading {f}: {e}")
 
     for d in [hb_avrae, hb_handbook]:
         if not d.exists():
