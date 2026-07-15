@@ -144,7 +144,7 @@ def generate_report():
 
     mc = set(mc_site) | set(mc_data)
 
-    with open('error_index.md', 'w') as out:
+    with open('error_index.md', 'w', encoding='utf-8') as out:
         out.write("# Comprehensive Error Index\n\n")
         out.write(f"## Broken Links ({len(set(bl))})\n")
         for src, url, target in sorted(set(bl)):
