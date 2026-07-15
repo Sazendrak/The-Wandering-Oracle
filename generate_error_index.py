@@ -129,12 +129,12 @@ def check_data():
             continue
         for f in d.glob("*.json"):
             try:
-                with open(f, 'r') as file:
+                with open(f, 'r', encoding='utf-8') as file:
                     content = file.read().lower()
                     if 'official srd' in content or 'srd content' in content:
                         misclassified.append((str(f), "Found 'official srd' string in Homebrew JSON"))
-            except Exception:
-                pass
+            except Exception as e:
+                print(f"Error reading {f}: {e}")
 
     return misclassified
 
