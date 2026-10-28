@@ -1,0 +1,254 @@
+<!doctype html>
+<html lang="en" dir="ltr" class="docs-wrapper plugin-docs plugin-id-default docs-version-current docs-doc-page docs-doc-id-homebrew/classes/pugilist-class" data-has-hydrated="false">
+<head>
+<meta charset="UTF-8">
+<meta name="generator" content="Docusaurus v3.10.1">
+<title data-rh="true">Pugilist Class | The Wandering Handbook</title><meta data-rh="true" name="viewport" content="width=device-width,initial-scale=1"><meta data-rh="true" name="twitter:card" content="summary_large_image"><meta data-rh="true" property="og:url" content="https://sazendrak.github.io/The-Wandering-Oracle/docs/homebrew/classes/pugilist-class"><meta data-rh="true" property="og:locale" content="en"><meta data-rh="true" name="docusaurus_locale" content="en"><meta data-rh="true" name="docsearch:language" content="en"><meta data-rh="true" name="docusaurus_version" content="current"><meta data-rh="true" name="docusaurus_tag" content="docs-default-current"><meta data-rh="true" name="docsearch:version" content="current"><meta data-rh="true" name="docsearch:docusaurus_tag" content="docs-default-current"><meta data-rh="true" property="og:title" content="Pugilist Class | The Wandering Handbook"><meta data-rh="true" name="description" content="Pugilist Class homebrew content for The Wandering Realm."><meta data-rh="true" property="og:description" content="Pugilist Class homebrew content for The Wandering Realm."><link data-rh="true" rel="icon" href="/The-Wandering-Oracle/img/favicon.ico"><link data-rh="true" rel="canonical" href="https://sazendrak.github.io/The-Wandering-Oracle/docs/homebrew/classes/pugilist-class"><link data-rh="true" rel="alternate" href="https://sazendrak.github.io/The-Wandering-Oracle/docs/homebrew/classes/pugilist-class" hreflang="en"><link data-rh="true" rel="alternate" href="https://sazendrak.github.io/The-Wandering-Oracle/docs/homebrew/classes/pugilist-class" hreflang="x-default"><script data-rh="true" type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Classes","item":"https://sazendrak.github.io/The-Wandering-Oracle/docs/category/classes"},{"@type":"ListItem","position":2,"name":"Pugilist Class","item":"https://sazendrak.github.io/The-Wandering-Oracle/docs/homebrew/classes/pugilist-class"}]}</script><link rel="stylesheet" href="/The-Wandering-Oracle/assets/css/styles.6f418af7.css">
+<script src="/The-Wandering-Oracle/assets/js/runtime~main.945d6390.js" defer="defer"></script>
+<script src="/The-Wandering-Oracle/assets/js/main.41a37cec.js" defer="defer"></script>
+</head>
+<body>
+<svg style="display: none;"><defs>
+<symbol id="theme-svg-external-link" viewBox="0 0 24 24"><path fill="currentColor" d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"/></symbol>
+</defs></svg>
+<script>!function(){var t=function(){try{return new URLSearchParams(window.location.search).get("docusaurus-theme")}catch(t){}}()||function(){try{return window.localStorage.getItem("theme")}catch(t){}}();document.documentElement.setAttribute("data-theme",t||"light"),document.documentElement.setAttribute("data-theme-choice",t||"light")}(),function(){try{const c=new URLSearchParams(window.location.search).entries();for(var[t,e]of c)if(t.startsWith("docusaurus-data-")){var a=t.replace("docusaurus-data-","data-");document.documentElement.setAttribute(a,e)}}catch(t){}}()</script><div id="__docusaurus"><div role="region" aria-label="Skip to main content"><a class="skipToContent_fXgn" href="#__docusaurus_skipToContent_fallback">Skip to main content</a></div><nav aria-label="Main" class="theme-layout-navbar navbar navbar--fixed-top"><div class="navbar__inner"><div class="theme-layout-navbar-left navbar__items"><button aria-label="Toggle navigation bar" aria-expanded="false" class="navbar__toggle clean-btn" type="button"><svg width="30" height="30" viewBox="0 0 30 30" aria-hidden="true"><path stroke="currentColor" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2" d="M4 7h22M4 15h22M4 23h22"></path></svg></button><a class="navbar__brand" href="/The-Wandering-Oracle/"><b class="navbar__title text--truncate">The Wandering Handbook</b></a><a class="navbar__item navbar__link" href="/The-Wandering-Oracle/docs/core/character/character-creation">Core Rules</a><a aria-current="page" class="navbar__item navbar__link navbar__link--active" href="/The-Wandering-Oracle/docs/category/classes">Homebrew</a><a class="navbar__item navbar__link" href="/The-Wandering-Oracle/docs/lore/elysium-floating-city-in-the-sky">Lore</a><a class="navbar__item navbar__link" href="/The-Wandering-Oracle/docs/srd/">SRD Reference</a><a class="navbar__item navbar__link" href="/The-Wandering-Oracle/catalog">Catalog</a></div><div class="theme-layout-navbar-right navbar__items navbar__items--right"><div class="toggle_vylO colorModeToggle_DEke"><button class="clean-btn toggleButton_gllP toggleButtonDisabled_aARS" type="button" disabled="" title="system mode" aria-label="Switch between dark and light mode (currently system mode)"><svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" class="toggleIcon_g3eP lightToggleIcon_pyhR"><path fill="currentColor" d="M12,9c1.65,0,3,1.35,3,3s-1.35,3-3,3s-3-1.35-3-3S10.35,9,12,9 M12,7c-2.76,0-5,2.24-5,5s2.24,5,5,5s5-2.24,5-5 S14.76,7,12,7L12,7z M2,13l2,0c0.55,0,1-0.45,1-1s-0.45-1-1-1l-2,0c-0.55,0-1,0.45-1,1S1.45,13,2,13z M20,13l2,0c0.55,0,1-0.45,1-1 s-0.45-1-1-1l-2,0c-0.55,0-1,0.45-1,1S19.45,13,20,13z M11,2v2c0,0.55,0.45,1,1,1s1-0.45,1-1V2c0-0.55-0.45-1-1-1S11,1.45,11,2z M11,20v2c0,0.55,0.45,1,1,1s1-0.45,1-1v-2c0-0.55-0.45-1-1-1C11.45,19,11,19.45,11,20z M5.99,4.58c-0.39-0.39-1.03-0.39-1.41,0 c-0.39,0.39-0.39,1.03,0,1.41l1.06,1.06c0.39,0.39,1.03,0.39,1.41,0s0.39-1.03,0-1.41L5.99,4.58z M18.36,16.95 c-0.39-0.39-1.03-0.39-1.41,0c-0.39,0.39-0.39,1.03,0,1.41l1.06,1.06c0.39,0.39,1.03,0.39,1.41,0c0.39-0.39,0.39-1.03,0-1.41 L18.36,16.95z M19.42,5.99c0.39-0.39,0.39-1.03,0-1.41c-0.39-0.39-1.03-0.39-1.41,0l-1.06,1.06c-0.39,0.39-0.39,1.03,0,1.41 s1.03,0.39,1.41,0L19.42,5.99z M7.05,18.36c0.39-0.39,0.39-1.03,0-1.41c-0.39-0.39-1.03-0.39-1.41,0l-1.06,1.06 c-0.39,0.39-0.39,1.03,0,1.41s1.03,0.39,1.41,0L7.05,18.36z"></path></svg><svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" class="toggleIcon_g3eP darkToggleIcon_wfgR"><path fill="currentColor" d="M9.37,5.51C9.19,6.15,9.1,6.82,9.1,7.5c0,4.08,3.32,7.4,7.4,7.4c0.68,0,1.35-0.09,1.99-0.27C17.45,17.19,14.93,19,12,19 c-3.86,0-7-3.14-7-7C5,9.07,6.81,6.55,9.37,5.51z M12,3c-4.97,0-9,4.03-9,9s4.03,9,9,9s9-4.03,9-9c0-0.46-0.04-0.92-0.1-1.36 c-0.98,1.37-2.58,2.26-4.4,2.26c-2.98,0-5.4-2.42-5.4-5.4c0-1.81,0.89-3.42,2.26-4.4C12.92,3.04,12.46,3,12,3L12,3z"></path></svg><svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" class="toggleIcon_g3eP systemToggleIcon_QzmC"><path fill="currentColor" d="m12 21c4.971 0 9-4.029 9-9s-4.029-9-9-9-9 4.029-9 9 4.029 9 9 9zm4.95-13.95c1.313 1.313 2.05 3.093 2.05 4.95s-0.738 3.637-2.05 4.95c-1.313 1.313-3.093 2.05-4.95 2.05v-14c1.857 0 3.637 0.737 4.95 2.05z"></path></svg></button></div><div class="navbarSearchContainer_Bca1"><div class="navbar__search searchBarContainer_NW3z" dir="ltr"><input placeholder="Search" aria-label="Search" class="navbar__search-input searchInput_YFbd" value=""><div class="loadingRing_RJI3 searchBarLoadingRing_YnHq"><div></div><div></div><div></div><div></div></div></div></div></div></div><div role="presentation" class="navbar-sidebar__backdrop"></div></nav><div id="__docusaurus_skipToContent_fallback" class="theme-layout-main main-wrapper mainWrapper_z2l0"><div class="docsWrapper_hBAB"><button aria-label="Scroll back to top" class="clean-btn theme-back-to-top-button backToTopButton_sjWU" type="button"></button><div class="docRoot_UBD9"><aside class="theme-doc-sidebar-container docSidebarContainer_YfHR"><div class="sidebarViewport_aRkj"><div class="sidebar_njMd"><nav aria-label="Docs sidebar" class="menu thin-scrollbar menu_SIkG"><ul class="theme-doc-sidebar-menu menu__list"><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item"><div class="menu__list-item-collapsible"><a class="categoryLink_byQd menu__link menu__link--sublist menu__link--active" href="/The-Wandering-Oracle/docs/category/classes"><span title="Classes" class="categoryLinkLabel_W154">Classes</span></a><button aria-label="Collapse sidebar category &#x27;Classes&#x27;" aria-expanded="true" type="button" class="clean-btn menu__caret"></button></div><ul class="menu__list"><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/The-Wandering-Oracle/docs/homebrew/classes/blood-hunter-(version-x)"><span title="Blood Hunter (Version X)" class="linkLabel_WmDU">Blood Hunter (Version X)</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item homebrew-class"><a class="menu__link" tabindex="0" href="/The-Wandering-Oracle/docs/homebrew/classes/blood-hunter-version-x"><span title="Blood Hunter (Version X)" class="linkLabel_WmDU">Blood Hunter (Version X)</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/The-Wandering-Oracle/docs/homebrew/classes/bombardier"><span title="Bombardier" class="linkLabel_WmDU">Bombardier</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item homebrew-class"><a class="menu__link" tabindex="0" href="/The-Wandering-Oracle/docs/homebrew/classes/bulwark"><span title="Bulwark" class="linkLabel_WmDU">Bulwark</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item homebrew-class"><a class="menu__link" tabindex="0" href="/The-Wandering-Oracle/docs/homebrew/classes/channeler"><span title="Channeler" class="linkLabel_WmDU">Channeler</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/The-Wandering-Oracle/docs/homebrew/classes/drifter"><span title="Drifter" class="linkLabel_WmDU">Drifter</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/The-Wandering-Oracle/docs/homebrew/classes/exorcist"><span title="Exorcist" class="linkLabel_WmDU">Exorcist</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/The-Wandering-Oracle/docs/homebrew/classes/greaser"><span title="Greaser" class="linkLabel_WmDU">Greaser</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/The-Wandering-Oracle/docs/homebrew/classes/harbinger"><span title="Harbinger" class="linkLabel_WmDU">Harbinger</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/The-Wandering-Oracle/docs/homebrew/classes/jade-lord"><span title="Jade Lord" class="linkLabel_WmDU">Jade Lord</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/The-Wandering-Oracle/docs/homebrew/classes/juggernaut"><span title="Juggernaut" class="linkLabel_WmDU">Juggernaut</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item homebrew-class"><a class="menu__link" tabindex="0" href="/The-Wandering-Oracle/docs/homebrew/classes/justiciar"><span title="Justiciar" class="linkLabel_WmDU">Justiciar</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/The-Wandering-Oracle/docs/homebrew/classes/medic"><span title="Medic" class="linkLabel_WmDU">Medic</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/The-Wandering-Oracle/docs/homebrew/classes/medium"><span title="Medium" class="linkLabel_WmDU">Medium</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/The-Wandering-Oracle/docs/homebrew/classes/oracle"><span title="Oracle" class="linkLabel_WmDU">Oracle</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item homebrew-class"><a class="menu__link" tabindex="0" href="/The-Wandering-Oracle/docs/homebrew/classes/pathfinder"><span title="Pathfinder" class="linkLabel_WmDU">Pathfinder</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/The-Wandering-Oracle/docs/homebrew/classes/performer"><span title="Performer" class="linkLabel_WmDU">Performer</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/The-Wandering-Oracle/docs/homebrew/classes/physicist"><span title="Physicist" class="linkLabel_WmDU">Physicist</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/The-Wandering-Oracle/docs/homebrew/classes/practitioner"><span title="Practitioner" class="linkLabel_WmDU">Practitioner</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item homebrew-class"><a class="menu__link" tabindex="0" href="/The-Wandering-Oracle/docs/homebrew/classes/prestige-classes"><span title="Prestige Classes" class="linkLabel_WmDU">Prestige Classes</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item homebrew-class"><a class="menu__link" tabindex="0" href="/The-Wandering-Oracle/docs/homebrew/classes/primal-avatar"><span title="Primal Avatar" class="linkLabel_WmDU">Primal Avatar</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/The-Wandering-Oracle/docs/homebrew/classes/psi-tracker"><span title="Psi Tracker" class="linkLabel_WmDU">Psi Tracker</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item homebrew-class"><a class="menu__link menu__link--active" aria-current="page" tabindex="0" href="/The-Wandering-Oracle/docs/homebrew/classes/pugilist-class"><span title="Pugilist Class" class="linkLabel_WmDU">Pugilist Class</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/The-Wandering-Oracle/docs/homebrew/classes/ranger-(version-x)"><span title="Ranger (Version X)" class="linkLabel_WmDU">Ranger (Version X)</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item homebrew-class"><a class="menu__link" tabindex="0" href="/The-Wandering-Oracle/docs/homebrew/classes/ranger-version-x"><span title="Ranger (Version X)" class="linkLabel_WmDU">Ranger (Version X)</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item homebrew-class"><a class="menu__link" tabindex="0" href="/The-Wandering-Oracle/docs/homebrew/classes/ranger-wildtrak"><span title="Ranger Wildtrak" class="linkLabel_WmDU">Ranger Wildtrak</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/The-Wandering-Oracle/docs/homebrew/classes/rook"><span title="Rook" class="linkLabel_WmDU">Rook</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item homebrew-class"><a class="menu__link" tabindex="0" href="/The-Wandering-Oracle/docs/homebrew/classes/sage"><span title="Sage" class="linkLabel_WmDU">Sage</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/The-Wandering-Oracle/docs/homebrew/classes/scrapper"><span title="Scrapper" class="linkLabel_WmDU">Scrapper</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item homebrew-class"><a class="menu__link" tabindex="0" href="/The-Wandering-Oracle/docs/homebrew/classes/shinobi"><span title="Shinobi" class="linkLabel_WmDU">Shinobi</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item homebrew-class"><a class="menu__link" tabindex="0" href="/The-Wandering-Oracle/docs/homebrew/classes/spiritualist"><span title="Spiritualist" class="linkLabel_WmDU">Spiritualist</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item homebrew-class"><a class="menu__link" tabindex="0" href="/The-Wandering-Oracle/docs/homebrew/classes/sublime-bard"><span title="Sublime Bard" class="linkLabel_WmDU">Sublime Bard</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/The-Wandering-Oracle/docs/homebrew/classes/swindler"><span title="Swindler" class="linkLabel_WmDU">Swindler</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item homebrew-class"><a class="menu__link" tabindex="0" href="/The-Wandering-Oracle/docs/homebrew/classes/the-gunslinger"><span title="The Gunslinger" class="linkLabel_WmDU">The Gunslinger</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item homebrew-class"><a class="menu__link" tabindex="0" href="/The-Wandering-Oracle/docs/homebrew/classes/undead-sovereign"><span title="Undead Sovereign" class="linkLabel_WmDU">Undead Sovereign</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item homebrew-class"><a class="menu__link" tabindex="0" href="/The-Wandering-Oracle/docs/homebrew/classes/warmage"><span title="Warmage" class="linkLabel_WmDU">Warmage</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item homebrew-class"><a class="menu__link" tabindex="0" href="/The-Wandering-Oracle/docs/homebrew/classes/wizard-version-x"><span title="Wizard (Version X)" class="linkLabel_WmDU">Wizard (Version X)</span></a></li></ul></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="categoryLink_byQd menu__link menu__link--sublist" href="/The-Wandering-Oracle/docs/category/subclasses--archetypes"><span title="Subclasses &amp; Archetypes" class="categoryLinkLabel_W154">Subclasses &amp; Archetypes</span></a><button aria-label="Expand sidebar category &#x27;Subclasses &amp; Archetypes&#x27;" aria-expanded="false" type="button" class="clean-btn menu__caret"></button></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="categoryLink_byQd menu__link menu__link--sublist" href="/The-Wandering-Oracle/docs/category/races"><span title="Races" class="categoryLinkLabel_W154">Races</span></a><button aria-label="Expand sidebar category &#x27;Races&#x27;" aria-expanded="false" type="button" class="clean-btn menu__caret"></button></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="categoryLink_byQd menu__link menu__link--sublist" href="/The-Wandering-Oracle/docs/category/spells"><span title="Spells" class="categoryLinkLabel_W154">Spells</span></a><button aria-label="Expand sidebar category &#x27;Spells&#x27;" aria-expanded="false" type="button" class="clean-btn menu__caret"></button></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="categoryLink_byQd menu__link menu__link--sublist" href="/The-Wandering-Oracle/docs/category/feats"><span title="Feats" class="categoryLinkLabel_W154">Feats</span></a><button aria-label="Expand sidebar category &#x27;Feats&#x27;" aria-expanded="false" type="button" class="clean-btn menu__caret"></button></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="categoryLink_byQd menu__link menu__link--sublist" href="/The-Wandering-Oracle/docs/category/boons--blessings"><span title="Boons &amp; Blessings" class="categoryLinkLabel_W154">Boons &amp; Blessings</span></a><button aria-label="Expand sidebar category &#x27;Boons &amp; Blessings&#x27;" aria-expanded="false" type="button" class="clean-btn menu__caret"></button></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="categoryLink_byQd menu__link menu__link--sublist" href="/The-Wandering-Oracle/docs/category/items"><span title="Items" class="categoryLinkLabel_W154">Items</span></a><button aria-label="Expand sidebar category &#x27;Items&#x27;" aria-expanded="false" type="button" class="clean-btn menu__caret"></button></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="categoryLink_byQd menu__link menu__link--sublist" href="/The-Wandering-Oracle/docs/category/class-feature-mods"><span title="Class Feature Mods" class="categoryLinkLabel_W154">Class Feature Mods</span></a><button aria-label="Expand sidebar category &#x27;Class Feature Mods&#x27;" aria-expanded="false" type="button" class="clean-btn menu__caret"></button></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="categoryLink_byQd menu__link menu__link--sublist" href="/The-Wandering-Oracle/docs/category/other-homebrew"><span title="Other Homebrew" class="categoryLinkLabel_W154">Other Homebrew</span></a><button aria-label="Expand sidebar category &#x27;Other Homebrew&#x27;" aria-expanded="false" type="button" class="clean-btn menu__caret"></button></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="categoryLink_byQd menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="false" href="/The-Wandering-Oracle/docs/homebrew/monsters/dog-and-hound"><span title="monsters" class="categoryLinkLabel_W154">monsters</span></a></div></li></ul></nav></div></div></aside><main class="docMainContainer_TBSr"><div class="container padding-top--md padding-bottom--lg"><div class="row"><div class="col docItemCol_VOVn"><div class="docItemContainer_Djhp"><article><nav class="theme-doc-breadcrumbs breadcrumbsContainer_Z_bl" aria-label="Breadcrumbs"><ul class="breadcrumbs"><li class="breadcrumbs__item"><a aria-label="Home page" class="breadcrumbs__link" href="/The-Wandering-Oracle/"><svg viewBox="0 0 24 24" class="breadcrumbHomeIcon_YNFT"><path d="M10 19v-5h4v5c0 .55.45 1 1 1h3c.55 0 1-.45 1-1v-7h1.7c.46 0 .68-.57.33-.87L12.67 3.6c-.38-.34-.96-.34-1.34 0l-8.36 7.53c-.34.3-.13.87.33.87H5v7c0 .55.45 1 1 1h3c.55 0 1-.45 1-1z" fill="currentColor"></path></svg></a></li><li class="breadcrumbs__item"><a class="breadcrumbs__link" href="/The-Wandering-Oracle/docs/category/classes"><span>Classes</span></a></li><li class="breadcrumbs__item breadcrumbs__item--active"><span class="breadcrumbs__link">Pugilist Class</span></li></ul></nav><div class="tocCollapsible_ETCw theme-doc-toc-mobile tocMobile_ITEo"><button type="button" class="clean-btn tocCollapsibleButton_TO0P">On this page</button></div><div class="theme-doc-markdown markdown"><header><h1>Pugilist Class</h1></header>
+<p><em><strong>The Purity Rule:</strong> This cycle must have consisted entirely of levels from one of the following classes and subclasses, with no multiclassing:</em></p>
+<ul>
+<li class="">
+<p><em><strong>Barbarian</strong> (Path of the Brawler)</em></p>
+</li>
+<li class="">
+<p><em><strong>Barbarian</strong> (Path of the Battlerager)</em></p>
+</li>
+<li class="">
+<p><em><strong>Shinobi</strong> (Nindo of the Iron Fist)</em></p>
+</li>
+<li class="">
+<p><em><strong>Wizard</strong> (Beat your Ass)</em></p>
+</li>
+<li class="">
+<p><em><strong>Bard</strong> (College of Dance)</em></p>
+</li>
+<li class="">
+<p><em><strong>Channeler</strong> (Channel of Containment)</em></p>
+</li>
+<li class="">
+<p><em><strong>Bulwark</strong> (Unfettered)</em></p>
+</li>
+<li class="">
+<p><em><strong>Hit Die</strong>: 1d10 per pugilist level</em></p>
+</li>
+</ul>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="the-pugilist-table">The Pugilist Table<a href="#the-pugilist-table" class="hash-link" aria-label="Direct link to The Pugilist Table" title="Direct link to The Pugilist Table" translate="no">​</a></h2>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Level</th><th>Features</th><th>Fisticuffs</th><th>Moxie</th></tr></thead><tbody><tr><td>1</td><td>Fisticuffs, Iron Chin, Prestige Scaling</td><td>1d8</td><td>—</td></tr><tr><td>2</td><td>Moxie, Bloodied But Unbowed, Swagger Streak</td><td>1d8</td><td>4</td></tr><tr><td>3</td><td>Heavy Hitter, Pugilist Subclass</td><td>1d8</td><td>6</td></tr><tr><td>4</td><td>Ability Score Improvement, Dig Deep</td><td>1d8</td><td>8</td></tr><tr><td>5</td><td>Haymaker</td><td>1d10</td><td>10</td></tr><tr><td>6</td><td>Moxie-Fueled Fists, Subclass Feature</td><td>1d10</td><td>12</td></tr><tr><td>7</td><td>Down But Not Out</td><td>1d10</td><td>14</td></tr><tr><td>8</td><td>Ability Score Improvement</td><td>1d10</td><td>16</td></tr><tr><td>9</td><td>School of Hard Knocks</td><td>1d10</td><td>18</td></tr><tr><td>10</td><td>Herculean, Shake It Off</td><td>1d10</td><td>20</td></tr><tr><td>11</td><td>Subclass Feature</td><td>1d12</td><td>22</td></tr><tr><td>12</td><td>Ability Score Improvement</td><td>1d12</td><td>24</td></tr><tr><td>13</td><td>Dig Deeper</td><td>1d12</td><td>26</td></tr><tr><td>14</td><td>Unbreakable</td><td>1d12</td><td>28</td></tr><tr><td>15</td><td>Pugnacious</td><td>1d12</td><td>30</td></tr><tr><td>16</td><td>Ability Score Improvement</td><td>1d12</td><td>32</td></tr><tr><td>17</td><td>Subclass Feature</td><td>2d6</td><td>34</td></tr><tr><td>18</td><td>Fighting Spirit</td><td>2d6</td><td>36</td></tr><tr><td>19</td><td>Epic Boon</td><td>2d6</td><td>38</td></tr><tr><td>20</td><td>Peak Physical Condition</td><td>2d6</td><td>40</td></tr></tbody></table>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="pl-21-prestige-scaling">PL 21: Prestige Scaling<a href="#pl-21-prestige-scaling" class="hash-link" aria-label="Direct link to PL 21: Prestige Scaling" title="Direct link to PL 21: Prestige Scaling" translate="no">​</a></h2>
+<p>You have mastered the raw fundamentals of combat. Any feature in this class that refers to your level uses your <strong>Prestige Level (PL)</strong>, which is calculated as L20 + Pugilist Level. Additionally, your <strong>Pugilist Save DC</strong> for all features is 8 + your Proficiency Bonus + \your choice of Strength or Constitution modifier.</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="pl21-fisticuffs">PL21: Fisticuffs<a href="#pl21-fisticuffs" class="hash-link" aria-label="Direct link to PL21: Fisticuffs" title="Direct link to PL21: Fisticuffs" translate="no">​</a></h2>
+<p>Your years of fighting in back alleys and taverns have given you mastery over combat styles that use Unarmed Strikes and Pugilist weapons (Simple Melee weapons and Improvised weapons). You gain the following benefits while you are unarmed or wielding only Pugilist weapons, and not wielding a Shield:</p>
+<ul>
+<li class=""><strong>Bonus Unarmed Strike:</strong> You can make one Unarmed Strike as a Bonus Action.</li>
+<li class=""><strong>Fisticuffs Die:</strong> You can roll the die shown in the Fisticuffs column of the Pugilist Table in place of the normal damage of your Unarmed Strike or Pugilist weapons.</li>
+<li class=""><strong>Improved Improvisation:</strong> You have a talent for turning anything into a weapon. All improvised weapons and your unarmed strike gain your choice of the <strong>Sap</strong> or <strong>Topple</strong> mastery property for you.</li>
+</ul>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="pl-21-iron-chin">PL 21: Iron Chin<a href="#pl-21-iron-chin" class="hash-link" aria-label="Direct link to PL 21: Iron Chin" title="Direct link to PL 21: Iron Chin" translate="no">​</a></h2>
+<p>You have Resistance to Bludgeoning damage, while have resistance to Bludgeoning damage from another source you instead have immunity to bludgeoning damage. Once your Prestige Level reaches 30, this hardiness expands to grant you resistance to Piercing and Slashing damage as well.</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="pl-22-moxie">PL 22: Moxie<a href="#pl-22-moxie" class="hash-link" aria-label="Direct link to PL 22: Moxie" title="Direct link to PL 22: Moxie" translate="no">​</a></h2>
+<p>Your experiences beating the odds have given you a swagger you can channel in battle. This is represented by <strong>Moxie Points</strong>. You have a maximum number of Moxie Points as shown in the Pugilist Table. You regain all expended Moxie Points <strong>only when you finish a Long Rest</strong>. You can spend these points to fuel the following features:</p>
+<ul>
+<li class=""><strong>Brace Up:</strong> You can use a Bonus Action and expend 1 Moxie Point to brace for attacks. When you do so, roll your Fisticuffs die and gain a number of Temporary Hit Points equal to the number rolled plus your <strong>Prestige Level</strong> and your Constitution modifier.</li>
+<li class=""><strong>One-Two Punch:</strong> When you use your Bonus Action to make an Unarmed Strike, you can expend 1 Moxie Point to make <strong>two</strong> Unarmed Strikes as a Bonus Action instead of one.</li>
+<li class=""><strong>Stick and Move:</strong> You can use a Bonus Action and expend 1 Moxie Point to make one Unarmed Strike and take either the Dash or Disengage action.</li>
+</ul>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="pl-22-bloodied-but-unbowed">PL 22: Bloodied But Unbowed<a href="#pl-22-bloodied-but-unbowed" class="hash-link" aria-label="Direct link to PL 22: Bloodied But Unbowed" title="Direct link to PL 22: Bloodied But Unbowed" translate="no">​</a></h2>
+<p>When you take damage, you can use your Reaction to gain a surge of adrenaline. You gain Temporary Hit Points equal to <strong>six times your Pugilist Level</strong>. These Temporary Hit Points vanish if any remain when you finish a Short or Long Rest. Once you use this feature, you can’t use it again until you finish a Long Rest.</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="pl-22-swagger-streak">PL 22: Swagger Streak<a href="#pl-22-swagger-streak" class="hash-link" aria-label="Direct link to PL 22: Swagger Streak" title="Direct link to PL 22: Swagger Streak" translate="no">​</a></h2>
+<p>When you fail a Strength, Dexterity, Constitution, or Charisma check, you can expend 1 Moxie Point to attempt to swagger your way to success. Roll your Fisticuffs die and add the number rolled to the ability check, potentially turning it into a success. If the ability check still fails, you regain the expended Moxie Point.</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="pl-23-heavy-hitter">PL 23: Heavy Hitter<a href="#pl-23-heavy-hitter" class="hash-link" aria-label="Direct link to PL 23: Heavy Hitter" title="Direct link to PL 23: Heavy Hitter" translate="no">​</a></h2>
+<p>You have learned to put your whole body into every strike. When you hit a creature with an Unarmed Strike, you can deal damage and use <strong>both</strong> your choice of the Grapple or Shove options against the target.</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="pl-23-pugilist-subclass">PL 23: Pugilist Subclass<a href="#pl-23-pugilist-subclass" class="hash-link" aria-label="Direct link to PL 23: Pugilist Subclass" title="Direct link to PL 23: Pugilist Subclass" translate="no">​</a></h2>
+<p>You can choose a pugilist archetype and you gain more features from the subclass on the following levels, PL26, PL31, PL37</p>
+<p><strong>Options:</strong></p>
+<ul>
+<li class=""><a title="dog and hound" class="" href="/The-Wandering-Oracle/docs/homebrew/monsters/dog-and-hound">Dog and Hound</a></li>
+<li class=""><a title="street saint" class="" href="/The-Wandering-Oracle/docs/homebrew/other/street-saint">Street Saint</a></li>
+<li class=""><a title="squared circle" class="" href="/The-Wandering-Oracle/docs/homebrew/other/squared-circle">Squared Circle</a></li>
+<li class=""><a title="piss and vinegar" class="" href="/The-Wandering-Oracle/docs/homebrew/other/piss-and-vinegar">Piss and Vinegar</a></li>
+</ul>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="pl-24-dig-deep">PL 24: Dig Deep<a href="#pl-24-dig-deep" class="hash-link" aria-label="Direct link to PL 24: Dig Deep" title="Direct link to PL 24: Dig Deep" translate="no">​</a></h2>
+<p>You can use a Bonus Action to find a hidden reserve of strength. For 1 minute, you have Resistance to Piercing and Slashing damage and you ignore the effects of Exhaustion levels 1 through 5. Once you use this feature, you can’t use it again until you finish a Long Rest unless you gain 1 level of Exhaustion (no action required) to restore your use of it.</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="pl-25-extra-strike">PL 25: Extra Strike<a href="#pl-25-extra-strike" class="hash-link" aria-label="Direct link to PL 25: Extra Strike" title="Direct link to PL 25: Extra Strike" translate="no">​</a></h2>
+<p>Once per turn, when you make an attack with an Pugilist weapon or unarmed strike as part of your action you can make an additional unarmed strike as part of that same action</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="pl-25-haymaker">PL 25: Haymaker<a href="#pl-25-haymaker" class="hash-link" aria-label="Direct link to PL 25: Haymaker" title="Direct link to PL 25: Haymaker" translate="no">​</a></h2>
+<p>When you make an attack with an Unarmed Strike or Pugilist weapon, you can expend 3 Moxie Points to swing with wild abandon. On a hit, the attack becomes a <strong>Critical Hit</strong>. If the attack roll was already a Critical Hit, you instead triple the damage dice for the attack.</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="pl-26-moxie-fueled-fists">PL 26: Moxie-Fueled Fists<a href="#pl-26-moxie-fueled-fists" class="hash-link" aria-label="Direct link to PL 26: Moxie-Fueled Fists" title="Direct link to PL 26: Moxie-Fueled Fists" translate="no">​</a></h2>
+<p>Whenever you deal damage with your Unarmed Strike or an attack with an improvised weapon, the strike is considered magical for the purpose of overcoming resistance and immunity to non-magical attacks, and you can choose to have it deal <strong>Force</strong> damage instead of its normal type.</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="pl-27-down-but-not-out">PL 27: Down But Not Out<a href="#pl-27-down-but-not-out" class="hash-link" aria-label="Direct link to PL 27: Down But Not Out" title="Direct link to PL 27: Down But Not Out" translate="no">​</a></h2>
+<p>While you are <strong>Bloodied</strong> (at or below half your maximum Hit Points), your spirit flares with desperation. You add a bonus to the damage of your Unarmed Strikes and Pugilist weapons equal to your <strong>Constitution modifier plus your current level of Exhaustion</strong>.</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="pl-29-school-of-hard-knocks">PL 29: School of Hard Knocks<a href="#pl-29-school-of-hard-knocks" class="hash-link" aria-label="Direct link to PL 29: School of Hard Knocks" title="Direct link to PL 29: School of Hard Knocks" translate="no">​</a></h2>
+<p>Once per turn, you can deal an extra <strong>1d12</strong> damage when you hit with an Unarmed Strike or Pugilist weapon. You can forgo this extra damage to apply one of the following effects:</p>
+<ul>
+<li class=""><strong>Endanger:</strong> The next time the creature is hit by an attack before the start of your next turn, the attack deals its maximum possible damage rather than rolling, this only applies to the pugilist or Unarmed strike damage, and not with any external damage riders</li>
+<li class=""><strong>Provoke:</strong> The creature has Disadvantage on attack rolls against creatures other than you until the end of your next turn.</li>
+</ul>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="pl-30-herculean">PL 30: Herculean<a href="#pl-30-herculean" class="hash-link" aria-label="Direct link to PL 30: Herculean" title="Direct link to PL 30: Herculean" translate="no">​</a></h2>
+<p>Your physical prowess reaches legendary proportions. You gain the following benefits:</p>
+<ul>
+<li class=""><strong>Heavy Lifter:</strong> Your Strength score is doubled when determining your carrying capacity and the weight you can push, drag, or lift.</li>
+<li class=""><strong>Pillar Breaker:</strong> When you hit an object or structure with an Unarmed Strike, the hit is an automatic Critical Hit.</li>
+<li class=""><strong>Unmatched Athlete:</strong> Your jump distance is doubled.</li>
+</ul>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="pl-30-shake-it-off">PL 30: Shake It Off<a href="#pl-30-shake-it-off" class="hash-link" aria-label="Direct link to PL 30: Shake It Off" title="Direct link to PL 30: Shake It Off" translate="no">​</a></h2>
+<p>At the start of each of your turns (no action required), you can expend 2 Moxie Points to remove one level of Exhaustion from yourself or end one of the following conditions on yourself: <strong>Blinded, Charmed, Deafened, Frightened, Paralyzed, Poisoned, Restrained, or Stunned</strong>.</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="pl-33-dig-deeper">PL 33: Dig Deeper<a href="#pl-33-dig-deeper" class="hash-link" aria-label="Direct link to PL 33: Dig Deeper" title="Direct link to PL 33: Dig Deeper" translate="no">​</a></h2>
+<p>Your resolve is bottomless. While your <strong>Dig Deep</strong> feature is active, you gain the following additional benefits:</p>
+<ul>
+<li class="">You can use your <strong>School of Hard Knocks</strong> feature twice per turn instead of once.</li>
+<li class="">You can attack three times, instead of twice, whenever you use one-two punch on your turn.</li>
+</ul>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="pl-34-unbreakable">PL 34: Unbreakable<a href="#pl-34-unbreakable" class="hash-link" aria-label="Direct link to PL 34: Unbreakable" title="Direct link to PL 34: Unbreakable" translate="no">​</a></h2>
+<p>You have Advantage on Strength, Dexterity, and Constitution saving throws. Additionally, whenever you make a saving throw and fail, you can expend 1 Moxie Point to reroll it, and you must use the new roll.</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="pl-35-pugnacious">PL 35: Pugnacious<a href="#pl-35-pugnacious" class="hash-link" aria-label="Direct link to PL 35: Pugnacious" title="Direct link to PL 35: Pugnacious" translate="no">​</a></h2>
+<p>When you roll Initiative, you can choose to remove one level of Exhaustion from yourself and regain your expended uses of <strong>Bloodied But Unbowed</strong> and <strong>Dig Deep</strong>. Once you use this feature, you cannot do so again until you finish a Long Rest.</p>
+<p>When you roll Initiative and have no uses of moxie left, you regain an amount equal to your Constitution Modifier.</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="pl-38-fighting-spirit">PL 38: Fighting Spirit<a href="#pl-38-fighting-spirit" class="hash-link" aria-label="Direct link to PL 38: Fighting Spirit" title="Direct link to PL 38: Fighting Spirit" translate="no">​</a></h2>
+<p>When you are reduced to 0 Hit Points but not killed outright, you can drop to 1 Hit Point instead. When you do, you gain Temporary Hit Points equal to double your Prestige Level , and you have Resistance to all damage except Force for the next minute. While these Temporary Hit Points remain, you are immune to the Stunned and Paralyzed conditions. Once you use this feature, you can’t use it again until you finish a Long Rest.</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="pl-40-peak-physical-condition">PL 40: Peak Physical Condition<a href="#pl-40-peak-physical-condition" class="hash-link" aria-label="Direct link to PL 40: Peak Physical Condition" title="Direct link to PL 40: Peak Physical Condition" translate="no">​</a></h2>
+<p>You have reached the absolute zenith of mortal capability. You gain the following benefits:</p>
+<ul>
+<li class=""><strong>Hale and Hearty:</strong> You gain a permanent +2 to your AC while not wielding a shield and wearing only light armor or no armor, and your hit points increases by 40</li>
+<li class=""><strong>Sleep It Off:</strong> When you finish a Long Rest, you lose all levels of Exhaustion rather than just one.</li>
+<li class=""><strong>Vim and Vigor:</strong> When you finish a Short Rest, you regain Hit Points equal to <strong>three times your Prestige Level</strong>.</li>
+</ul></div><footer class="theme-doc-footer docusaurus-mt-lg"><div class="row margin-top--sm theme-doc-footer-tags-row"><div class="col"><b>Tags:</b><ul class="tags_jXut padding--none margin-left--sm"><li class="tag_QGVx"><a rel="tag" class="tag_zVej tagRegular_sFm0" href="/The-Wandering-Oracle/docs/tags/class">class</a></li><li class="tag_QGVx"><a rel="tag" class="tag_zVej tagRegular_sFm0" href="/The-Wandering-Oracle/docs/tags/homebrew">homebrew</a></li></ul></div></div></footer></article><nav class="docusaurus-mt-lg pagination-nav" aria-label="Docs pages"><a class="pagination-nav__link pagination-nav__link--prev" href="/The-Wandering-Oracle/docs/homebrew/classes/psi-tracker"><div class="pagination-nav__sublabel">Previous</div><div class="pagination-nav__label">Psi Tracker</div></a><a class="pagination-nav__link pagination-nav__link--next" href="/The-Wandering-Oracle/docs/homebrew/classes/ranger-(version-x)"><div class="pagination-nav__sublabel">Next</div><div class="pagination-nav__label">Ranger (Version X)</div></a></nav></div></div><div class="col col--3"><div class="tableOfContents_bqdL thin-scrollbar theme-doc-toc-desktop"><ul class="table-of-contents table-of-contents__left-border"><li><a href="#the-pugilist-table" class="table-of-contents__link toc-highlight">The Pugilist Table</a></li><li><a href="#pl-21-prestige-scaling" class="table-of-contents__link toc-highlight">PL 21: Prestige Scaling</a></li><li><a href="#pl21-fisticuffs" class="table-of-contents__link toc-highlight">PL21: Fisticuffs</a></li><li><a href="#pl-21-iron-chin" class="table-of-contents__link toc-highlight">PL 21: Iron Chin</a></li><li><a href="#pl-22-moxie" class="table-of-contents__link toc-highlight">PL 22: Moxie</a></li><li><a href="#pl-22-bloodied-but-unbowed" class="table-of-contents__link toc-highlight">PL 22: Bloodied But Unbowed</a></li><li><a href="#pl-22-swagger-streak" class="table-of-contents__link toc-highlight">PL 22: Swagger Streak</a></li><li><a href="#pl-23-heavy-hitter" class="table-of-contents__link toc-highlight">PL 23: Heavy Hitter</a></li><li><a href="#pl-23-pugilist-subclass" class="table-of-contents__link toc-highlight">PL 23: Pugilist Subclass</a></li><li><a href="#pl-24-dig-deep" class="table-of-contents__link toc-highlight">PL 24: Dig Deep</a></li><li><a href="#pl-25-extra-strike" class="table-of-contents__link toc-highlight">PL 25: Extra Strike</a></li><li><a href="#pl-25-haymaker" class="table-of-contents__link toc-highlight">PL 25: Haymaker</a></li><li><a href="#pl-26-moxie-fueled-fists" class="table-of-contents__link toc-highlight">PL 26: Moxie-Fueled Fists</a></li><li><a href="#pl-27-down-but-not-out" class="table-of-contents__link toc-highlight">PL 27: Down But Not Out</a></li><li><a href="#pl-29-school-of-hard-knocks" class="table-of-contents__link toc-highlight">PL 29: School of Hard Knocks</a></li><li><a href="#pl-30-herculean" class="table-of-contents__link toc-highlight">PL 30: Herculean</a></li><li><a href="#pl-30-shake-it-off" class="table-of-contents__link toc-highlight">PL 30: Shake It Off</a></li><li><a href="#pl-33-dig-deeper" class="table-of-contents__link toc-highlight">PL 33: Dig Deeper</a></li><li><a href="#pl-34-unbreakable" class="table-of-contents__link toc-highlight">PL 34: Unbreakable</a></li><li><a href="#pl-35-pugnacious" class="table-of-contents__link toc-highlight">PL 35: Pugnacious</a></li><li><a href="#pl-38-fighting-spirit" class="table-of-contents__link toc-highlight">PL 38: Fighting Spirit</a></li><li><a href="#pl-40-peak-physical-condition" class="table-of-contents__link toc-highlight">PL 40: Peak Physical Condition</a></li></ul></div></div></div></div></main></div></div></div><footer class="theme-layout-footer footer footer--dark"><div class="container container-fluid"><div class="row footer__links"><div class="theme-layout-footer-column col footer__col"><div class="footer__title">Handbook</div><ul class="footer__items clean-list"><li class="footer__item"><a class="footer__link-item" href="/The-Wandering-Oracle/docs/core/character/character-creation">Character Creation</a></li><li class="footer__item"><a class="footer__link-item" href="/The-Wandering-Oracle/docs/core/gameplay/gameplay-rules">Gameplay Rules</a></li><li class="footer__item"><a class="footer__link-item" href="/The-Wandering-Oracle/docs/homebrew/items/homebrew-system-&amp;-index">Homebrew Index</a></li></ul></div><div class="theme-layout-footer-column col footer__col"><div class="footer__title">Community</div><ul class="footer__items clean-list"><li class="footer__item"><a href="https://the-wandering-realm.fandom.com" target="_blank" rel="noopener noreferrer" class="footer__link-item">TWR Fandom Wiki<svg width="13.5" height="13.5" aria-label="(opens in new tab)" class="iconExternalLink_nPIU"><use href="#theme-svg-external-link"></use></svg></a></li><li class="footer__item"><a href="https://github.com/Sazendrak/The-Wandering-Handbook" target="_blank" rel="noopener noreferrer" class="footer__link-item">GitHub<svg width="13.5" height="13.5" aria-label="(opens in new tab)" class="iconExternalLink_nPIU"><use href="#theme-svg-external-link"></use></svg></a></li></ul></div></div><div class="footer__bottom text--center"><div class="footer__copyright">Content sourced from The Wandering Realm Fandom Wiki. Site built with Docusaurus.</div></div></div></footer></div>
+</body>
+</html>

@@ -1,5 +1,139 @@
 [
   {
+    "name": "Animate Bone Hulk",
+    "level": 5,
+    "school": "Necromancy",
+    "casttime": "1 minute",
+    "range": "10 feet",
+    "duration": "Instantaneous",
+    "description": "Choose four Medium or Small humanoid corpses or piles of bones within range. You fuse them into a single Bone Hulk under your control. It uses the Bone Hulk stat block. On each of your turns, you can use a bonus action to mentally command any creature you created with this spell if it is within 60 feet of you. You can command it to move and take its action. If you issue no command, it takes the Dodge action. The Bone Hulk remains under your control for 24 hours. To maintain control, you must cast this spell again on the Bone Hulk before the current duration ends. This use of the spell reasserts control rather than creating a new creature.",
+    "components": {
+      "verbal": true,
+      "somatic": true,
+      "material": "V, S, M (a black onyx gem worth at least 150 gp, which the spell consumes, and four humanoid corpses or piles of bones)"
+    },
+    "automation": null
+  },
+  {
+    "name": "Arc Blade",
+    "level": 0,
+    "school": "Evocation",
+    "casttime": "1 action",
+    "range": "Self (5-foot radius)",
+    "duration": "Instantaneous",
+    "description": "As part of the action used to cast this spell, you must make a melee attack with a weapon against one creature within the spell\u2019s range, otherwise the spell fails. On a hit, the target suffers the weapon attack\u2019s normal effects, except that any damage dealt by the attack is lightning damage instead of its normal type. Additionally, an arc of lightning jumps to a second creature of your choice within 5 feet of the target, dealing 1d6 lightning damage.\n\nAt 5th level, the weapon attack deals an additional 1d8 lightning damage on a hit. At 11th level, that additional damage becomes 2d8 and the arc becomes 2d6. At 17th level, the additional damage becomes 3d8 and the arc becomes 3d6.",
+    "components": {
+      "verbal": true,
+      "somatic": false,
+      "material": "a melee weapon"
+    },
+    "automation": [
+      {
+        "type": "target",
+        "target": "each",
+        "effects": [
+          {
+            "type": "attack",
+            "hit": [
+              {
+                "type": "damage",
+                "damage": "1d6[lightning]",
+                "cantripScale": true
+              }
+            ],
+            "miss": []
+          }
+        ]
+      },
+      {
+        "type": "text",
+        "text": "As part of the action used to cast this spell, you must make a melee attack with a weapon against one creature within the spell\u2019s range, otherwise the spell fails. On a hit, the target suffers the weapon attack\u2019s normal effects, except that any damage dealt by the attack is lightning damage instead of its normal type. Additionally, an arc of lightning jumps to a second creature of your choice within 5 feet of the target, dealing 1d6 lightning damage.\n\nAt 5th level, the weapon attack deals an additional 1d8 lightning damage on a hit. At 11th level, that additional damage becomes 2d8 and the arc becomes 2d6. At 17th level, the additional damage becomes 3d8 and the arc becomes 3d6."
+      }
+    ]
+  },
+  {
+    "name": "Arcane Guardian",
+    "level": 0,
+    "school": "Abjuration",
+    "casttime": "1 Action",
+    "range": "Self",
+    "duration": "Instantaneous",
+    "description": "Features:\n\n*   [1st Level - Guardian Magic](#1st_Level_-_Guardian_Magic)\n*   [1st Level - Loving Protection](#1st_Level_-_Loving_Protection)\n*   [6th Level - Gifting Inner Strength](#6th_Level_-_Gifting_Inner_Strength)\n*   [14th Level - Altruistic Splinter](#14th_Level_-_Altruistic_Splinter)\n*   [18th Level - Arcane Enlightenment](#18th_Level_-_Arcane_Enlightenment)\n\n## 1st Level - Guardian Magic\n\nYou learn additional spells when you reach certain levels in this class, as shown on the Guardian table. Each of these spells counts as a sorcerer spell for you, but it doesn't count against the number of sorcerer spells you know.\n\nWhenever you gain a sorcerer level, you can replace one spell you gained from this feature with another spell of the same level. The new spell must be an abjuration or a transmutation spell from the sorcerer, warlock, or wizard spell list.\n\n### Arcane Guardian Spells\n\n*   1st: bless, protection from evil and good\n*   3rd: aid, pass without trace\n*   5th: aura of vitality, protection from energy\n*   7th: aura of life, aura of purity\n*   9th: mass cure wounds, skill empowerment\n\n## 1st Level - Loving Protection\n\nStarting at 1st level, your selfless nature begins to show in your spellcasting. Whenever an ally within 30 feet of you fits the casting requirements for a spell with a casting time of 1 Reaction, you can spend an amount of sorcery points equal to the spell level to cast the spell and give the effects to them. You can do this an amount of times equal to your Charisma modifier, resetting when you finish a long rest.\n\n## 6th Level - Gifting Inner Strength\n\nStarting at 6th level, you harness the ability to spread your talents to your allies. Once per turn, as a bonus action, you can strengthen an ally's next spell or attack with a Metamagic option you have access to, spending sorcery points as you would to use the options normally. These options last for a minute. The viable Metamagic options are as listed:\n\n### Quickened Assault\n\nWhen your target casts a spell that has a casting time of 1 action, they can choose to change the casting time to 1 bonus action for this casting.\n\nAlternatively, they can make one melee or ranged weapon attack as a bonus action.\n\n### Subtle Assault\n\nWhen the target casts a spell, they can choose to cast it without any somatic or verbal components.\n\nAlternatively, they can give themself advantage on one melee or ranged weapon attack roll.\n\n### Empowered Assault\n\nWhen the target rolls damage for a spell or weapon attack, they can reroll a number of the damage dice up to your Charisma modifier (minimum of one). They must use the new rolls.\n\n### Heightened Assault\n\nWhen the target casts a spell that forces a creature to make a saving throw to resist its effects, they can give one target of the spell disadvantage on its first saving throw made against the spell.\n\nAlternatively, if they make a melee or ranged weapon attack and hit, they can add your Charisma modifier to one of the damage rolls (minimum of one).\n\n## 14th Level - Altruistic Splinter\n\nStarting at 14th level, you learn to manipulate the bounds of your sorcery. Whenever you cast a spell that has a range of Self, you can spend an amount of sorcery points equal to twice the spell's level to change the range to Touch as long as the target is a willing creature. The spell level limit of this feature is half your Charisma modifier.\u00a0 You can do this an amount of times equal to half your proficiency bonus, resetting when you finish a long rest.\n\n## 18th Level - Arcane Enlightenment\n\nStarting at 18th level, you gain the ability to funnel your strength into your allies. As an action on your turn, you can boost your allies' power until the end of your next turn. Every creature of your choice that is currently under the effects of a concentration spell cast by you receives the following additional effects:\n\n*   Their speed is increased by 30 feet.\n*   Every melee and ranged weapon attack roll they make is made with advantage. This advantage ignores any disadvantage also being applied to the target.\n*   Any attacks the target",
+    "components": {
+      "verbal": false,
+      "somatic": false,
+      "material": ""
+    },
+    "automation": null
+  },
+  {
+    "name": "Augmenter",
+    "level": 0,
+    "school": "Unknown",
+    "casttime": "1 Action",
+    "range": "Self",
+    "duration": "Instantaneous",
+    "description": "The Augmenter is a unique blend of artificer and psychic, merging technology with mental prowess. These specialists understand the psyche and wield their own bodies as tools for both combat and manipulation. Whether augmenting their limbs or delving into the minds of others, Augmenters are masters of self-enhancement\n\n**Features:**\n\n*   [3rd Level - Augmenter Spells](#3rd-level---augmenter-spells)\n*   [3rd Level - Self Augmentation](#3rd-level---self-augmentation)\n*   [5th Level - Extra Attack](#5th-level---extra-attack)\n*   [9th Level - Mind Over Matter](#9th-level---mind-over-matter)\n*   [15th Level - Master Augmenter](#15th-level---master-augmenter)\n*   [Augmenter Infusions](#augmenter-infusions)\n\n## 3rd Level - Augmenter Spells\n\nYou always have certain spells prepared after you reach particular levels in this class, as shown in the Augmenter Spells table. These spells count as artificer spells for you, but they don\u2019t count against the number of artificer spells you prepare.\n\nAugmenter Spells reflect your understanding of the psyche and allows you to influence the mind of others.\n\n**Augmenter Spells**\n\n3rd Level - Command, Dissonant Whispers\n\n5th Level - Tasha\u2019s Mind Whip, Crown of Madness\n\n9th Level - Antagonize, Fast Friends\n\n13th Level - Raulothim\u2019s Psychic Lance, Compulsion\n\n17th Level - Synaptic Static, Modify Memory\n\n## 3rd Level - Self Augmentation\n\nStarting at 3rd level, you master the technique of augmenting your own body. Each of the following parts of your body can be infused using your artificer Infusions; Torso, Head, Legs. You also gain access to Augmenter Infusions, these infusions are known and does not count toward your total of known infusions. For the purposes of normal Infusions, the Torso is seen as Armor, head as a Helmet or any peripheral that is worn on the head, and legs are seen as boots.\n\nYou also learn how to augment your arms with special arm weapons. These can also be infused, and you can only have one arm enhancement active at a time. Whenever you finish a long rest you can swap arm enhancements.\n\n### **Arm Enhancements**\n\nThese Enhancements count as weapons and infusions can be applied to them. Each enhancement grants the artificer an applicable fighting Style based on the installed enhancement.\n\n#### **Mantis Blade**\n\nYou gain retractable blade attachments on either of your arms\n\n**Properties**: Finesse\n\n**Fighting Style:** Dueling\n\n**Damage**: 1d6 piercing\n\n**Special**: The blade can be retracted or unsheathed as a bonus action, leaving the hand free to wield other items. When you score a critical hit with the mantis blade the target needs to make a constitution save against your Spell DC or start to bleed. When bleeding the target loses hp equal to your proficiency bonus at the start of each of its turn. It can make the save again at the end of each turn.\n\n#### **Monowire Attachment**\n\nThese fine wires get pulled from your wrists and are wielded like a whip.\n\n**Properties**: Finesse, Reach\n\n**Fighting Style**: Two-Weapon Fighting\n\n**Damage**: 1d4 slashing\n\n**Special**: The wires count as two separate weapons for the purpose of two weapon fighting, but only require a single infusion. The wires use Intelligence for its attack and damage modifiers.\n\n#### **Gorilla Arms**\n\nYour Hands and forearms are augmented with heavier metals and mechanical support.\n\n**Properties**: Heavy\n\n**Fighting Style**: Unarmed Fighting\n\n**Damage**: Unarmed Strike, Bludgeoning\n\n**Special**: You make your attacks with the Gorilla Arms as unarmed strikes. You also have advantage on Strength( Athletics) checks to escape, attempt, maintain grapples.\n\n#### **Arm Launcher**\n\nYou can load bolts or sling bullets into your arm and fire them as projectiles.\n\n**Properties**: Ranged (40/80), Reload (6)\n\n**Fighting Style**: Archery\n\n**Damage**: 1d8 piercing (bolts), bludgeoning (sling bullets)\n\n**Special**: The Launcher leaves your hands open while firing. On a hit, the launcher does 1d4 force damage to the target, all creatures within 5ft of the target must make Dexterity save against your spell save DC or take 1d4 force d",
+    "components": {
+      "verbal": false,
+      "somatic": false,
+      "material": ""
+    },
+    "automation": [
+      {
+        "type": "target",
+        "target": "all",
+        "effects": [
+          {
+            "type": "attack",
+            "hit": [
+              {
+                "type": "save",
+                "stat": "con",
+                "fail": [
+                  {
+                    "type": "damage",
+                    "damage": "1d4[force]"
+                  },
+                  {
+                    "type": "damage",
+                    "damage": "2d6[psychic]"
+                  },
+                  {
+                    "type": "damage",
+                    "damage": "1d6[lightning]"
+                  },
+                  {
+                    "type": "ieffect2",
+                    "name": "Restrained",
+                    "duration": 1,
+                    "tick_on": "caster"
+                  },
+                  {
+                    "type": "ieffect2",
+                    "name": "Prone"
+                  },
+                  {
+                    "type": "ieffect2",
+                    "name": "Invisible",
+                    "duration": 1,
+                    "tick_on": "caster"
+                  }
+                ],
+                "success": []
+              }
+            ],
+            "miss": []
+          }
+        ]
+      },
+      {
+        "type": "text",
+        "text": "The Augmenter is a unique blend of artificer and psychic, merging technology with mental prowess. These specialists understand the psyche and wield their own bodies as tools for both combat and manipulation. Whether augmenting their limbs or delving into the minds of others, Augmenters are masters of self-enhancement\n\n**Features:**\n\n*   [3rd Level - Augmenter Spells](#3rd-level---augmenter-spells)\n*   [3rd Level - Self Augmentation](#3rd-level---self-augmentation)\n*   [5th Level - Extra Attack](#5th-level---extra-attack)\n*   [9th Level - Mind Over Matter](#9th-level---mind-over-matter)\n*   [15th Level - Master Augmenter](#15th-level---master-augmenter)\n*   [Augmenter Infusions](#augmenter-infusions)\n\n## 3rd Level - Augmenter Spells\n\nYou always have certain spells prepared after you reach particular levels in this class, as shown in the Augmenter Spells table. These spells count as artificer spells for you, but they don\u2019t count against the number of artificer spells you prepare.\n\nAugmenter Spells reflect your understanding of the psyche and allows you to influence the mind of others.\n\n**Augmenter Spells**\n\n3rd Level - Command, Dissonant Whispers\n\n5th Level - Tasha\u2019s Mind Whip, Crown of Madness\n\n9th Level - Antagonize, Fast Friends\n\n13th Level - Raulothim\u2019s Psychic Lance, Compulsion\n\n17th Level - Synaptic Static, Modify Memory\n\n## 3rd Level - Self Augmentation\n\nStarting at 3rd level, you master the technique of augmenting your own body. Each of the following parts of your body can be infused using your artificer Infusions; Torso, Head, Legs. You also gain access to Augmenter Infusions, these infusions are known and does not count toward your total of known infusions. For the purposes of normal Infusions, the Torso is seen as Armor, head as a Helmet or any peripheral that is worn on the head, and legs are seen as boots.\n\nYou also learn how to augment your arms with special arm weapons. These can also be infused, and you can only have one arm enhancement active at a tim"
+      }
+    ]
+  },
+  {
     "name": "Aura of Kineses",
     "level": 2,
     "school": "Abjuration",
@@ -147,6 +281,43 @@
     ]
   },
   {
+    "name": "Blood Magic",
+    "level": 0,
+    "school": "Unknown",
+    "casttime": "1 Action",
+    "range": "Self",
+    "duration": "Instantaneous",
+    "description": "*   [2nd Level - Blood Channeling](#2nd-level---blood-channeling)\n*   [2nd Level - Sanguine Burst](#2nd-level---sanguine-burst)\n*   [6th Level - Bond of Mutual Suffering](#6th-level---bond-of-mutual-suffering)\n*   [10th Level - Glyph of Hemorrhaging](#10th-level---glyph-of-hemorrhaging)\n*   [14th Level - Thicker than Water](#14th-level---thicker-than-water)\n\n## 2nd Level - Blood Channeling\n\nWhen you choose this arcane tradition at 2nd level, you are able to use your own depleted life essence to channel your magical abilities. Whenever your current hit points are below your hit point maximum, you can use your own body as an arcane focus.\n\nIn addition, when casting a wizard spell that requires a costly material component, you can forego the component by taking 1d10 necrotic damage per 50 gp of the cost of the component (minimum 1d10). This damage can\u2019t be reduced in any way. If this damage reduces you to 0 hit points, the spell fails but the spell slot is not expended.\n\n## 2nd Level - Sanguine Burst\n\nAlso at 2nd level, you learn how to weave your life force into a spell you cast, boosting its intensity at the cost of your vitality. Whenever you roll damage for a spell you\u2019ve cast of 1st level or higher, you can choose to take necrotic damage equal to the spell\u2019s level to reroll a number of the damage dice up to your Intelligence modifier (minimum one). This damage can\u2019t be reduced in any way, and you must use the new rolls.\n\n## 6th Level - Bond of Mutual Suffering\n\nAt 6th level, when a creature you can see hits you with an attack, you can use your reaction to bind your vitality to the attacker and force them to share your pain. The attacker takes damage equal to the damage you took.\n\nThis feature cannot be used against constructs or undead. You can use this feature once. You must finish a short or long rest before you can use it again.\n\nAt 14th level, you can use this feature twice between rests.\n\n## 10th Level - Glyph of Hemorrhaging\n\nStarting at 10th level, when you damage a creature with a spell, you can choose to curse that creature for 1 minute. While cursed in this way, whenever the creature is hit by an attack, it takes an extra 1d6 necrotic damage. At the end of each of the creature\u2019s turns, it can make a Constitution saving throw against your spell save DC, ending the curse on a success.\n\nThis feature cannot be used against creatures that are undead or constructs. Once you use this feature, you can\u2019t use it again until you finish a short or long rest.\n\n## 14th Level - Thicker than Water\n\nUpon reaching 14th level, the blood that flows through your veins is empowered with arcane vigor that mends wounds and helps preserve your life. Whenever a spell or magical effect causes you to regain hit points, you regain an additional number of hit points equal to your proficiency bonus.\n\nIn addition, while you are concentrating on a spell, you have resistance to bludgeoning, piercing, and slashing damage from nonmagical attacks.",
+    "components": {
+      "verbal": false,
+      "somatic": false,
+      "material": ""
+    },
+    "automation": [
+      {
+        "type": "target",
+        "target": "each",
+        "effects": [
+          {
+            "type": "save",
+            "stat": "con",
+            "fail": [
+              {
+                "type": "damage",
+                "damage": "1d10[necrotic]"
+              }
+            ],
+            "success": []
+          }
+        ]
+      },
+      {
+        "type": "text",
+        "text": "*Considered taboo by many societies and magic practitioners, the use of blood magic\u2014also known as hemocraft\u2014is a rare art that harnesses the latent powers of a creature\u2019s vitality to fuel and amplify the caster\u2019s own capabilities, while manipulating and weakening the bodies of enemies from the inside. Some of the more macabre mages seeking to empower their arcane pursuits turn to hemocraft as a means of bolstering their spells, giving their own life\u2019s blood to reach new heights of frightening magical prowess.*\n\n*The secrets of hemocraft and other forms of blood magic were once the sole purview of the mysterious Claret Orders. In recent years, however, these secrets have begun to spread beyond the order\u2019s members and into the hands of less scrupulous mages. Blood magic has a bad reputation in Tal\u2019Dorei, even though its powers can be used for much more than evil.*\n\n**Features:**\n\n*   [2nd Level - Blood Channeling](#2nd-level---blood-channeling)\n*   [2nd Level - Sanguine Burst](#2nd-level---sanguine-burst)\n*   [6th Level - Bond of Mutual Suffering](#6th-level---bond-of-mutual-suffering)\n*   [10th Level - Glyph of Hemorrhaging](#10th-level---glyph-of-hemorrhaging)\n*   [14th Level - Thicker than Water](#14th-level---thicker-than-water)\n\n## 2nd Level - Blood Channeling\n\nWhen you choose this arcane tradition at 2nd level, you are able to use your own depleted life essence to channel your magical abilities. Whenever your current hit points are below your hit point maximum, you can use your own body as an arcane focus.\n\nIn addition, when casting a wizard spell that requires a costly material component, you can forego the component by taking 1d10 necrotic damage per 50 gp of the cost of the component (minimum 1d10). This damage can\u2019t be reduced in any way. If this damage reduces you to 0 hit points, the spell fails but the spell slot is not expended.\n\n## 2nd Level - Sanguine Burst\n\nAlso at 2nd level, you learn how to weave your life force into a spell you cast, boosting its i"
+      }
+    ]
+  },
+  {
     "name": "Boneblade",
     "level": 3,
     "school": "Necromancy",
@@ -192,9 +363,170 @@
     ]
   },
   {
-    "name": "Caustic Spell",
+    "name": "Burning Blade",
     "level": 0,
-    "school": "Unknown",
+    "school": "Evocation",
+    "casttime": "1 action",
+    "range": "Self (5-foot radius)",
+    "duration": "1 round",
+    "description": "As part of the action used to cast this spell, you must make a melee attack with a weapon against one creature within the spell\u2019s range, otherwise the spell fails. On a hit, the target suffers the weapon attack\u2019s normal effects, except that any damage dealt by the attack is fire damage instead of its normal type. Additionally, embers whirl in the target\u2019s space. Until the start of your next turn, when a creature enters that space for the first time on a turn or ends its turn there, you can use your reaction to deal 1d6 fire damage to it, ending the spell.\n\nAt 5th level, the weapon attack deals an additional 1d8 fire damage on a hit. At 11th level, that additional damage becomes 2d8 and the ember damage becomes 2d6. At 17th level, the additional damage becomes 3d8 and the ember damage becomes 3d6.",
+    "components": {
+      "verbal": true,
+      "somatic": false,
+      "material": "a melee weapon"
+    },
+    "automation": [
+      {
+        "type": "target",
+        "target": "each",
+        "effects": [
+          {
+            "type": "attack",
+            "hit": [
+              {
+                "type": "damage",
+                "damage": "1d8[fire]",
+                "cantripScale": true
+              }
+            ],
+            "miss": []
+          }
+        ]
+      },
+      {
+        "type": "text",
+        "text": "As part of the action used to cast this spell, you must make a melee attack with a weapon against one creature within the spell\u2019s range, otherwise the spell fails. On a hit, the target suffers the weapon attack\u2019s normal effects, except that any damage dealt by the attack is fire damage instead of its normal type. Additionally, embers whirl in the target\u2019s space. Until the start of your next turn, when a creature enters that space for the first time on a turn or ends its turn there, you can use your reaction to deal 1d6 fire damage to it, ending the spell.\n\nAt 5th level, the weapon attack deals an additional 1d8 fire damage on a hit. At 11th level, that additional damage becomes 2d8 and the ember damage becomes 2d6. At 17th level, the additional damage becomes 3d8 and the ember damage becomes 3d6."
+      },
+      {
+        "type": "text",
+        "title": "Conditional Effect",
+        "text": "Until the start of your next turn, when a creature enters that space for the first time on a turn or ends its turn there, you can use your reaction to deal 1d6 fire damage to it, ending the spell."
+      }
+    ]
+  },
+  {
+    "name": "Bursting Sinew",
+    "level": 0,
+    "school": "Necromancy",
+    "casttime": "1 action",
+    "range": "60 feet",
+    "duration": "Instantaneous",
+    "description": "*   **Casting Time**: 1 action\n*   **Range**: 60 feet\n*   **Components**: V, S\n*   **Duration**: Instantaneous\n\n**Description**\n\nYou violently animate the tendons of a fresh corpse within range, causing it to explode outward in a spray of bone and sinew. Creatures within a 10-foot radius of the corpse must make a Dexterity saving throw. A creature takes 1d10 piercing damage on a failed save, or no damage on a successful one. The corpse is destroyed by this spell and cannot be used again for necromancy. The corpse must be relatively intact and cannot be a construct, elemental, ooze, or plant. A corpse destroyed by fire, acid, or radiant damage cannot be used.",
+    "components": {
+      "verbal": true,
+      "somatic": true,
+      "material": ""
+    },
+    "automation": [
+      {
+        "type": "target",
+        "target": "each",
+        "effects": [
+          {
+            "type": "save",
+            "stat": "dex",
+            "fail": [
+              {
+                "type": "damage",
+                "damage": "1d10[piercing]",
+                "cantripScale": true
+              }
+            ],
+            "success": []
+          }
+        ]
+      },
+      {
+        "type": "text",
+        "text": "You violently animate the tendons of a fresh corpse within range, causing it to explode outward in a spray of bone and sinew. Creatures within a 10-foot radius of the corpse must make a Dexterity saving throw. A creature takes 1d10 piercing damage on a failed save, or no damage on a successful one. The corpse is destroyed by this spell and cannot be used again for necromancy. The corpse must be relatively intact and cannot be a construct, elemental, ooze, or plant. A corpse destroyed by fire, acid, or radiant damage cannot be used."
+      }
+    ]
+  },
+  {
+    "name": "Card Trick",
+    "level": 0,
+    "school": "Transmutation",
+    "casttime": "1 action",
+    "range": "60 feet",
+    "duration": "Instantaneous",
+    "description": "With a flash of your hands, you fling a playing or tarot card charged with energy at your opponent. Choose whether you make a ranged spell attack roll against the target or the target must make a Dexterity saving throw. On a hit or a failed saving throw, the target takes 1d6 force damage.\n\nThis spell\u2019s damage increases by 1d6 when you reach 5th level (2d6), 11th level (3d6) and 17th level (4d6).",
+    "components": {
+      "verbal": true,
+      "somatic": true,
+      "material": "a deck of playing cards"
+    },
+    "automation": [
+      {
+        "type": "target",
+        "target": "each",
+        "effects": [
+          {
+            "type": "attack",
+            "hit": [
+              {
+                "type": "save",
+                "stat": "dex",
+                "fail": [
+                  {
+                    "type": "damage",
+                    "damage": "1d6[force]",
+                    "cantripScale": true
+                  }
+                ],
+                "success": []
+              }
+            ],
+            "miss": []
+          }
+        ]
+      },
+      {
+        "type": "text",
+        "text": "With a flash of your hands, you fling a playing or tarot card charged with energy at your opponent. Choose whether you make a ranged spell attack roll against the target or the target must make a Dexterity saving throw. On a hit or a failed saving throw, the target takes 1d6 force damage.\n\nThis spell\u2019s damage increases by 1d6 when you reach 5th level (2d6), 11th level (3d6) and 17th level (4d6)."
+      }
+    ]
+  },
+  {
+    "name": "Caustic Blade",
+    "level": 0,
+    "school": "Evocation",
+    "casttime": "1 action",
+    "range": "Self (5-foot radius)",
+    "duration": "Instantaneous",
+    "description": "As part of the action used to cast this spell, you must make a melee attack with a weapon against one creature within the spell\u2019s range, otherwise the spell fails. On a hit, the target suffers the weapon attack\u2019s normal effects, except that any damage dealt by the attack is acid damage instead of its normal type. If you miss by 3 or less, acid splashes onto the target anyway and you deal 1d8 acid damage to it.\n\nAt 5th level, the weapon attack deals an additional 1d8 acid damage on a hit. At 11th level, that additional damage becomes 2d8 and the splash damage becomes 2d8. At 17th level, the additional damage becomes 3d8 and the splash damage becomes 3d8.",
+    "components": {
+      "verbal": true,
+      "somatic": false,
+      "material": "a melee weapon"
+    },
+    "automation": [
+      {
+        "type": "target",
+        "target": "each",
+        "effects": [
+          {
+            "type": "attack",
+            "hit": [
+              {
+                "type": "damage",
+                "damage": "1d8[acid]",
+                "cantripScale": true
+              }
+            ],
+            "miss": []
+          }
+        ]
+      },
+      {
+        "type": "text",
+        "text": "As part of the action used to cast this spell, you must make a melee attack with a weapon against one creature within the spell\u2019s range, otherwise the spell fails. On a hit, the target suffers the weapon attack\u2019s normal effects, except that any damage dealt by the attack is acid damage instead of its normal type. If you miss by 3 or less, acid splashes onto the target anyway and you deal 1d8 acid damage to it.\n\nAt 5th level, the weapon attack deals an additional 1d8 acid damage on a hit. At 11th level, that additional damage becomes 2d8 and the splash damage becomes 2d8. At 17th level, the additional damage becomes 3d8 and the splash damage becomes 3d8."
+      }
+    ]
+  },
+  {
+    "name": "Caustic Spell",
+    "level": 4,
+    "school": "Conjuration",
     "casttime": "1 Action",
     "range": "Self; 10 ft cubes",
     "duration": "up to 1 minute",
@@ -246,6 +578,97 @@
       {
         "type": "text",
         "text": "A viscous and caustic substance spills out across eight 10 foot cubes, which you can arrange as you wish. Each cube must have at least one face adjacent to the face of another cube.\n\nEach creature in the area when the spill appears must make a dexterity saving throw or take 6d4 acid damage. After which the spill settles, making the spell's area difficult terrain.\n\nFor the remainder of the spell's duration, the first time a creature enters the spill on their turn, or starts their turn in the spill, they take 6d4 acid damage. A creature also takes 2d4 acid damage for every 5 feet they move through the spill."
+      }
+    ]
+  },
+  {
+    "name": "Cheat",
+    "level": 0,
+    "school": "Divination",
+    "casttime": "1 bonus action",
+    "range": "Self",
+    "duration": "1 round",
+    "description": "You subtly twist your fingers, and fate seems to follow suit. For the duration, you can reroll any ability check you make to play a nonmagical game of chance. This spell could influence a game of poker, but not the result of a deck of many things.",
+    "components": {
+      "verbal": false,
+      "somatic": true,
+      "material": "a weighted die"
+    },
+    "automation": null
+  },
+  {
+    "name": "Circle of Bravery",
+    "level": 5,
+    "school": "Abjuration",
+    "casttime": "1 action",
+    "range": "Self (30 ft. sphere)",
+    "duration": "up to 10 minutes",
+    "description": "You conjure a field of magical inspiration that bolsters the resolve of your allies. Any creature you choose while they are in this field will have resistance against psychic damage and gain advantage on saving throws against the frightened and charmed conditions. If their save fails, any additional saves against the same effect succeed automatically.",
+    "components": {
+      "verbal": true,
+      "somatic": true,
+      "material": ""
+    },
+    "automation": [
+      {
+        "type": "target",
+        "target": "self",
+        "effects": [
+          {
+            "type": "ieffect2",
+            "name": "Circle of Bravery",
+            "duration": 100,
+            "tick_on_caster": true,
+            "conc": true,
+            "attacks": [
+              {
+                "_v": 2,
+                "name": "Circle of Bravery \u2014 Area Effect",
+                "automation": [
+                  {
+                    "type": "target",
+                    "target": "each",
+                    "effects": [
+                      {
+                        "type": "ieffect2",
+                        "name": "Frightened"
+                      },
+                      {
+                        "type": "ieffect2",
+                        "name": "Charmed"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "text",
+        "text": "You conjure a field of magical inspiration that bolsters the resolve of your allies. Any creature you choose while they are in this field will have resistance against psychic damage and gain advantage on saving throws against the frightened and charmed conditions. If their save fails, any additional saves against the same effect succeed automatically."
+      }
+    ]
+  },
+  {
+    "name": "Cryptogram",
+    "level": 0,
+    "school": "Conjuration",
+    "casttime": "1 action",
+    "range": "Unlimited",
+    "duration": "Instantaneous",
+    "description": "You send a small scroll bearing a short message to a creature of your choice. The recipient must be a creature known to you and must be on the same plane of existence as you. The scroll hovers in front of the recipient, drops into their pocket, or appears sitting on something nearby.\n\nThe scroll\u2019s message can be up to 8 characters long, and spaces count as characters. You can send only one scroll to a single target each day.",
+    "components": {
+      "verbal": true,
+      "somatic": true,
+      "material": "a small written message"
+    },
+    "automation": [
+      {
+        "type": "text",
+        "text": "You send a small scroll bearing a short message to a creature of your choice. The recipient must be a creature known to you and must be on the same plane of existence as you. The scroll hovers in front of the recipient, drops into their pocket, or appears sitting on something nearby.\n\nThe scroll\u2019s message can be up to 8 characters long, and spaces count as characters. You can send only one scroll",
+        "title": "Cryptogram"
       }
     ]
   },
@@ -304,6 +727,54 @@
       "somatic": false,
       "material": "a shield worth at least 1 sp"
     },
+    "automation": [
+      {
+        "type": "target",
+        "target": "self",
+        "effects": [
+          {
+            "type": "ieffect2",
+            "name": "Divine Reprisal",
+            "duration": 10,
+            "tick_on_caster": true,
+            "conc": true
+          }
+        ]
+      },
+      {
+        "type": "text",
+        "text": "As a bonus action, you can infuse a shield you're currently wielding with divine energy. If the shield is not magical, your AC increases by 1 until you stop wielding the shield or the spell ends. The first time a creature targets you with a melee attack and misses during this spell's duration, your shield bursts with divine radiance as you deflect the blow. The stored energy within releases and deals 1d6 radiant damage to any hostile creatures within 5 feet. When this blast hits an undead or a fiend, it deals an additional 1d6 radiant damage to it. After the blast, the spell ends."
+      }
+    ]
+  },
+  {
+    "name": "Dorren's Leashed Hound",
+    "level": 0,
+    "school": "Conjuration",
+    "casttime": "10 Minutes",
+    "range": "10 feet, 10x10 square",
+    "duration": "Special",
+    "description": "PC Creation: Dorren\n\nLevel: 6\n\nCasting Time: 10 Minutes\n\nRange: 10 feet, 10x10 square\n\nComponents: V,S,M (a collar)\n\nDuration: Special\n\nSchool: Conjuration\n\nThis spell is cast immediately after the 4th level Faithful Hound. The Faithful Hound duration extends to 24 hours. An invisible leash tethers the hound to the ground, it may move within the area of effect, and the caster may move more than 100 feet away from the hound. Casting both Faithful Hound and Dorren\u2019s Leashed Hound every day for a year makes both spells permanent.\n\nSpell Lists: Wizard and any hb class that has faithful hound",
+    "components": {
+      "verbal": true,
+      "somatic": true,
+      "material": "a collar"
+    },
+    "automation": null
+  },
+  {
+    "name": "Dorren\u2019s Speedy Reading",
+    "level": 0,
+    "school": "Divination",
+    "casttime": "1 Action",
+    "range": "Self",
+    "duration": "1 Hour",
+    "description": "*   **Casting Time**: 1 Action (Ritual)\n*   **Range/Area**: Self\n*   **Components**: V, S\n*   **Duration**: 1 Hour\n*   **Class Lists:** Wizard, Warlock, Sage, Bard (2014 & 2024 Class lists)\n\n**Description**\n\nKnowledge seems to leap directly from the page and into your brain. For the duration you gain the ability to read non-magical texts at a rate of 100 pages per minute.\n\nYou also have perfect recall of any knowledge gained through this spell during its duration. After the spell has ended you can remember the details of what you read as if you had read it normally.\n\nYou must be able to comprehend the language in which a text is written in order to utilize this spell.",
+    "components": {
+      "verbal": true,
+      "somatic": true,
+      "material": ""
+    },
     "automation": null
   },
   {
@@ -328,6 +799,92 @@
     ]
   },
   {
+    "name": "False Skeleton",
+    "level": 1,
+    "school": "Transmutation",
+    "casttime": "1 hour",
+    "range": "Touch",
+    "duration": "Instantaneous",
+    "description": "What is a necromancer to do when society deems their school of magic evil? Why, of course, go against the natural way of things and make a body or two. This ritual allows one to make a set of bones to animate. The main difference between a real skeleton and the one this ritual creates is that the skeleton is always 5'4\" tall, with no pinky toe, jaw, or marrow.",
+    "components": {
+      "verbal": false,
+      "somatic": false,
+      "material": "50 gp of calcium"
+    },
+    "automation": null
+  },
+  {
+    "name": "Farwatch",
+    "level": 6,
+    "school": "Abjuration",
+    "casttime": "10 minutes",
+    "range": "Touch",
+    "duration": "Until dispelled",
+    "description": "You set a ward against intrusions. The ward covers an area no larger than a 20-foot Cube. You designate a specific condition that triggers the ward, such as a creature crossing a boundary, touching an object, opening a door, or speaking a specific phrase. The condition must be observable and occur within the ward's area.\n\nWhen the pre-defined condition is met, you receive a mental alert. The alert reaches you regardless of distance or planar boundaries, unless you are in an antimagic field or otherwise unable to receive telepathic messages, and you know which ward was triggered and how.\n\nThe ward can be dispelled or suppressed by any effect that would do so normally, and also breaks if it moves more than 10 ft from its original location. If it is broken because it moved more than 10 ft, you do not receive any notification that it has been broken.\n\nIn addition to the classes listed above, this spell is available to any class, subclass, or prestige class that allows you to take *alarm* as a spell.",
+    "components": {
+      "verbal": true,
+      "somatic": true,
+      "material": "a tiny silver bell worth 50 gp, which the spell consumes"
+    },
+    "automation": null
+  },
+  {
+    "name": "Fey Duelist",
+    "level": 0,
+    "school": "Unknown",
+    "casttime": "1 Action",
+    "range": "Self",
+    "duration": "Instantaneous",
+    "description": "The Fey Duelist archetype merges the cunning and agility of a rogue with the enchanting power of the Feywild. These rogues are gifted (or cursed) with the boons of Archfey patrons, weaving magic and mischief into their every movement. They are agile combatants and masters of manipulation, channeling Fey magic to outmaneuver foes, charm allies, and spread chaos on the battlefield.\n\nWhether as emissaries of a Fey court, champions of their Archfey patron, or independent agents who stumbled into the gifts of the Feywild, Fey Duelists tread a fine line between mortal pragmatism and the capricious beauty of the Fey. Their motivations are as varied as the Feywild itself, often driven by a blend of personal ambition, devotion to their patron, or a desire to unweave the chains of mundane reality and reshape the world with Fey-inspired artistry.\n\n#### Playstyle and Motivations\n\nThe Fey Duelist excels in roles that combine agility, cunning, and creativity. They bring versatility to combat and social interactions, offering a mix of mobility, control, and spellcasting that allows them to adapt to nearly any situation. Players who enjoy weaving spells and martial combat together will find the Fey Duelist a rewarding choice.\n\nMotivations for a Fey Duelist might include:\n\n*   **Devotion to an Archfey**: Serving a powerful Fey entity as a trusted agent or champion, spreading their influence or carrying out their will.\n*   **Personal Freedom**: Using Fey gifts to escape or defy systems of control, embracing the chaotic and whimsical nature of the Feywild.\n*   **Vengeance or Redemption**: Seeking to right a past wrong or balance a perceived injustice using the unique powers of the Fey.\n*   **Curiosity and Mischief**: Exploring the boundaries of mortal and Fey realms, motivated by wonder and the joy of discovery.\n\n#### Who Would Thrive as a Fey Duelist?\n\nThe Fey Duelist appeals to characters who want to:\n\n*   **Command the Social Arena**: Features like *Binding Words* provide robust tools for persuasion, manipulation, and intrigue.\n*   **Outmaneuver and Disrupt Enemies**: Abilities like *Elusive Action* and *Distant Dodge* emphasize mobility and tactical positioning.\n\n#### Ideal Players and Characters\n\n*   **The Charismatic Manipulator**: Players who enjoy talking their way out of trouble, influencing NPCs, and using charm to solve problems.\n*   **The Tactical Trickster**: Players who like to use cunning, positioning, and the environment to control the flow of combat.\n*   **The Fey Enthusiast**: Players who love the whimsical, mysterious, and chaotic themes of the Feywild and want to embody its spirit.\n\n**Features**\n\n*   [3rd Level - Spellcasting](#3rd-level---spellcasting)\n*   [3rd Level - Vexing](#3rd-level---vexing)\n*   [9th Level - Delicate Deception](#9th-level---delicate-deception)\n*   [13th Level - Binding Words](#13th-level---binding-words)\n*   [17th Level - Archfeys Guile](#17th-level---archfeys-guile)\n\n## Fey Duelist table:\n\n\n\n| Fey Duelist Spellcasting | Fey Duelist Spellcasting | Fey Duelist Spellcasting | Fey Duelist Spellcasting | Fey Duelist Spellcasting | Spell Slots per Spell Level | Spell Slots per Spell Level | Spell Slots per Spell Level | Spell Slots per Spell Level |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| Rogue Level | Cantrips Known | Cantrips Known | Spells Known | Spells Known | 1st | 2nd | 3rd | 4th |\n| 3rd | Vicious Mockery +2 | Vicious Mockery +2 | 3 | 3 | 2 | - | - | - |\n| 4th | Vicious Mockery +2 | Vicious Mockery +2 | 4 | 4 | 3 | - | - | - |\n| 5th | Vicious Mockery +2 | Vicious Mockery +2 | 4 | 4 | 3 | - | - | - |\n| 6th | Vicious Mockery +2 | Vicious Mockery +2 | 4 | 4 | 3 | - | - | - |\n| 7th | Vicious Mockery +2 | Vicious Mockery +2 | 5 | 5 | 4 | 2 | - | - |\n| 8th | Vicious Mockery +2 | Vicious Mockery +2 | 6 | 6 | 4 | 2 | - | - |\n| 9th | Vicious Mockery +2 | Vicious Mockery +2 | 6 | 6 | 4 | 2 | - | - |\n| 10th | Vicious Mockery +3 | Vicious Mockery +3 | 7 | 7 | 4 | 3 | - | - |\n| 11th | Vicious Mockery +3 | Vicious Mockery +3 | 8 | 8 | 4 | 3 | - | - |\n| 12th | Vicious Mockery +3 | Vicious Mo",
+    "components": {
+      "verbal": false,
+      "somatic": false,
+      "material": ""
+    },
+    "automation": [
+      {
+        "type": "target",
+        "target": "each",
+        "effects": [
+          {
+            "type": "save",
+            "stat": "wis",
+            "fail": [
+              {
+                "type": "damage",
+                "damage": "1d6[psychic]"
+              },
+              {
+                "type": "ieffect2",
+                "name": "Incapacitated"
+              }
+            ],
+            "success": []
+          }
+        ]
+      },
+      {
+        "type": "text",
+        "text": "The Fey Duelist archetype merges the cunning and agility of a rogue with the enchanting power of the Feywild. These rogues are gifted (or cursed) with the boons of Archfey patrons, weaving magic and mischief into their every movement. They are agile combatants and masters of manipulation, channeling Fey magic to outmaneuver foes, charm allies, and spread chaos on the battlefield.\n\nWhether as emissaries of a Fey court, champions of their Archfey patron, or independent agents who stumbled into the gifts of the Feywild, Fey Duelists tread a fine line between mortal pragmatism and the capricious beauty of the Fey. Their motivations are as varied as the Feywild itself, often driven by a blend of personal ambition, devotion to their patron, or a desire to unweave the chains of mundane reality and reshape the world with Fey-inspired artistry.\n\n#### Playstyle and Motivations\n\nThe Fey Duelist excels in roles that combine agility, cunning, and creativity. They bring versatility to combat and social interactions, offering a mix of mobility, control, and spellcasting that allows them to adapt to nearly any situation. Players who enjoy weaving spells and martial combat together will find the Fey Duelist a rewarding choice.\n\nMotivations for a Fey Duelist might include:\n\n*   **Devotion to an Archfey**: Serving a powerful Fey entity as a trusted agent or champion, spreading their influence or carrying out their will.\n*   **Personal Freedom**: Using Fey gifts to escape or defy systems of control, embracing the chaotic and whimsical nature of the Feywild.\n*   **Vengeance or Redemption**: Seeking to right a past wrong or balance a perceived injustice using the unique powers of the Fey.\n*   **Curiosity and Mischief**: Exploring the boundaries of mortal and Fey realms, motivated by wonder and the joy of discovery.\n\n#### Who Would Thrive as a Fey Duelist?\n\nThe Fey Duelist appeals to characters who want to:\n\n*   **Command the Social Arena**: Features like *Binding Words* provide robust to"
+      }
+    ]
+  },
+  {
+    "name": "Finger Guns",
+    "level": 0,
+    "school": "Evocation",
+    "casttime": "1 action",
+    "range": "60 feet",
+    "duration": "Instantaneous",
+    "description": "You extend your forefingers and thumbs, a dangerous gesture mimicking a pair of pistols, and fire. Make two ranged spell attacks against one or two creatures you can see within range. On a hit, a target takes 1d6 force damage.\n\nAt 11th level, you make three attacks instead of two.\n\nYour finger guns require no ammunition, but they are considered to be firearms for spells and effects that apply to firearms.",
+    "components": {
+      "verbal": true,
+      "somatic": true,
+      "material": ""
+    },
+    "automation": null
+  },
+  {
     "name": "Flame Stride",
     "level": 5,
     "school": "Conjuration",
@@ -340,7 +897,120 @@
       "somatic": true,
       "material": ""
     },
-    "automation": null
+    "automation": [
+      {
+        "type": "target",
+        "target": "self",
+        "effects": [
+          {
+            "type": "ieffect2",
+            "name": "Flame Stride",
+            "duration": 10,
+            "tick_on_caster": true,
+            "conc": true
+          }
+        ]
+      },
+      {
+        "type": "text",
+        "text": "You gain the ability to enter any source of flame and move from inside it to inside another flame within 500 feet. Both flames must be at least the same size as you. You must use 5 feet of movement to enter the source of fire. You instantly know the location of all other flames within 500 feet and, as part of the move used to enter the flame, can either pass into one of those sources of fire or step out of the fire you're in. You appear in a spot of your choice within 5 feet of the destination fire, using another 5 feet of movement. If you have no movement left, you appear within 5 feet of the flame you entered.\n\nYou can use this transportation ability once per round for the duration. You must end each turn outside a flame.\n\nYou are temporarily immune to fire damage caused by the flame you're stepping into, but not other sources."
+      }
+    ]
+  },
+  {
+    "name": "Force Buckler",
+    "level": 0,
+    "school": "Abjuration",
+    "casttime": "1 bonus action",
+    "range": "Self",
+    "duration": "1 round",
+    "description": "You summon a translucent yet visible field of force, which springs forth from the prepared gauntlet. Until the start of your next turn, this shield grants you a +2 bonus to your Armor Class, as if you were wielding a shield. The spell ends early if you are hit by an attack.",
+    "components": {
+      "verbal": true,
+      "somatic": true,
+      "material": "a specially prepared gauntlet worth at least 5 gp"
+    },
+    "automation": [
+      {
+        "type": "text",
+        "text": "You summon a translucent yet visible field of force, which springs forth from the prepared gauntlet. Until the start of your next turn, this shield grants you a +2 bonus to your Armor Class, as if you were wielding a shield. The spell ends early if you are hit by an attack.",
+        "title": "Force Buckler"
+      }
+    ]
+  },
+  {
+    "name": "Force Dart",
+    "level": 0,
+    "school": "Evocation",
+    "casttime": "1 action",
+    "range": "120 feet",
+    "duration": "Instantaneous",
+    "description": "You fling a dart of magical force at a creature or object within range. Make a ranged spell attack against the target. On a hit, the target takes 1d10 force damage.\n\nThis spell\u2019s damage increases by 1d10 when you reach 5th level (2d10), 11th level (3d10) and 17th level (4d10).",
+    "components": {
+      "verbal": true,
+      "somatic": true,
+      "material": "a specially prepared gauntlet worth at least 5 gp"
+    },
+    "automation": [
+      {
+        "type": "target",
+        "target": "each",
+        "effects": [
+          {
+            "type": "attack",
+            "hit": [
+              {
+                "type": "damage",
+                "damage": "1d10[force]",
+                "cantripScale": true
+              }
+            ],
+            "miss": []
+          }
+        ]
+      },
+      {
+        "type": "text",
+        "text": "You fling a dart of magical force at a creature or object within range. Make a ranged spell attack against the target. On a hit, the target takes 1d10 force damage.\n\nThis spell\u2019s damage increases by 1d10 when you reach 5th level (2d10), 11th level (3d10) and 17th level (4d10)."
+      }
+    ]
+  },
+  {
+    "name": "Force Weapon",
+    "level": 0,
+    "school": "Evocation",
+    "casttime": "1 action",
+    "range": "5 feet",
+    "duration": "1 round",
+    "description": "You conjure a blade of magical force in the air, which lashes out at your foes. Make a melee spell attack against a creature within range. On a hit, the target takes 1d10 force damage. The blade remains in existence for a short time: until the start of your next turn, you can make a single strike with it as an opportunity attack.\n\nYou make one additional attack when you cast this spell at 5th level (two attacks), 11th level (three attacks) and 17th level (four attacks). You can direct the attacks at the same target or at different ones, and you make a separate attack roll for each.",
+    "components": {
+      "verbal": true,
+      "somatic": true,
+      "material": "a specially prepared gauntlet worth at least 5 gp"
+    },
+    "automation": [
+      {
+        "type": "target",
+        "target": "each",
+        "effects": [
+          {
+            "type": "attack",
+            "hit": [
+              {
+                "type": "damage",
+                "damage": "1d10[force]",
+                "cantripScale": true
+              }
+            ],
+            "miss": []
+          }
+        ]
+      },
+      {
+        "type": "text",
+        "text": "You conjure a blade of magical force in the air, which lashes out at your foes. Make a melee spell attack against a creature within range. On a hit, the target takes 1d10 force damage. The blade remains in existence for a short time: until the start of your next turn, you can make a single strike with it as an opportunity attack.\n\nYou make one additional attack when you cast this spell at 5th level (two attacks), 11th level (three attacks) and 17th level (four attacks). You can direct the attacks at the same target or at different ones, and you make a separate attack roll for each."
+      }
+    ]
   },
   {
     "name": "Form Undead",
@@ -371,6 +1041,43 @@
       {
         "type": "text",
         "text": "This spell must be cast within ten minutes after dusk. You must press the idol used for the material component of this spell to the corpse of a creature with a challenge rating of 10 or lower and hold it there for the duration of the casting of this spell. The corpse must be intact for the duration of this spell\u2019s casting\u2014 a destroyed corpse causes this spell to fail.\n\nThe corpse reanimates, returning to life and using the statblock of the creature it belonged to, with the following changes:\n\n*   its creature type becomes undead\n*   its hit point maximum is halved\n*   if it has class levels, it loses all of them\n*   it loses any legendary actions and legendary resistances\n*   It is unable to cast spells\n*   it gains immunity to necrotic damage\n\nAs a bonus action on each of your turns, you can mentally command any creature you animated with this spell if the creature is within 120 feet of you (if you control multiple creatures, you can command any or all of them at the same time, issuing the same command to each one). You decide what action the creature will take and where it will move during its next turn, or you can issue a general command, such as to guard a particular chamber or corridor. If you issue no commands, the creature only defends itself against hostile creatures. Once given an order, the creature continues to follow it until its task is complete.\n\nAn undead raised by this spell is under your control for 24 hours, after which it makes a charisma saving throw. On a failure, you regain control of it for another 24 hours, whereupon it makes the save again. Each time it fails this saving throw, it gains a cumulative +2 bonus to the Charisma save.\n\nOn a success, it is hostile to all creatures (including yourself) and is under no compulsion to follow any orders you give it. It has disadvantage on attack rolls, ability checks, and saving throws it makes against you (except for the saving throws it makes to break free from your control)."
+      }
+    ]
+  },
+  {
+    "name": "Frigid Blade",
+    "level": 0,
+    "school": "Evocation",
+    "casttime": "1 action",
+    "range": "Self (5-foot radius)",
+    "duration": "1 round",
+    "description": "As part of the action used to cast this spell, you must make a melee attack with a weapon against one creature within the spell\u2019s range, otherwise the spell fails. On a hit, the target suffers the weapon attack\u2019s normal effects, except that any damage dealt by the attack is cold damage instead of its normal type. Additionally, the target is covered in a brittle frost until the start of your next turn. If the target willingly moves before then, you can use your reaction to deal 1d6 cold damage to it, ending the spell.\n\nAt 5th level, the weapon attack deals an additional 1d8 cold damage on a hit. At 11th level, that additional damage becomes 2d8 and the frost damage becomes 2d6. At 17th level, the additional damage becomes 3d8 and the frost damage becomes 3d6.",
+    "components": {
+      "verbal": true,
+      "somatic": false,
+      "material": "a melee weapon"
+    },
+    "automation": [
+      {
+        "type": "target",
+        "target": "each",
+        "effects": [
+          {
+            "type": "attack",
+            "hit": [
+              {
+                "type": "damage",
+                "damage": "1d6[cold]",
+                "cantripScale": true
+              }
+            ],
+            "miss": []
+          }
+        ]
+      },
+      {
+        "type": "text",
+        "text": "As part of the action used to cast this spell, you must make a melee attack with a weapon against one creature within the spell\u2019s range, otherwise the spell fails. On a hit, the target suffers the weapon attack\u2019s normal effects, except that any damage dealt by the attack is cold damage instead of its normal type. Additionally, the target is covered in a brittle frost until the start of your next turn. If the target willingly moves before then, you can use your reaction to deal 1d6 cold damage to it, ending the spell.\n\nAt 5th level, the weapon attack deals an additional 1d8 cold damage on a hit. At 11th level, that additional damage becomes 2d8 and the frost damage becomes 2d6. At 17th level, the additional damage becomes 3d8 and the frost damage becomes 3d6."
       }
     ]
   },
@@ -423,7 +1130,63 @@
       "somatic": true,
       "material": "a focus worth at least 1,000 gp, such as a crystal ball, a silver mirror, or a font filled with holy water"
     },
-    "automation": null
+    "automation": [
+      {
+        "type": "target",
+        "target": "self",
+        "effects": [
+          {
+            "type": "ieffect2",
+            "name": "Glimpse",
+            "duration": 100,
+            "tick_on_caster": true,
+            "conc": true
+          }
+        ]
+      },
+      {
+        "type": "text",
+        "text": "You can choose a small or smaller object that is familiar to you that isn\u2019t being worn or carried and is on the same plane of existence as you. The spell creates an invisible sensor within 10 feet of the object\u2019s location for the duration. You mentally receive visual information from the sensor, which has normal vision and darkvision out to 30 feet. The sensor allows you to look in every direction. The sensor moves with the object, remaining within 10 feet of it for the duration. A creature that can see invisible objects sees the sensor as a luminous orb about the size of your fist.\n\nAt any time while concentrating on the spell, you can use an action to ping the object\u2019s location. If the object is on the same plane as you, you learn the object\u2019s general direction (but not its distance or any other information)."
+      }
+    ]
+  },
+  {
+    "name": "Gnarly Druid",
+    "level": 0,
+    "school": "Unknown",
+    "casttime": "1 Action",
+    "range": "Self",
+    "duration": "Instantaneous",
+    "description": "When you take this prestige class, choose two more skills from the Druid skill proficiencies. You are proficient in both of those skills.\n\n## Ascendant Spellcasting\n\nAdditionally when you take this prestige class, you gain a new set of spell slots to fuel your spells. You gain spell slots as per the Druid table based on your prestige level minus 20. When you prepare spells for the day, you may now prepare a number of spells equal to your prestige level + your Wisdom modifier.\n\nYou learn one Druid cantrip of your choice, and one additional Druid cantrip at 24th and 30th level.\n\n## Transcendent Wild Shape\n\n*21st level.* Your connection to the primal has outgrown mortal limits. You gain one additional use of Wild Shape.\n\nYour known forms increase by 2, and the maximum Challenge Rating for your forms increases by 1 (added to whatever maximum you already have from your class and subclass features). In addition, you may now learn Elemental stat blocks (in place of Beasts) up to CR 1 as known forms, representing your growing kinship with the raw substance of the world.\n\n## Expanded Druid Circle\n\n*22nd level.* Your practice of the old ways deepens and broadens. You may choose the same Druid Circle you already belong to, or you may choose a new one to reflect the different truths nature has revealed to you.\n\nYour choice grants you additional features at 22nd level, and again at 26th and 34th level.\n\n## Primal Resilience\n\n*23rd level.* Nature itself shields you from harm. You gain resistance to poison damage and immunity to the Poisoned condition. While you are Wild Shaped, you also have advantage on saving throws against being charmed or frightened.\n\n## Ability Score Improvement\n\n*24th, 28th, 32nd, 36th, and 39th level.* You can increase one ability score of your choice by 2, or you can increase two of your ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature. You may select a feat instead of an Ability Score Improvement.\n\n## Greater Beast Spells\n\n*25th level.* Your magic no longer cares what shape you wear. While using Wild Shape, you can cast any Druid spell you have prepared, including spells with a Material component that has a cost or is consumed, provided you have access to the required component or a Druidic Focus that can be worn or held in your current form (at your DM's discretion for unusual anatomies).\n\n## Elemental Ascendancy\n\n*27th level.* Your command of the elements grows so complete that you no longer have to choose a single expression of it. You now have both options granted by Elemental Fury and Improved Elemental Fury, improved as follows.\n\n***Potent Spellcasting.*** Once on each of your turns when you deal damage with a Druid spell of 1st level or higher, you can add your Wisdom modifier to that damage.\n\n***Primal Strike.*** The extra damage of your Primal Strike increases to 3d8.\n\n## Master of Beasts\n\n*29th level.* Your mastery of shapechanging reaches new heights. Your known forms increase by 2, and the maximum Challenge Rating for your forms increases by 2 (added to whatever maximum you already have from your class, subclass, and other features). Forms you adopt may now be Huge.\n\n## Apex Form\n\n*30th level.* You can, as a Bonus Action, expend two uses of Wild Shape to instead take the form of a Primal Avatar: a towering, elemental-infused shape of your own design (DM's discretion on appearance) using the stat block of any Beast, Elemental, or Monstrosity with a Challenge Rating up to your Proficiency Bonus + 4 (CR 10 for most characters). While in this form, you retain the benefits of Greater Beast Spells and Elemental Ascendancy, and you gain temporary hit points equal to five times your prestige level. This form lasts for up to 10 minutes, until you drop to 0 hit points, or until you revert to your normal form as a Bonus Action.\n\nYou can use this feature once, and regain the ability to do so when you finish a Long Rest. If you've already used it, you can expend a spell slot of 8th level to use it again.\n\n## Evergreen Wild Shape Mastery\n\n*33rd level",
+    "components": {
+      "verbal": false,
+      "somatic": false,
+      "material": ""
+    },
+    "automation": [
+      {
+        "type": "target",
+        "target": "each",
+        "effects": [
+          {
+            "type": "ieffect2",
+            "name": "Poisoned"
+          },
+          {
+            "type": "ieffect2",
+            "name": "Charmed"
+          },
+          {
+            "type": "ieffect2",
+            "name": "Frightened"
+          }
+        ]
+      },
+      {
+        "type": "text",
+        "text": "*You were told nature has no true masters. You intend to prove that wrong.*\n\n*Prerequisites: 5.5e (2024) Druid 20*\n\n## Proficiencies\n\nWhen you take this prestige class, choose two more skills from the Druid skill proficiencies. You are proficient in both of those skills.\n\n## Ascendant Spellcasting\n\nAdditionally when you take this prestige class, you gain a new set of spell slots to fuel your spells. You gain spell slots as per the Druid table based on your prestige level minus 20. When you prepare spells for the day, you may now prepare a number of spells equal to your prestige level + your Wisdom modifier.\n\nYou learn one Druid cantrip of your choice, and one additional Druid cantrip at 24th and 30th level.\n\n## Transcendent Wild Shape\n\n*21st level.* Your connection to the primal has outgrown mortal limits. You gain one additional use of Wild Shape.\n\nYour known forms increase by 2, and the maximum Challenge Rating for your forms increases by 1 (added to whatever maximum you already have from your class and subclass features). In addition, you may now learn Elemental stat blocks (in place of Beasts) up to CR 1 as known forms, representing your growing kinship with the raw substance of the world.\n\n## Expanded Druid Circle\n\n*22nd level.* Your practice of the old ways deepens and broadens. You may choose the same Druid Circle you already belong to, or you may choose a new one to reflect the different truths nature has revealed to you.\n\nYour choice grants you additional features at 22nd level, and again at 26th and 34th level.\n\n## Primal Resilience\n\n*23rd level.* Nature itself shields you from harm. You gain resistance to poison damage and immunity to the Poisoned condition. While you are Wild Shaped, you also have advantage on saving throws against being charmed or frightened.\n\n## Ability Score Improvement\n\n*24th, 28th, 32nd, 36th, and 39th level.* You can increase one ability score of your choice by 2, or you can increase two of your ability scores of your choice by 1. "
+      }
+    ]
   },
   {
     "name": "Greater Reincarnate",
@@ -515,6 +1278,89 @@
     ]
   },
   {
+    "name": "House of Light",
+    "level": 9,
+    "school": "Conjuration",
+    "casttime": "1 action",
+    "range": "Sight",
+    "duration": "1 minute",
+    "description": "A pillar of radiance rises from a point you can see, enclosing an area of up to a 360ft radius, and 1 mile high in bright light. When you cast this spell, creatures of your choice must make a Constitution saving throw or be blinded for 1 minute. They may repeat the saving throw at the end of their turn, ending the blindness on a success.\n\nEach round that you maintain concentration produces an additional effect, in addition to the last:\n\n*   Healing Waves (Round 2): Creatures and objects within the area regain hit points equal to your spellcasting modifier. Creatures of an alignment you choose receive no healing and instead take the same amount as radiant damage so long as they have no fewer than half their hit points total.\n*   Community (Round 3): Up to 5 willing creatures within the area can each sacrifice a number of hit points up to half your level. These hit points are represented as a pool of temporary hit points that can be divided as you choose among any number of creatures that you can see within range. Creatures can only sacrifice hit points once over the duration of the spell.\n*   Vitality (Round 4): Creatures and objects within the area gain your choice of either bludgeoning, piercing or slashing damage resistance until the start of your next turn. Creatures of an alignment you choose receive no resistances and instead lose resistances, if any, of the chosen damage types until the start of your next turn.\n*   Guiding Light (Rounds 5): Creatures within the area gain a 1d4 bonus to ability checks and saving throws until the start of your next turn. Creatures of an alignment you choose instead receive a 1d4 penalty to ability checks and saving throws until the start of your next turn.",
+    "components": {
+      "verbal": true,
+      "somatic": true,
+      "material": "a diamond worth 5,000gp"
+    },
+    "automation": [
+      {
+        "type": "target",
+        "target": "each",
+        "effects": [
+          {
+            "type": "save",
+            "stat": "con",
+            "fail": [
+              {
+                "type": "ieffect2",
+                "name": "Blinded",
+                "duration": 10
+              }
+            ],
+            "success": []
+          }
+        ]
+      },
+      {
+        "type": "text",
+        "text": "A pillar of radiance rises from a point you can see, enclosing an area of up to a 360ft radius, and 1 mile high in bright light. When you cast this spell, creatures of your choice must make a Constitution saving throw or be blinded for 1 minute. They may repeat the saving throw at the end of their turn, ending the blindness on a success.\n\nEach round that you maintain concentration produces an additional effect, in addition to the last:\n\n*   Healing Waves (Round 2): Creatures and objects within the area regain hit points equal to your spellcasting modifier. Creatures of an alignment you choose receive no healing and instead take the same amount as radiant damage so long as they have no fewer than half their hit points total.\n*   Community (Round 3): Up to 5 willing creatures within the area can each sacrifice a number of hit points up to half your level. These hit points are represented as a pool of temporary hit points that can be divided as you choose among any number of creatures that you can see within range. Creatures can only sacrifice hit points once over the duration of the spell.\n*   Vitality (Round 4): Creatures and objects within the area gain your choice of either bludgeoning, piercing or slashing damage resistance until the start of your next turn. Creatures of an alignment you choose receive no resistances and instead lose resistances, if any, of the chosen damage types until the start of your next turn.\n*   Guiding Light (Rounds 5): Creatures within the area gain a 1d4 bonus to ability checks and saving throws until the start of your next turn. Creatures of an alignment you choose instead receive a 1d4 penalty to ability checks and saving throws until the start of your next turn."
+      }
+    ]
+  },
+  {
+    "name": "Leomund's Lamentable Belaborment",
+    "level": 6,
+    "school": "Enchantment",
+    "casttime": "1 action",
+    "range": "30 feet (10-foot-radius Sphere)",
+    "duration": "1 minute",
+    "description": "You proclaim an insightful or inflammatory statement, such as a claim about the politics of a nearby town. Each creature in a 10-foot-radius Sphere centered on a point you choose within range must succeed on an Intelligence saving throw or have the Charmed condition until the spell ends. Any creature that doesn't share a language with you or that has an Intelligence score lower than 3 automatically succeeds on the saving throw.\n\nWhile Charmed, a target must spend its turn discussing or arguing for or against your statement. For the duration, the target has a Speed of 0 and has the Blinded and Deafened conditions with respect to everyone except you and other targets affected by this spell.\n\nAt the end of each of its turns, the target repeats the save, ending the spell on itself on a success.",
+    "components": {
+      "verbal": true,
+      "somatic": false,
+      "material": ""
+    },
+    "automation": [
+      {
+        "type": "target",
+        "target": "all",
+        "effects": [
+          {
+            "type": "save",
+            "stat": "int",
+            "fail": [
+              {
+                "type": "ieffect2",
+                "name": "Charmed"
+              },
+              {
+                "type": "ieffect2",
+                "name": "Blinded"
+              },
+              {
+                "type": "ieffect2",
+                "name": "Deafened"
+              }
+            ],
+            "success": []
+          }
+        ]
+      },
+      {
+        "type": "text",
+        "text": "You proclaim an insightful or inflammatory statement, such as a claim about the politics of a nearby town. Each creature in a 10-foot-radius Sphere centered on a point you choose within range must succeed on an Intelligence saving throw or have the Charmed condition until the spell ends. Any creature that doesn't share a language with you or that has an Intelligence score lower than 3 automatically succeeds on the saving throw.\n\nWhile Charmed, a target must spend its turn discussing or arguing for or against your statement. For the duration, the target has a Speed of 0 and has the Blinded and Deafened conditions with respect to everyone except you and other targets affected by this spell.\n\nAt the end of each of its turns, the target repeats the save, ending the spell on itself on a success."
+      }
+    ]
+  },
+  {
     "name": "Light Trap",
     "level": 3,
     "school": "Abjuration",
@@ -543,6 +1389,81 @@
       {
         "type": "text",
         "text": "This spell creates a mental phantasm of lights and sounds that dull the senses. Choose a point within range. Each creature you choose in a 30-foot-radius sphere centered on that point must make a Wisdom saving throw. On a failed save, their vision and hearing are restricted to 30ft for the duration. An effected creature can make a Wisdom saving throw at the end of each of its turns, ending the effect on itself on a success."
+      }
+    ]
+  },
+  {
+    "name": "Lightning Surge",
+    "level": 0,
+    "school": "Evocation",
+    "casttime": "1 action",
+    "range": "Self (5-foot radius)",
+    "duration": "Instantaneous",
+    "description": "You emit a dazzling array of short lightning bolts in all directions. Each other creature within 5 feet of you must succeed on a Dexterity saving throw or take 1d6 lightning damage.\n\nThis spell\u2019s damage increases by 1d6 when you reach 5th level (2d6), 11th level (3d6) and 17th level (4d6).",
+    "components": {
+      "verbal": true,
+      "somatic": true,
+      "material": "two bits of copper wire"
+    },
+    "automation": [
+      {
+        "type": "target",
+        "target": "each",
+        "effects": [
+          {
+            "type": "save",
+            "stat": "dex",
+            "fail": [
+              {
+                "type": "damage",
+                "damage": "1d6[lightning]",
+                "cantripScale": true
+              }
+            ],
+            "success": []
+          }
+        ]
+      },
+      {
+        "type": "text",
+        "text": "You emit a dazzling array of short lightning bolts in all directions. Each other creature within 5 feet of you must succeed on a Dexterity saving throw or take 1d6 lightning damage.\n\nThis spell\u2019s damage increases by 1d6 when you reach 5th level (2d6), 11th level (3d6) and 17th level (4d6)."
+      }
+    ]
+  },
+  {
+    "name": "Magic Daggers",
+    "level": 0,
+    "school": "Conjuration",
+    "casttime": "1 action",
+    "range": "60 feet",
+    "duration": "Instantaneous",
+    "description": "With a flourish, you conjure a throwing dagger of magical force out of thin air and flick it from your wrist at a target you can see. Make a ranged spell attack against a creature within range. On a hit, the target takes 1d6 force damage. The dagger vanishes after the attack.\n\nAt higher levels you conjure more daggers and make additional attacks: two daggers at 5th level, three at 11th level and four at 17th level. You can direct the daggers at the same target or at different ones, and you make a separate attack roll for each.",
+    "components": {
+      "verbal": true,
+      "somatic": true,
+      "material": ""
+    },
+    "automation": [
+      {
+        "type": "target",
+        "target": "each",
+        "effects": [
+          {
+            "type": "attack",
+            "hit": [
+              {
+                "type": "damage",
+                "damage": "1d6[force]",
+                "cantripScale": true
+              }
+            ],
+            "miss": []
+          }
+        ]
+      },
+      {
+        "type": "text",
+        "text": "With a flourish, you conjure a throwing dagger of magical force out of thin air and flick it from your wrist at a target you can see. Make a ranged spell attack against a creature within range. On a hit, the target takes 1d6 force damage. The dagger vanishes after the attack.\n\nAt higher levels you conjure more daggers and make additional attacks: two daggers at 5th level, three at 11th level and four at 17th level. You can direct the daggers at the same target or at different ones, and you make a separate attack roll for each."
       }
     ]
   },
@@ -605,6 +1526,21 @@
     ]
   },
   {
+    "name": "Memory Thief Sorcery (2024 Sorcerer)",
+    "level": 0,
+    "school": "Divination",
+    "casttime": "1 Action",
+    "range": "Self",
+    "duration": "Instantaneous",
+    "description": "The Memory Thief is a sorcerer touched by the silent weight of unspoken thoughts, lost truths, and stolen moments. Whether chosen by a god of shadows and secrets or born with the uncanny ability to pierce the veil of another\u2019s mind, these sorcerers draw power not from raw elements\u2014but from **memory, emotion, and identity** itself.\n\nEvery spell is an intrusion, every glance a chance to unravel another\u2019s story. They are masters of **mental trespass and psychic influence**, collecting knowledge the way others collect coins. Some act as spies for hidden powers like *Vhaeraun*, gods of forbidden knowledge, or remnants of psionic empires. Others awaken to their abilities after surviving moments of profound trauma or divine contact\u2014left able to **steal what others cannot even remember**.\n\n*\"Thoughts and Emotions are the truest form of currency. I never pay full price.\" - Memory Thief*\n\n### *Playstyle and Motivations*\n\n*The Memory Thief excels at **subtle control**, **emotional manipulation**, and **deep utility** in both narrative and combat play. With features that allow you to read and manipulate the thoughts and motivations of others, this subclass rewards **strategic roleplay**, **creative problem-solving**, and players who love to know more than they should.*\n\n*   ***Reclaim the Past**: Seeking to recover a stolen or fragmented identity by stitching together memories from others.*\n*   ***Weaponize Secrets**: Collecting powerful memories from kings, archmages, or ancient evils to manipulate the tides of history or blackmail enemies into silence.*\n*   ***Protect the Mindscape**: Standing as a psychic guardian or counter-spy, exposing hidden corruption or breaking mind control through counter-manipulation.*\n\n* * *\n\n### *Who Would Thrive as a Memory Thief?*\n\n*The Memory Thief is perfect for players who want to:*\n\n*   ***Influence Story Through Subtlety**: Gain leverage by collecting key memories, discovering hidden motives, or creating complex emotional bonds with NPCs.*\n*   ***Play with Identity and Perception**: Use your magic to assume false roles, mimic memories, or veil your soul against detection.*\n*   ***Master Battlefield Presence Without Direct Violence**: Weaken enemies emotionally, disrupt their thoughts, and track them across time and space.*\n\n* * *\n\n***Ideal Players and Characters***\n\n*\ud83e\udde0 **The Intrigue Manipulator***\n\n*Players who thrive in espionage-heavy or social-intrigue campaigns, especially those who enjoy steering conversations with secrets and subtle leverage.*\n\n*\ud83d\udd6f **The Shadowed Seer***\n\n*Players who love mysteries and clues, piecing together narrative threads from the minds of others, treating every memory like a breadcrumb on a hidden trail.*\n\n*\ud83c\udfad **The Identity Shifter***\n\n*Players who want to play with masks, personas, and the line between truth and falsehood\u2014taking on aspects of others through their memories, voices, and fears.*\n\n**Features:**\n\n*   [3rd Level - Umbral Spike](#3rd_Level_-_Umbral_Spike)\n*   [6th Level - Thought Scribe](#6th_Level_-_Thought_Scribe)\n*   [14th Level - Hollow Mask](#14th_Level_-_Hollow_Mask)\n*   [18th Level - Dark One's Trespass](#18th_Level_-_Dark_One's_Trespass)\n\n## 3rd Level - Umbral Spike\n\nOnce per turn when damaging a creature with a spell or attack, you can deal an additional 2d6 psychic damage and mark them. While the creature is marked, you know their direction and distance while they are within 90 ft of you, lasting up to 1 hour. You can spend sorcery points to extend the duration by an additional hour per sorcery point spent.\n\nThe extra damage increases at 6th (3d6) level, 14th (4d6) level, and 18th (5d6) level.\n\nYou can use this a number of times equal to your Charisma modifier, regaining all uses on a Long Rest, or by expending a spell slot for each use restored (no action required).\n\n## 6th Level - Thought Scribe\n\nWhen you cast a spell of 1st level or higher that forces a creature to make a saving throw, you can extract a thought strand (as with the Encode Thoughts cantrip) on a failure. Once you use this feature on a creature, you cannot use this feature on",
+    "components": {
+      "verbal": false,
+      "somatic": false,
+      "material": ""
+    },
+    "automation": null
+  },
+  {
     "name": "Menny's Ephemeral Script",
     "level": 1,
     "school": "Illusion",
@@ -619,9 +1555,172 @@
     },
     "automation": [
       {
+        "type": "target",
+        "target": "self",
+        "effects": [
+          {
+            "type": "interaction",
+            "buttons": [
+              {
+                "label": "Action: Inspect Illusion",
+                "style": "secondary",
+                "emoji": "\ud83d\udd0d",
+                "description": "Use your action to examine the Menny's Ephemeral Script. Roll Intelligence (Investigation) vs. spell save DC.",
+                "action": {
+                  "type": "ephemeral_check",
+                  "check": {
+                    "stat": "int",
+                    "skill": "investigation",
+                    "formula": "int_mod + proficiency_bonus",
+                    "vs": "{spell_dc}",
+                    "caster_ref": "spell_caster"
+                  },
+                  "on_success": {
+                    "type": "text",
+                    "title": "Illusion Discerned \u2014 Menny's Ephemeral Script",
+                    "text": "\u2705 **Success.** The creature sees through the illusion. The Menny's Ephemeral Script becomes faint and transparent to them.",
+                    "ephemeral": true,
+                    "notify_gm": true
+                  },
+                  "on_failure": {
+                    "type": "text",
+                    "title": "Illusion Holds \u2014 Menny's Ephemeral Script",
+                    "text": "\u274c **Failure.** The creature cannot discern the illusion from reality.",
+                    "ephemeral": true,
+                    "notify_gm": true
+                  }
+                }
+              }
+            ],
+            "persist_until": "combat_end"
+          }
+        ]
+      },
+      {
         "type": "text",
-        "text": "You imbue a piece of parchment, paper, or some other suitable writing material with illusory writing that lasts for the duration. This writing is not suitable for scribing a spell scroll or filling a spellbook.\n\nWhen you cast this spell, the page is instantly filled with text of your choosing. Choose a duration between 1 minute and 1 year. After this amount of time has elapsed, the magic fades and",
-        "title": "Menny's Ephemeral Script"
+        "title": "Menny's Ephemeral Script",
+        "text": "*Illusion spell \u2014 GM adjudication required.*\n\nYou imbue a piece of parchment, paper, or some other suitable writing material with illusory writing that lasts for the duration. This writing is not suitable for scribing a spell scroll or filling a spellbook.\n\nWhen you cast this spell, the page is instantly filled with text of your choosing. Choose a duration between 1 minute and 1 year. After this amount of time has elapsed, the magic fades and the writing vanishes.\n\nAny time before the spell ends, you, and any creatures you designate when you cast the spell, can cast it again to extend the duration, up to a maximum of 1 year. Extending the duration in this way does not require the material component.\n\nUse the **Action: Inspect Illusion** button to trigger an Investigation check against the caster's spell save DC."
+      }
+    ]
+  },
+  {
+    "name": "Menny's Ephemeral Script",
+    "level": 1,
+    "school": "Illusion",
+    "casttime": "10 minutes",
+    "range": "Touch",
+    "duration": "Special",
+    "description": "You imbue a piece of parchment, paper, or some other suitable writing material with illusory writing that lasts for the duration. This writing is not suitable for scribing a spell scroll or filling a spellbook.\n\nWhen you cast this spell, the page is instantly filled with text of your choosing. Choose a duration between 1 minute and 1 year. After this amount of time has elapsed, the magic fades and the writing vanishes.\n\nAny time before the spell ends, you, and any creatures you designate when you cast the spell, can cast it again to extend the duration, up to a maximum of 1 year. Extending the duration in this way does not require the material component.",
+    "components": {
+      "verbal": false,
+      "somatic": true,
+      "material": "enchanted ink worth at least 10 gp, which the spell consumes"
+    },
+    "automation": [
+      {
+        "type": "target",
+        "target": "self",
+        "effects": [
+          {
+            "type": "interaction",
+            "buttons": [
+              {
+                "label": "Action: Inspect Illusion",
+                "style": "secondary",
+                "emoji": "\ud83d\udd0d",
+                "description": "Use your action to examine the Menny's Ephemeral Script. Roll Intelligence (Investigation) vs. spell save DC.",
+                "action": {
+                  "type": "ephemeral_check",
+                  "check": {
+                    "stat": "int",
+                    "skill": "investigation",
+                    "formula": "int_mod + proficiency_bonus",
+                    "vs": "{spell_dc}",
+                    "caster_ref": "spell_caster"
+                  },
+                  "on_success": {
+                    "type": "text",
+                    "title": "Illusion Discerned \u2014 Menny's Ephemeral Script",
+                    "text": "\u2705 **Success.** The creature sees through the illusion. The Menny's Ephemeral Script becomes faint and transparent to them.",
+                    "ephemeral": true,
+                    "notify_gm": true
+                  },
+                  "on_failure": {
+                    "type": "text",
+                    "title": "Illusion Holds \u2014 Menny's Ephemeral Script",
+                    "text": "\u274c **Failure.** The creature cannot discern the illusion from reality.",
+                    "ephemeral": true,
+                    "notify_gm": true
+                  }
+                }
+              }
+            ],
+            "persist_until": "combat_end"
+          }
+        ]
+      },
+      {
+        "type": "text",
+        "title": "Menny's Ephemeral Script",
+        "text": "*Illusion spell \u2014 GM adjudication required.*\n\nYou imbue a piece of parchment, paper, or some other suitable writing material with illusory writing that lasts for the duration. This writing is not suitable for scribing a spell scroll or filling a spellbook.\n\nWhen you cast this spell, the page is instantly filled with text of your choosing. Choose a duration between 1 minute and 1 year. After this amount of time has elapsed, the magic fades and the writing vanishes.\n\nAny time before the spell ends, you, and any creatures you designate when you cast the spell, can cast it again to extend the duration, up to a maximum of 1 year. Extending the duration in this way does not require the material component.\n\nUse the **Action: Inspect Illusion** button to trigger an Investigation check against the caster's spell save DC."
+      }
+    ]
+  },
+  {
+    "name": "Moment to Think",
+    "level": 0,
+    "school": "Transmutation",
+    "casttime": "1 bonus action",
+    "range": "Self",
+    "duration": "Instantaneous",
+    "description": "You briefly stop time for everyone but yourself. You can take one additional action and move around within your space while no time passes for other creatures. That action can be used only to take the Search or Use an Object action, or to make an Intelligence check to remember information about something.\n\nYou can\u2019t affect or damage any creature or object other than objects you are wearing or carrying. If an object leaves your hand, it too becomes frozen in time.",
+    "components": {
+      "verbal": true,
+      "somatic": false,
+      "material": ""
+    },
+    "automation": null
+  },
+  {
+    "name": "Moonlight's Shadow",
+    "level": 5,
+    "school": "Evocation",
+    "casttime": "1 bonus action",
+    "range": "Self",
+    "duration": "up to 10 minutes",
+    "description": "You imbue a melee weapon you touch with moonlight and enchant your own shadow to hinder your foes. Until the spell ends, the weapon emits bright light in a 15-foot radius and dim light for an additional 15. If the weapon isn't already a magic weapon, it becomes one for the duration.\n\nWhen you make a melee weapon attack on your turn, that attack can originate from any space within the lights radius as if you were in that space. You make this choice for each attack, as the moonlight solidifies to attack them.\n\nOnce during this spell's duration, you may use an action to fill a 30-foot radius circle, centered on the ground underneath you, with a magical shadow that remains there for the spell's duration. If a creature ends it's turn within this area, you may force them to make a strength saving throw. On a failure they are knocked prone and must use all of their speed to stand back up, rather than half.",
+    "components": {
+      "verbal": true,
+      "somatic": true,
+      "material": "a melee weapon worth at least 1 sp"
+    },
+    "automation": [
+      {
+        "type": "target",
+        "target": "self",
+        "effects": [
+          {
+            "type": "attack",
+            "hit": [
+              {
+                "type": "save",
+                "stat": "str",
+                "fail": [
+                  {
+                    "type": "ieffect2",
+                    "name": "Prone"
+                  }
+                ],
+                "success": []
+              }
+            ],
+            "miss": []
+          }
+        ]
+      },
+      {
+        "type": "text",
+        "text": "You imbue a melee weapon you touch with moonlight and enchant your own shadow to hinder your foes. Until the spell ends, the weapon emits bright light in a 15-foot radius and dim light for an additional 15. If the weapon isn't already a magic weapon, it becomes one for the duration.\n\nWhen you make a melee weapon attack on your turn, that attack can originate from any space within the lights radius as if you were in that space. You make this choice for each attack, as the moonlight solidifies to attack them.\n\nOnce during this spell's duration, you may use an action to fill a 30-foot radius circle, centered on the ground underneath you, with a magical shadow that remains there for the spell's duration. If a creature ends it's turn within this area, you may force them to make a strength saving throw. On a failure they are knocked prone and must use all of their speed to stand back up, rather than half."
       }
     ]
   },
@@ -669,6 +1768,36 @@
     ]
   },
   {
+    "name": "Morelock",
+    "level": 0,
+    "school": "Unknown",
+    "casttime": "1 Action",
+    "range": "Self",
+    "duration": "Instantaneous",
+    "description": "*   Level 20 Cycle: You must have completed 20 levels of Warlock (PHB-2024) with no multiclassing.\n\n## The WarlockTable\n\n\n\n| PL | Features | Invocations Known | Pact Slots | Prepared Spells |\n| --- | --- | --- | --- | --- |\n| 21 | Ascendant Pact Magic, Additional proficiency | 11 | 5 | 17 |\n| 22 | Improved Magical Cunning | 12 | 6 | 18 |\n| 23 | Subclass Feature | 13 | 6 | 19 |\n| 24 | Ability Score Improvement | 13 | 6 | 20 |\n| 25 | Pact Magic Proficiency | 15 | 6 | 21 |\n| 26 | Subclass Feature | 15 | 6 | 22 |\n| 27 | - | 16 | 6 | 23 |\n| 28 | Ability Score Improvement | 16 | 6 | 24 |\n| 29 | Ascendant Contact Patron | 17 | 6 | 25 |\n| 30 | Subclass Feature | 17 | 6 | 25 |\n| 31 | Heightened Mystic Arcunam (6th Level) | 17 | 7 | 26 |\n| 32 | Ability Score Improvement | 18 | 7 | 26 |\n| 33 | Heightened Mystic Arcunam (7th Level) | 18 | 7 | 27 |\n| 34 | Subclass Feature | 18 | 7 | 27 |\n| 35 | Heightened Mystic Arcunam (level 8 spell), Pact Magic Expertise | 19 | 7 | 28 |\n| 36 | Ability Score Improvement | 19 | 7 | 28 |\n| 37 | Heightened Mystic Arcunam (level 9 spell) | 19 | 8 | 29 |\n| 38 | - | 20 | 8 | 29 |\n| 39 | Ability Score Improvement | 20 | 8 | 30 |\n| 40 | Pact Magic Mastery | 20 | 8 | 30 |\n\n\n\n# Class Features\n\n## PL 21: Proficiencies\n\nWhen you take this prestige class, choose two additional skills from the Warlock skill list. You gain proficiency in both.\n\n## PL 21: Ascended Pact Magic\n\nYour amount of available pact slots increases per the Morelock Table.\n\n## PL 22: Improved Magical Cunning\n\nYou can now Expend an action, bonus action and all your movement to use Magical cunning.\n\n## PL 23: Patron\n\nYour eldritch mastery has grown so strong you can now have 2 different patrons without conflict, You may choose the same warlock patron, or you may choose a new one. At PL 23, PL 26, PL 31 and PL37, you gain more features from your warlock patron.\n\n## PL 24: Ability Score Improvement\n\nAt PL 24, 28, 32, 36, and 39, you can increase one ability score of your choice by 2, or two ability scores by 1. As normal, you cannot increase a score above 20 (unless another feature allows it). You may select a Feat instead of an ASI.\n\n## PL 25: Journeyman Pact Magic\n\nYour Pact Slots increase in power. All of your available Warlock Pact Slots are now 6th level. You do not learn any new 6th-level spells to cast with these slots; they can only be used to upcast the Warlock spells you know of 5th level or lower, or to cast the specific 6th-level Warlock spells you have already learned through your Mystic Arcanum feature.\n\n## PL 29: Ascendant Contact Patron\n\nYour connection to your patron transcends the boundaries of the planes. When you use your Warlock Contact Patron feature to cast *Contact Other Plane*, the casting time is reduced to 1 Action, and you do not need to speak aloud to ask your questions.\n\nAdditionally, once per Long Rest, you can cast the *Gate* spell without expending a Pact Slot or requiring material components. When cast in this way, the portal can only open to the home domain of your Patron, allowing you to step into their realm.\n\n## PL31: Heightened Mystic Arcunam\n\nChoose another level 6 Warlock spell as this arcanum.\n\nYou can cast your 6th level arcanum spell twice without expending a spell slot, and you must finish a Long Rest before you can cast it in this way again.\n\nAs shown in the Morelock Features table, you gain another Warlock spell of your choice that can be cast in this way when you reach Warlock levels 33 (level 7 spell), 35 (level 8 spell), and 37 (level 9 spell), these can be cast as arcanums twice per long rest. You regain all uses of your Mystic Arcanum when you finish a Long Rest.\n\nWhenever you gain a Warlock level, you can replace one of your arcanum spells with another Warlock spell of the same level.\n\n## PL 35: Expert Pact Magic\n\nYour soul acts as a massive conduit for your patron's magic. All of your Warlock Pact Slots are now 7th level. As before, you do not learn new 7th-level spells for these slots; they may only be used to upcast your known Warlock spells of 6th level or lower, or to cast the 7th-level Wa",
+    "components": {
+      "verbal": false,
+      "somatic": false,
+      "material": ""
+    },
+    "automation": null
+  },
+  {
+    "name": "Night Reaver",
+    "level": 0,
+    "school": "Unknown",
+    "casttime": "1 Action",
+    "range": "Self",
+    "duration": "Instantaneous",
+    "description": "*You learn the art of siphoning life from dying enemies and combining it with negetive energy to imbue necromancy into your fighting style. Reavers often kill those who are closest to death, whose spiritual binds are thin enough to cut free and use.* Features:\n\n*   [3rd Level - Criticality](#3rd-level---criticality)\n*   [9th Level - Rend](#9th-level---rend)\n*   [13th Level - Ward of Mortality](#13th-level---ward-of-mortality)\n*   [17th Level - Echo of Reaping](#17th-level---echo-of-reaping)\n\n## 3rd Level - Criticality\n\nStarting at 3rd level, creatures with less than half of their total hit points gain a Death Mark, granting you the following benefits:\n\n*   You gain an additional way to use your sneak attack; you don\u2019t need advantage on the attack roll to use your Sneak Attack against a marked creature, so long as you don\u2019t have disadvantage on the attack roll.\n*   Attack rolls against marked creatures crit on 19-20.\n*   You have a bonus on attack rolls against marked creatures. This bonus equals half your proficiency bonus.\n\n## 9th Level - Rend\n\nStarting at 9th level, you gain the ability to **rend** those close to death.\n\nWhen you hit a marked creature with your Sneak Attack, you can deal additional damage equal to your rogue level. Once you use this ability, you may not do so against until you complete a short or long rest. If you reduce a creature to zero hit points with this ability, you regain a use.\n\n## 13th Level - Ward of Mortality\n\nStarting at 13th level, you learn to collect and conserve the life force you steal from dying opponents, which materializes as a ward.\n\nWhen you hit a marked creature with **rend**, roll your total sneak attack die. You gain temporary hit points equal to the total, unless you already have more.\n\n## 17th Level - Echo of Reaping\n\nStarting at 17th level, you learn to travel to and harness remnants of death.\n\nWhen you hit a creature with **rend**, you may teleport to a corpse within 90 ft of you as a bonus action, and the next attack you make before the end of your next treats the target as being blood marked. In addition, through a one-minute ritual, you may travel to an area of mass death or a sight where you slew a creature within 2 miles, bringing a number of willing creatures equal to the number of creatures you have killed today (maximum of 10). Once you use this ability, you may not do so again until you complete a long rest.",
+    "components": {
+      "verbal": false,
+      "somatic": false,
+      "material": ""
+    },
+    "automation": null
+  },
+  {
     "name": "Phantom Coach",
     "level": 4,
     "school": "Illusion",
@@ -683,9 +1812,104 @@
     },
     "automation": [
       {
+        "type": "target",
+        "target": "self",
+        "effects": [
+          {
+            "type": "interaction",
+            "buttons": [
+              {
+                "label": "Action: Inspect Illusion",
+                "style": "secondary",
+                "emoji": "\ud83d\udd0d",
+                "description": "Use your action to examine the Phantom Coach. Roll Intelligence (Investigation) vs. spell save DC.",
+                "action": {
+                  "type": "ephemeral_check",
+                  "check": {
+                    "stat": "int",
+                    "skill": "investigation",
+                    "formula": "int_mod + proficiency_bonus",
+                    "vs": "{spell_dc}",
+                    "caster_ref": "spell_caster"
+                  },
+                  "on_success": {
+                    "type": "text",
+                    "title": "Illusion Discerned \u2014 Phantom Coach",
+                    "text": "\u2705 **Success.** The creature sees through the illusion. The Phantom Coach becomes faint and transparent to them.",
+                    "ephemeral": true,
+                    "notify_gm": true
+                  },
+                  "on_failure": {
+                    "type": "text",
+                    "title": "Illusion Holds \u2014 Phantom Coach",
+                    "text": "\u274c **Failure.** The creature cannot discern the illusion from reality.",
+                    "ephemeral": true,
+                    "notify_gm": true
+                  }
+                }
+              }
+            ],
+            "persist_until": "combat_end"
+          }
+        ]
+      },
+      {
         "type": "text",
-        "text": "A Huge, quasi-real, horse-drawn coach appears on the ground in an unoccupied space of your choice within range. You decide the creature's and coach's appearance, and it is equipped with the necessary gear to pull the carriage. Any of the equipment created by the spell vanishes in a puff of smoke if it is carried more than 10 feet away from the steed or coach.\n\nFor the duration, you and up to 4 oth",
-        "title": "Phantom Coach"
+        "title": "Phantom Coach",
+        "text": "*Illusion spell \u2014 GM adjudication required.*\n\nA Huge, quasi-real, horse-drawn coach appears on the ground in an unoccupied space of your choice within range. You decide the creature's and coach's appearance, and it is equipped with the necessary gear to pull the carriage. Any of the equipment created by the spell vanishes in a puff of smoke if it is carried more than 10 feet away from the steed or coach.\n\nFor the duration, you and up to 4 other creatures you choose can ride in the coach. The steeds uses the Riding Horse stat block, except it has a Speed of 100 feet and can travel 11 miles in an hour. When the spell ends, the steeds and coach gradually fades, giving the riders 1 minute to dismount. The spell ends early if the steed takes any damage.\n\nUse the **Action: Inspect Illusion** button to trigger an Investigation check against the caster's spell save DC."
+      }
+    ]
+  },
+  {
+    "name": "Phantom Grapne",
+    "level": 0,
+    "school": "Evocation",
+    "casttime": "1 action",
+    "range": "30 feet",
+    "duration": "Instantaneous",
+    "description": "You conjure a chain and hook made of magical force, which you propel at a creature or an unoccupied space you can see within range.\n\nWhen you target a space, or a creature of Huge size or larger, your grapnel pulls you to that target in a straight line. You provoke opportunity attacks for this movement as normal.\n\nWhen you target a creature of Large size or smaller, you pull the target up to 10 feet toward you. The creature can make a Strength saving throw to resist this movement.",
+    "components": {
+      "verbal": true,
+      "somatic": true,
+      "material": ""
+    },
+    "automation": [
+      {
+        "type": "target",
+        "target": "each",
+        "effects": [
+          {
+            "type": "save",
+            "stat": "str",
+            "fail": [],
+            "success": []
+          }
+        ]
+      },
+      {
+        "type": "text",
+        "text": "You conjure a chain and hook made of magical force, which you propel at a creature or an unoccupied space you can see within range.\n\nWhen you target a space, or a creature of Huge size or larger, your grapnel pulls you to that target in a straight line. You provoke opportunity attacks for this movement as normal.\n\nWhen you target a creature of Large size or smaller, you pull the target up to 10 feet toward you. The creature can make a Strength saving throw to resist this movement."
+      }
+    ]
+  },
+  {
+    "name": "Phantom Ship Charm",
+    "level": 0,
+    "school": "Unknown",
+    "casttime": "1 Action",
+    "range": "Self",
+    "duration": "Instantaneous",
+    "description": "This small rusted anchor charm is bound to a cursed, lost ship: The Specter\u2019s Breath. This ship and its crew were lost to the Ethereal Plane centuries ago, cursed to remain there and wander aimlessly until called back by an ancient relic charm. This small charm acts as the ship's tether to the Material Plane.\n\nAs an action, you can call out to the ship while holding the charm aloft. If you're within 30 feet of a body of water on the Material Plane, a full-sized anchor appears on the ground in an unoccupied space within 5 feet of the water. A wispy, gray chain appears on the anchor that extends into nothingness. After 1 minute, the Specter\u2019s Breath emerges from the Ethereal Plane, pulled by the anchor's chain, and coming to rest in the water nearby. The ship is a longship 70 feet long and 20 feet wide. It's piloted by thirty-four crewmembers and five officers, all of whom are long-dead, ghostly remains of their former selves. They are formless and harmless, but are nevertheless visible and friendly to you and your companions. They can interact with the rigging, sails, and other equipment on the ship, but nothing else while they remain on the Material Plane. While the ship remains, it moves at a speed of 10 miles per hour, or half as much when there isn't any wind. Only you can command it and its crew while the charm is on your person.\n\nThe ship may be commanded for up to 10 days, after which you cannot summon it again until a further 10 days have passed.\u00a0 Every day at dawn the ship and its crew begin to gradually fade over 10 minutes before they are returned to the Ethereal Plane. They may be resummoned the following dusk. The ship returns early if you speak the command phrase \"Until the night calls once more,\" or if the ship takes enough damage that it would be destroyed. Anything not summoned with the ship is dropped into the water below the ship when it disappears.",
+    "components": {
+      "verbal": false,
+      "somatic": false,
+      "material": ""
+    },
+    "automation": [
+      {
+        "type": "text",
+        "text": "This small rusted anchor charm is bound to a cursed, lost ship: The Specter\u2019s Breath. This ship and its crew were lost to the Ethereal Plane centuries ago, cursed to remain there and wander aimlessly until called back by an ancient relic charm. This small charm acts as the ship's tether to the Material Plane.\n\nAs an action, you can call out to the ship while holding the charm aloft. If you're with",
+        "title": "Phantom Ship Charm"
       }
     ]
   },
@@ -736,9 +1960,51 @@
     },
     "automation": [
       {
+        "type": "target",
+        "target": "self",
+        "effects": [
+          {
+            "type": "interaction",
+            "buttons": [
+              {
+                "label": "Action: Inspect Illusion",
+                "style": "secondary",
+                "emoji": "\ud83d\udd0d",
+                "description": "Use your action to examine the Programmed Light. Roll Intelligence (Investigation) vs. spell save DC.",
+                "action": {
+                  "type": "ephemeral_check",
+                  "check": {
+                    "stat": "int",
+                    "skill": "investigation",
+                    "formula": "int_mod + proficiency_bonus",
+                    "vs": "{spell_dc}",
+                    "caster_ref": "spell_caster"
+                  },
+                  "on_success": {
+                    "type": "text",
+                    "title": "Illusion Discerned \u2014 Programmed Light",
+                    "text": "\u2705 **Success.** The creature sees through the illusion. The Programmed Light becomes faint and transparent to them.",
+                    "ephemeral": true,
+                    "notify_gm": true
+                  },
+                  "on_failure": {
+                    "type": "text",
+                    "title": "Illusion Holds \u2014 Programmed Light",
+                    "text": "\u274c **Failure.** The creature cannot discern the illusion from reality.",
+                    "ephemeral": true,
+                    "notify_gm": true
+                  }
+                }
+              }
+            ],
+            "persist_until": "combat_end"
+          }
+        ]
+      },
+      {
         "type": "text",
-        "text": "You implant a magical light into an object that you touch which activates when a trigger condition is met. Next, determine the circumstances that will trigger the spell to turn on the light.\n\nWhen that circumstance occurs, the object begins to glow, emitting dim light in a radius of 5 feet around the object. If the trigger condition you specified is a spoken phrase, the object itself becomes color",
-        "title": "Programmed Light"
+        "title": "Programmed Light",
+        "text": "*Illusion spell \u2014 GM adjudication required.*\n\nYou implant a magical light into an object that you touch which activates when a trigger condition is met. Next, determine the circumstances that will trigger the spell to turn on the light.\n\nWhen that circumstance occurs, the object begins to glow, emitting dim light in a radius of 5 feet around the object. If the trigger condition you specified is a spoken phrase, the object itself becomes colored if the final word of the phrase is a color. Otherwise, the object turns white. When you cast this spell, you can have the spell end after it activates for the first time, or it can remain and continue to change colors if the trigger condition occurs again. If the trigger condition occurs while the light is already on, the object changes color to the new color at the end of a spoken message, or\n\nUse the **Action: Inspect Illusion** button to trigger an Investigation check against the caster's spell save DC."
       }
     ]
   },
@@ -756,6 +2022,53 @@
       "material": "an amber crystal worth at least 10 gp, which the spell consumes"
     },
     "automation": null
+  },
+  {
+    "name": "Quickstep",
+    "level": 0,
+    "school": "Transmutation",
+    "casttime": "1 bonus action",
+    "range": "Self",
+    "duration": "1 round",
+    "description": "You call upon your inner reserves to give yourself a brief flash of speed. Your walking speed increases by 10 feet until the start of your next turn.",
+    "components": {
+      "verbal": true,
+      "somatic": false,
+      "material": ""
+    },
+    "automation": null
+  },
+  {
+    "name": "Rakshasa's Claw",
+    "level": 3,
+    "school": "Evocation",
+    "casttime": "1 action",
+    "range": "30 feet",
+    "duration": "Instantaneous",
+    "description": "Channeling the vile and scheming nature of the Rakshasa, you evoke by splaying three fingers apart and making a downward vertical slash in the air. It can also be done with a horizontal swipe to deal less damage to more targets at once. A target you choose within range must make a Dexterity save or suffer 6d8 magical slashing damage. You can alternatively choose to target any creature in a 20-foot cube originating from yourself, dealing 3d8 magical slashing damage to each target. In either case, on a successful save, each target takes half as much magical slashing damage.",
+    "components": {
+      "verbal": true,
+      "somatic": true,
+      "material": ""
+    },
+    "automation": [
+      {
+        "type": "target",
+        "target": "each",
+        "effects": [
+          {
+            "type": "save",
+            "stat": "dex",
+            "fail": [],
+            "success": []
+          }
+        ]
+      },
+      {
+        "type": "text",
+        "text": "Channeling the vile and scheming nature of the Rakshasa, you evoke by splaying three fingers apart and making a downward vertical slash in the air. It can also be done with a horizontal swipe to deal less damage to more targets at once. A target you choose within range must make a Dexterity save or suffer 6d8 magical slashing damage. You can alternatively choose to target any creature in a 20-foot cube originating from yourself, dealing 3d8 magical slashing damage to each target. In either case, on a successful save, each target takes half as much magical slashing damage."
+      }
+    ]
   },
   {
     "name": "Rakshasa's Claw",
@@ -801,6 +2114,21 @@
       "verbal": true,
       "somatic": true,
       "material": "a small sprinkling of powdered silver"
+    },
+    "automation": null
+  },
+  {
+    "name": "Retrieve",
+    "level": 0,
+    "school": "Transmutation",
+    "casttime": "1 bonus action",
+    "range": "15 feet",
+    "duration": "Instantaneous",
+    "description": "*   **Casting Time**: 1 bonus action\n*   **Range**: 15 feet\n*   **Components**: V\n*   **Duration**: Instantaneous\n\n**Description**\n\nYou cause an object within range that isn't being worn or carried to fly to your open hand. The object must weigh no more than 10 pounds or the spell fails.",
+    "components": {
+      "verbal": true,
+      "somatic": false,
+      "material": ""
     },
     "automation": null
   },
@@ -852,8 +2180,55 @@
     ]
   },
   {
+    "name": "Shadows Revelation",
+    "level": 0,
+    "school": "Divination",
+    "casttime": "1 Action",
+    "range": "Self",
+    "duration": "Special",
+    "description": "*   **Casting Tim**e: 1 minute\n*   **Range**: Self\n*   **Components**: V, S, M (a polished obsidian mirror)\n*   **Duration**: Special\n\n**Description**\n\nAs an action you may target a specific creature you have seen or heard about on the same plane of existence, forcing them to make a Wisdom saving throw. On a failed save you can extract a thought strand (as with the Encode Thoughts cantrip) as shadowy scenes are presented on the mirrors surface. If you have a body part, lock of hair, clipping from a nail, or similar portion of the target's body, the target makes its saving throw with disadvantage.\n\nThe thought strand contains one memory of a significant event within a number of days equal to your spellcasting ability modifier. Significant events typically involve powerful emotions, such as battles and betrayals, marriages and murders, births and funerals, or meetings with important friends or leaders. However, they might also include more mundane events that are nevertheless important to that creature (DM's discretion).\n\nIn addition, while holding the thought strand, you can communicate telepathically with the target while they are on the same plane of existence as you. The target is unable to respond.\n\nIf you cast the spell two or more times before completing your next long rest, there is a cumulative 25 percent chance for each casting after the first that you get a random memory of no significance. The DM makes this roll in secret.\n\nClasses: Cleric, Druid, Sorcerer, Wizard, Warlock",
+    "components": {
+      "verbal": true,
+      "somatic": true,
+      "material": "a polished obsidian mirror"
+    },
+    "automation": [
+      {
+        "type": "target",
+        "target": "self",
+        "effects": [
+          {
+            "type": "save",
+            "stat": "wis",
+            "fail": [],
+            "success": []
+          }
+        ]
+      },
+      {
+        "type": "text",
+        "text": "As an action you may target a specific creature you have seen or heard about on the same plane of existence, forcing them to make a Wisdom saving throw. On a failed save you can extract a thought strand (as with the Encode Thoughts cantrip) as shadowy scenes are presented on the mirrors surface. If you have a body part, lock of hair, clipping from a nail, or similar portion of the target's body, the target makes its saving throw with disadvantage.\n\nThe thought strand contains one memory of a significant event within a number of days equal to your spellcasting ability modifier. Significant events typically involve powerful emotions, such as battles and betrayals, marriages and murders, births and funerals, or meetings with important friends or leaders. However, they might also include more mundane events that are nevertheless important to that creature (DM's discretion).\n\nIn addition, while holding the thought strand, you can communicate telepathically with the target while they are on the same plane of existence as you. The target is unable to respond.\n\nIf you cast the spell two or more times before completing your next long rest, there is a cumulative 25 percent chance for each casting after the first that you get a random memory of no significance. The DM makes this roll in secret.\n\nClasses: Cleric, Druid, Sorcerer, Wizard, Warlock"
+      }
+    ]
+  },
+  {
+    "name": "Shimmer Step",
+    "level": 3,
+    "school": "Conjuration",
+    "casttime": "1 action",
+    "range": "Self",
+    "duration": "Instantaneous",
+    "description": "*   **Casting Time:** 1 action\n*   **Range**: Self\n*   **Components**: S, M (a melee weapon worth at least 1 sp)\n*   **Duration**: Instantaneous\n\n**Description**\n\nYou flourish the weapon used in the casting and vanish, instantly teleporting to an unoccupied space you can see within 5 feet of a creature you can see within 30 feet of the caster.\n\nUpon appearing, you immediately make one melee weapon attack against that creature using the weapon used in the spell's casting. You have advantage on this attack roll. On a hit, the target suffers the weapon attack's normal effects, plus an additional 2d10 force damage.\n\n**At Higher Levels.**\n\nWhen you cast this spell using a spell slot of 4th level or higher, the extra force damage increases by 1d10, and the distance to the creature range increases by 10 feet for each slot level above 3rd.",
+    "components": {
+      "verbal": false,
+      "somatic": true,
+      "material": "a melee weapon worth at least 1 sp"
+    },
+    "automation": null
+  },
+  {
     "name": "Skeleton Surplus!",
-    "level": 9,
+    "level": 0,
     "school": "Necromancy",
     "casttime": "1 Action",
     "range": "30 feet",
@@ -868,7 +2243,7 @@
   },
   {
     "name": "Skeleton Surprise",
-    "level": 8,
+    "level": 0,
     "school": "Necromancy",
     "casttime": "1 Action",
     "range": "60 feet",
@@ -880,6 +2255,52 @@
       "material": ""
     },
     "automation": null
+  },
+  {
+    "name": "Sonic Pulse",
+    "level": 0,
+    "school": "Evocation",
+    "casttime": "1 action",
+    "range": "60 feet",
+    "duration": "Instantaneous",
+    "description": "You compress a thunderous boom into an invisible ball and project it at a creature you can see within range. The target must succeed on a Constitution saving throw or it takes 1d8 thunder damage and is deafened until the start of your next turn.\n\nIf the target is within 10 feet of you, this spell\u2019s damage dice become d10s instead of d8s.\n\nThis spell\u2019s damage increases by 1d8 when you reach 5th level (2d8), 11th level (3d8) and 17th level (4d8).",
+    "components": {
+      "verbal": true,
+      "somatic": true,
+      "material": ""
+    },
+    "automation": [
+      {
+        "type": "target",
+        "target": "each",
+        "effects": [
+          {
+            "type": "save",
+            "stat": "con",
+            "fail": [
+              {
+                "type": "damage",
+                "damage": "1d8[thunder]",
+                "cantripScale": true
+              },
+              {
+                "type": "ieffect2",
+                "name": "Invisible"
+              },
+              {
+                "type": "ieffect2",
+                "name": "Deafened"
+              }
+            ],
+            "success": []
+          }
+        ]
+      },
+      {
+        "type": "text",
+        "text": "You compress a thunderous boom into an invisible ball and project it at a creature you can see within range. The target must succeed on a Constitution saving throw or it takes 1d8 thunder damage and is deafened until the start of your next turn.\n\nIf the target is within 10 feet of you, this spell\u2019s damage dice become d10s instead of d8s.\n\nThis spell\u2019s damage increases by 1d8 when you reach 5th level (2d8), 11th level (3d8) and 17th level (4d8)."
+      }
+    ]
   },
   {
     "name": "Spirit Ejection",
@@ -934,6 +2355,116 @@
     "automation": null
   },
   {
+    "name": "Springheel",
+    "level": 0,
+    "school": "Transmutation",
+    "casttime": "1 bonus action",
+    "range": "Self",
+    "duration": "1 round",
+    "description": "You flood magic into your legs, allowing you to bound high into the air from a standstill. Your jump distance increases by 10 feet until the start of your next turn, and you can make a running high jump or a running long jump without a running start.",
+    "components": {
+      "verbal": true,
+      "somatic": false,
+      "material": ""
+    },
+    "automation": null
+  },
+  {
+    "name": "Starlight",
+    "level": 6,
+    "school": "Illusion",
+    "casttime": "1 action",
+    "range": "30ft Sphere Centered on self",
+    "duration": "up to 1 minute",
+    "description": "*   **Casting Time:** 1 action\n*   **Range**: 30ft Sphere Centered on self\n*   **Components**: V, S,\n*   **Duration**: Concentration, up to 1 minute\n*   **Spell Lists:** Wizard (Legacy), Wizard, Warlock(Legacy), Warlock, Sage, Sorcerer(Legacy), Sorcerer\n\n**Description**\n\nYou create a magical illusion around yourself, revealing a vast, star-lit night with a multitude of shooting stars, each with a different, brighter hue. Each creature you choose within the area of the spell must make a wisdom saving throw or take 5d6 psychic damage half on a successful save and become charmed or frightened for one round(caster's choice). Until the spell ends the caster must use their action to maintain concentration reforcing the wisdom save.",
+    "components": {
+      "verbal": true,
+      "somatic": true,
+      "material": ""
+    },
+    "automation": [
+      {
+        "type": "target",
+        "target": "all",
+        "effects": [
+          {
+            "type": "save",
+            "stat": "wis",
+            "fail": [
+              {
+                "type": "damage",
+                "damage": "5d6[psychic]"
+              },
+              {
+                "type": "ieffect2",
+                "name": "Charmed"
+              },
+              {
+                "type": "ieffect2",
+                "name": "Frightened"
+              }
+            ],
+            "success": [
+              {
+                "type": "damage",
+                "damage": "(5d6)/2[psychic]"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "text",
+        "text": "You create a magical illusion around yourself, revealing a vast, star-lit night with a multitude of shooting stars, each with a different, brighter hue. Each creature you choose within the area of the spell must make a wisdom saving throw or take 5d6 psychic damage half on a successful save and become charmed or frightened for one round(caster's choice). Until the spell ends the caster must use their action to maintain concentration reforcing the wisdom save."
+      }
+    ]
+  },
+  {
+    "name": "Storm Chaser",
+    "level": 0,
+    "school": "Unknown",
+    "casttime": "1 Action",
+    "range": "Self",
+    "duration": "Instantaneous",
+    "description": "Starting at 3rd level, you learn an additional spell when you reach certain levels in this class, as shown in the Storm Chaser Spells table. The spell counts as a ranger spell for you, but it doesn\u2019t count against the number of ranger spells you know.\n\n\n\n| Ranger Level | Spells |\n| --- | --- |\n| 3rd | Thunderwave |\n| 5th | Vortex Warp |\n| 9th | Call Lightning |\n| 13th | Ice Storm |\n| 17th | Control Winds |\n\n\n\n## Firearm Proficiency\n\nAt 3rd Level, you have learned to harness the potency of firearms to complement the powers of the storms you chase. You gain proficiency with firearms.\n\n## Thundercrack\n\nStarting at 3rd level, when you take this archetype at 3rd level, you are able to unleash a deafening boom when you use your ranged weapons. Once on each of your turns, when you attack with a ranged weapon, you can force each creature within 10 feet of you to make a constitution saving throw against your spell save DC. On a failed save, the creature takes 1d8 thunder damage. The damage increases to 2d8 at 11th level.\n\n## Charged Shell\n\nAt 7th level, when you take the attack action, you can forgo your extra attack feature to make a single ranged weapon attack. This attack deals triple the damage dice of the weapon you used, and deals lightning damage instead of bludgeoning, piercing, or slashing. This attack is also critical on a d20 roll of 19 or 20 if used during a storm.\n\n## Storm Caller\n\nAt 11th level, you have learned to bring storms to you. As an action, you call forth a vortex at a point you can see within 60 feet. The vortex is a cylinder with a radius of 30 feet, and a height of 90 feet. The vortex counts as a storm for the purposes of Charged Shell.\n\nAs a bonus action on each of your turns while the vortex lasts, you can target a creature inside, striking them with a bolt of lightning. The target must make a dexterity saving throw, taking 3d10 lightning on a failure, or half as much on a successful save.\n\nThe vortex lasts for 10 minutes, and once used, cannot be summoned again until you finish a long rest, or spend a spell slot of at least 3rd level or higher to summon it again. No more than 1 vortex can exist at once.\n\n## Eye of the Storm\n\nAt 15th level, you gain resistance to lightning and thunder damage.\n\nAdditionally, you can target yourself with the bolt of lightning from your storm caller ability. If you do so, instead of taking damage, your next charged shell attack deals extra damage equal to twice the amount of damage the lightning would have dealt. This also causes the attack to be critical on a d20 roll of 18, 19, or 20.",
+    "components": {
+      "verbal": false,
+      "somatic": false,
+      "material": ""
+    },
+    "automation": null
+  },
+  {
+    "name": "Sub-Ninth Rifle",
+    "level": 0,
+    "school": "Unknown",
+    "casttime": "1 Action",
+    "range": "Self",
+    "duration": "Instantaneous",
+    "description": "Requires attunement by a creature with a Strength and Dexterity score 19 or higher\n\n**Description**\n\nThis large sniper rifle is made with thicker material to propel projectiles at very long distances without losing accuracy, delivering destructive capabilities that can even pierce metal gates. Each shot made with this rifle sends a loud ripple on the battlefield that would bring dread whether or not they will be the next target. The obvious drawback to this rifle is its size and weight, making it difficult to move while in combat, as well as its noise, making it not really ideal for assassinations unless you are far enough, thus only a few choice marksmen challenge themselves in wielding this weapon. The creator explained that the reason for its name is because he \" . . . wanted to make a weapon that can match the power of 9th-level spells\" but it has yet to be seen in the results.\n\nOn a hit, this weapon deals 14d12 instead of 2d12. While equipped or simply on your body, your movement speed is reduced to a maximum of 10 feet. Each attack made with this weapon produces an explosive boom that is audible within 600 feet (the creator didn't factor in a silencer when making this weapon, thus trying to apply one would be ill-advised as it would just blow up at the first shot). This rifle deals maximum damage when you hit structures or objects that are not worn.\n\nSpecial - An enhanced spyglass is mounted to the weapon. While using it, creatures and objects are magnified to four times their size.\n\nThis precision rifle can't be reloaded usign a bonus action",
+    "components": {
+      "verbal": false,
+      "somatic": false,
+      "material": ""
+    },
+    "automation": null
+  },
+  {
+    "name": "Task",
+    "level": 0,
+    "school": "Transmutation",
+    "casttime": "1 action",
+    "range": "15 feet",
+    "duration": "1 hour",
+    "description": "*   **Casting Time**: 1 action\n*   **Range**: 15 feet\n*   **Components**: S\n*   **Duration**: 1 hour\n\n**Description**\n\nWith a flick of your wrist, you magically start the process of completing a small and simple task, such as flipping a book page, buttering bread, or heating a cup of tea, without any physical interaction. The task can't include anything that is intended to inflict a harmful effect on a creature and must be something you'd normally be able to accomplish without the use of magic. If the task would take longer than the duration (such as folding laundry, etc.), the task only progresses as far as it would within the hour. The spell fails if the target of the task has total cover from you.\n\nIf you cast this spell multiple times, you can have up to three tasks active at a time, and you can dismiss one of them as a bonus action.",
+    "components": {
+      "verbal": false,
+      "somatic": true,
+      "material": ""
+    },
+    "automation": null
+  },
+  {
     "name": "Tenser's Unbound Transformation",
     "level": 7,
     "school": "Transmutation",
@@ -975,6 +2506,152 @@
     ]
   },
   {
+    "name": "Tenser's Unbound Transformation",
+    "level": 7,
+    "school": "Transmutation",
+    "casttime": "1 action~",
+    "range": "Self~",
+    "duration": "up to 10 minutes~",
+    "description": "~**Casting Time:** 1 action~\n\n~**Range**: Self~\n\n~**Components**: V, S, M (a few hairs from a bull)~\n\n~**Duration**: Concentration, up to 10 minutes~\n\n**~Description~**\n\n~You endow yourself with endurance and martial prowess fueled by magic. Until the spell ends, you can't cast spells of 6th level or higher, and you gain two of the following benefits:~\n\n*   ~You gain 50 temporary hit points. If any of these remain when the spell ends, they are lost.~\n*   ~You have advantage on attack rolls that you make with simple and martial weapons.~\n*   ~When you hit a target with a weapon attack, that target takes an extra 2d12 force damage.~\n*   ~You have proficiency with shields, simple weapons, and martial weapons.~\n*   ~You have proficiency in Strength and Constitution saving throws.~\n*   ~You can attack twice, instead of once, when you take the Attack action on your - turn. You ignore this benefit if you already have a feature, like Extra Attack, that gives you extra attacks.~\n\n~Immediately after the spell ends, you must succeed on a DC 15 Constitution saving throw or suffer one level of exhaustion.~\n\n**~At Higher Levels~**\n\n~When you cast this spell using a spell slot of 8th level or higher, you can choose an additional effect for every level above 7th.~",
+    "components": {
+      "verbal": true,
+      "somatic": true,
+      "material": "a few hairs from a bull"
+    },
+    "automation": [
+      {
+        "type": "target",
+        "target": "self",
+        "effects": [
+          {
+            "type": "save",
+            "stat": "con",
+            "fail": [
+              {
+                "type": "damage",
+                "damage": "2d12[force]"
+              },
+              {
+                "type": "ieffect2",
+                "name": "Exhaustion"
+              }
+            ],
+            "success": []
+          }
+        ]
+      },
+      {
+        "type": "text",
+        "text": "**~Description~**\n\n~You endow yourself with endurance and martial prowess fueled by magic. Until the spell ends, you can't cast spells of 6th level or higher, and you gain two of the following benefits:~\n\n*   ~You gain 50 temporary hit points. If any of these remain when the spell ends, they are lost.~\n*   ~You have advantage on attack rolls that you make with simple and martial weapons.~\n*   ~When you hit a target with a weapon attack, that target takes an extra 2d12 force damage.~\n*   ~You have proficiency with shields, simple weapons, and martial weapons.~\n*   ~You have proficiency in Strength and Constitution saving throws.~\n*   ~You can attack twice, instead of once, when you take the Attack action on your - turn. You ignore this benefit if you already have a feature, like Extra Attack, that gives you extra attacks.~\n\n~Immediately after the spell ends, you must succeed on a DC 15 Constitution saving throw or suffer one level of exhaustion.~\n\n**~At Higher Levels~**\n\n~When you cast this spell using a spell slot of 8th level or higher, you can choose an additional effect for every level above 7th.~"
+      }
+    ]
+  },
+  {
+    "name": "The Aberrant Bloom",
+    "level": 0,
+    "school": "Unknown",
+    "casttime": "1 Action",
+    "range": "of your spells increases by 60 ft.",
+    "duration": "Instantaneous",
+    "description": "At PL 25 you choose a **Weave**; PL 29 and 33 branch within it; PL 37 gives your Weave's capstone.\n\n## Order Disciplines\n\nYour Order grants these two disciplines at PL 21. They don't count against the number of disciplines you know, and no other Order can learn them.\n\n### Spell Graft\n\n\u25cb **Focus.** Your cantrips deal one additional damage die on a hit.\n\n\u25cf **Lance (3 psi) \u2014 Rider.** Once per turn when you hit a creature or damage it with a spell, it makes an Intelligence save, taking 3d8 Psychic damage on a failure, half on a success.\n\n\u25cf\u25cf\u25cf **Grafted Casting (11 psi) \u2014 Magic action.** Cast a spell of level 4 or lower that you know without expending a spell slot. If you choose, it deals Psychic damage instead of its normal type.\n\n### Writhing Form\n\n\u25cb **Focus.** You have a climbing speed equal to your walking speed and 5 ft of additional reach.\n\n\u25cf **Unspool (3 psi) \u2014 Bonus Action.** Until the end of your next turn your reach increases by 15 ft, and you can Grapple at that range.\n\n\u25cf\u25cf **Wrong Anatomy (8 psi) \u2014 Bonus Action.** For 1 minute you're immune to Critical Hits and have Resistance to Bludgeoning, Piercing, and Slashing damage. *No concentration.*\n\n## PL 21: Woven Casting\n\n*+5 Sorcery Points, and you regain your Proficiency Bonus in them on a Short Rest.* Once on each of your turns, when you cast a spell of level 1 or higher, you can activate one Reflex-band option as part of that same action.\n\n## PL 25: Choose a Weave (+2 Sorcery Points)\n\n### The Woven Mind\n\n*Fusion.* When you cast a spell that targets a single creature, a Reflex-band option you activate this turn can target that creature without spending psi.\n\n### The Warped Word\n\n*Shaping.* **Every sorcerer spell you know of level 5 or lower counts as a Psionic Spell** for the purpose of Psionic Sorcery. You can cast such a spell by spending Sorcery Points equal to its level, with no verbal, somatic, or material components \u2014 including materials that would be consumed, which the psionic casting supplies from nothing.\n\n### The Hungering Mind\n\n*Sustain.* Once per turn when you damage a creature with a spell, regain Hit Points equal to twice the spell's level.\n\n## PL 29: Choose a Technique (+2 Sorcery Points)\n\n### Woven Mind\n\n*   **Resonant Weave.** When you cast a spell of level 1 or higher, the first discipline you activate before the end of that turn costs 2 less psi, to a minimum of 0.\n*   **Dual Weave.** Once per turn you can cast a cantrip as part of activating a discipline.\n\n### Warped Word\n\n*   **Reshape.** When you cast a spell, you can change its damage type to Psychic or Force.\n*   **Displaced Casting.** Your spells can originate from any point you can see within 60 ft. You must have a clear path to that point, and the spell's own range is measured from there.\n\n### Hungering Mind\n\n*   **Feed.** When a creature dies within 60 ft of you, regain 2 Sorcery Points. Once per turn.\n*   **Siphon.** When you reduce a creature to 0 Hit Points with a spell or discipline, gain Temporary Hit Points equal to your Prestige Level.\n\n## PL 33: Choose a Mastery (+2 Sorcery Points)\n\n### Woven Mind\n\n*   **Aberrant Reach.** The range of your spells and disciplines increases by 30 ft and they ignore half and three-quarters cover.\n*   **Twin Manifestation.** Once per turn, a Committed-band option you activate can target a second creature within range at no additional cost.\n\n### Warped Word\n\n*   **Unanswerable.** Your spells and disciplines can't be counterspelled, dispelled, or detected as magic, and creatures have Disadvantage on the first saving throw they make against a spell of yours each combat.\n*   **Free Shaping.** Once per turn you can apply one Metamagic option without spending Sorcery Points. You can't apply Quickened Spell or Twinned Spell this way.\n\n### Hungering Mind\n\n*   **Bloom.** Enemies starting their turn within 10 ft take Psychic damage equal to your Psionic Ability modifier, and you regain that many Hit Points.\n*   **Consume Magic.** When you end or counter a magical effect you did not create, regain Sorcery Points equal to its level.\n\n## PL 37: Weave Capstone (+2 ",
+    "components": {
+      "verbal": false,
+      "somatic": false,
+      "material": ""
+    },
+    "automation": null
+  },
+  {
+    "name": "The Bird of Prey Form",
+    "level": 0,
+    "school": "Unknown",
+    "casttime": "1 Action",
+    "range": "Self",
+    "duration": "Instantaneous",
+    "description": "*   **Open Sky:** You gain a Fly Speed equal to half your Speed. While in Hybrid Shape, it becomes equal to your full Speed and you can hover.\n*   **Far Sight:** You have advantage on Wisdom (Perception) checks relying on sight and on Initiative rolls, and you can see clearly up to 1 mile with no penalty for distance.\n\n## Signature \u2014 Stoop (2 Primal Points)\n\n*   **Dive:** As part of your Attack action, drop up to 60 feet in a straight line and make a melee attack. On a hit, add three Martial Arts dice of damage.\n*   **Carry Off:** The target must succeed on a Strength saving throw against your save DC or be carried with you up to 20 feet in any direction and knocked Prone when released.\n\n## PL 25 \u2014 Bird of Prey Branches\n\nChoose one: The Stooping Death, The Stormwing, or The Sky Sovereign.\n\n### The Stooping Death\n\n**Opener \u2014 Sky's Advantage:** You don't provoke Opportunity Attacks while flying, and any creature that is Prone, falling, or has no Fly Speed grants you advantage on attack rolls while you are airborne.\n\n**PL 30 \u2014 choose one:**\n\n*   **Terminal Velocity:** Stoop adds one additional Martial Arts die for every 20 feet you dove, to a maximum of six total.\n*   **Wingover:** After a Stoop, you can immediately fly up to half your Speed without provoking Opportunity Attacks.\n\n**PL 35 \u2014 choose one:**\n\n*   **Broken on Impact:** A creature hit by Stoop has its Speed reduced to 0 until the end of its next turn and cannot take Reactions during that time.\n*   **Falling Star:** When you end a Stoop, you can cast a spell with a casting time of an action as a Bonus Action. Once per Short or Long Rest.\n\n**PL 40 \u2014 Capstone: The Falling Sky:** Stoop costs 1 Primal Point, can be used as a Bonus Action, and your Fly Speed doubles. Any creature you drop from any height takes falling damage as if it had fallen twice the actual distance.\n\n### The Stormwing\n\n**Opener \u2014 Cyclone:** As an Action, spend 2 Primal Points to raise a 30-foot-radius storm around you for 1 minute. It is Difficult Terrain for creatures without a Fly Speed, ranged attacks through it have disadvantage, and creatures entering or starting their turn in it make a Strength saving throw against your save DC or are pushed 15 feet and knocked Prone.\n\n**PL 30 \u2014 choose one:**\n\n*   **Eye of the Storm:** You and allies you choose are unaffected by your Cyclone and can fly at half Speed within it.\n*   **Howling Winds:** Creatures in your Cyclone are Deafened and cannot cast spells with Verbal components.\n\n**PL 35 \u2014 choose one:**\n\n*   **Gathering Front:** Cyclone's radius becomes 60 feet, and it moves with you.\n*   **Storm's Conduit:** While your Cyclone is active, spells you cast that deal Lightning or Thunder damage add your Wisdom modifier to their damage, and their range doubles within the storm.\n\n**PL 40 \u2014 Capstone: Weather Front:** Cyclone costs nothing, lasts until you dismiss it, and requires no Action to raise. Once per round you can direct a stroke of lightning at any creature within it, dealing four Martial Arts dice of Lightning damage.\n\n### The Sky Sovereign\n\n**Opener \u2014 Talon Grip:** When you hit a Large or smaller creature with a melee attack, spend 1 Primal Point to Grapple it as part of the attack. It moves with you when you fly, has disadvantage on attacks against anyone but you, and takes your Martial Arts die at the start of each of its turns.\n\n**PL 30 \u2014 choose one:**\n\n*   **Iron Grip:** You can Grapple Huge creatures. A creature you Grapple has disadvantage on checks to escape, and takes two Martial Arts dice instead of one at the start of each of its turns.\n*   **Two Talons:** You can maintain Talon Grip on two creatures at once.\n\n**PL 35 \u2014 choose one:**\n\n*   **Drop:** Releasing a Grappled creature while airborne deals falling damage and forces a Constitution save against your save DC or the creature is Stunned until the end of its next turn.\n*   **Weightless Casting:** You can cast spells with Somatic components while Grappling a creature, and creatures you Grapple have disadvantage on saving throws against your spells.\n\n**PL 40 \u2014 Capstone: Nothing Below Is",
+    "components": {
+      "verbal": false,
+      "somatic": false,
+      "material": ""
+    },
+    "automation": null
+  },
+  {
+    "name": "The Canine Form",
+    "level": 0,
+    "school": "Illusion",
+    "casttime": "1 Action",
+    "range": "Self",
+    "duration": "Instantaneous",
+    "description": "*   **Relentless Stride:** Your Speed increases by 15 feet and you ignore Difficult Terrain. The first time you move at least 20 feet toward a creature on your turn, your next melee attack against it before the end of that turn deals additional damage equal to your Martial Arts die.\n*   **Hunter's Nose:** You gain Blindsight out to 30 feet via scent, you have advantage on Constitution saving throws made to avoid Exhaustion, and you can track a creature you've smelled within the last 24 hours with advantage.\n\n## Signature \u2014 Run Down (1 Primal Point)\n\n*   **Give Chase:** As a Reaction when a creature within 60 feet of you moves, takes the Disengage action, or is reduced to half its Hit Points or fewer, you move up to your Speed toward it without provoking Opportunity Attacks.\n*   **Snap:** If you end that movement within reach of the triggering creature, you can make one melee attack against it.\n\n## PL 25 \u2014 Canine Branches\n\nChoose one: The Pack Leader, The Relentless, or The Tracker.\n\n### The Pack Leader\n\n**Opener \u2014 Shared Instinct:** Allies within 30 feet of you add your Wisdom modifier to Initiative rolls. When you use Run Down, one willing ally within 30 feet may also move up to half their Speed as part of your Reaction.\n\n**PL 30 \u2014 choose one:**\n\n*   **Drive the Quarry:** Allies scoring attacks against a creature you moved toward this turn score critical hits on a roll of 19\u201320.\n*   **Herd:** When an ally hits a creature within your reach, you can move that creature up to 10 feet to a space you choose.\n\n**PL 35 \u2014 choose one:**\n\n*   **Wolf at Every Door:** Run Down now pulls two willing allies along instead of one.\n*   **Bloom of the Pack:** When you cast a spell of level 1 or higher, each ally within 30 feet gains Temporary Hit Points equal to your Wisdom modifier plus the spell's level.\n\n**PL 40 \u2014 Capstone: Alpha:** Allies within 30 feet gain your Tireless Gait Speed bonus and ignore Difficult Terrain. Run Down no longer costs a Primal Point and can be used twice per round. When you or an ally within 30 feet hits a creature you moved toward this turn, that attack deals additional damage equal to your Martial Arts die.\n\n### The Relentless\n\n**Opener \u2014 Hamstring:** When you hit a creature with a melee attack, you can reduce its Speed by 15 feet until the start of your next turn. If its Speed reaches 0 this way, it falls Prone.\n\n**PL 30 \u2014 choose one:**\n\n*   **Worry the Wound:** A creature whose Speed you reduced this turn has disadvantage on the first attack roll it makes before the start of your next turn.\n*   **Long Wind:** You can take the Dash action twice per turn, and you ignore the first 30 feet of any forced movement imposed on you.\n\n**PL 35 \u2014 choose one:**\n\n*   **Closing Jaws:** Your first melee attack each turn against a creature whose Speed is 0, that is Prone, or that you moved at least 20 feet toward deals additional damage equal to two Martial Arts dice.\n*   **Hounding Magic:** When a creature fails a saving throw against a spell you cast, its Speed becomes 0 until the end of its next turn and it cannot teleport during that time.\n\n**PL 40 \u2014 Capstone: Nowhere to Go:** No creature can take the Dash or Disengage action within 30 feet of you without first succeeding on a Wisdom saving throw against your save DC; on a failure, the action is wasted. Any creature whose Speed you have reduced to 0 takes damage equal to two Martial Arts dice at the start of each of its turns while it remains within 30 feet of you.\n\n### The Tracker\n\n**Opener \u2014 Deep Scent:** Your scent Blindsight extends to 60 feet, and you know the exact direction and distance to any creature you have scented within the last 24 hours.\n\n**PL 30 \u2014 choose one:**\n\n*   **Never Lost:** You always know the way back to any place you have been, and you cannot be magically deceived about direction, distance, or location.\n*   **Run It Down:** As a Bonus Action, name a creature you have scented within 60 feet. Until the end of your next turn you know its location, ignore any cover it has, and your attacks against it cannot miss due to concealment, invisibility, or",
+    "components": {
+      "verbal": false,
+      "somatic": false,
+      "material": ""
+    },
+    "automation": null
+  },
+  {
+    "name": "The Extraplanar",
+    "level": 0,
+    "school": "Unknown",
+    "casttime": "1 Action",
+    "range": "Self",
+    "duration": "Instantaneous",
+    "description": "The Extraplanar lets you choose from an expanded list of spells when you learn a warlock spell. The following spells are added to the warlock spell list for you.\n\nSpell Level - Spells:\n\n\n\n| Sorcerer Level | Spells |\n| --- | --- |\n| 1st | Bane, Sanctuary |\n| 2nd | Arcanist's Magic Aura, Vortex Warp |\n| 3rd | Bestow Curse, Glyph of Warding |\n| 4th | Giant Insect, Summon Elemental |\n| 5th | Creation, Summon Celestial |\n\n\n\n## Planar Tether\n\nWhen you form this pact at 1st level, you are granted the ability to tether your summoned creatures to your plane, granting them additional strengths.\n\nWhen you cast a warlock spell that summons a single creature, you may undergo a special ritual during the casting of the spell. Doing so changes the spell's casting time to 10 minutes, and the summon lasts until it is dispelled. If the spell normally requires concentration, you may ignore the requirement.\n\nWhen you summon a creature in this way, it is referred to as your tether, and it gains the following benefits:\n\n*   You can replace its hit points with 5 x your warlock level.\n*   It adds your proficiency bonus to its damage rolls.\n*   If the creatures to-hit bonus is less than that of your spell attack bonus, it may instead use your spell attack bonus when attacking.\n\nYou learn the Find Familiar spell, it counts as a warlock spell for you, and it does not count towards your total spells known.\n\nIf you summon another creature using this ritual, any previous creatures summoned by it are immediately dispelled. After you complete this ritual, you must finish a long rest before you can do so again.\n\n## Ethereal Stores\n\nStarting at 6th level, you can briefly store items away for later use. You can cast the \\[Wristpocket\\] spell a number of times equal to your charisma modifier without expending a spell slot. When you do, the stored object is sent to the ethereal plane, and the spell does not require concentration. You regain all expended uses of this ability when you finish a long rest.\n\nAdditionally, you can see into the ethereal plane up to 10 ft.\n\n## Undying Binds\n\nAt 10th level, when tether drops to 0 hit points, you can use your reaction to expend a pact slot. Doing so will restore 50 hit points to the summon.\n\n## Sacrificial Summoning\n\nStarting on 14th level, while your Planar Tether summon is active, you can use an action to sacrifice part of yourself to empower it and your spells, doing so allows you to channel this ability until your next long rest, or until you end it as an action. While channeling this ability, you have the following effects:\n\n*   Your hit point maximum is reduced by 30.\n*   You have disadvantage on Constitution checks and saving throws, except for those made to maintain concentration.\n*   Your tether has advantage on all saving throws\n*   You can use a bonus action to give your tether temporary hit points equal to your warlock level\n*   Creatures within 10 ft of your tether have disadvantage on saving throws against your spells.\n\nIf you end this ability early, you cannot use it again until you finish a long rest.",
+    "components": {
+      "verbal": false,
+      "somatic": false,
+      "material": ""
+    },
+    "automation": null
+  },
+  {
+    "name": "The Feline Form",
+    "level": 0,
+    "school": "Unknown",
+    "casttime": "1 Action",
+    "range": "Self",
+    "duration": "Instantaneous",
+    "description": "*   **Night Eyes:** You gain Darkvision out to 120 feet, or extend your existing Darkvision by 60 feet.\n*   **Soundless:** You have a Climb Speed equal to your Speed and can move across ceilings and vertical surfaces without a check. You can take the Hide action as a Bonus Action even when only lightly obscured, and your first melee attack against a creature that cannot see you deals additional damage equal to your Martial Arts die.\n\n## Signature \u2014 Pounce (2 Primal Points)\n\n*   **Spring:** As part of your Attack action, leap up to 30 feet to a space you can see and make a melee attack on landing.\n*   **First Blood:** If you were Hidden or the target hasn't acted yet this combat, that strike is an automatic critical hit, and the target must succeed on a Strength saving throw against your save DC or fall Prone.\n\n## PL 25 \u2014 Feline Branches\n\nChoose one: The Ambusher, The Shadow, or The Ripper.\n\n### The Ambusher\n\n**Opener \u2014 Patient Blood:** You have advantage on attack rolls against any creature that hasn't taken a turn yet this combat, and against any creature that can't see you.\n\n**PL 30 \u2014 choose one:**\n\n*   **Held Breath:** Your Stealth checks cannot be reduced below your passive Wisdom (Perception) score, and moving at full Speed imposes no penalty on them.\n*   **Coiled:** You automatically win Initiative against any creature that has not detected you, acting before the first round begins.\n\n**PL 35 \u2014 choose one:**\n\n*   **Opening Salvo:** The first spell you cast in each combat is treated as though cast with a spell slot one level higher, and creatures that have not yet taken a turn have disadvantage on saving throws against it.\n*   **Second Spring:** If your Pounce reduces a creature to 0 Hit Points, you can immediately Pounce again at no cost.\n\n**PL 40 \u2014 Capstone: The First and Last Moment:** Once per Short or Long Rest, at the start of a combat in which no enemy has detected you, you take a free turn before Initiative is rolled. Pounce used on that turn costs nothing.\n\n### The Shadow\n\n**Opener \u2014 Vanish:** As a Bonus Action, spend 1 Primal Point to become Invisible until the end of your next turn or until you deal damage. When you end this invisibility by attacking, that attack scores a critical hit on a roll of 19\u201320.\n\n**PL 30 \u2014 choose one:**\n\n*   **Nowhere and Everywhere:** While Invisible, your Speed doubles and you leave no tracks, scent, or trace of passage.\n*   **Blur the Line:** When a creature misses you with an attack, you can spend 1 Primal Point to immediately become Invisible until the end of your next turn.\n\n**PL 35 \u2014 choose one:**\n\n*   **Gone Again:** Once per turn, when you reduce a creature to 0 Hit Points, you immediately become Invisible until the end of your next turn without spending a Primal Point.\n*   **Veiled Casting:** You can cast spells while Invisible without ending the invisibility, provided the spell deals no damage. Spells cast this way need no Verbal component.\n\n**PL 40 \u2014 Capstone: Never There At All:** Vanish costs no Primal Point and you can use it as a Free Action. Dealing damage no longer ends it; instead it ends at the start of your second turn after you deal damage, and you can renew it freely once it has ended.\n\n### The Ripper\n\n**Opener \u2014 Severing Claws:** When you score a critical hit with a melee attack, the target's Hit Point maximum is reduced by the damage dealt until it finishes a Long Rest, and it cannot regain Hit Points until the end of your next turn.\n\n**PL 30 \u2014 choose one:**\n\n*   **Wide Wound:** Your melee attacks score critical hits on a roll of 19\u201320.\n*   **Bleed:** A creature whose Hit Point maximum you reduced takes damage equal to your Martial Arts die at the start of each of its turns until it finishes a Short or Long Rest.\n\n**PL 35 \u2014 choose one:**\n\n*   **Tear:** On a critical hit, roll your Martial Arts dice three times instead of twice.\n*   **Withering Magic:** A creature whose Hit Point maximum you reduced has disadvantage on saving throws against your spells, and takes an extra Martial Arts die of damage from them.\n\n**PL 40 \u2014 Capstone: Nothing Heals:** A creature",
+    "components": {
+      "verbal": false,
+      "somatic": false,
+      "material": ""
+    },
+    "automation": null
+  },
+  {
+    "name": "The Masked Lord",
+    "level": 0,
+    "school": "Unknown",
+    "casttime": "1 Action",
+    "range": "Self",
+    "duration": "Instantaneous",
+    "description": "*   [Design Notes](#Design_Notes)\n*   [The Masked Lord Expanded Spells](#The_Masked_Lord_Expanded_Spells)\n*   [1st or 3rd Level - The Masks We Wear](#1st_or_3rd_Level_-_The_Masks_We_Wear)\n*   [6th Level - Gift of Shadow](#6th_Level_-_Gift_of_Shadow)\n*   [10th Level - Cloak of Shared Burdens](#10th_Level_-_Cloak_of_Shared_Burdens)\n*   [14th Level - The Unseen Hand](#14th_Level_-_The_Unseen_Hand)\n\n## Design Notes\n\nThis is intended to be a thematic and lore-accurate depiction of abilities, influences and blessings described in canon materials as being granted to various faiths, groups or members of organizations affiliated with The Masked Lord (in this case Vhaeraun-inspired)\n\n### Playstyle and Motivations\n\nThe Masked Lord excels at adaptability, infiltration, opportunistic combat, and deceptive utility. Its three Masks allow the warlock to shift between thief, warrior, and mage, while later features turn shadow, enemy attacks, and hostile magic into tools of their own.\n\n*   **Wear the Right Mask**: Adapt your skills and tactics to the task at hand through the Masks of the Thief, Warrior, and Mage.\n*   **Become the Perfect Instrument**: Approach problems as an operative rather than a specialist\u2014using stealth, weapons, magic, or cunning as circumstances demand.\n*   **Turn Strength Against Its Owner**: Redirect hostile attacks, steal enemy spells, and exploit aggression rather than meeting force with force.\n*   **Shape the Shadows**: Create useful equipment from shadowstuff and treat darkness as a tangible resource rather than simple concealment.\n*   **Act Through Subtlety**: Favor infiltration, positioning, preparation, deception, and precise intervention over overt displays of power.\n*   **Become the Unseen Hand**: Progress toward influencing the Material Plane from beyond its boundaries, acting where enemies struggle to reach you.\n\n### Who Would Thrive as a Masked Lord Warlock?\n\nThe subclass is ideal for players who want to:\n\n*   **Shift Roles Easily**: Move between infiltrator, combatant, investigator, and spellcaster depending on the mission.\n*   **Reward Creative Problem-Solving**: Use mundane tools, shadowcraft, positioning, and unusual applications of magic to overcome obstacles.\n*   **Play an Arcane Operative**: Blend rogue-like utility, martial capability, and warlock magic into the feel of a supernatural agent.\n*   **Exploit Opportunities**: React to enemy actions and changing battlefield conditions rather than relying on a single repeated tactic.\n*   **Counter Enemy Magic**: Capture and reuse hostile spells through Darkspell Mantle.\n*   **Remain Difficult to Predict**: Change your capabilities and approach so enemies cannot easily define your role or anticipate your methods.\n\n### Ideal Players and Characters\n\n*   \ud83c\udfad **The Master of Masks** \u2014 Enjoys changing tactics, identities, and roles to meet different challenges.\n*   \ud83d\udde1\ufe0f **The Shadow Operative** \u2014 Favors infiltration, espionage, sabotage, and practical problem-solving.\n*   \u265f\ufe0f **The Tactical Opportunist** \u2014 Watches the battlefield carefully and turns enemy actions into openings.\n*   \ud83d\udd76\ufe0f **The Arcane Counterspy** \u2014 Enjoys stealing, redirecting, and exploiting hostile magic.\n*   \ud83c\udf11 **The Shadow Adept** \u2014 Wants shadow to evolve from concealment into substance, tool, and eventually a means of transcending the Material Plane.\n*   \ud83e\udd8a **The Cunning Generalist** \u2014 Values versatility over specialization and wants a useful answer to many different kinds of challenges.\n\n**Core Philosophy**: Never be limited to what others believe you are. Change the mask, change the method, and make every strength your enemy reveals another tool in your hand.\n\n## The Masked Lord Expanded Spells\n\nYour connection to the Masked Lord grants you access to additional spells.\n\n| Spell Level | Spells |\n| --- | --- |\n| 1st | dissonant whispers, sleep |\n| 2nd | wristpocket, pass without trace |\n| 3rd | fast friends, haste |\n| 4th | greater invisibility, freedom of movement |\n| 5th | bigbey's hand, passwall |\n\nYou always know these spells, and they don't count against your warlock spells known. They",
+    "components": {
+      "verbal": false,
+      "somatic": false,
+      "material": ""
+    },
+    "automation": null
+  },
+  {
+    "name": "The Whetstone",
+    "level": 0,
+    "school": "Unknown",
+    "casttime": "1 Action",
+    "range": "Self",
+    "duration": "Instantaneous",
+    "description": "The Whetstone branches. At PL 25 you choose an **Edge**; at PL 29 and 33 you choose within it; at PL 37 your Edge gives its capstone. Each choice is permanent.\n\n## PL 21: Edged Thought\n\nYou alone may choose **Dexterity** as your Psionic Ability. A Soulknife's power was never seated in the intellect; it lives in the hand and the reflex.\n\n## Order Disciplines\n\nYour Order grants these two disciplines at PL 21. They don't count against the number of disciplines you know, and no other Order can learn them.\n\n### Edge of Thought\n\n\u25cb **Focus.** Your Psychic Blades don't vanish at the end of your turn, and you can manifest them again with no action.\n\n\u25cf **Whetted (3 psi) \u2014 Rider.** Once per turn when you hit with a blade, the target's Armor Class drops by 1 until the end of your next turn, stacking to 3.\n\n\u25cf\u25cf **Blade Chorus (7 psi) \u2014 Bonus Action.** Make one blade attack against each of up to three creatures within 5 ft of you.\n\n### Killing Silence\n\n\u25cb **Focus.** You have Advantage on Initiative, and a creature you damage can't speak, shout, or cast spells with verbal components until the end of your next turn.\n\n\u25cf **Unseen Edge (4 psi) \u2014 Bonus Action.** Until the end of your turn, your blade attacks against creatures that can't see you deal an extra 2d12 damage.\n\n\u25cf\u25cf\u25cf **The Quiet Between (12 psi) \u2014 Magic action.** One creature within 30 ft makes a Constitution save. On a failure it takes 12d12 Psychic damage and is Stunned until the end of your next turn. If this reduces it to 0 Hit Points, it falls without a sound and no other creature notices for 1 minute.\n\n## PL 21: Ascendant Blades\n\n*+4 Psionic Energy Dice, and you regain your Proficiency Bonus in them on a Short Rest.* Your Psychic Blades deal 1d12 Psychic damage, rising to 2d6 at PL 33, and gain the Light property.\n\n## PL 25: Choose an Edge (+2 dice)\n\n### The Thrown Edge\n\n*Range.* Your Psychic Blades' thrown range becomes 120/240 ft, and you can originate a thrown blade from any point within 30 ft of you.\n\n### The Close Edge\n\n*Melee.* Your blades gain the Nick property. When you hit with a blade in melee, you gain +1 AC until the start of your next turn, stacking up to +3.\n\n**Nick and Psychic Blades.** Your Soulknife's Bonus Action blade attack and the Light property's extra attack are **the same attack**, not two separate ones. Nick lets you make that attack as part of your Attack action instead of as a Bonus Action, once per turn. It does not grant an extra attack \u2014 what it buys you is your **Bonus Action back**, which on this class is the scarcest thing you have. It still uses the smaller blade die.\n\n### The Quiet Edge\n\n*Strategy.* When you deal Sneak Attack damage with your Psychic Blade, you can also deal Sneak Attack damage with the blade you use as a Bonus Action on the same turn. The Bonus Action blade uses half as many Sneak Attack dice, rounded down.\n\n**Note.** The Close Edge and the Quiet Edge don't combine \u2014 they're different branches, and you choose one at PL 25. A Quiet Edge Soulknife keeps the standard Bonus Action blade attack and gets a second helping of Sneak Attack from it; a Close Edge Soulknife gets Nick and can fold that attack into the Attack action, but has no second Sneak Attack to apply to it.\n\n## PL 29: Choose a Technique (+2 dice)\n\n### If you took the Thrown Edge\n\n*   **Splitting Throw.** When a thrown blade hits, it ricochets to a second creature within 30 ft of the first; make a separate attack roll against it.\n*   **Down the Blade.** You have no Disadvantage on thrown blade attacks at long range, and you deal an extra 1d12 damage to creatures at least 60 ft away.\n\n### If you took the Close Edge\n\n*   **Whirl.** When you take the Attack action, you can make one additional blade attack against a different creature within 5 ft of you.\n*   **Riposte.** When a creature within 5 ft misses you with an attack, you can use your Reaction to make one blade attack against it.\n\n### If you took the Quiet Edge\n\n*   **Mark the Opening.** As a Bonus Action, mark a creature within 60 ft. Until the end of your next turn, attacks against it by you or your allies have A",
+    "components": {
+      "verbal": false,
+      "somatic": false,
+      "material": ""
+    },
+    "automation": null
+  },
+  {
     "name": "Thought Forms",
     "level": 7,
     "school": "Transmutation",
@@ -986,6 +2663,135 @@
       "verbal": true,
       "somatic": true,
       "material": "(a gemstone worth at least 5,000gp, which the spell consumes)"
+    },
+    "automation": [
+      {
+        "type": "target",
+        "target": "self",
+        "effects": [
+          {
+            "type": "ieffect2",
+            "name": "Thought Forms",
+            "duration": 10,
+            "tick_on_caster": true,
+            "conc": true,
+            "attacks": [
+              {
+                "_v": 2,
+                "name": "Thought Forms \u2014 Area Effect",
+                "automation": [
+                  {
+                    "type": "target",
+                    "target": "each",
+                    "effects": [
+                      {
+                        "type": "ieffect2",
+                        "name": "Thought Forms",
+                        "conc": true,
+                        "duration": 10,
+                        "tick_on_caster": true
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "text",
+        "text": "Through carefully crafted thought projections and the transmutation of mental energies, you create a field of potentiality around you, exceeding your normal limitations. When you cast this spell you create 6 Thought Forms. You can consume these Thought Forms in a number of ways, granting additional benefits depending on your choice:\n\n*   When you or a friendly creature within 30 feet of you misses with an attack, you can consume any number of Thought Form. They gain a +2 bonus to the attack roll equal to the number of Thought Forms consumed, potentially turning the miss into a hit.\n*   Once per turn, when you or a friendly creature within 30 feet of you take the Attack action, you can consume 2 Thought Forms to allow them to make an additional attack as part of that same action.\n*   When you or a friendly creature within 30 feet of you take damage from an attack, you can consume any number of Thought Forms as a reaction, granting them 10 temporary hit points for each Thought Form consumed. These temporary hit points last until the start of your next turn.\n*   When you or a friendly creature within 30 feet of you fails a saving throw against a spell or magical effect, you can use your reaction to consume any number of your Thought Forms. They gain a +2 bonus to your saving throw for each Thought Form consumed, potentially turning the failure into a success.\n\nAs a bonus action on your turn, you can expend an unused spell slot to create a number of Thought Forms equal to the level of the spell slot expended, up to a maximum of 6."
+      }
+    ]
+  },
+  {
+    "name": "Thunderous Distortion",
+    "level": 0,
+    "school": "Evocation",
+    "casttime": "1 action",
+    "range": "Self (10-foot cone)",
+    "duration": "Instantaneous",
+    "description": "You produce a distorted wave of noise in a 10-foot cone, which can be heard up to 100 feet away. Each creature in that area must succeed on a Constitution saving throw or take 1d6 thunder damage.\n\nAn echo of this noise persists until the end of your next turn. If you cast this spell again before the end of your next turn, its damage dice become d8s instead of d6s.\n\nThis spell\u2019s damage increases by 1d6 when you reach 5th level (2d6), 11th level (3d6) and 17th level (4d6).",
+    "components": {
+      "verbal": true,
+      "somatic": true,
+      "material": ""
+    },
+    "automation": [
+      {
+        "type": "target",
+        "target": "all",
+        "effects": [
+          {
+            "type": "save",
+            "stat": "con",
+            "fail": [
+              {
+                "type": "damage",
+                "damage": "1d6[thunder]",
+                "cantripScale": true
+              }
+            ],
+            "success": []
+          }
+        ]
+      },
+      {
+        "type": "text",
+        "text": "You produce a distorted wave of noise in a 10-foot cone, which can be heard up to 100 feet away. Each creature in that area must succeed on a Constitution saving throw or take 1d6 thunder damage.\n\nAn echo of this noise persists until the end of your next turn. If you cast this spell again before the end of your next turn, its damage dice become d8s instead of d6s.\n\nThis spell\u2019s damage increases by 1d6 when you reach 5th level (2d6), 11th level (3d6) and 17th level (4d6)."
+      }
+    ]
+  },
+  {
+    "name": "Thuviel's Vindication",
+    "level": 7,
+    "school": "Enchantment",
+    "casttime": "1 action",
+    "range": "60 ft",
+    "duration": "up to 1 minute",
+    "description": "You place a curse on a creature that you can see within range, forcing them to make a Wisdom saving throw or be cursed for the duration. While cursed, you are aware of the target's surface thoughts and emotional state, and can communicate telepathically with them.\n\nOnce on each of your turns when you hit the target with an attack or they fail a saving throw against a spell or magical effect originating from you, it deals an additional 5d6 psychic damage in addition to its other effects, and you become **Vindicated**, gaining advantage on the next attack roll, saving throw, or ability check (your choice) you make before the end of your next turn.\n\nOnce on each of the target's turns when they miss you with an attack or you succeed on a saving throw against a spell or magical effect originating from them, it takes 5d6 psychic damage and they become **Discouraged**, gaining disadvantage on the next attack roll, saving throw, or ability check (your choice) they make before the end of their next turn.",
+    "components": {
+      "verbal": true,
+      "somatic": true,
+      "material": "a polished obsidian mirror worth at least 5,000 gp"
+    },
+    "automation": [
+      {
+        "type": "target",
+        "target": "each",
+        "effects": [
+          {
+            "type": "save",
+            "stat": "wis",
+            "fail": [
+              {
+                "type": "damage",
+                "damage": "5d6[psychic]"
+              }
+            ],
+            "success": []
+          }
+        ]
+      },
+      {
+        "type": "text",
+        "text": "You place a curse on a creature that you can see within range, forcing them to make a Wisdom saving throw or be cursed for the duration. While cursed, you are aware of the target's surface thoughts and emotional state, and can communicate telepathically with them.\n\nOnce on each of your turns when you hit the target with an attack or they fail a saving throw against a spell or magical effect originating from you, it deals an additional 5d6 psychic damage in addition to its other effects, and you become **Vindicated**, gaining advantage on the next attack roll, saving throw, or ability check (your choice) you make before the end of your next turn.\n\nOnce on each of the target's turns when they miss you with an attack or you succeed on a saving throw against a spell or magical effect originating from them, it takes 5d6 psychic damage and they become **Discouraged**, gaining disadvantage on the next attack roll, saving throw, or ability check (your choice) they make before the end of their next turn."
+      }
+    ]
+  },
+  {
+    "name": "Tidepiercer",
+    "level": 0,
+    "school": "Unknown",
+    "casttime": "1 Action",
+    "range": "Self",
+    "duration": "Instantaneous",
+    "description": "You gain a +3 bonus to attack and damage rolls with this magic weapon. Tidepiercer is a spellcasting focus for you.\n\n**Sapphire Ferocity**\n\nYou can add your Charisma modifier (minimum of +1) to the damage rolls of attacks you make with this weapon. This bonus is in addition to the normal ability modifier you add to the damage roll. It applies to each attack you make with Tidepiercer (including opportunity attacks), but not to damage dealt by spells.\n\n**Ribbon of the Pearl**\n\nWhile attuned, you always know the direction and distance to the nearest coastline. Once per dawn, spend 10 minutes using Tidepiercer to cast augury without material components; the omen appears as foam-light along the blade.\n\n**Sapphire Refrain**\n\nYou can weave brief, tide-kissed refrains into your inspiration. A number of times per short or long rest equal to your proficiency bonus, when a creature you can see rolls your Bardic Inspiration die or when you expend a die with Unsettling Words, you can invoke one of the following effects (no action):\n\n*   **Seafoam Step.** The inspired creature may move up to 10 feet. This movement can provoke opportunity attacks as normal.\n*   **Brineguard.** The inspired creature regains hit points equal to double your proficiency bonus.\n*   **Clear the Wake.** The inspired creature may end the charmed or frightened condition on itself.\n*   **Undercurrent (Unsettling Words only).** If the trigger was your Unsettling Words, you may instead choose the target of Unsettling Words. That creature can\u2019t make opportunity attacks until the start of your next turn.",
+    "components": {
+      "verbal": false,
+      "somatic": false,
+      "material": ""
     },
     "automation": null
   },
@@ -1041,13 +2847,91 @@
     "automation": null
   },
   {
+    "name": "Transmogrify",
+    "level": 8,
+    "school": "Illusion",
+    "casttime": "1 minute",
+    "range": "Touch",
+    "duration": "Until Dispelled",
+    "description": "You touch the item used as the spell's material component for the duration of the spellcasting, imbuing it with the illusion of another object. The target object then looks, feels, and otherwise takes on the cosmetic properties of any other item of your choosing of the same category or similar nature.\n\nFor example, you can cause a suit of armor to look like robes, a sword to look like a mace, etc.\n\nThe item retains all of its original statistics. If the item requires a part of itself for its normal function that would not be present in the illusion, that part is hidden while not in use.",
+    "components": {
+      "verbal": true,
+      "somatic": true,
+      "material": "a medium or smaller object"
+    },
+    "automation": [
+      {
+        "type": "target",
+        "target": "self",
+        "effects": [
+          {
+            "type": "interaction",
+            "buttons": [
+              {
+                "label": "Action: Inspect Illusion",
+                "style": "secondary",
+                "emoji": "\ud83d\udd0d",
+                "description": "Use your action to examine the Transmogrify. Roll Intelligence (Investigation) vs. spell save DC.",
+                "action": {
+                  "type": "ephemeral_check",
+                  "check": {
+                    "stat": "int",
+                    "skill": "investigation",
+                    "formula": "int_mod + proficiency_bonus",
+                    "vs": "{spell_dc}",
+                    "caster_ref": "spell_caster"
+                  },
+                  "on_success": {
+                    "type": "text",
+                    "title": "Illusion Discerned \u2014 Transmogrify",
+                    "text": "\u2705 **Success.** The creature sees through the illusion. The Transmogrify becomes faint and transparent to them.",
+                    "ephemeral": true,
+                    "notify_gm": true
+                  },
+                  "on_failure": {
+                    "type": "text",
+                    "title": "Illusion Holds \u2014 Transmogrify",
+                    "text": "\u274c **Failure.** The creature cannot discern the illusion from reality.",
+                    "ephemeral": true,
+                    "notify_gm": true
+                  }
+                }
+              }
+            ],
+            "persist_until": "combat_end"
+          }
+        ]
+      },
+      {
+        "type": "text",
+        "title": "Transmogrify",
+        "text": "*Illusion spell \u2014 GM adjudication required.*\n\nYou touch the item used as the spell's material component for the duration of the spellcasting, imbuing it with the illusion of another object. The target object then looks, feels, and otherwise takes on the cosmetic properties of any other item of your choosing of the same category or similar nature.\n\nFor example, you can cause a suit of armor to look like robes, a sword to look like a mace, etc.\n\nThe item retains all of its original statistics. If the item requires a part of itself for its normal function that would not be present in the illusion, that part is hidden while not in use.\n\nUse the **Action: Inspect Illusion** button to trigger an Investigation check against the caster's spell save DC."
+      }
+    ]
+  },
+  {
+    "name": "Trickster's Transposition",
+    "level": 3,
+    "school": "Conjuration",
+    "casttime": "1 action",
+    "range": "90 feet",
+    "duration": "Instantaneous",
+    "description": "*   **Casting Time**: 1 action\n*   **Range**: 90 feet\n*   **Components**: V, S, M (an object weighing less than 10 pounds and worth at least 1 sp)\n*   **Duration**: Instantaneous\n\n**Description**\n\nWhen you cast this spell, you present the object used as the material component. You magically twist space around that object, teleporting it to an unoccupied space within range. Alternatively, you can choose another target non-magical object you can see within range. Both the material component and the target object is teleported, swapping places. If the object is being worn or carried, the creature must succeed on a Strength or Dexterity (its choice) saving throw, negating the effects on a success.",
+    "components": {
+      "verbal": true,
+      "somatic": true,
+      "material": "an object weighing less than 10 pounds and worth at least 1 sp"
+    },
+    "automation": null
+  },
+  {
     "name": "True Awaken",
     "level": 0,
-    "school": "Unknown",
+    "school": "Transmutation",
     "casttime": "8 hours",
     "range": "Touch",
     "duration": "Instantaneous",
-    "description": "You awaken the mind of a creature, granting it sentience and self-awareness. Choose one non-hostile creature you touch.\n\nYou can have a number of creatures awakened by this spell equal to your spellcasting ability modifier (minimum of one). If casting this spell would exceed your limit, the creature awakened longest ago immediately loses all benefits of True Awaken.\n\n**Restrictions:**\n\nThis spell automatically fails if the target is summoned or maintained by a concentration spell, is planar bound, has Legendary Resistance, or has an Intelligence score of 10 or higher.\n\n**Effects:**\n\nIf the spell succeeds, the target\u2019s Intelligence becomes 10. The target gains the ability to understand one language you know and becomes capable of basic reasoning, learning, and self-awareness.\n\n**Limitations:**\n\nThis spell grants no combat benefits, proficiencies, spellcasting, or CR increases. It does not remove or alter magical control already affecting the creature, and it does not restore lost memories or identity.",
+    "description": "You awaken the mind of a creature, granting it sentience and self-awareness. Choose one non-hostile creature you touch.\n\nYou can have a number of creatures awakened by this spell equal to your spellcasting ability modifier (minimum of one). If casting this spell would exceed your limit, the creature awakened longest ago immediately loses all benefits of True Awaken.\n\n**Restrictions:**\n\nThis spell automatically fails if the target is summoned or maintained by a concentration spell, is planar bound, has Legendary Resistance, or has an Intelligence score of 10 or higher.\n\n**Effects:**\n\nIf the spell succeeds, the target\u2019s Intelligence becomes 10. The target gains the ability to understand one language you know and becomes capable of basic reasoning, learning, and self-awareness.\n\n**Limitations:**\n\nThis spell grants no combat benefits, proficiencies, spellcasting, or CR increases. It does not remove or alter magical control already affecting the creature, and it does not restore lost memories or identity.\n\n**Creation:**\n\nSpell is created by Momo's Character Daemos",
     "components": {
       "verbal": true,
       "somatic": true,
@@ -1067,6 +2951,21 @@
       "verbal": true,
       "somatic": true,
       "material": "rare oils and unguents worth at least 10,000 gp, which the spell consumes, and vial of willingly given blood from the race to be reincarnated into"
+    },
+    "automation": null
+  },
+  {
+    "name": "Undead Warlock 2024",
+    "level": 3,
+    "school": "Conjuration",
+    "casttime": "1 Action",
+    "range": "Self",
+    "duration": "Instantaneous",
+    "description": "You've made a pact with a deathless being, a creature that defies the cycle and life and death, forsaking its mortal shell so it might eternally pursue its unfathomable ambitions. For such beings, time and morality are fleeting things, the concerns of those for whom grains of sand still rush through life's hourglass. Having once been mortal themselves, these ancient undead know firsthand the paths of ambition and the routes past the doors of death. They eagerly share this profane knowledge, along with other secrets, with those who work their will among the living. Beings of this type include the demilich Acererak, the vampire tyrant Kas the Bloody-Handed, the githyanki lich-queen Vlaakith, the dracolich Dragotha, the undead pharaoh Ankhtepot, and the elusive Darklord, Azalin Rex.\n\n**Features:**\n\n*   [Expanded Spell List](#Expanded_Spell_List)\n*   [3rd Level - Form of Dread](#3rd_Level_-_Form_of_Dread)\n*   [6th Level - Grave Touched](#6th_Level_-_Grave_Touched)\n*   [10th Level - Necrotic Husk](#10th_Level_-_Necrotic_Husk)\n*   [Spirit Projection](#Spirit_Projection)\n\n## Expanded Spell List\n\n*3rd-level Undead feature*\n\nWhen you reach a Warlock level specified in the Undead Spells table, you thereafter always have the listed spells available and it doesn't count towards your amount of warlock spells known.\n\n## 3rd Level - Form of Dread\n\n*3rd-level Undead feature* You manifest an aspect of your patron's dreadful power. As a bonus action, you transform for 1 minute. You gain the following benefits while transformed:\n\n*   You gain temporary hit points equal to 1d10 + your warlock level.,\n*   Once during each of your turns, when you hit a creature with an attack roll, you can force it to make a Wisdom saving throw, and if the saving throw fails, the target is frightened of you until the end of your next turn.,\n*   You are immune to the frightened condition.,You can transform a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest. The appearance of your Form of Dread reflects some aspect of your patron. For example, your form could be a shroud of shadows forming the crown and robes of your lich patron, or your body might glow with glyphs from ancient funerary rites and be surrounded by desert winds, suggesting your mummy patron.\n\n## 6th Level - Grave Touched\n\n*6th-level Undead feature* Your patron's powers have a profound effect on your body and magic. You don't need to eat, drink, or breathe. In addition, once during each of your turns, when you hit a creature with an attack roll and roll damage against the creature, you can replace the damage type with necrotic damage. While you are using your Form of Dread, you can roll one additional damage die when determining the necrotic damage the target takes.\n\n## 10th Level - Necrotic Husk\n\n*10th-level Undead feature*\n\nYour connection to undeath and necrotic energy now saturates your body. You have resistance to necrotic damage. If you are transformed using your Form of Dread, you instead become immune to necrotic damage. In addition, when you would be reduced to 0 hit points, you can use your reaction to retore your hit points to twice your warlock level instead and cause your body to erupt with deathly energy. Each creature of your choice that is within 30 feet of you takes necrotic damage equal to 2d10 + your warlock level. You then gain 1 level of exhaustion. Once you use this reaction, you can't do so again until you finish 1d4 long rests.\n\n## Spirit Projection\n\nYour spirit can become untethered from your physical form. As an action, you can project your spirit from your body. The body you leave behind is unconscious and in a state of suspended animation. Your spirit resembles your mortal form in almost every way, replicating your game statistics but not your possessions. Any damage or other effects that apply to your spirit or physical body affects the other. Your spirit can remain outside your body for up to 1 hour. When your projection ends, your spirit returns to your body or your body magically teleports to your spirit's",
+    "components": {
+      "verbal": false,
+      "somatic": false,
+      "material": ""
     },
     "automation": null
   },
@@ -1203,7 +3102,25 @@
       "somatic": true,
       "material": ""
     },
-    "automation": null
+    "automation": [
+      {
+        "type": "target",
+        "target": "each",
+        "effects": [
+          {
+            "type": "ieffect2",
+            "name": "Weighted Weapon",
+            "duration": 600,
+            "tick_on_caster": true,
+            "conc": true
+          }
+        ]
+      },
+      {
+        "type": "text",
+        "text": "A weapon you touch becomes heavier on impact towards enemies. For the duration, the weapon becomes magical, if it isn't already, and deals one extra die of the weapon's damage die."
+      }
+    ]
   },
   {
     "name": "Withering Smite",

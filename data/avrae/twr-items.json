@@ -1,8 +1,8 @@
 {
   "_meta": {
-    "generated": "2026-07-13T10:34:51.792Z",
+    "generated": "2026-10-27T14:16:20.156Z",
     "source": "The Wandering Handbook — Phase 11",
-    "total_items": 200
+    "total_items": 239
   },
   "items": [
     {
@@ -50,6 +50,17 @@
       "source_url": "https://the-wandering-realm.fandom.com/wiki/Alchemist's_Soothing_Tea"
     },
     {
+      "slug": "alchemists-soothing-tea",
+      "name": "Alchemist's Soothing Tea",
+      "type": "Wondrous",
+      "subtype": "Consumable",
+      "rarity": "uncommon",
+      "requires_attunement": false,
+      "description": "When measuring and balancing the herbal specimens \\[Devil's Bloodleaf leaves and Phorus Blossom nectar\\] needed to make this tea, 2d4 + 2 bags of magical tea can be created with each 'batch'. You can steep a bag of tea for 1 minute in a cup of boiling water to transform the water into a rich, flavorful tea that calms the nerves and revitalizes the spirit. When you drink a cup of the hot tea, you gain 2d6 + 2 temporary hit points. In addition, you may roll with advantage on saving throws caused by any effect causing you to be charmed or frightened for 10 minutes. You can drink the tea using an action, although it's most commonly finished over the course of at least 1 minute. If the tea has been left to cool \\[10 minutes+\\] before you drink it, you regain only half the amount of temporary hit points, and no other benefits are present.",
+      "automation": null,
+      "source_url": "https://the-wandering-realm.fandom.com/wiki/Alchemist's_Soothing_Tea"
+    },
+    {
       "slug": "alchemy-blade",
       "name": "Alchemy Blade",
       "type": "Weapon",
@@ -78,7 +89,7 @@
       "subtype": null,
       "rarity": "rare",
       "requires_attunement": false,
-      "description": "This wondrous, arcane-fueled stone bearing the power rune, can be fitted to any tiny object, this process takes an hour to complete. Once the item is complete the item becomes a weapon that can only be thrown. The weapon has the following properties:\n\n**Thrown:** (20/40),\n\n**Damage:** 1d6\\[magical bludgeoning\\]\n\nThe item appears normal but can be detected using spells like detect magic. It uses your Dexterity or Strength modifier for attack and damage rolls.\n\n**Invoking the Rune.**  When you make an attack with the item and hit, it deals an additional 2d6 force damage to the target. Any creature or object within 5 feet of the impact must make a DC 13 Dexterity saving throw. On a failed save, they take 3d6 force damage and are pushed back 10 feet from the point of impact. On a successful save, they take half damage and are not pushed back.\n\nOnce the rune has been invoked, it can't be invoked again until the next dawn.\n\n[](/img/wiki/hexcore.png)\n\n\n\nIf the attack misses, it will travel to max thrown range and can be picked up and used.",
+      "description": "This wondrous, arcane-fueled stone bearing the power rune, can be fitted to any tiny object, this process takes an hour to complete. Once the item is complete the item becomes a weapon that can only be thrown. The weapon has the following properties:\n\n**Thrown:** (20/40),\n\n**Damage:** 1d6\\[magical bludgeoning\\]\n\nThe item appears normal but can be detected using spells like detect magic. It uses your Dexterity or Strength modifier for attack and damage rolls.\n\n**Invoking the Rune.**  When you make an attack with the item and hit, it deals an additional 2d6 force damage to the target. Any creature or object within 5 feet of the impact must make a DC 13 Dexterity saving throw. On a failed save, they take 3d6 force damage and are pushed back 10 feet from the point of impact. On a successful save, they take half damage and are not pushed back.\n\nOnce the rune has been invoked, it can't be invoked again until the next dawn.\n\n[](/img/wiki/hexcore.png)\n\n[](/docs/file:hexcore.png)\n\nIf the attack misses, it will travel to max thrown range and can be picked up and used.",
       "automation": null,
       "source_url": "https://the-wandering-realm.fandom.com/wiki/Arcane_Core"
     },
@@ -127,7 +138,29 @@
       "source_url": "https://the-wandering-realm.fandom.com/wiki/Arcanist's_Magnificent_Magnifier"
     },
     {
+      "slug": "arcanists-magnificent-magnifier",
+      "name": "Arcanist's Magnificent Magnifier",
+      "type": "Wondrous",
+      "subtype": null,
+      "rarity": "rare",
+      "requires_attunement": false,
+      "description": "This magical magnifying glass helps deduce the arcane nature of items. While looking through the glass at an object within 1 foot of you, your proficiency bonus is doubled for any Intelligence (Arcana) or Intelligence (Investigation) check you make regarding that object’s magical properties if your proficiency bonus is not doubled already. In addition, you can speak the glass’s command word as an action to cast the \"identify\" spell from it, targeting an object with the spell that you can see through the glass within 1 foot of you. Each time you do, there is a cumulative 5 percent chance that the glass shatters and is destroyed after casting the spell.",
+      "automation": null,
+      "source_url": "https://the-wandering-realm.fandom.com/wiki/Arcanist's_Magnificent_Magnifier"
+    },
+    {
       "slug": "archivist's-tome",
+      "name": "Archivist's Tome",
+      "type": "Wondrous",
+      "subtype": null,
+      "rarity": "uncommon",
+      "requires_attunement": false,
+      "description": "The pages in this tome are crafted so they never run out. When the user fills up the pages within the tome, the book automatically creates new, blank pages. The older pages are automatically erased from the pages and stored, and the contents will reappear on command.",
+      "automation": null,
+      "source_url": "https://the-wandering-realm.fandom.com/wiki/Archivist's_Tome"
+    },
+    {
+      "slug": "archivists-tome",
       "name": "Archivist's Tome",
       "type": "Wondrous",
       "subtype": null,
@@ -160,7 +193,29 @@
       "source_url": "https://the-wandering-realm.fandom.com/wiki/Arrow's_Reach_Talisman"
     },
     {
+      "slug": "arrows-reach-talisman",
+      "name": "Arrow's Reach Talisman",
+      "type": "Wondrous",
+      "subtype": null,
+      "rarity": "uncommon",
+      "requires_attunement": true,
+      "description": "While attuned to this talisman, your ranged weapon attacks no longer suffer disadvantage at long range. This is not limited to bows, but also affects crossbows, spears, javelins, daggers, etc.",
+      "automation": null,
+      "source_url": "https://the-wandering-realm.fandom.com/wiki/Arrow's_Reach_Talisman"
+    },
+    {
       "slug": "artificer's-blueprint",
+      "name": "Artificer's Blueprint",
+      "type": "Wondrous",
+      "subtype": null,
+      "rarity": "uncommon",
+      "requires_attunement": false,
+      "description": "This item appears as a rolled-up scroll of blue parchment paper with white gridlines at regular intervals. When unfurled, a creature holding it may use an action and envision a creature, landscape, or anything they can think of the blueprint projects a three-dimensional illusion of the thing envisioned as a rough sketch of lines, tracing the contours and edges of the item. The illusion can be freely tampered with through intuitive hand gestures, such as enlarging or reducing, rotating and turning. Changing the illusion itself requires a bonus action. The illusion lasts for 10 minutes starting from the time it was left inactive or deactivated with a bonus action. A creature has advantage on the check (if needed) when creating or constructing something according to the blueprint (DM's discretion).\n\nThe extent of the detail the illusion has is limited, it appears as white lines, and grants the observer no knowledge they otherwise wouldn't have, such as the inner workings of a specific lock they have not disassembled.",
+      "automation": null,
+      "source_url": "https://the-wandering-realm.fandom.com/wiki/Artificer's_Blueprint"
+    },
+    {
+      "slug": "artificers-blueprint",
       "name": "Artificer's Blueprint",
       "type": "Wondrous",
       "subtype": null,
@@ -285,7 +340,7 @@
       "name": "Bladed Cestus",
       "type": "Weapon",
       "subtype": null,
-      "rarity": "unknown",
+      "rarity": "mundane",
       "requires_attunement": false,
       "description": "Proficiency with a cestus allows you to add your proficiency bonus to the attack roll for any attack you make with it.\n\nSpecial: As a bonus action, you can make one attack with this weapon.",
       "automation": null,
@@ -391,6 +446,17 @@
       "source_url": "https://the-wandering-realm.fandom.com/wiki/Bottle_of_Storing"
     },
     {
+      "slug": "bow-of-four",
+      "name": "Bow of Four",
+      "type": "Weapon",
+      "subtype": "Longbow",
+      "rarity": "very rare",
+      "requires_attunement": true,
+      "description": "This white longbow is set with four gemstones: a ruby, an emerald, a sapphire, and a diamond. Attacks with this longbow deal 2d8 damage instead of 1d8. When you make an attack with this longbow, you can conjure an elemental arrow as part of the attack. Using an elemental arrow changes the damage type of the attack.\n\nArrow of Air. On a hit, the arrow of air deals lightning damage.\n\nArrow of Earth. On a hit, the arrow of earth deals magical bludgeoning damage.\n\nArrow of Fire. On a hit, the arrow of fire deals fire damage.\n\nArrow of Water. On a hit, the arrow of water deals cold damage.",
+      "automation": null,
+      "source_url": "https://the-wandering-realm.fandom.com/wiki/Bow_of_Four"
+    },
+    {
       "slug": "bow-of-silence",
       "name": "Bow of Silence",
       "type": "Weapon",
@@ -404,7 +470,7 @@
     {
       "slug": "bulwark",
       "name": "Bulwark",
-      "type": "Armor",
+      "type": "Other",
       "subtype": null,
       "rarity": "unknown",
       "requires_attunement": false,
@@ -428,7 +494,7 @@
       "name": "Cestus",
       "type": "Weapon",
       "subtype": null,
-      "rarity": "unknown",
+      "rarity": "mundane",
       "requires_attunement": false,
       "description": "Proficiency with a cestus allows you to add your proficiency bonus to the attack roll for any attack you make with it. Special: As a bonus action, you can make one attack with this weapon.",
       "automation": null,
@@ -439,7 +505,7 @@
       "name": "Chakram",
       "type": "Weapon",
       "subtype": null,
-      "rarity": "unknown",
+      "rarity": "mundane",
       "requires_attunement": false,
       "description": "30gp, 3lbs. --- d4 slashing - finesse, light, thrown (10/30),\n\nDescription\n\nProficiency with a chakram allows you to add your proficiency bonus to the attack roll for any attack you make with it. On a missed throw, a chakram returns to the thrower's hand.\n\n**Finesse**: When making an attack with a finesse weapon, you use your choice of your Strength or Dexterity modifier for the attack and damage rolls. You must use the same modifier for both rolls.\n\n**Light**: A light weapon is small and easy to handle, making it ideal for use when fighting with two weapons.\n\n**Thrown**: If a weapon has the thrown property, you can throw the weapon to make a ranged attack. If the weapon is a melee weapon, you use the same ability modifier for that attack roll and damage roll that you would use for a melee attack with the weapon. For example, if you throw a handaxe, you use your Strength, but if you throw a dagger, you can use either your Strength or your Dexterity, since the dagger has the finesse property.",
       "automation": null,
@@ -523,11 +589,22 @@
       "source_url": "https://the-wandering-realm.fandom.com/wiki/Channeler's_Clay"
     },
     {
+      "slug": "channelers-clay",
+      "name": "Channeler's Clay",
+      "type": "Wondrous",
+      "subtype": null,
+      "rarity": "uncommon",
+      "requires_attunement": true,
+      "description": "This is a glob of discolored clay that you apply to a weapon you're proficient with. While wielding the applied weapon, you gain a bonus to spell attack rolls and to saving throw DCs of your channeler spells. This bonus is determined by the clay's rarity. In addition, you can regain 1 ante as an action while wielding the applied weapon. You can't use this property again until you finish a long rest.",
+      "automation": null,
+      "source_url": "https://the-wandering-realm.fandom.com/wiki/Channeler's_Clay"
+    },
+    {
       "slug": "claw-caps",
       "name": "Claw caps",
       "type": "Weapon",
       "subtype": null,
-      "rarity": "unknown",
+      "rarity": "mundane",
       "requires_attunement": false,
       "description": "*5gp, 1 lbs. --- 1d4 Slashing - Finesse, Light, Nick*\n\n**Finesse:** When making an attack with a finesse weapon, you use your choice of your Strength or Dexterity modifier for the attack and damage rolls. You must use the same modifier for both rolls.\n\n**Light:** A light weapon is small and easy to handle, making it ideal for use when fighting with two weapons.\n\n**Special:** Claw Caps can be fitted over a creature's natural weapons as an action changing it's base statistics and properties to match that of the natural weapon it is fitted over, it then gains a new weapon mastery depending on the natural weapon's damage type:\n\n*   Bludgeoning: Topple\n*   Piercing: Sap\n*   Slashing: Vex\n\n*Natural Weapons with Claw Caps cannot be used to make unarmed strikes.*",
       "automation": null,
@@ -554,6 +631,17 @@
       "description": "The Cloak of Levitation is one of many items imbued with power to sustain magics that practitioners of the mystic arts cannot. While you wear this cloak, you have a fly speed equal to your walking speed. If you fall while in the air when wearing this cloak, you descend at a rate of 30 feet per round until you land, taking no fall damage. If you are not wearing armor, your base Armor Class is 13 + your Dexterity modifier while wearing this cloak. When a melee attack made against you would reduce you to 20 points or lower, you can use your reaction to have the cloak fly off of your shoulders and immediately attempt a grapple against the attacker. The cloak counts as a medium sized creature for the purposes of grappling and has a +8 modifier to Strength (Athletics) checks made to grapple. If the the grapple is successful the attacker also gains the Blinded condition for the duration of the grapple. As a bonus action you may call the cloak back to you if it is within 60 feet.\n\nWhen targeted by an attack or by a feature that forces a Dexterity saving throw, you may use your reaction to have the cloak take the brunt of the attack, transferring half of the damage you take to the cloak. Once the cloak is used this way, it cannot be used to fly until the next dawn. Additionally, this property cannot be used again until the next dawn.",
       "automation": null,
       "source_url": "https://the-wandering-realm.fandom.com/wiki/Cloak_of_Levitation"
+    },
+    {
+      "slug": "cloaks-of-the-platinum-ward",
+      "name": "Cloaks of the Platinum Ward",
+      "type": "Other",
+      "subtype": null,
+      "rarity": "legendary",
+      "requires_attunement": true,
+      "description": "## Lore: The Answering Gift\n\nWhen word first reached the temples of Bahamut that the Cult of the Dragon had gathered five masks of chromatic power — one for each of the Dragon Queen’s brood — the Platinum Dragon’s clergy did not counsel the forging of five masks in reply. A mask hides the face. A mask makes the wearer into the dragon it depicts, and swallows the name beneath it. The cult’s champions had been happy to disappear into their masks. Bahamut’s would not.\n\nSo the Talons of Justice, that old and stubborn order of dragon knights, asked instead for cloaks. A cloak is worn openly. A cloak is a thing given, thrown over the shoulders of someone who has been recognized, and it leaves the wearer’s face bare to be seen and answered for. The petition was carried to the Monastery of the Yellow Rose and from there, by means no chronicle records plainly, into the presence of the Platinum Father himself.\n\nBahamut consented, but not alone. Five of his metallic children came to the anvil — gold, silver, bronze, copper, and brass — and each gave something of itself: a shed scale, a breath held in a stoppered horn, a drop of blood, a memory, a laugh. Bahamut set his own power over the working like a hand over a candle flame, and what came off the anvil were five mantles of woven metal, each light as a summer cloth and each carrying a fragment of the draconic soul that had answered the call.\n\nHe laid one condition on the gift, and the condition is the whole of its purpose. The cloaks cannot be combined. Where the cult’s masks could be gathered into a single crown for a single tyrant, the Platinum Ward was made to resist exactly that: the mantles cannot be merged, reforged, nested, or fused by any magic yet found, and no creature may be attuned to more than one of them at a time. Tiamat’s power concentrates. Bahamut’s distributes. Five champions, five names, five reasons to stand — and if one falls, four remain, and the cloak of the fallen will find another shoulder.\n\nThe Talons hold that this is why the Ward has never been broken. A cabal can be beheaded. A conspiracy of five friends who each hold one fifth of a weapon and none of the whole is a harder thing to unmake.\n\nEach cloak also carries the last clause of its making, spoken by Bahamut over the finished work and known to every wearer the moment the clasp closes: stand always against the Dragon Queen. No wearer has ever needed the words explained.\n\n## Wearing the Cloaks\n\nThe following applies to all five Cloaks of the Platinum Ward.\n\n***Sized to the Wearer.*** The cloak reshapes itself to fit any creature Small, Medium, or Large that attunes to it, and cannot be damaged by ordinary means.\n\n***One Mantle, One Champion.*** You can’t be attuned to more than one Cloak of the Platinum Ward at a time. If you attempt it, the second attunement fails and you take no benefit from either cloak until you finish a long rest.\n\n***Singular.*** There is only ever one of each of the five cloaks, and their magic cannot be replicated, copied, or reproduced by any craft or spell.\n\n***Unjoinable.*** The cloaks cannot be combined, merged, reforged, or made into any other item, by any means. Attempts to do so fail, and the cloak is unharmed by the attempt.\n\n***Anathema to the Masks.*** A Cloak of the Platinum Ward and a Mask of the Dragon Queen cannot be borne by the same creature. If you are attuned to one, you can’t attune to the other, and while you carry both, the two items physically repel each other — clasps refuse to close, straps slip free, and the mask will not seat against the face of a cloaked wearer. Held forcibly together, they shed sparks of gold and black smoke and can’t be made to touch. No power short of a god has yet compelled them to share a wearer.\n\n***The Cloak’s Urging.*** The cloak is not sentient. It cannot speak, plan, or be reasoned with. But something of the dragon that gave its scale remains in the weave, and it leans. A wearer finds the merciful choice arriving in their mind a moment before the ruthless one, feels a reluctance they can’t quite source when they co…",
+      "automation": null,
+      "source_url": "https://the-wandering-realm.fandom.com/wiki/Cloaks_of_the_Platinum_Ward"
     },
     {
       "slug": "cloud-in-a-bottle",
@@ -622,6 +710,17 @@
       "source_url": "https://the-wandering-realm.fandom.com/wiki/Conspirator's_Coat"
     },
     {
+      "slug": "conspirators-coat",
+      "name": "Conspirator's Coat",
+      "type": "Wondrous",
+      "subtype": null,
+      "rarity": "rare",
+      "requires_attunement": true,
+      "description": "This magic longcoat is adorned with raven feathers and carved jet buttons. While wearing this coat, you have advantage on Charisma (Deception) checks. Inaddition, the coat has 5 charges and regains 1d4 + 1 expended charges daily at dusk. While wearing the coat, you can use a bonus action to expend 1 of its charges to disappear, releasing up to three ravens from your location under your control that scatters into the air. Each raven has AC 12, 1 hit point, and can fly up to 40 feet as part of this bonus action without provoking opportunity attacks. At the start of your next turn, the ravens vanish, and you reappear in the space of one of the ravens (your choice).\n\nIf all the ravens are reduced to 0 hit points, you reappear early in the same space as the last one that died. When you do, any excess damage dealt to the raven carries over to your normal form.",
+      "automation": null,
+      "source_url": "https://the-wandering-realm.fandom.com/wiki/Conspirator's_Coat"
+    },
+    {
       "slug": "container-of-heat-and-frost",
       "name": "Container of Heat and Frost",
       "type": "Wondrous",
@@ -655,11 +754,22 @@
       "source_url": "https://the-wandering-realm.fandom.com/wiki/Courier's_Cradle"
     },
     {
+      "slug": "couriers-cradle",
+      "name": "Courier's Cradle",
+      "type": "Wondrous",
+      "subtype": null,
+      "rarity": "very rare",
+      "requires_attunement": false,
+      "description": "*A Couriers Cradle needs two pieces to have any sort of effect. A Sending Stone, and a Couriers Cradle. Without both components it has no function.* A Courier's Cradle consists of three parts. A chassis, typically squared and made of polished stone, granite, or marble for particularly wealthy folk. A basin sat in the cubed bottom, around half a foot wide and typically filled with water. And lastly a bowl mounted over the basin, made of rare material such as gemstone, brass, or pure quartz. While a creature is within 5 feet of a cradle, it may place a sending stone into it's bowl. It then takes a minute to fasten and adjust the cradle for speaking. After this process is complete the cradle is assembled.\n\nConnection A creature may connect to another Courier's Cradle within a distance of up to the plane they exist according to the following difficulties, using an Intelligence (Arcana) check. If another Cradle is connected to this one, they establish a line of communication. This allows each to hear from the other side as if they were in the same room.\n\n\n\n| Distance (Miles) | DC |\n| --- | --- |\n| 5 | 10 |\n| 50 | 15 |\n| 200 | 20 |\n| Planar | 25 |",
+      "automation": null,
+      "source_url": "https://the-wandering-realm.fandom.com/wiki/Courier's_Cradle"
+    },
+    {
       "slug": "craorag-dromlach",
       "name": "Craorag Dromlach",
       "type": "Weapon",
-      "subtype": null,
-      "rarity": "unknown",
+      "subtype": "spear",
+      "rarity": "legendary",
       "requires_attunement": true,
       "description": "*The spear once used by the Storm Maiden of Norland, Hergatha, was said to be lost following her ultimate defeat during her efforts to conquer the Sea of Swords. It was written to have been bestowed by Tempus, but rumors whisper that it was actually bestowed to her by Valkur.*\n\nYou gain a +3 bonus to attack and damage rolls made with this magic weapon. In addition, the weapon ignores resistance to piercing damage.",
       "automation": null,
@@ -721,11 +831,22 @@
       "source_url": "https://the-wandering-realm.fandom.com/wiki/Designated_Mage's_Rifle"
     },
     {
+      "slug": "designated-mages-rifle",
+      "name": "Designated Mage's Rifle",
+      "type": "Weapon",
+      "subtype": "Musket",
+      "rarity": "varies",
+      "requires_attunement": true,
+      "description": "This magical firearm is designed for use in magical combat. Due to this fact, a spellcaster can use the weapon as their spellcasting focus. You gain a +1/2/3 bonus to attack and damage rolls made with this magical weapons, and the same bonus to spell attack rolls you make while holding this weapon. When you cast a spell using this weapon as your spellcasting focus, your next attack made with the weapon uses your spellcasting ability instead of dexterity. Additionally, if the spell deals damage, the weapon's damage type changes to that of the spell.",
+      "automation": null,
+      "source_url": "https://the-wandering-realm.fandom.com/wiki/Designated_Mage's_Rifle"
+    },
+    {
       "slug": "double-bladed-scythe",
       "name": "Double-Bladed Scythe",
       "type": "Weapon",
       "subtype": null,
-      "rarity": "unknown",
+      "rarity": "mundane",
       "requires_attunement": false,
       "description": "Proficiency with a double-bladed scythe allows you to add your proficiency bonus to the attack roll for any attack you make with it.",
       "automation": null,
@@ -787,6 +908,17 @@
       "source_url": "https://the-wandering-realm.fandom.com/wiki/Dugger's_Tome"
     },
     {
+      "slug": "duggers-tome",
+      "name": "Dugger's Tome",
+      "type": "Wondrous",
+      "subtype": null,
+      "rarity": "rare",
+      "requires_attunement": false,
+      "description": "A Dugger's Tome is a large leather bound book. Each tome can only be used once by placing it on any book, as soon as it touches the other book, the Tome will become an exact replica of the copied book, and the copied book now has a magical aura of conjuration magic, whatever happens to one book will likewise happen to the other if both are on the same plane (Words written, water spilled, pages torn etc)\n\nIt was originally created to sync libraries and records across long distances but was later adapted by spies and criminal for espionage.",
+      "automation": null,
+      "source_url": "https://the-wandering-realm.fandom.com/wiki/Dugger's_Tome"
+    },
+    {
       "slug": "elemental-weapon",
       "name": "Elemental Weapon",
       "type": "Weapon",
@@ -813,11 +945,22 @@
       "name": "Enduring Scabbard",
       "type": "Wondrous",
       "subtype": null,
-      "rarity": "unknown",
+      "rarity": "common",
       "requires_attunement": false,
       "description": "While a sword is within the scabbard, the blade can't be damaged by fire or rusted by water. In addition, the scabbard preserves the current sharpness of the blade ensuring it never dulls while sheathed.",
       "automation": null,
       "source_url": "https://the-wandering-realm.fandom.com/wiki/Enduring_Scabbard"
+    },
+    {
+      "slug": "eternal-chalk",
+      "name": "Eternal Chalk",
+      "type": "Wondrous",
+      "subtype": null,
+      "rarity": "common",
+      "requires_attunement": false,
+      "description": "A stick of Eternal Chalk never breaks or wears down during use.\n\nWhen writing or drawing with this chalk, you choose the color of its marks and whether they emit a faint glow.\n\nAny marks you make with this chalk cannot be wiped away, washed out, or erased for 7 days by anyone except you.\n\nIf the chalk ever becomes the sole target of \"Dispel Magic\" or another magical effect intended to leave it permanently inert, it instead crumbles to dust, marks it has produced cease glowing, fade to a dull grey, and are no longer protected from erasure.",
+      "automation": null,
+      "source_url": "https://the-wandering-realm.fandom.com/wiki/Eternal_Chalk"
     },
     {
       "slug": "eye-of-the-bookworm",
@@ -844,7 +987,7 @@
     {
       "slug": "failnaught",
       "name": "Failnaught",
-      "type": "Other",
+      "type": "Ammunition",
       "subtype": null,
       "rarity": "legendary",
       "requires_attunement": false,
@@ -862,6 +1005,28 @@
       "description": "This halberd was owned by a great king whose name is long forgotten who reigned from a kingdom that has long been destroyed. Its old but strangely robust body has scattered dents and damage from all around. In contrast, both the point and blade remain seamless and sharp against all the roughness of use and wear it has experienced.",
       "automation": null,
       "source_url": "https://the-wandering-realm.fandom.com/wiki/Fallen_King's_Halberd"
+    },
+    {
+      "slug": "fallen-kings-halberd",
+      "name": "Fallen King's Halberd",
+      "type": "Weapon",
+      "subtype": "halberd",
+      "rarity": "legendary",
+      "requires_attunement": true,
+      "description": "This halberd was owned by a great king whose name is long forgotten who reigned from a kingdom that has long been destroyed. Its old but strangely robust body has scattered dents and damage from all around. In contrast, both the point and blade remain seamless and sharp against all the roughness of use and wear it has experienced.",
+      "automation": null,
+      "source_url": "https://the-wandering-realm.fandom.com/wiki/Fallen_King's_Halberd"
+    },
+    {
+      "slug": "false-razor",
+      "name": "False Razor",
+      "type": "Weapon",
+      "subtype": "greataxe",
+      "rarity": "artifact",
+      "requires_attunement": true,
+      "description": "Forged from the remains of the nightmare known as False Razor, this alien weapon still hungers for life. False Razor has three forms, retaining all previous properties as it advances.\n\nThis weapon must be obtained in Chult from beating a Trial of Orolunga.\n\n**Form I — Base Form**\n\n+3 Weapon. You gain a +3 bonus to attack and damage rolls made with False Razor.\n\nDamage. On a hit, False Razor deals:\n\n1d12 slashing + 2d6 piercing + 1d8 necrotic + Strength modifier + 3\n\n*   **Siphoning Edge.** Whenever you hit a creature with False Razor, you regain 1d4 hit points. If you are already at your hit point maximum, you instead gain 1d4 temporary hit points.\n\n**Form II — Mind Splitter**\n\nAs a bonus action, choose one creature within 30 feet. It must make a DC 20 Constitution saving throw.\n\nFailure: The creature is stunned until the end of its next turn.\n\nSuccess: The creature takes 2d6 psychic damage, and its speed is halved until the end of its next turn.\n\nYou can use Mind Splitter a number of times equal to your Constitution modifier (minimum 1) per long rest.\n\nUnlock: Complete a solo quest and kill a CR 25+ creature.\n\n**Form III — Existence Rend**\n\nOnce per turn when you damage a creature with False Razor, you can force it to make a DC 23 Constitution saving throw.\n\nOn a failure, its hit point maximum is reduced by 3d4. This reduction can reduce a creature’s maximum HP to 0.\n\nUnlock: Complete another solo quest, kill another CR 25+ creature, and personally kill a level 20+ good-aligned humanoid.\n\n**Sentience**\n\n**Alignment**: Neutral Evil\n\nINT 16 | WIS 14 | CHA 18\n\nFalse Razor has hearing and darkvision out to 120 feet and communicates telepathically with its wielder.\n\nIt speaks, reads, and understands Common, Abyssal, and Tabaxi.\n\nFalse Razor is patient, predatory, and fascinated by killing. It has a particular hatred for Blackrazor, desiring the death of any creature wielding it and ultimately the destruction of Blackrazor itself.\n\nCurse — The Razor’s Hunger\n\nOnce attuned, the wielder cannot willingly part with False Razor or end their attunement.\n\nWhenever the wielder attempts a long rest, roll 1d3. On a 1, False Razor compels them to abandon the rest and seek out something to kill.\n\n**Breaking the Curse.** The curse can only be broken by the attuned wielder using Wish specifically to sever their bond with False Razor.\n\nDoing so permanently destroys False Razor. No other spell or effect can end the attunement or remove the curse.",
+      "automation": null,
+      "source_url": "https://the-wandering-realm.fandom.com/wiki/False_Razor"
     },
     {
       "slug": "fey-duelist",
@@ -886,11 +1051,22 @@
       "source_url": "https://the-wandering-realm.fandom.com/wiki/Fighter's_Band"
     },
     {
+      "slug": "fighters-band",
+      "name": "Fighter's Band",
+      "type": "Wondrous",
+      "subtype": null,
+      "rarity": "uncommon",
+      "requires_attunement": true,
+      "description": "This finely detailed band can be a ring, bracelet, necklace or anklet. While wearing it, you gain a bonus to the saving throw DCs of your fighter features. The bonus is determined by the band's rarity.\n\nIn addition, when you use your *Second Wind* feature, you can regain additional hit points equal to 1d10 + half your fighter level. You can't use this feature again until the next dawn.",
+      "automation": null,
+      "source_url": "https://the-wandering-realm.fandom.com/wiki/Fighter's_Band"
+    },
+    {
       "slug": "final-messenger",
       "name": "Final Messenger",
       "type": "Wondrous",
       "subtype": null,
-      "rarity": "unknown",
+      "rarity": "uncommon",
       "requires_attunement": false,
       "description": "Wondrous item, uncommon (requires use by a warforged)\n\nA final messenger is a tiny homunculus—a delicate winged creature designed to facilitate communication between warforged soldiers during the Last War.If you are a warforged, you can use an action to hold a final messenger and integrate it into your body. While it is part of your body, the messenger cannot be targeted by any attack. You can only have one messenger attached to your body at a time.\n\nA final messenger holds four pieces of data, accessible only to the warforged it is attached to:\n\n*   A destination for the messenger. This can be very specific (a particular apartment in Sharn) or more general (an open marketplace).\n*   A target individual. This could be a specific person or a category (“Any Karrnathi warforged”).\n*   A single image recorded through the eyes of a warforged attached to the messenger.\n*   A message of up to 25 words.\n\nWhile the messenger is attached to you, you can use an action to review the data currently stored within the final messenger, and if you choose, to change any or all of these data points. You can release the final messenger as a bonus action, at which point it flies to its destination by the most direct route possible. Once it reaches the destination it seeks the target individual; if no target has been set, it approaches the nearest warforged.\n\nIf you are reduced to 0 hit points while a final messenger is attached to you, it immediately detaches and seek out its target. It retains its stored message, but replaces its stored image with the last thing you saw before dropping to zero hit points.\n\nA final messenger is a Tiny construct with an AC of 20, 6 hit points, and a flying speed of 60 feet. It is immune to poison damage, psychic damage, and all conditions other than unconsciousness. If it is forced to make an ability check or a saving throw, treat all its ability scores as 10 (+0). It has darkvision with a range of 60 feet. It has no limbs and the only action it can take on its turn is the Dash action. A messenger can only remain active for 8 hours after it detaches from a warforged body, after which time its energy dissipates and it falls unconscious. An unconscious messenger must complete a short or long rest attached to a warforged, after which it regains its energy, as well as regaining all lost hit points.",
       "automation": null,
@@ -899,7 +1075,7 @@
     {
       "slug": "flame-cartridge",
       "name": "Flame Cartridge",
-      "type": "Weapon",
+      "type": "Ammunition",
       "subtype": null,
       "rarity": "uncommon",
       "requires_attunement": false,
@@ -919,6 +1095,28 @@
       "source_url": "https://the-wandering-realm.fandom.com/wiki/Flameburst_Devastator"
     },
     {
+      "slug": "flashfingers",
+      "name": "Flashfingers",
+      "type": "Wondrous",
+      "subtype": null,
+      "rarity": "varies",
+      "requires_attunement": true,
+      "description": "These magical gloves allow you to throw objects at astounding speeds. When you make a ranged weapon attack using a non-magical thrown weapon, the weapon gains a bonus to attack and damage rolls and is considered magical for the purposes of overcoming resistance and immunity to non-magical damage. The bonus depends on this item’s rarity.\n\nAdditionally, if you attack with a thrown weapon with advantage, you deal one additional weapon damage die in addition to the weapon’s normal damage.\n\n+1 : Uncommon\n\n+2 : Rare\n\n+3 : Very Rare",
+      "automation": null,
+      "source_url": "https://the-wandering-realm.fandom.com/wiki/Flashfingers"
+    },
+    {
+      "slug": "focusing-crystal",
+      "name": "Focusing Crystal",
+      "type": "Wondrous",
+      "subtype": null,
+      "rarity": "very rare",
+      "requires_attunement": false,
+      "description": "A crystal for focusing magical energies for use in weapons. Such crystals can be inserted into weapons with the \\[Battery X\\] property, and will continue to supply them power until destroyed.\n\nIt takes an action to insert or remove a Focusing Crystal from a weapon.",
+      "automation": null,
+      "source_url": "https://the-wandering-realm.fandom.com/wiki/Focusing_Crystal"
+    },
+    {
       "slug": "fortune's-shadow",
       "name": "Fortune's Shadow",
       "type": "Other",
@@ -930,13 +1128,24 @@
       "source_url": "https://the-wandering-realm.fandom.com/wiki/Fortune's_Shadow"
     },
     {
+      "slug": "forward-battalion",
+      "name": "Forward Battalion",
+      "type": "Weapon",
+      "subtype": "glaive",
+      "rarity": "legendary",
+      "requires_attunement": true,
+      "description": "This magic glaive has tattered remains of a banner from the base of its blade and coiled around its shaft. The color and symbol have long faded and forgotten but whose task still persists. This weapon feels heavier than it looks to the wielder. Some say the banner appears at moments when the glaive is swung, showing the vibrant colors it once had. You have a +2 bonus to attack rolls made with this weapon. You also gain the following abilities.",
+      "automation": null,
+      "source_url": "https://the-wandering-realm.fandom.com/wiki/Forward_Battalion"
+    },
+    {
       "slug": "frostflames-of-the-north",
       "name": "Frostflames of the North",
       "type": "Wondrous",
       "subtype": "torch",
       "rarity": "very rare",
       "requires_attunement": true,
-      "description": "The torch, whose wood carry no magical properties, brings an icy blue flame that defied the very essence of warmth but still possess its comfort and reliability. This torch provides bright light in a 20-foot radius and dim light for an additional 20 feet much like normal torches except this is unimpeded by effects caused by cold environments and instead overcomes them (i.e., instead of being subjected to a heavily obscuring blizzard, you and those around you are able to see with ease within this torch's light). Creatures within its light's range are free from the effects of extreme heat. If you make a melee attack with this lit torch and hit, it deals 1 cold damage. If the flames are in contact to a body of water, it will slowly freeze the water within its light's range.\n\n\nYou can freely decrease the size of the flame and the light it makes to an inch in diameter and revert it back, but it cannot be completely snuffed out. You can transfer it to another torch and leave the previous holder as a mundane torch.\n\nIf this torch is held by a creature that does not have resistance or immunity to cold damage, they will take 1 cold damage every minute until they drop this torch.\n\nThe blue flame has 6 charges. While holding the torch, you can use an action to expend 1 charge to blow on the fires to cast the cone of cold spell (save DC 17; you can choose whether each creature makes a Constitution or Dexterity saving throw) from it. Each expended charge makes the flames smaller and smaller. If you expend the last charge, the flames and light it produces will only be 1 inch in diameter and will stay in that size. The blue flame regains 1 charge daily at dawn, as well as increase in size bit by bit.",
+      "description": "The torch, whose wood carry no magical properties, brings an icy blue flame that defied the very essence of warmth but still possess its comfort and reliability. This torch provides bright light in a 20-foot radius and dim light for an additional 20 feet much like normal torches except this is unimpeded by effects caused by cold environments and instead overcomes them (i.e., instead of being subjected to a heavily obscuring blizzard, you and those around you are able to see with ease within this torch's light). Creatures within its light's range are free from the effects of extreme heat. If you make a melee attack with this lit torch and hit, it deals 1 cold damage. If the flames are in contact to a body of water, it will slowly freeze the water within its light's range.\n\n  \nYou can freely decrease the size of the flame and the light it makes to an inch in diameter and revert it back, but it cannot be completely snuffed out. You can transfer it to another torch and leave the previous holder as a mundane torch.\n\nIf this torch is held by a creature that does not have resistance or immunity to cold damage, they will take 1 cold damage every minute until they drop this torch.\n\nThe blue flame has 6 charges. While holding the torch, you can use an action to expend 1 charge to blow on the fires to cast the cone of cold spell (save DC 17; you can choose whether each creature makes a Constitution or Dexterity saving throw) from it. Each expended charge makes the flames smaller and smaller. If you expend the last charge, the flames and light it produces will only be 1 inch in diameter and will stay in that size. The blue flame regains 1 charge daily at dawn, as well as increase in size bit by bit.",
       "automation": null,
       "source_url": "https://the-wandering-realm.fandom.com/wiki/Frostflames_of_the_North"
     },
@@ -944,8 +1153,19 @@
       "slug": "gambler's-weapon",
       "name": "Gambler's Weapon",
       "type": "Weapon",
-      "subtype": null,
-      "rarity": "unknown",
+      "subtype": "any weapon",
+      "rarity": "rare",
+      "requires_attunement": true,
+      "description": "Choose a magical bonus of +1 to +3. This weapon gains that bonus to its attack and damage rolls. For each point of bonus you choose for the weapon, you take a corresponding penalty (−1 to −3) to your death saving throws. You can change this magical bonus each day at dawn.",
+      "automation": null,
+      "source_url": "https://the-wandering-realm.fandom.com/wiki/Gambler's_Weapon"
+    },
+    {
+      "slug": "gamblers-weapon",
+      "name": "Gambler's Weapon",
+      "type": "Weapon",
+      "subtype": "any weapon",
+      "rarity": "rare",
       "requires_attunement": true,
       "description": "Choose a magical bonus of +1 to +3. This weapon gains that bonus to its attack and damage rolls. For each point of bonus you choose for the weapon, you take a corresponding penalty (−1 to −3) to your death saving throws. You can change this magical bonus each day at dawn.",
       "automation": null,
@@ -1095,6 +1315,17 @@
       "source_url": "https://the-wandering-realm.fandom.com/wiki/Homebrew_System_&_Index"
     },
     {
+      "slug": "homebrew-system--index",
+      "name": "Homebrew System & Index",
+      "type": "Other",
+      "subtype": null,
+      "rarity": "unknown",
+      "requires_attunement": false,
+      "description": "## How to Homebrew\n\nIn The Wandering Realms, we allow homebrew. Homebrew get approved in the server on a dual voting system. Any Player can submit homebrew in the #homebrew-ua-submissions Channel. Each homebrew submission follows the same method:\n\n1.  A Player Creates a Post in the #homebrew-ua-submissions channel. They Ping @homebrewer in the post. And react on the post with a 1 and 2.\n2.  Players then vote on the submission by reacting.\n    1.  Yes\n    2.  No\n3.  Once the Submission reaches 10 Yes votes, the submission is moved to homebrew-ua-approver-votes where a team of staff members will either approve or deny the homebrew, if after a month a submission doesn't reach 10 votes, it gets denied.\n\nSome Rules:\n\n1.  A Player is allowed one submission per week. Unless their submission get's approved by staff, in which case they can submit another.\n2.  #homebrew-ua-submissions is reserved for submissions only. Players can discuss or query active homebrew in #homebrew-ua-discussion.\n\n\nWhen submitting Homebrew, a player can declare an item to be invented, or otherwise created by one or multiple characters. The creation or access to that Homebrew is then restricted to those with the same in-character access to it. In order to maintain this restriction, the actual creation must be roleplayed within a reasonable timeframe of the item's passing (no people rushing to craft an item the minute it passes before a person can rp)\n\nie: a wizard sharing a spell they created with another; an inventor selling items or sharing designs\n\n**Discord Lists:**\n\nItems:\n\n*   **Armors:**\n    *   /wiki title:Homebrew Item List: Armors section:# Mundane\n    *   /wiki title:Homebrew Item List: Armors section:# Rare\n    *   /wiki title:Homebrew Item List: Armors section:# Very Rare\n    *   /wiki title:Homebrew Item List: Armors section:# Legendary\n\n*   **Weapons:**\n    *   /wiki title:Homebrew Item List: Weapons section:# Mundane\n    *   /wiki title:Homebrew Item List: Weapons section:# Common\n    *   /wiki title:Homebrew Item List: Weapons section:# Uncommon\n    *   /wiki title:Homebrew Item List: Weapons section:# Rare\n    *   /wiki title:Homebrew Item List: Weapons section:# Very Rare\n    *   /wiki title:Homebrew Item List: Weapons section:# Legendary\n\n*   **Wondrous:**\n    *   /wiki title:Homebrew Item List: Wondrous section:# Common\n    *   /wiki title:Homebrew Item List: Wondrous section:# Uncommon\n    *   /wiki title:Homebrew Item List: Wondrous section:# Rare\n    *   /wiki title:Homebrew Item List: Wondrous section:# Very Rare\n    *   /wiki title:Homebrew Item List: Wondrous section:# Legendary\n    *   /wiki title:Homebrew Item List: Wondrous section:# Various\n\n## Homebrew Index\n\n*   [Blessings](/docs/category:homebrew-blessings \"category:homebrew blessings\")\n*   [Boons](/docs/category:homebrew-boons \"category:homebrew boons\")\n*   [Classes](/docs/category:homebrew-classes \"category:homebrew classes\")\n*   [Feats](/docs/category:homebrew-feats \"category:homebrew feats\")\n*   [Items](/docs/category:homebrew-items \"category:homebrew items\")\n*   [Playable Races](/docs/category:homebrew-playable-races \"category:homebrew playable races\")\n*   [Spells](/docs/category:homebrew-spells \"category:homebrew spells\")\n*   [Subclasses](/docs/category:homebrew-subclasses \"category:homebrew subclasses\")\n*   [Optional Class Features](/docs/category:optional-class-features \"category:optional class features\")",
+      "automation": null,
+      "source_url": "https://the-wandering-realm.fandom.com/wiki/Homebrew_System_&_Index"
+    },
+    {
       "slug": "impact-cannon",
       "name": "Impact Cannon",
       "type": "Weapon",
@@ -1121,7 +1352,7 @@
       "name": "Kusarigama",
       "type": "Weapon",
       "subtype": "martial",
-      "rarity": "unknown",
+      "rarity": "mundane",
       "requires_attunement": false,
       "description": "**Special",
       "automation": null,
@@ -1134,7 +1365,7 @@
       "subtype": "Pistol",
       "rarity": "very rare",
       "requires_attunement": true,
-      "description": "This pistol feeds off of its users vitality, but can provide great assistance in their hour of need.\n\n\nYou gain a +1 bonus to attack and damage rolls with this magic weapon. Every time you attack with this weapon, you take 2 necrotic damage that cannot be reduced in any way. Additionally while you are below 25 hit points, all targets are vulnerable to the piercing damage dealt by this weapon.\n\n\nIf you are reduced to 0 hit points or die from causes other than this weapon's self damage, you are revived with 1 hit point at the start of your next turn. During this turn, the weapon does not require your hit points to attack, but you die at the end of your turn. Once the weapon has revived you, it cannot do so again until the next dawn.",
+      "description": "This pistol feeds off of its users vitality, but can provide great assistance in their hour of need.\n\n  \nYou gain a +1 bonus to attack and damage rolls with this magic weapon. Every time you attack with this weapon, you take 2 necrotic damage that cannot be reduced in any way. Additionally while you are below 25 hit points, all targets are vulnerable to the piercing damage dealt by this weapon.\n\n  \nIf you are reduced to 0 hit points or die from causes other than this weapon's self damage, you are revived with 1 hit point at the start of your next turn. During this turn, the weapon does not require your hit points to attack, but you die at the end of your turn. Once the weapon has revived you, it cannot do so again until the next dawn.",
       "automation": null,
       "source_url": "https://the-wandering-realm.fandom.com/wiki/Last_Stand_Handgun"
     },
@@ -1176,7 +1407,7 @@
       "name": "Long Bo Staff",
       "type": "Weapon",
       "subtype": null,
-      "rarity": "unknown",
+      "rarity": "mundane",
       "requires_attunement": false,
       "description": "Proficiency with a Long Bo-Staff allows you to add your proficiency bonus to the attack roll for any attack you make with it.",
       "automation": null,
@@ -1187,7 +1418,7 @@
       "name": "Lucerne Hammer",
       "type": "Weapon",
       "subtype": null,
-      "rarity": "unknown",
+      "rarity": "mundane",
       "requires_attunement": false,
       "description": "A pole hammer designed for armored combat, or cracking the thick hides of monsters. Counts as both a hammer and a polearm.",
       "automation": null,
@@ -1198,7 +1429,7 @@
       "name": "Luminite Armor",
       "type": "Armor",
       "subtype": "Heavy",
-      "rarity": "unknown",
+      "rarity": "non-lootable",
       "requires_attunement": false,
       "description": "Armor infused with the essence of stars. A suit of luminite armor holds with it the power to boost it's wearers abilities across a spectrum of focuses. When luminite armor is made, it can come in one of the following forms, which determines it's properties:\n\n*   Solar - While wearing this magical armor, you have a +3 bonus to your armor class, and resistance to fire damage. Your melee weapon attacks deal an additional 1d8 fire damage, and have a +1 bonus to hit. The armor has three charges, and regains all charges daily at dawn. When a creature hits you with a melee attack, you can expend one charge as a reaction to halve the damage, and cause the attacking creature to take fire damage equal to the reduction.\n*   Vortex - While wearing this magical armor, you have a +2 bonus to your armor class, and resistance to lightning damage. Your ranged weapon attacks deal an additional 1d6 lightning damage, and have a +2 bonus to hit. The armor has three charges, and regains all charges daily at dawn. As a bonus action, you can expend one charge to become invisible until you move. Attacking does not break your invisibility.\n*   Nebula - While wearing this magical armor, you are considered to be proficienct with it even if you lack proficiency with heavy armor, and you are resistant to psychic damage. Your spell attacks have a +3 bonus to hit. The armor has three charges, and regains all charges daily at dawn. As an action, you can expend one charge to gain one of the following effects for one minute:\n    *   Regeneration - you regain 5 hit points at the start of each of your turns.\n    *   Power - each of your spells gains a 2d8 bonus to one damage roll.\n    *   Mana - When you cast a spell of 3rd level or lower, roll a d6. If the result is greater than the level of the spell, you do not expend a spell slot.\n*   Stardust - While wearing this magical armor, you are considered to be proficient with it even if you lack proficiency with heavy armor, and you are resistant to cold damage. Creatures you summon through class features or spells gain a +3 bonus to attack and damage rolls. The armor has three charges, and regains all charges daily at dawn. When you summon a creature throigh a class feature or spell, you can expend one charge to summon one additional creature. This creature lasts only half as long, or for one hour in the case of indefinite durations.",
       "automation": null,
@@ -1274,8 +1505,8 @@
       "slug": "maul-of-unbridled-rage",
       "name": "Maul of Unbridled Rage",
       "type": "Weapon",
-      "subtype": null,
-      "rarity": "unknown",
+      "subtype": "maul",
+      "rarity": "legendary",
       "requires_attunement": true,
       "description": "You have a +3 bonus to attack and damage rolls made with this magic weapon.\n\nSeething with unbridled rage and untamable anger this weapon was made to force enemies to their breaking point. This magic weapon reacts to the rage pouring out of barbarians and uses their anger to their advantage. While raging this weapon deals an additional 3d6 force damage when you hit an enemy.",
       "automation": null,
@@ -1297,7 +1528,7 @@
       "name": "Millwood Giantbow",
       "type": "Weapon",
       "subtype": null,
-      "rarity": "unknown",
+      "rarity": "mundane",
       "requires_attunement": false,
       "description": "When making an attack with this weapon, you use your Strength modifier for the attack and damage rolls. You must use the same modifier for both rolls.\n\nThe arrows used by this weapon costs 1000 gp (Items that create ammunition still require 1000 gp, gold is magically disappeared from your characters pouch, magic knows all).",
       "automation": null,
@@ -1308,7 +1539,7 @@
       "name": "Millwood Greatbow",
       "type": "Weapon",
       "subtype": null,
-      "rarity": "unknown",
+      "rarity": "mundane",
       "requires_attunement": false,
       "description": "When making an attack with this weapon, you use your Strength modifier for the attack and damage rolls. You must use the same modifier for both rolls.",
       "automation": null,
@@ -1359,6 +1590,17 @@
       "source_url": "https://the-wandering-realm.fandom.com/wiki/Night_Reaver"
     },
     {
+      "slug": "nindo-of-the-iron-fist",
+      "name": "Nindo of the Iron Fist",
+      "type": "Other",
+      "subtype": null,
+      "rarity": "unknown",
+      "requires_attunement": false,
+      "description": "## Description:\n\n\n## Level 3 - Initiation\n\n**Nindo Jutsu**.\n\nAt certain levels you learn jutsu from your Shinobi Nindo, you always know these Jutsu and they do not count against your total known jutsu.\n\n\n\n| Rank | Jutsu | Learn Level |\n| --- | --- | --- |\n| D | Lion Combo | 3rd |\n| C | Shadow of the Dancing Leaf | 5th |\n| B | Leaf Great Whirlwind | 8th |\n\n\n\n**Fighting Style Options:** You must choose a Fighting Style suitable for a close-quarters brawler. Choose one from:\n\n*   Unarmed Fighting\n*   Dueling\n*   Defense\n\n**Master Weapon Discipline:** You designate one Master Weapon from the following options: Unarmed Strike, Club (Nunchaku), Dagger, Sickle, Shortsword, Scimitar, Kusarigama or Dart.\n\n*   **Master Property:** You can use the master Property of your Master Weapon. If you choose unarmed strikes as your master weapon, it gains the Push master property.\n\n**Gate of Opening:**\n\nYou gain access to the first stage of the legendary Eight Gates. As a Bonus Action, you can open the Gate of Opening for 1 minute (opening your gates costs no Chakra). While active, your movement speed increases by 10 feet, and your attacks with your Master Weapon deal an additional 1d4 Force damage. You can open your gates a number of times equal to your Constitution modifier (minimum of once), regaining all expended uses when you finish a Long Rest\n\n**Higher Gates:**\n\nAs you unlock higher Jutsu Ranks, you can open deeper gates whenever you open your gates, gaining each gate’s benefit cumulatively.\n\n*   Second Gate — Healing (C-Rank, 5th level): you have Advantage on Strength checks and Strength saving throws.\n*   Third Gate — Life (B-Rank, 8th level): your gate Force damage increases to 1d6.\n*   Fourth and Fifth Gates — Pain and Limit (A-Rank, 13th level): your gate speed bonus increases to 20 feet and your gate Force damage increases to 1d8 (4th Gate) or 1d10 (5th Gate).\n*   Sixth Gate — Joy (S-Rank, 17th level): your Master Weapon attacks gain an additional 5 feet of reach.\n\nWhen your gates close, you take 1d10 damage for each gate you opened beyond the first; this damage cannot be reduced or prevented.\n\n## Level 7 - Weight Drop\n\nYou master physical movement, making you a highly mobile and resilient skirmisher.\n\n*   **Iron Conditioning:** You can take the Dash or Disengage action as a Bonus Action on your turn.\n*   **Weight Drop:** Your jumping distances are tripled. Additionally, when you fall, you can use your Reaction to reduce any falling damage you take by an amount equal to five times your Shinobi level.\n\n## Level 15 - Morning Peacock\n\nYou have attained such mastery over rapid Taijutsu that your attacks move with explosive speed, allowing you to bypass typical action limits.\n\n*   **The Third Punch:** When you take the Attack action on your turn, you can make three attacks instead of two.\n*   **Explosive Blows:** When you hit a creature three times with your Master Weapon in a single turn, the target takes an extra 3d6 Fire damage from the explosive friction created by your speed.\n\n## Level 20 - Eight Gates Release: Gate of Death (Capstone)\n\nYou puncture the cardiac pressure point, unleashing the red vapor of your burning blood to gain power that rivals the gods, at the cost of your own life force.\n\n**Activation:** As a Bonus Action, you can open the Eighth Gate. You enter the Gate of Death Mode for 1 minute, or until you are reduced to 0 Hit Points.\n\nWhile this mode is active, you gain the following benefits:\n\n*   **God-Like Speed:** When you take the Attack action on your turn, you can make five attacks instead of two.\n*   **Pressure Strikes:** Your melee weapon attacks gain an additional 10 feet of reach, striking enemies with air pressure alone.\n*   **Overwhelming Power:** On a hit, your melee weapon attacks deal an additional 2d10 Force damage.\n*   **Unrestrained Chakra:** The Chakra cost for all Taijutsu and Bukijutsu you cast is halved (rounded down, minimum of 1).\n\n**The Cost:**\n\n*   **Burning Life:** You cannot regain Hit Points by any means while this mode is active.\n*   **Inevitable Decay:** At the end of each of yo…",
+      "automation": null,
+      "source_url": "https://the-wandering-realm.fandom.com/wiki/Nindo_of_the_Iron_Fist"
+    },
+    {
       "slug": "occult-seal",
       "name": "Occult Seal",
       "type": "Wondrous",
@@ -1390,6 +1632,28 @@
       "description": "For a period of 2d4 hours after you drink this potion, any mundane inanimate object you name will materialize in your hand for 1-minute as a sentient, uncooperative version of itself. This materialized sentient object will be capable of speaking any languages you are proficient in. This potion takes the form of an indigo-colored, effervescent liquid that pours like water.",
       "automation": null,
       "source_url": "https://the-wandering-realm.fandom.com/wiki/Phial_of_Petulant_Peculiarities"
+    },
+    {
+      "slug": "planar-chisel",
+      "name": "Planar Chisel",
+      "type": "Wondrous",
+      "subtype": "Legendary",
+      "rarity": "legendary",
+      "requires_attunement": true,
+      "description": "You can cast plane shift and demiplane once per day each, without material components. When you cast demiplane using this item, you may expand a demiplane you previously created with it instead of creating a new one. Each expansion permanently increases its size by one additional 30-foot cube. While inside a demiplane created by this item, you can use an action to reshape nonliving aspects of it (terrain, structures, lighting, temperature, and harmless sensory effects). You can’t create creatures or duplicate spell effects without casting spells normally.",
+      "automation": null,
+      "source_url": "https://the-wandering-realm.fandom.com/wiki/Planar_Chisel"
+    },
+    {
+      "slug": "portable-accelerator-cannon",
+      "name": "Portable Accelerator Cannon",
+      "type": "Weapon",
+      "subtype": "Firearm",
+      "rarity": "rare",
+      "requires_attunement": true,
+      "description": "**Requires Attunement**\n\nA heavy weapon that utilizes high concentrations of lightning magic to accelerate heavy metal rods at super sonic speeds.\n\nThe weapon has a range of 400 feet, and it has the following properties: two-handed, ammunition (firearms), ultra-heavy, reload (1). It deals 8d8 piercing damage on a hit.\n\nAttacks with this weapon cannot be made as part of the attack action. Instead, as an action on your turn you can target a 1 foot wide, 400 foot long line, which then becomes the weapon's target area. At the start of your next turn, the weapon fires, automatically hitting the first target within the weapon's target area. Once the weapon has been aimed, you cannot move or be moved, and the trajectory cannot be adjusted until the weapon fires.\n\n**Siege Engine:** This weapon deals double damage to objects and structures.",
+      "automation": null,
+      "source_url": "https://the-wandering-realm.fandom.com/wiki/Portable_Accelerator_Cannon"
     },
     {
       "slug": "powderkeg",
@@ -1458,6 +1722,28 @@
       "source_url": "https://the-wandering-realm.fandom.com/wiki/Raven's_Claw_Crossbow"
     },
     {
+      "slug": "ravens-claw-crossbow",
+      "name": "Raven's Claw Crossbow",
+      "type": "Weapon",
+      "subtype": "crossbow, heavy",
+      "rarity": "rare",
+      "requires_attunement": true,
+      "description": "You have a +1 bonus to attack and damage rolls made with this magic weapon.\n\nWith a bonus action you can deploy or retract the stand system.\n\nWhen the stand is deployed you gain advantage on your attack rolls made by this weapon. But as a result you can't make any movement, or you lose the bonus.",
+      "automation": null,
+      "source_url": "https://the-wandering-realm.fandom.com/wiki/Raven's_Claw_Crossbow"
+    },
+    {
+      "slug": "reapers-kusarigama",
+      "name": "Reaper’s Kusarigama",
+      "type": "Weapon",
+      "subtype": "Kusarigama",
+      "rarity": "very rare",
+      "requires_attunement": true,
+      "description": "Based on the Scythe of Reaping, this Kusarigama is adorned by grotesque engravings of tragedy, and has an obsidian lining running the length of the kusari blade, along with depictions of mass graves on the kama. Within crafting, death of any living creature must take place, each being slain with one section of the weapon before the magic may be imbued within it.\n\nOnce per turn when you hit a creature with this Kusarigama, it gains a stack of reap, which lasts until its next short or long rest. Once per turn, this weapon deals an additional 1d6 necrotic damage for every stack of reap the target has. A target may have a maximum of 5 stacks of reap. A target looses all stacks of reap if it is targeted by greater restoration, heal, or a similar restorative magic.\n\nWhen a target with at least 1 stack of reap is reduced to zero hit points with this weapon, you gain 5 temporary hit points for each stack of reap the target had.",
+      "automation": null,
+      "source_url": "https://the-wandering-realm.fandom.com/wiki/Reaper’s_Kusarigama"
+    },
+    {
       "slug": "reaper’s-kusarigama",
       "name": "Reaper’s Kusarigama",
       "type": "Weapon",
@@ -1482,13 +1768,24 @@
     {
       "slug": "red-powder",
       "name": "Red Powder",
-      "type": "Other",
+      "type": "Flask",
       "subtype": null,
-      "rarity": "unknown",
+      "rarity": "mundane",
       "requires_attunement": false,
       "description": "Also referred to as thermite in other settings, red powder is a volatile mixture of iron and aluminum powders. It burns rapidly and at extremely high temperatures, though it is not an explosive.\n\nA single flask can be emptied and contains enough powder to cover one square foot. It can then be ignited, where it burns for 1 round, shedding bright light in a 30 foot radius and dim light for an additional 30 feet. The powder can burn or melt away a single tiny non-magical item that it remains in contact with while burning.\n\nAs an action, you can recollect or brush away red powder that is yet to be ignited. Once ignited, the powder sticks to the surface and can no longer be removed until it burns away.\n\nA creature that touches red powder, or starts its turn touching red powder, while it is burning takes 4d8 fire damage, that ignores a target's resistance to fire damage.",
       "automation": null,
       "source_url": "https://the-wandering-realm.fandom.com/wiki/Red_Powder"
+    },
+    {
+      "slug": "regalia-of-the-ruby-court",
+      "name": "Regalia of the Ruby Court",
+      "type": "Other",
+      "subtype": null,
+      "rarity": "legendary",
+      "requires_attunement": true,
+      "description": "## Lore: What the Ruby Dragon Wanted\n\nSardior did not enter the war between his creators, and he was never asked to. That was the injury. Tiamat forged masks and the world spoke of them for a hundred years. Bahamut answered with cloaks and the world spoke of those for a hundred more. In all that talk there was no line, not one, about the Ruby Dragon — who is older than the quarrel, who rules a palace of gemstone that drifts through the night sky, and who has never in his existence been anyone’s second choice.\n\nSo he made five things of his own, and he made them for the opposite reason. A mask conceals its wearer. A cloak covers them. Sardior made jewelry, which exists for one purpose only: to be looked at. He gave the pieces no oath, no enemy, no cause. He did not ask them to stand against anything. He asked them to be noticed, and to make certain that whoever wore them was noticed too.\n\nThe five gem dragons contributed as the metallics and chromatics had, though the accounts differ on how willingly. An amethyst gave a shard from a torc it had worn as an arbiter of disputes; a crystal gave a night’s worth of swallowed starlight; an emerald gave a secret it had held for eight hundred years and would not miss; a sapphire gave a piece of its hoard-wall, cut from the stone of a fortress it had held alone; a topaz gave nothing and had something taken. Sardior set them in gold in his own workshop in the Ruby Palace, and when they were finished he looked at them for a long while and did not give them away.\n\nThat is the part the chroniclers find funny and the wearers do not. The Regalia was never sent to champions. It escaped. The pieces left the Ruby Palace one at a time over the centuries — by theft, by wager, by gift to a favorite who was later forgotten — and each has since passed through more hands than anyone can count, because each is worth a kingdom and none of them wants to stay anywhere it has already been admired.\n\nThere was a sixth setting on the workbench. It is empty in every description that survives, and it was cut for a stone the size of a fist. Sardior intended, when the Regalia had made a sufficient noise in the world, to wear the last piece himself. He was scattered before he got to it. The Regalia has been looking for its sixth ever since, and it is not particular about whose brow it ends up on.\n\n## Wearing the Regalia\n\nThe following applies to all five pieces of the Regalia of the Ruby Court.\n\n***Sized to the Wearer.*** The piece adjusts itself to fit any creature Small, Medium, or Large that attunes to it, and cannot be damaged by ordinary means.\n\n***Singular.*** There is only ever one of each of the five pieces, and their magic cannot be replicated, copied, or reproduced by any craft or spell.\n\n***Unjoinable.*** The pieces cannot be combined, merged, reset, or made into any other item, by any means. Not one of them will surrender its own shape to become part of a greater whole, and attempts to force the matter fail without harming the piece.\n\n***Worn to Be Seen.*** A piece grants none of its benefits while it is concealed. It must be worn openly, over clothing and outside armor, in plain view of anyone facing you. Covering it with a cloak, a glove, a helm, or an illusion suspends every benefit until it is uncovered.\n\n***Rival Ornaments.*** Unlike the masks and the cloaks, the Regalia will share a wearer — Sardior saw no reason to deny himself. But each piece expects to be the one anyone notices first. While you are attuned to more than one piece of the Regalia, you have disadvantage on Dexterity (Stealth) checks and on Wisdom (Insight) checks, and you can’t take the Hide action while any Regalia piece is uncovered.\n\n***Indifferent to the Quarrel.*** The Regalia has no opinion about Tiamat or Bahamut and imposes no conditions on your conduct. A piece can be worn alongside a Mask of the Dragon Queen or a Cloak of the Platinum Ward without either repelling it. A cloak’s wearer who also wears Regalia will notice, over time, that they are being pulled in two directions by two things that want different a…",
+      "automation": null,
+      "source_url": "https://the-wandering-realm.fandom.com/wiki/Regalia_of_the_Ruby_Court"
     },
     {
       "slug": "ring-of-cantrip-storing",
@@ -1546,11 +1843,22 @@
       "source_url": "https://the-wandering-realm.fandom.com/wiki/Ring_of_Triggered_Spells"
     },
     {
+      "slug": "rocket-pack",
+      "name": "Rocket Pack",
+      "type": "Wondrous",
+      "subtype": null,
+      "rarity": "unknown",
+      "requires_attunement": true,
+      "description": "A pair of magically fueled and regulated rockets rigged together to form a wearable backpack.\n\nWhile wearing the rocket pack, you have a flying speed of 30 and can hover. Additionally, you may use a bonus action to move up to 30 feet in a straight line without provoking opportunity attacks.",
+      "automation": null,
+      "source_url": "https://the-wandering-realm.fandom.com/wiki/Rocket_Pack"
+    },
+    {
       "slug": "rocket-spear",
       "name": "Rocket Spear",
       "type": "Weapon",
       "subtype": null,
-      "rarity": "unknown",
+      "rarity": "mundane",
       "requires_attunement": false,
       "description": "**Rocket spear.** It's a spear with a rocket. Pressurized combustion reimagined to strap a simple oil-powered rocket to the head of a spear to deliver a rather excessive amount of melee force.\n\n**Special** - As an action, you can fuel the rocket spear with one flask of oil. While fueled, the rocket becomes active, and the weapon's thrown range increases to 60/60. While the rocket is active and you throw the spear, you can choose to hold onto it during its flight, landing in an unoccupied space within 5 feet of the target. Once fueled, the rocket burns out of fuel at the end of your next turn or when you make an attack with it.",
       "automation": null,
@@ -1594,7 +1902,7 @@
       "name": "Scythe",
       "type": "Weapon",
       "subtype": null,
-      "rarity": "unknown",
+      "rarity": "mundane",
       "requires_attunement": false,
       "description": "Proficiency with a scythe allows you to add your proficiency bonus to the attack roll for any attack you make with it.",
       "automation": null,
@@ -1656,6 +1964,17 @@
       "source_url": "https://the-wandering-realm.fandom.com/wiki/Shock_Hypercube"
     },
     {
+      "slug": "sigil-of-the-warmage",
+      "name": "Sigil of the Warmage",
+      "type": "Wondrous",
+      "subtype": null,
+      "rarity": "varies",
+      "requires_attunement": true,
+      "description": "This arcane sigil acts as a spellcasting focus for your Warmage spells. While attuned to it, you gain a bonus to spell attack rolls with your Warmage spells and the DC for your Warmage spells and abilities increases by the same amount. The bonus is determined by the sigil's rarity.\n\nUncommon (+1): +1 to spell attack rolls and spell save DC.\n\nRare (+2): +2 to spell attack rolls and spell save DC.\n\nVery Rare (+3): +3 to spell attack rolls and spell save DC.\n\nIn addition, while attuned to this sigil, you may spend one Bonus Action to regain one use of your Overcharge feature. This property cannot be used again until the next dawn.",
+      "automation": null,
+      "source_url": "https://the-wandering-realm.fandom.com/wiki/Sigil_of_the_Warmage"
+    },
+    {
       "slug": "silver-bow",
       "name": "Silver Bow",
       "type": "Weapon",
@@ -1665,6 +1984,17 @@
       "description": "Made of a mysterious yet flexible space-metal alloy, this bow gleams a radiant silver-white, like moonlight. The Silver Bow grants a +2 bonus to attack and damage rolls made with it, and deals radiant damage instead of piercing damage.\n\nWhile attuned to the Silver Bow, you gain the following properties:",
       "automation": null,
       "source_url": "https://the-wandering-realm.fandom.com/wiki/Silver_Bow"
+    },
+    {
+      "slug": "sirens-crescent",
+      "name": "Siren’s Crescent",
+      "type": "Weapon",
+      "subtype": "scimitar",
+      "rarity": "very rare",
+      "requires_attunement": true,
+      "description": "This finely crafted scimitar features a crescent-shaped blade adorned with intricate engravings. The blade is perforated with small holes and wind chambers, allowing it to emit a haunting, flute-like melody when swung or spun.",
+      "automation": null,
+      "source_url": "https://the-wandering-realm.fandom.com/wiki/Siren’s_Crescent"
     },
     {
       "slug": "siren’s-crescent",
@@ -1726,11 +2056,22 @@
       "name": "Spiked Cestus",
       "type": "Weapon",
       "subtype": null,
-      "rarity": "unknown",
+      "rarity": "mundane",
       "requires_attunement": false,
       "description": "Proficiency with a cestus allows you to add your proficiency bonus to the attack roll for any attack you make with it.",
       "automation": null,
       "source_url": "https://the-wandering-realm.fandom.com/wiki/Spiked_Cestus"
+    },
+    {
+      "slug": "spy-lords-scepter",
+      "name": "Spy Lord’s Scepter",
+      "type": "Weapon",
+      "subtype": "rod",
+      "rarity": "legendary",
+      "requires_attunement": true,
+      "description": "A sleek scepter of darkened mithril and carved obsidian gemstone, fitted with an elongated hilt and stylized silver in the shape of winding serpents and veiled masks. The shaft tapers into a ritual blade sheathed flush into the bottom of the rod. To all appearances, it is a ceremonial staff unless drawn and wielded with purpose.\n\nWhile attuned to this item, you can use an action to cast the Message or Detect Thoughts spells (save DC 20). You may also use it as a spellcasting focus gaining the following benefits:",
+      "automation": null,
+      "source_url": "https://the-wandering-realm.fandom.com/wiki/Spy_Lord’s_Scepter"
     },
     {
       "slug": "spy-lord’s-scepter",
@@ -1832,6 +2173,17 @@
       "source_url": "https://the-wandering-realm.fandom.com/wiki/Survivalist's_Wayfinder"
     },
     {
+      "slug": "survivalists-wayfinder",
+      "name": "Survivalist's Wayfinder",
+      "type": "Wondrous",
+      "subtype": null,
+      "rarity": "uncommon",
+      "requires_attunement": false,
+      "description": "This handheld device has four crystaline buttons that are each associated with a different element. The device has 4 charges and regains all expended charges daily at dawn. While holding the device, you can use an action to expend 1 of its charges and press a button. Each button causes the device to swivel and point like a compass to the nearest relevant location, as determined by the button, for 1 hour or until another button is pressed. If there's nothing for the device to point to, it spins in place for the duration or until it's within range of something to point to.\n\nAir. If you're inside or underground, the device points to the nearest outdoor exit within 1 mile of you. If you're outside, it points in the direction of the nearest storm within 50 miles of you.\n\nEarth. The device points to the nearest cave entrance that's Medium or larger and within 1 mile of you. If you're underground, it points in the direction of the nearest unpolished gemstone within 100 feet of you.\n\nFire. The device points to the nearest active campfire, firepit, forge, or hearth that's within 1 mile of you.\n\nWater. The device points to the nearest source of fresh, drinkable water that's within 1 mile of you.",
+      "automation": null,
+      "source_url": "https://the-wandering-realm.fandom.com/wiki/Survivalist's_Wayfinder"
+    },
+    {
       "slug": "sword-saint",
       "name": "Sword Saint",
       "type": "Weapon",
@@ -1841,6 +2193,17 @@
       "description": "## Sword Saint\n\n\n### Weapon Pledge\n\nAt 2nd level, choose a weapon you are proficient in to pledge your devotion to (ex. longsword, shortbow, glaive, etc). When wielding the a weapon, the following features are made available to you.\n\n#### Flying Weapon\n\nYou learn how to wield the weapon without needing to even touch it. You can use a bonus action to move the weapon up to 30 feet in any direction or teleport it back to your hand instantly. You can attack and use techniques with the weapon as if you were standing in the weapon’s space.\n\nWhile the weapon is being controlled in this way, it is treated as if you were still holding it (you require a free hand to attack with it, or two hands if it’s two-handed, etc). You cannot move it more than 120 feet away from yourself, and if brought outside of this range, you cannot control it further until it’s within the range.\n\n#### Draining Strike\n\nIf you kill a hostile creature with an attack made with your flying weapon, you can use a reaction to drain the creature, regaining mastery points equal to half your maximum (rounded up). After you use this feature, you must take a short or long rest before you can use it again.\n\n### Weapon Devotee\n\nAt 6th level, you become increasingly adept at using your weapon for techniques. In the same bonus action that you use to move the weapon, you can spend 1 mastery point to use the primary effect of a technique you know. Beginning at 14th level, you can focus the technique you use.\n\n### Weapon Mount\n\nAt 14th level, your control over the weapon you devoted yourself to extends even to being able to ride it. Your weapon can be ridden in the air, during which it cannot be used for techniques. It has a flying speed equal to your movement speed plus an additional 30 feet and can carry up to 500 pounds before it can no longer fly.\n\n### Armamentarium\n\nAt 18th level, you can control two flying weapons at once, with the second not being treated as if you were holding it. If you use a bonus action to use a technique with one, the other can make a single weapon attack.",
       "automation": null,
       "source_url": "https://the-wandering-realm.fandom.com/wiki/Sword_Saint"
+    },
+    {
+      "slug": "talisman-of-natural-prowess",
+      "name": "Talisman of Natural Prowess",
+      "type": "Wondrous",
+      "subtype": null,
+      "rarity": "uncommon",
+      "requires_attunement": true,
+      "description": "This carved bone or tooth charm hangs from a cord and is strung with a fragment of a hunter's totem. While you wear and are attuned to it, your natural weapon attacks gain a bonus to attack and damage rolls, determined by the talisman's rarity:\n\n*   Uncommon: +1\n*   Rare: +2\n*   Very rare: +3\n\nA natural weapon is a bite, claw, horn, tail, slam, or similar attack granted by a creature form you've assumed. Unarmed strikes made with your fists or feet don't count.\n\nThis bonus does not benefit attacks that already benefit from a bonus to unarmed strikes or other bonus to natural weapon attacks. Such an attack gets only the bonus it already has, never both.",
+      "automation": null,
+      "source_url": "https://the-wandering-realm.fandom.com/wiki/Talisman_of_Natural_Prowess"
     },
     {
       "slug": "teleportation-codex",
@@ -1920,7 +2283,29 @@
       "source_url": "https://the-wandering-realm.fandom.com/wiki/Thumper"
     },
     {
+      "slug": "thunderlords-hammer",
+      "name": "Thunderlord's Hammer",
+      "type": "Weapon",
+      "subtype": "maul, lucerne hammer, or warhammer",
+      "rarity": "legendary",
+      "requires_attunement": true,
+      "description": "You gain a bonus of +3 to attack and damage rolls made using this weapon.\n\n10 charges that recharge by 2d4+2 charges at dawn. This items Spell Save DC is 18 for the various spells it casts.\n\nYou can use an action to cast the following spells expending a number of charges as the spells dictate using this items Spell Save DC, Lightning Bolt (2 charges 3rd level), Thunder Step (3 charges 3rd level), Destructive Wave (5 charges 5th level).",
+      "automation": null,
+      "source_url": "https://the-wandering-realm.fandom.com/wiki/Thunderlord's_Hammer"
+    },
+    {
       "slug": "thunderlord's-maul",
+      "name": "Thunderlord's Maul",
+      "type": "Weapon",
+      "subtype": "maul",
+      "rarity": "very rare",
+      "requires_attunement": false,
+      "description": "This weapon was once wielded by the Thunderlord's an ancient paladin order that delivered swift and thunderous justice to those who opposed order.  Only the strongest of the Thunderlord's could wield this large hammer. It glows a deep electric blue, has runes that say \"Thunderous Wrath\". The head of the maul is shaped like a large thundercloud and appears to have a deep blue flashes across the head as if it trapped a thunderbolt waiting to be released.",
+      "automation": null,
+      "source_url": "https://the-wandering-realm.fandom.com/wiki/Thunderlord's_Maul"
+    },
+    {
+      "slug": "thunderlords-maul",
       "name": "Thunderlord's Maul",
       "type": "Weapon",
       "subtype": "maul",
@@ -1968,7 +2353,7 @@
       "name": "Tower Shield",
       "type": "Armor",
       "subtype": "Shield",
-      "rarity": "unknown",
+      "rarity": "mundane",
       "requires_attunement": false,
       "description": "*50 gp, 20lbs - AC +0*\n\nAlso known as a Scutum, the tower shield is a large piece of curved metal or wood, or a composite of both. It is the size of it's user, too big and it is unwieldy if not impossible to use, and too small it becomes ineffective.\n\nThe shield confers no AC bonus to it's user by default. Instead it grants a damage threshold to you and creatures that you are providing cover for, so long as they are the same size or smaller than the shield. The damage threshold equals your strength modifier, plus your proficiency bonus when wielded with one hand, or twice your strength modifier plus your proficiency bonus when wielded with two. The damage threshold increases for each allied tower shield wielder within 5 feet, adding up to two of their proficiency bonuses to the damage threshold.\n\nA creature with a strength score less than 13 has their speed lowered by 10 feet while wielding a tower shield.\n\nThis shield cannot be used as a base for an animated shield.",
       "automation": null,
@@ -1984,6 +2369,17 @@
       "description": "This small and lovingly hand-made bookmark comes in all shapes and sizes, but is perfect for any bookworms that need to keep track of their spot while perusing through thick tomes. Upon speaking a command word and flipping open the book, the tome the bookmark carries will magically adjust and flip directly to the marked page. Each tome can only contain one bookmark at a time.",
       "automation": null,
       "source_url": "https://the-wandering-realm.fandom.com/wiki/Tracking_Bookmark"
+    },
+    {
+      "slug": "treble-pin",
+      "name": "Treble Pin",
+      "type": "Wondrous",
+      "subtype": null,
+      "rarity": "rare",
+      "requires_attunement": false,
+      "description": "This delicate pin, shaped like a golden treble clef, serves as a pocket instrument storage device perfect for any musician.",
+      "automation": null,
+      "source_url": "https://the-wandering-realm.fandom.com/wiki/Treble_Pin"
     },
     {
       "slug": "treblecuff",
@@ -2006,6 +2402,17 @@
       "description": "Ostensibly an ordinary playing card, though imbued with a subtle illusion magic. One attuned with it can, with intent, tap the back of the card to change its number or suit. A single-fingered tap iterates the number by one, a tap with two fingers alternates between the four suits, and a tap with three fingers changes the design of the card to match any other card it touches.",
       "automation": null,
       "source_url": "https://the-wandering-realm.fandom.com/wiki/Trick_Card"
+    },
+    {
+      "slug": "trick-weapon",
+      "name": "Trick Weapon",
+      "type": "Weapon",
+      "subtype": "Any Simple or Martial Melee Weapon",
+      "rarity": "common",
+      "requires_attunement": false,
+      "description": "As an action while touching this weapon, you can transform it into a mundane item or back into its weapon form. It can't be used to make attacks while transformed into a mundane item. Different weapons look like different items, and the item a particular Trick Weapon transforms into cannot be changed.",
+      "automation": null,
+      "source_url": "https://the-wandering-realm.fandom.com/wiki/Trick_Weapon"
     },
     {
       "slug": "trinket-of-freshness",
@@ -2087,7 +2494,7 @@
     {
       "slug": "versipellis-chain",
       "name": "Versipellis Chain",
-      "type": "Other",
+      "type": "Wondrous",
       "subtype": null,
       "rarity": "common",
       "requires_attunement": false,
@@ -2121,8 +2528,8 @@
       "slug": "voidknights-maul",
       "name": "Voidknights Maul",
       "type": "Weapon",
-      "subtype": null,
-      "rarity": "unknown",
+      "subtype": "Maul",
+      "rarity": "very rare",
       "requires_attunement": true,
       "description": "Voidknight’s Maul\n\nWeapon (Maul), very rare\n\nAttunement\n\nRequires attunement by a Paladin\n\nDescription\n\nThe crystalline head of this magic hammer has been bathed in the latent magic of the Astral Plane. While you remain attuned to it, you age at one-tenth your normal rate.\n\n𝘼𝙨𝙩𝙧𝙖𝙡 𝙎𝙢𝙞𝙩𝙚. Whenever you use your Divine Smite feature against a creature, you can choose for it to deal psychic damage instead of radiant damage.\n\nFurthermore, when you expend a spell slot of 2nd level or higher to use your Divine Smite, you can force the target of the attack to make a Constitution saving throw against your paladin spell save DC. On a failed save, the creature is affected by the “levitate” spell.\n\nThis version of the spell can affect multiple creatures at once, though you must still concentrate on the spell as normal.\n\nIf your concentration on the spell ends, any affected creature gently floats back to the ground. Otherwise, you can use your action to move one or multiple targets affected by the spell vertically, up to 20 feet, dividing the movement between them.\n\nEach affected creature must remain within the spell’s range",
       "automation": null,
@@ -2151,6 +2558,17 @@
       "source_url": "https://the-wandering-realm.fandom.com/wiki/Warmog's_Armor"
     },
     {
+      "slug": "warmogs-armor",
+      "name": "Warmog's Armor",
+      "type": "Armor",
+      "subtype": "plate",
+      "rarity": "legendary",
+      "requires_attunement": true,
+      "description": "You have a +2 bonus to AC while wearing this armor. While you don this armor, your hit point maximum increases by 30.\n\nYou regain 10 hit points at the start of your turn. If you take damage, this feature doesn't function at the start of your next turn.",
+      "automation": null,
+      "source_url": "https://the-wandering-realm.fandom.com/wiki/Warmog's_Armor"
+    },
+    {
       "slug": "weapon-of-sniping",
       "name": "Weapon of Sniping",
       "type": "Weapon",
@@ -2163,6 +2581,17 @@
     },
     {
       "slug": "weapon,-+4",
+      "name": "Weapon, +4",
+      "type": "Weapon",
+      "subtype": "Any",
+      "rarity": "legendary",
+      "requires_attunement": false,
+      "description": "You have a +4 bonus to attack and damage rolls made with this magic weapon.",
+      "automation": null,
+      "source_url": "https://the-wandering-realm.fandom.com/wiki/Weapon,_+4"
+    },
+    {
+      "slug": "weapon-4",
       "name": "Weapon, +4",
       "type": "Weapon",
       "subtype": "Any",
@@ -2201,7 +2630,7 @@
       "subtype": null,
       "rarity": "uncommon",
       "requires_attunement": false,
-      "description": "[![Windswept KITE](/img/wiki/windswept_kite.png)](/img/wiki/windswept_kite.png)\n\n\n\nThis silk kite (colors, shape, etc. are customizable) is 5 feet across and is attached to a 60-foot string. It weighs 1 pound, can carry up to one pound in weight, and can be folded into a 6-inch square. While holding the kite, you can use a bonus action to toss it aloft and speak its command word. When you do, you also choose how much string to let out, between 10 to 60 feet. The kite then expands to its full size (if it was folded) and creates a cylinder of moderate wind of 10 miles per hour, which allows it to continue flying. The cylinder's height and diameter is the same as the amount of let-out string, up to 60 feet. The kite and top of the cylinder remain centered above your location. You can use another bonus action to speak the flying kite's command word to end the effect and cause it to fall softly back into your hand. You can change the wind's direction at the start of each of your turns for the duration.\n\nYou can use the kite to create this wind for up to 1 hour, all at once or in several shorter intervals, each one using a minimum of 1 minute from the duration. The effect ends early if you are no longer holding the string, at which point it flies up to 1d10 times 10 feet in a random direction before landing on the ground. Dealing 5 slashing damage to the string (AC 15) severs the string, causing the kite to fly away as if you let go of the string. The severed string can later be reattached by holding its ends together for 1 minute.",
+      "description": "[![Windswept KITE](/img/wiki/windswept_kite.png)](/img/wiki/windswept_kite.png)\n\n[](/docs/file:windswept-kite.png)\n\nThis silk kite (colors, shape, etc. are customizable) is 5 feet across and is attached to a 60-foot string. It weighs 1 pound, can carry up to one pound in weight, and can be folded into a 6-inch square. While holding the kite, you can use a bonus action to toss it aloft and speak its command word. When you do, you also choose how much string to let out, between 10 to 60 feet. The kite then expands to its full size (if it was folded) and creates a cylinder of moderate wind of 10 miles per hour, which allows it to continue flying. The cylinder's height and diameter is the same as the amount of let-out string, up to 60 feet. The kite and top of the cylinder remain centered above your location. You can use another bonus action to speak the flying kite's command word to end the effect and cause it to fall softly back into your hand. You can change the wind's direction at the start of each of your turns for the duration.\n\nYou can use the kite to create this wind for up to 1 hour, all at once or in several shorter intervals, each one using a minimum of 1 minute from the duration. The effect ends early if you are no longer holding the string, at which point it flies up to 1d10 times 10 feet in a random direction before landing on the ground. Dealing 5 slashing damage to the string (AC 15) severs the string, causing the kite to fly away as if you let go of the string. The severed string can later be reattached by holding its ends together for 1 minute.",
       "automation": null,
       "source_url": "https://the-wandering-realm.fandom.com/wiki/Windswept_Kite"
     }

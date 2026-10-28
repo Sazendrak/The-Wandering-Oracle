@@ -1,0 +1,408 @@
+<!doctype html>
+<html lang="en" dir="ltr" class="docs-wrapper plugin-docs plugin-id-default docs-version-current docs-doc-page docs-doc-id-homebrew/classes/primal-avatar" data-has-hydrated="false">
+<head>
+<meta charset="UTF-8">
+<meta name="generator" content="Docusaurus v3.10.1">
+<title data-rh="true">Primal Avatar | The Wandering Handbook</title><meta data-rh="true" name="viewport" content="width=device-width,initial-scale=1"><meta data-rh="true" name="twitter:card" content="summary_large_image"><meta data-rh="true" property="og:url" content="https://sazendrak.github.io/The-Wandering-Oracle/docs/homebrew/classes/primal-avatar"><meta data-rh="true" property="og:locale" content="en"><meta data-rh="true" name="docusaurus_locale" content="en"><meta data-rh="true" name="docsearch:language" content="en"><meta data-rh="true" name="docusaurus_version" content="current"><meta data-rh="true" name="docusaurus_tag" content="docs-default-current"><meta data-rh="true" name="docsearch:version" content="current"><meta data-rh="true" name="docsearch:docusaurus_tag" content="docs-default-current"><meta data-rh="true" property="og:title" content="Primal Avatar | The Wandering Handbook"><meta data-rh="true" name="description" content="Primal Avatar homebrew content for The Wandering Realm."><meta data-rh="true" property="og:description" content="Primal Avatar homebrew content for The Wandering Realm."><link data-rh="true" rel="icon" href="/The-Wandering-Oracle/img/favicon.ico"><link data-rh="true" rel="canonical" href="https://sazendrak.github.io/The-Wandering-Oracle/docs/homebrew/classes/primal-avatar"><link data-rh="true" rel="alternate" href="https://sazendrak.github.io/The-Wandering-Oracle/docs/homebrew/classes/primal-avatar" hreflang="en"><link data-rh="true" rel="alternate" href="https://sazendrak.github.io/The-Wandering-Oracle/docs/homebrew/classes/primal-avatar" hreflang="x-default"><script data-rh="true" type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Classes","item":"https://sazendrak.github.io/The-Wandering-Oracle/docs/category/classes"},{"@type":"ListItem","position":2,"name":"Primal Avatar","item":"https://sazendrak.github.io/The-Wandering-Oracle/docs/homebrew/classes/primal-avatar"}]}</script><link rel="stylesheet" href="/The-Wandering-Oracle/assets/css/styles.6f418af7.css">
+<script src="/The-Wandering-Oracle/assets/js/runtime~main.945d6390.js" defer="defer"></script>
+<script src="/The-Wandering-Oracle/assets/js/main.41a37cec.js" defer="defer"></script>
+</head>
+<body>
+<svg style="display: none;"><defs>
+<symbol id="theme-svg-external-link" viewBox="0 0 24 24"><path fill="currentColor" d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"/></symbol>
+</defs></svg>
+<script>!function(){var t=function(){try{return new URLSearchParams(window.location.search).get("docusaurus-theme")}catch(t){}}()||function(){try{return window.localStorage.getItem("theme")}catch(t){}}();document.documentElement.setAttribute("data-theme",t||"light"),document.documentElement.setAttribute("data-theme-choice",t||"light")}(),function(){try{const c=new URLSearchParams(window.location.search).entries();for(var[t,e]of c)if(t.startsWith("docusaurus-data-")){var a=t.replace("docusaurus-data-","data-");document.documentElement.setAttribute(a,e)}}catch(t){}}()</script><div id="__docusaurus"><div role="region" aria-label="Skip to main content"><a class="skipToContent_fXgn" href="#__docusaurus_skipToContent_fallback">Skip to main content</a></div><nav aria-label="Main" class="theme-layout-navbar navbar navbar--fixed-top"><div class="navbar__inner"><div class="theme-layout-navbar-left navbar__items"><button aria-label="Toggle navigation bar" aria-expanded="false" class="navbar__toggle clean-btn" type="button"><svg width="30" height="30" viewBox="0 0 30 30" aria-hidden="true"><path stroke="currentColor" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2" d="M4 7h22M4 15h22M4 23h22"></path></svg></button><a class="navbar__brand" href="/The-Wandering-Oracle/"><b class="navbar__title text--truncate">The Wandering Handbook</b></a><a class="navbar__item navbar__link" href="/The-Wandering-Oracle/docs/core/character/character-creation">Core Rules</a><a aria-current="page" class="navbar__item navbar__link navbar__link--active" href="/The-Wandering-Oracle/docs/category/classes">Homebrew</a><a class="navbar__item navbar__link" href="/The-Wandering-Oracle/docs/lore/elysium-floating-city-in-the-sky">Lore</a><a class="navbar__item navbar__link" href="/The-Wandering-Oracle/docs/srd/">SRD Reference</a><a class="navbar__item navbar__link" href="/The-Wandering-Oracle/catalog">Catalog</a></div><div class="theme-layout-navbar-right navbar__items navbar__items--right"><div class="toggle_vylO colorModeToggle_DEke"><button class="clean-btn toggleButton_gllP toggleButtonDisabled_aARS" type="button" disabled="" title="system mode" aria-label="Switch between dark and light mode (currently system mode)"><svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" class="toggleIcon_g3eP lightToggleIcon_pyhR"><path fill="currentColor" d="M12,9c1.65,0,3,1.35,3,3s-1.35,3-3,3s-3-1.35-3-3S10.35,9,12,9 M12,7c-2.76,0-5,2.24-5,5s2.24,5,5,5s5-2.24,5-5 S14.76,7,12,7L12,7z M2,13l2,0c0.55,0,1-0.45,1-1s-0.45-1-1-1l-2,0c-0.55,0-1,0.45-1,1S1.45,13,2,13z M20,13l2,0c0.55,0,1-0.45,1-1 s-0.45-1-1-1l-2,0c-0.55,0-1,0.45-1,1S19.45,13,20,13z M11,2v2c0,0.55,0.45,1,1,1s1-0.45,1-1V2c0-0.55-0.45-1-1-1S11,1.45,11,2z M11,20v2c0,0.55,0.45,1,1,1s1-0.45,1-1v-2c0-0.55-0.45-1-1-1C11.45,19,11,19.45,11,20z M5.99,4.58c-0.39-0.39-1.03-0.39-1.41,0 c-0.39,0.39-0.39,1.03,0,1.41l1.06,1.06c0.39,0.39,1.03,0.39,1.41,0s0.39-1.03,0-1.41L5.99,4.58z M18.36,16.95 c-0.39-0.39-1.03-0.39-1.41,0c-0.39,0.39-0.39,1.03,0,1.41l1.06,1.06c0.39,0.39,1.03,0.39,1.41,0c0.39-0.39,0.39-1.03,0-1.41 L18.36,16.95z M19.42,5.99c0.39-0.39,0.39-1.03,0-1.41c-0.39-0.39-1.03-0.39-1.41,0l-1.06,1.06c-0.39,0.39-0.39,1.03,0,1.41 s1.03,0.39,1.41,0L19.42,5.99z M7.05,18.36c0.39-0.39,0.39-1.03,0-1.41c-0.39-0.39-1.03-0.39-1.41,0l-1.06,1.06 c-0.39,0.39-0.39,1.03,0,1.41s1.03,0.39,1.41,0L7.05,18.36z"></path></svg><svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" class="toggleIcon_g3eP darkToggleIcon_wfgR"><path fill="currentColor" d="M9.37,5.51C9.19,6.15,9.1,6.82,9.1,7.5c0,4.08,3.32,7.4,7.4,7.4c0.68,0,1.35-0.09,1.99-0.27C17.45,17.19,14.93,19,12,19 c-3.86,0-7-3.14-7-7C5,9.07,6.81,6.55,9.37,5.51z M12,3c-4.97,0-9,4.03-9,9s4.03,9,9,9s9-4.03,9-9c0-0.46-0.04-0.92-0.1-1.36 c-0.98,1.37-2.58,2.26-4.4,2.26c-2.98,0-5.4-2.42-5.4-5.4c0-1.81,0.89-3.42,2.26-4.4C12.92,3.04,12.46,3,12,3L12,3z"></path></svg><svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" class="toggleIcon_g3eP systemToggleIcon_QzmC"><path fill="currentColor" d="m12 21c4.971 0 9-4.029 9-9s-4.029-9-9-9-9 4.029-9 9 4.029 9 9 9zm4.95-13.95c1.313 1.313 2.05 3.093 2.05 4.95s-0.738 3.637-2.05 4.95c-1.313 1.313-3.093 2.05-4.95 2.05v-14c1.857 0 3.637 0.737 4.95 2.05z"></path></svg></button></div><div class="navbarSearchContainer_Bca1"><div class="navbar__search searchBarContainer_NW3z" dir="ltr"><input placeholder="Search" aria-label="Search" class="navbar__search-input searchInput_YFbd" value=""><div class="loadingRing_RJI3 searchBarLoadingRing_YnHq"><div></div><div></div><div></div><div></div></div></div></div></div></div><div role="presentation" class="navbar-sidebar__backdrop"></div></nav><div id="__docusaurus_skipToContent_fallback" class="theme-layout-main main-wrapper mainWrapper_z2l0"><div class="docsWrapper_hBAB"><button aria-label="Scroll back to top" class="clean-btn theme-back-to-top-button backToTopButton_sjWU" type="button"></button><div class="docRoot_UBD9"><aside class="theme-doc-sidebar-container docSidebarContainer_YfHR"><div class="sidebarViewport_aRkj"><div class="sidebar_njMd"><nav aria-label="Docs sidebar" class="menu thin-scrollbar menu_SIkG"><ul class="theme-doc-sidebar-menu menu__list"><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item"><div class="menu__list-item-collapsible"><a class="categoryLink_byQd menu__link menu__link--sublist menu__link--active" href="/The-Wandering-Oracle/docs/category/classes"><span title="Classes" class="categoryLinkLabel_W154">Classes</span></a><button aria-label="Collapse sidebar category &#x27;Classes&#x27;" aria-expanded="true" type="button" class="clean-btn menu__caret"></button></div><ul class="menu__list"><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/The-Wandering-Oracle/docs/homebrew/classes/blood-hunter-(version-x)"><span title="Blood Hunter (Version X)" class="linkLabel_WmDU">Blood Hunter (Version X)</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item homebrew-class"><a class="menu__link" tabindex="0" href="/The-Wandering-Oracle/docs/homebrew/classes/blood-hunter-version-x"><span title="Blood Hunter (Version X)" class="linkLabel_WmDU">Blood Hunter (Version X)</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/The-Wandering-Oracle/docs/homebrew/classes/bombardier"><span title="Bombardier" class="linkLabel_WmDU">Bombardier</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item homebrew-class"><a class="menu__link" tabindex="0" href="/The-Wandering-Oracle/docs/homebrew/classes/bulwark"><span title="Bulwark" class="linkLabel_WmDU">Bulwark</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item homebrew-class"><a class="menu__link" tabindex="0" href="/The-Wandering-Oracle/docs/homebrew/classes/channeler"><span title="Channeler" class="linkLabel_WmDU">Channeler</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/The-Wandering-Oracle/docs/homebrew/classes/drifter"><span title="Drifter" class="linkLabel_WmDU">Drifter</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/The-Wandering-Oracle/docs/homebrew/classes/exorcist"><span title="Exorcist" class="linkLabel_WmDU">Exorcist</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/The-Wandering-Oracle/docs/homebrew/classes/greaser"><span title="Greaser" class="linkLabel_WmDU">Greaser</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/The-Wandering-Oracle/docs/homebrew/classes/harbinger"><span title="Harbinger" class="linkLabel_WmDU">Harbinger</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/The-Wandering-Oracle/docs/homebrew/classes/jade-lord"><span title="Jade Lord" class="linkLabel_WmDU">Jade Lord</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/The-Wandering-Oracle/docs/homebrew/classes/juggernaut"><span title="Juggernaut" class="linkLabel_WmDU">Juggernaut</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item homebrew-class"><a class="menu__link" tabindex="0" href="/The-Wandering-Oracle/docs/homebrew/classes/justiciar"><span title="Justiciar" class="linkLabel_WmDU">Justiciar</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/The-Wandering-Oracle/docs/homebrew/classes/medic"><span title="Medic" class="linkLabel_WmDU">Medic</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/The-Wandering-Oracle/docs/homebrew/classes/medium"><span title="Medium" class="linkLabel_WmDU">Medium</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/The-Wandering-Oracle/docs/homebrew/classes/oracle"><span title="Oracle" class="linkLabel_WmDU">Oracle</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item homebrew-class"><a class="menu__link" tabindex="0" href="/The-Wandering-Oracle/docs/homebrew/classes/pathfinder"><span title="Pathfinder" class="linkLabel_WmDU">Pathfinder</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/The-Wandering-Oracle/docs/homebrew/classes/performer"><span title="Performer" class="linkLabel_WmDU">Performer</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/The-Wandering-Oracle/docs/homebrew/classes/physicist"><span title="Physicist" class="linkLabel_WmDU">Physicist</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/The-Wandering-Oracle/docs/homebrew/classes/practitioner"><span title="Practitioner" class="linkLabel_WmDU">Practitioner</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item homebrew-class"><a class="menu__link" tabindex="0" href="/The-Wandering-Oracle/docs/homebrew/classes/prestige-classes"><span title="Prestige Classes" class="linkLabel_WmDU">Prestige Classes</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item homebrew-class"><a class="menu__link menu__link--active" aria-current="page" tabindex="0" href="/The-Wandering-Oracle/docs/homebrew/classes/primal-avatar"><span title="Primal Avatar" class="linkLabel_WmDU">Primal Avatar</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/The-Wandering-Oracle/docs/homebrew/classes/psi-tracker"><span title="Psi Tracker" class="linkLabel_WmDU">Psi Tracker</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item homebrew-class"><a class="menu__link" tabindex="0" href="/The-Wandering-Oracle/docs/homebrew/classes/pugilist-class"><span title="Pugilist Class" class="linkLabel_WmDU">Pugilist Class</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/The-Wandering-Oracle/docs/homebrew/classes/ranger-(version-x)"><span title="Ranger (Version X)" class="linkLabel_WmDU">Ranger (Version X)</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item homebrew-class"><a class="menu__link" tabindex="0" href="/The-Wandering-Oracle/docs/homebrew/classes/ranger-version-x"><span title="Ranger (Version X)" class="linkLabel_WmDU">Ranger (Version X)</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item homebrew-class"><a class="menu__link" tabindex="0" href="/The-Wandering-Oracle/docs/homebrew/classes/ranger-wildtrak"><span title="Ranger Wildtrak" class="linkLabel_WmDU">Ranger Wildtrak</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/The-Wandering-Oracle/docs/homebrew/classes/rook"><span title="Rook" class="linkLabel_WmDU">Rook</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item homebrew-class"><a class="menu__link" tabindex="0" href="/The-Wandering-Oracle/docs/homebrew/classes/sage"><span title="Sage" class="linkLabel_WmDU">Sage</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/The-Wandering-Oracle/docs/homebrew/classes/scrapper"><span title="Scrapper" class="linkLabel_WmDU">Scrapper</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item homebrew-class"><a class="menu__link" tabindex="0" href="/The-Wandering-Oracle/docs/homebrew/classes/shinobi"><span title="Shinobi" class="linkLabel_WmDU">Shinobi</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item homebrew-class"><a class="menu__link" tabindex="0" href="/The-Wandering-Oracle/docs/homebrew/classes/spiritualist"><span title="Spiritualist" class="linkLabel_WmDU">Spiritualist</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item homebrew-class"><a class="menu__link" tabindex="0" href="/The-Wandering-Oracle/docs/homebrew/classes/sublime-bard"><span title="Sublime Bard" class="linkLabel_WmDU">Sublime Bard</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/The-Wandering-Oracle/docs/homebrew/classes/swindler"><span title="Swindler" class="linkLabel_WmDU">Swindler</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item homebrew-class"><a class="menu__link" tabindex="0" href="/The-Wandering-Oracle/docs/homebrew/classes/the-gunslinger"><span title="The Gunslinger" class="linkLabel_WmDU">The Gunslinger</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item homebrew-class"><a class="menu__link" tabindex="0" href="/The-Wandering-Oracle/docs/homebrew/classes/undead-sovereign"><span title="Undead Sovereign" class="linkLabel_WmDU">Undead Sovereign</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item homebrew-class"><a class="menu__link" tabindex="0" href="/The-Wandering-Oracle/docs/homebrew/classes/warmage"><span title="Warmage" class="linkLabel_WmDU">Warmage</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item homebrew-class"><a class="menu__link" tabindex="0" href="/The-Wandering-Oracle/docs/homebrew/classes/wizard-version-x"><span title="Wizard (Version X)" class="linkLabel_WmDU">Wizard (Version X)</span></a></li></ul></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="categoryLink_byQd menu__link menu__link--sublist" href="/The-Wandering-Oracle/docs/category/subclasses--archetypes"><span title="Subclasses &amp; Archetypes" class="categoryLinkLabel_W154">Subclasses &amp; Archetypes</span></a><button aria-label="Expand sidebar category &#x27;Subclasses &amp; Archetypes&#x27;" aria-expanded="false" type="button" class="clean-btn menu__caret"></button></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="categoryLink_byQd menu__link menu__link--sublist" href="/The-Wandering-Oracle/docs/category/races"><span title="Races" class="categoryLinkLabel_W154">Races</span></a><button aria-label="Expand sidebar category &#x27;Races&#x27;" aria-expanded="false" type="button" class="clean-btn menu__caret"></button></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="categoryLink_byQd menu__link menu__link--sublist" href="/The-Wandering-Oracle/docs/category/spells"><span title="Spells" class="categoryLinkLabel_W154">Spells</span></a><button aria-label="Expand sidebar category &#x27;Spells&#x27;" aria-expanded="false" type="button" class="clean-btn menu__caret"></button></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="categoryLink_byQd menu__link menu__link--sublist" href="/The-Wandering-Oracle/docs/category/feats"><span title="Feats" class="categoryLinkLabel_W154">Feats</span></a><button aria-label="Expand sidebar category &#x27;Feats&#x27;" aria-expanded="false" type="button" class="clean-btn menu__caret"></button></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="categoryLink_byQd menu__link menu__link--sublist" href="/The-Wandering-Oracle/docs/category/boons--blessings"><span title="Boons &amp; Blessings" class="categoryLinkLabel_W154">Boons &amp; Blessings</span></a><button aria-label="Expand sidebar category &#x27;Boons &amp; Blessings&#x27;" aria-expanded="false" type="button" class="clean-btn menu__caret"></button></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="categoryLink_byQd menu__link menu__link--sublist" href="/The-Wandering-Oracle/docs/category/items"><span title="Items" class="categoryLinkLabel_W154">Items</span></a><button aria-label="Expand sidebar category &#x27;Items&#x27;" aria-expanded="false" type="button" class="clean-btn menu__caret"></button></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="categoryLink_byQd menu__link menu__link--sublist" href="/The-Wandering-Oracle/docs/category/class-feature-mods"><span title="Class Feature Mods" class="categoryLinkLabel_W154">Class Feature Mods</span></a><button aria-label="Expand sidebar category &#x27;Class Feature Mods&#x27;" aria-expanded="false" type="button" class="clean-btn menu__caret"></button></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="categoryLink_byQd menu__link menu__link--sublist" href="/The-Wandering-Oracle/docs/category/other-homebrew"><span title="Other Homebrew" class="categoryLinkLabel_W154">Other Homebrew</span></a><button aria-label="Expand sidebar category &#x27;Other Homebrew&#x27;" aria-expanded="false" type="button" class="clean-btn menu__caret"></button></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="categoryLink_byQd menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="false" href="/The-Wandering-Oracle/docs/homebrew/monsters/dog-and-hound"><span title="monsters" class="categoryLinkLabel_W154">monsters</span></a></div></li></ul></nav></div></div></aside><main class="docMainContainer_TBSr"><div class="container padding-top--md padding-bottom--lg"><div class="row"><div class="col docItemCol_VOVn"><div class="docItemContainer_Djhp"><article><nav class="theme-doc-breadcrumbs breadcrumbsContainer_Z_bl" aria-label="Breadcrumbs"><ul class="breadcrumbs"><li class="breadcrumbs__item"><a aria-label="Home page" class="breadcrumbs__link" href="/The-Wandering-Oracle/"><svg viewBox="0 0 24 24" class="breadcrumbHomeIcon_YNFT"><path d="M10 19v-5h4v5c0 .55.45 1 1 1h3c.55 0 1-.45 1-1v-7h1.7c.46 0 .68-.57.33-.87L12.67 3.6c-.38-.34-.96-.34-1.34 0l-8.36 7.53c-.34.3-.13.87.33.87H5v7c0 .55.45 1 1 1h3c.55 0 1-.45 1-1z" fill="currentColor"></path></svg></a></li><li class="breadcrumbs__item"><a class="breadcrumbs__link" href="/The-Wandering-Oracle/docs/category/classes"><span>Classes</span></a></li><li class="breadcrumbs__item breadcrumbs__item--active"><span class="breadcrumbs__link">Primal Avatar</span></li></ul></nav><div class="tocCollapsible_ETCw theme-doc-toc-mobile tocMobile_ITEo"><button type="button" class="clean-btn tocCollapsibleButton_TO0P">On this page</button></div><div class="theme-doc-markdown markdown"><header><h1>Primal Avatar</h1></header>
+<p><em>The first lesson is that the body is a discipline. The second is that the body is a borrowed thing. The third is that there was never any difference.</em></p>
+<p>Most who walk both the monastic path and the primal one keep them separate — a discipline for the self, a communion for the world. The Primal Avatar failed at that separation, and discovered the failure was the point. Their flesh no longer waits for Wild Shape to remember what it can be. Bone thickens, tendons re-anchor, the shoulder reseats itself into something that was never quite human. This is not a spell they cast. It is what they are between castings.</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="prerequisites">Prerequisites<a href="#prerequisites" class="hash-link" aria-label="Direct link to Prerequisites" title="Direct link to Prerequisites" translate="no">​</a></h2>
+<p>Level 20 Cycle: You must have a 20-level cycle consisting of Monk 7+ and Druid 7+, with no other class levels present in that cycle.</p>
+<p><em>(This grants d8 Hit Dice, matching both prerequisite classes.)</em></p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="the-primal-avatar-table">The Primal Avatar Table<a href="#the-primal-avatar-table" class="hash-link" aria-label="Direct link to The Primal Avatar Table" title="Direct link to The Primal Avatar Table" translate="no">​</a></h2>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>PL</th><th>Features</th><th>Primal Points</th></tr></thead><tbody><tr><td>21</td><td>Proficiencies, Ascendant Communion, Primal Spellcasting, Ascendant Vessel</td><td>—</td></tr><tr><td>22</td><td>Primal Wellspring, Verdant Form</td><td>2</td></tr><tr><td>23</td><td>Primal Conversion</td><td>3</td></tr><tr><td>24</td><td>Ability Score Improvement</td><td>4</td></tr><tr><td>25</td><td>Verdant Branch</td><td>5</td></tr><tr><td>26</td><td>—</td><td>6</td></tr><tr><td>27</td><td>Tempered Instinct</td><td>7</td></tr><tr><td>28</td><td>Ability Score Improvement</td><td>8</td></tr><tr><td>29</td><td>Hybrid Shape</td><td>9</td></tr><tr><td>30</td><td>Branch Feature</td><td>10</td></tr><tr><td>31</td><td>—</td><td>11</td></tr><tr><td>32</td><td>Ability Score Improvement</td><td>12</td></tr><tr><td>33</td><td>Overchannel, Wellspring Surge</td><td>13</td></tr><tr><td>34</td><td>Unbound Flesh</td><td>14</td></tr><tr><td>35</td><td>Branch Feature</td><td>15</td></tr><tr><td>36</td><td>Ability Score Improvement</td><td>16</td></tr><tr><td>37</td><td>Spellflesh, Unnatural Presence</td><td>17</td></tr><tr><td>38</td><td>Apex Communion</td><td>18</td></tr><tr><td>39</td><td>Ability Score Improvement</td><td>19</td></tr><tr><td>40</td><td>Branch Capstone</td><td>20</td></tr></tbody></table>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="primal-avatar-ascendant-casting-table">Primal Avatar Ascendant Casting Table<a href="#primal-avatar-ascendant-casting-table" class="hash-link" aria-label="Direct link to Primal Avatar Ascendant Casting Table" title="Direct link to Primal Avatar Ascendant Casting Table" translate="no">​</a></h2>
+<p><em>Indexed by Effective Caster Level (ECL) — see Primal Spellcasting.</em></p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>ECL</th><th>Cantrips</th><th>Prep.</th><th>1st</th><th>2nd</th><th>3rd</th><th>4th</th><th>5th</th><th>6th</th><th>7th</th><th>8th</th><th>9th</th></tr></thead><tbody><tr><td>8</td><td>3</td><td>12</td><td>4</td><td>3</td><td>3</td><td>2</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr><tr><td>9</td><td>3</td><td>14</td><td>4</td><td>3</td><td>3</td><td>3</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td></tr><tr><td>10</td><td>4</td><td>15</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td><td>—</td><td>—</td><td>—</td><td>—</td></tr><tr><td>11</td><td>4</td><td>16</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td><td>1</td><td>—</td><td>—</td><td>—</td></tr><tr><td>12</td><td>4</td><td>16</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td><td>1</td><td>—</td><td>—</td><td>—</td></tr><tr><td>13</td><td>4</td><td>17</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td><td>1</td><td>1</td><td>—</td><td>—</td></tr><tr><td>14</td><td>4</td><td>17</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td><td>1</td><td>1</td><td>—</td><td>—</td></tr><tr><td>15</td><td>4</td><td>18</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td><td>1</td><td>1</td><td>1</td><td>—</td></tr><tr><td>16</td><td>4</td><td>18</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td><td>1</td><td>1</td><td>1</td><td>—</td></tr><tr><td>17</td><td>4</td><td>19</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td><td>1</td><td>1</td><td>1</td><td>1</td></tr><tr><td>18</td><td>4</td><td>20</td><td>4</td><td>3</td><td>3</td><td>3</td><td>3</td><td>1</td><td>1</td><td>1</td><td>1</td></tr><tr><td>19</td><td>4</td><td>21</td><td>4</td><td>3</td><td>3</td><td>3</td><td>3</td><td>2</td><td>1</td><td>1</td><td>1</td></tr><tr><td>20</td><td>4</td><td>22</td><td>4</td><td>3</td><td>3</td><td>3</td><td>3</td><td>2</td><td>2</td><td>1</td><td>1</td></tr></tbody></table>
+<p>This is the standard Druid full-caster progression, re-indexed by Effective Caster Level so it keeps advancing past where your qualifying cycle left off. Spell slots cap at ECL 20 — a Primal Avatar never casts as anything higher than a 20th-level Druid — but Prepared Spells keep climbing past that point (see Primal Spellcasting).</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="pl-21-proficiencies">PL 21: Proficiencies<a href="#pl-21-proficiencies" class="hash-link" aria-label="Direct link to PL 21: Proficiencies" title="Direct link to PL 21: Proficiencies" translate="no">​</a></h2>
+<p>When you take this prestige class, choose two additional skills from the Monk or Druid skill list. You gain proficiency in both.</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="pl-21-ascendant-communion">PL 21: Ascendant Communion<a href="#pl-21-ascendant-communion" class="hash-link" aria-label="Direct link to PL 21: Ascendant Communion" title="Direct link to PL 21: Ascendant Communion" translate="no">​</a></h2>
+<p>Your Monk save DC and your Druid spell save DC are now a single number, using the higher of the two. Every feature in this class that calls for a save uses that unified DC.</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="pl-21-primal-spellcasting">PL 21: Primal Spellcasting<a href="#pl-21-primal-spellcasting" class="hash-link" aria-label="Direct link to PL 21: Primal Spellcasting" title="Direct link to PL 21: Primal Spellcasting" translate="no">​</a></h2>
+<p>Your Druid spellcasting continues past where your qualifying cycle left off, keyed to your Druid levels rather than your total character level.</p>
+<p>Calculate your Effective Caster Level: your Druid levels + your Ascendant Level (Prestige Level − 20), to a maximum of 20. A 7th-level Druid entering this class at Ascendant Level 1 has an Effective Caster Level of 8; a 13th-level Druid entering at Ascendant Level 1 has an Effective Caster Level of 14. Either way, your first Ascendant Level picks up exactly one step past where your Druid spellcasting left off, and every Ascendant Level thereafter advances it by one more, until it caps at 20 — you never cast as anything higher than a 20th-level Druid, however your 7+/7+ split was arranged.</p>
+<p>Consult the Primal Avatar Ascendant Casting table above using your Effective Caster Level. This replaces your Druid slots, Cantrips, and Prepared Spells entirely — don&#x27;t stack it with your base Druid table.</p>
+<p><strong>Widened Repertoire.</strong> You prepare spells from the Druid and Ranger spell lists both, treating every Ranger spell as a Druid spell for you.</p>
+<p><strong>Beyond the Cap.</strong> Your slots stop growing at Effective Caster Level 20, but your repertoire does not. For each Prestige Level you gain after your Effective Caster Level reaches 20, you can prepare one additional spell. You also learn an additional cantrip at PL 31 and again at PL 37.</p>
+<p>Wisdom remains your spellcasting ability. Whenever you finish a Long Rest, you may change your list of prepared spells as normal for a Druid.</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="pl-21-ascendant-vessel">PL 21: Ascendant Vessel<a href="#pl-21-ascendant-vessel" class="hash-link" aria-label="Direct link to PL 21: Ascendant Vessel" title="Direct link to PL 21: Ascendant Vessel" translate="no">​</a></h2>
+<p>Your repertoire of shapes keeps growing long after a Druid&#x27;s would stop.</p>
+<ul>
+<li class=""><strong>Challenge Rating.</strong> Your maximum Challenge Rating for known forms is your existing Wild Shape CR cap, minimum 1, plus your Ascendant Level (Prestige Level − 20) divided by 4, rounded up. If a subclass feature already raises that cap — Circle of the Moon&#x27;s Circle Forms, for instance — use its higher number as the base and add to that.</li>
+<li class=""><strong>Known Forms.</strong> You learn 2 additional Beast forms at Ascendant Levels 5, 9, 13, and 17 — 16 forms in total by PL 37. As normal, you can replace one known form with another eligible form whenever you finish a Long Rest.</li>
+<li class=""><strong>Unrestricted Shapes.</strong> You can always adopt forms with a Fly Speed or a Swim Speed.</li>
+</ul>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="pl-22-primal-wellspring">PL 22: Primal Wellspring<a href="#pl-22-primal-wellspring" class="hash-link" aria-label="Direct link to PL 22: Primal Wellspring" title="Direct link to PL 22: Primal Wellspring" translate="no">​</a></h2>
+<p>You carry a growing reservoir of raw primal power, distinct from your Focus Points and Wild Shape uses. You have a number of Primal Points equal to your Ascendant Level (Prestige Level − 20), as shown on the Primal Avatar table — 20 of them by PL 40.</p>
+<p>You regain all spent Primal Points when you finish a Long Rest. Additionally, once per Long Rest, you can regain Primal Points equal to your Wisdom modifier when you finish a Short Rest. Unlike Focus Points and Wild Shape, this is a reserve you must ration across the day.</p>
+<p>Primal Points are the battery that drives this class: your Verdant Form&#x27;s signature ability and several of its later features are paid for in Primal Points, and later features let you spend them in other ways.</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="pl-22-verdant-form">PL 22: Verdant Form<a href="#pl-22-verdant-form" class="hash-link" aria-label="Direct link to PL 22: Verdant Form" title="Direct link to PL 22: Verdant Form" translate="no">​</a></h2>
+<p>Your transformation stops being something you do and becomes something you are. Choose one Verdant Form. Its Baseline traits are permanent physical changes to your body — they require no action to maintain, cannot be dispelled, persist through Wild Shape, and function in areas of antimagic. You cannot change your Form once chosen except through long-term retraining, at your DM&#x27;s discretion.</p>
+<p>The four Forms describe a body plan, not a species. Your Canine Form might read as wolf, jackal, hyena, or something with no name in any bestiary; your Bird of Prey Form might be hawk, owl, or a thing of ragged black feathers that observers politely decline to identify. Describe the flesh however suits your character — the mechanics are what&#x27;s fixed.</p>
+<p>The four Forms are detailed in full at the end of this document. At PL 25 you choose one of your Form&#x27;s three Branches, committing to a way of using that body. Your Branch grants an opening feature immediately, a choice of two features at PL 30, another choice of two at PL 35, and its Capstone at PL 40. Branch choices, once made, are as permanent as the Form itself.</p>
+<ul>
+<li class=""><a title="the canine form" class="" href="/The-Wandering-Oracle/docs/homebrew/spells/the-canine-form">The Canine Form</a></li>
+<li class=""><a title="the feline form" class="" href="/The-Wandering-Oracle/docs/homebrew/spells/the-feline-form">The Feline Form</a></li>
+<li class=""><a title="the ursine form" class="" href="/The-Wandering-Oracle/docs/homebrew/other/the-ursine-form">The Ursine Form</a></li>
+<li class=""><a title="the bird of prey form" class="" href="/The-Wandering-Oracle/docs/homebrew/spells/the-bird-of-prey-form">The Bird of Prey Form</a></li>
+</ul>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="pl-23-primal-conversion">PL 23: Primal Conversion<a href="#pl-23-primal-conversion" class="hash-link" aria-label="Direct link to PL 23: Primal Conversion" title="Direct link to PL 23: Primal Conversion" translate="no">​</a></h2>
+<p>You have learned to spend raw primal power where discipline has run dry. When you roll Initiative, you can spend any number of Primal Points to regain expended Focus Points at 2 Primal Points each, up to your maximum.</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="pl-24-ability-score-improvement">PL 24: Ability Score Improvement<a href="#pl-24-ability-score-improvement" class="hash-link" aria-label="Direct link to PL 24: Ability Score Improvement" title="Direct link to PL 24: Ability Score Improvement" translate="no">​</a></h2>
+<p>At PL 24, 28, 32, 36, and 39, you can increase one ability score of your choice by 2, or two ability scores by 1. As normal, you cannot increase a score above 20 (unless another feature allows it). You may select a Feat instead of an ASI.</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="pl-27-tempered-instinct">PL 27: Tempered Instinct<a href="#pl-27-tempered-instinct" class="hash-link" aria-label="Direct link to PL 27: Tempered Instinct" title="Direct link to PL 27: Tempered Instinct" translate="no">​</a></h2>
+<p>Living in two natures at once has hardened the part of you that decides what is real — the instinct beneath thought.</p>
+<p>You gain proficiency in two saving throws you don&#x27;t already have. Additionally, you add your Proficiency Bonus twice to Wisdom saving throws, and to any Wisdom check made to notice, track, endure, or understand a living thing.</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="pl-29-hybrid-shape">PL 29: Hybrid Shape<a href="#pl-29-hybrid-shape" class="hash-link" aria-label="Direct link to PL 29: Hybrid Shape" title="Direct link to PL 29: Hybrid Shape" translate="no">​</a></h2>
+<p>You no longer have to choose between wearing your own body and wearing another. As a Bonus Action, spend 1 Wild Shape use or 2 Primal Points to become a hybrid of your own shape and a Beast form you know, chosen when you enter it. You remain in the hybrid for 10 minutes, or until you end it (no action required) or fall Incapacitated.</p>
+<p>You are neither Humanoid nor Beast but both — your creature type becomes Monstrosity, and your body visibly carries the chosen form&#x27;s anatomy over your own.</p>
+<ul>
+<li class="">You keep your own statistics, equipment, speech, spellcasting, and every class feature. Nothing is suppressed.</li>
+<li class="">Your Verdant Form&#x27;s Baseline traits intensify: any Speed it grants increases by 10 feet, and its sensory ranges double.</li>
+<li class="">You gain Temporary Hit Points equal to twice your Prestige Level, plus the Hit Point maximum of the chosen form.</li>
+<li class="">Your melee attacks — unarmed or with a Monk weapon — can be made as the chosen form&#x27;s natural weapon, dealing its damage and damage type instead of your Martial Arts die if that is better. Once per turn, a strike also carries any rider that attack has (a save to Grapple, knock Prone, poison, and so on, using your save DC).</li>
+</ul>
+<p>This is the state your body has been reaching toward since you began. Most Avatars find it more comfortable than their original shape, and some stop bothering to change back.</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="pl-33-overchannel">PL 33: Overchannel<a href="#pl-33-overchannel" class="hash-link" aria-label="Direct link to PL 33: Overchannel" title="Direct link to PL 33: Overchannel" translate="no">​</a></h2>
+<p>You can pour raw primal power into anything your body or your magic is already doing. Whenever you roll damage for a melee attack or for a spell, you can spend any number of Primal Points, adding one roll of your Martial Arts die to the total for each point spent.</p>
+<p>You declare the spend after seeing the attack hit or the spell&#x27;s saving throws resolved, but before damage is rolled. There is no limit on how many points you can spend this way in a turn.</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="pl-33-wellspring-surge">PL 33: Wellspring Surge<a href="#pl-33-wellspring-surge" class="hash-link" aria-label="Direct link to PL 33: Wellspring Surge" title="Direct link to PL 33: Wellspring Surge" translate="no">​</a></h2>
+<p>Your reservoir has learned to refill itself under pressure. When you roll Initiative, you regain Primal Points equal to your Proficiency Bonus, up to your maximum.</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="pl-34-unbound-flesh">PL 34: Unbound Flesh<a href="#pl-34-unbound-flesh" class="hash-link" aria-label="Direct link to PL 34: Unbound Flesh" title="Direct link to PL 34: Unbound Flesh" translate="no">​</a></h2>
+<p>Your body no longer accepts external instruction about what shape it should hold. You are immune to the Petrified condition and to any effect that would polymorph, transform, or reshape you against your will — including effects that would force you out of Hybrid Shape or Wild Shape.</p>
+<p>While in Hybrid Shape, you also cannot have the Grappled, Restrained, or Prone conditions imposed on you.</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="pl-37-spellflesh">PL 37: Spellflesh<a href="#pl-37-spellflesh" class="hash-link" aria-label="Direct link to PL 37: Spellflesh" title="Direct link to PL 37: Spellflesh" translate="no">​</a></h2>
+<p>The two halves of you finally stop taking turns. While in Hybrid Shape, once per turn when you cast a spell of level 1 or higher, you can make one melee attack as part of the same action.</p>
+<p>If that attack hits a creature targeted by the spell, or standing in its area, the creature has disadvantage on the first saving throw it makes against that spell.</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="pl-37-unnatural-presence">PL 37: Unnatural Presence<a href="#pl-37-unnatural-presence" class="hash-link" aria-label="Direct link to PL 37: Unnatural Presence" title="Direct link to PL 37: Unnatural Presence" translate="no">​</a></h2>
+<p>Something in your shape reads as older than the things that live in it. You can speak with and understand any Beast or Monstrosity, and you have advantage on Charisma checks made against them.</p>
+<p>A Beast or Monstrosity will not willingly attack you unless it is compelled by magic, cornered, or you attack it first.</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="pl-38-apex-communion">PL 38: Apex Communion<a href="#pl-38-apex-communion" class="hash-link" aria-label="Direct link to PL 38: Apex Communion" title="Direct link to PL 38: Apex Communion" translate="no">​</a></h2>
+<p>When you roll Initiative, you can spend 5 Primal Points to drive your Hybrid Shape past its limits for 1 minute, or until you have the Incapacitated condition. You enter Hybrid Shape for free if you weren&#x27;t already in it, and for the duration:</p>
+<ul>
+<li class="">You have resistance to all damage except Force damage.</li>
+<li class="">Your Verdant Form&#x27;s signature ability costs no Primal Points.</li>
+<li class="">Whenever you spend Primal Points on any other feature, roll a d4; on a 3 or 4, they aren&#x27;t spent.</li>
+</ul></div><footer class="theme-doc-footer docusaurus-mt-lg"><div class="row margin-top--sm theme-doc-footer-tags-row"><div class="col"><b>Tags:</b><ul class="tags_jXut padding--none margin-left--sm"><li class="tag_QGVx"><a rel="tag" class="tag_zVej tagRegular_sFm0" href="/The-Wandering-Oracle/docs/tags/class">class</a></li><li class="tag_QGVx"><a rel="tag" class="tag_zVej tagRegular_sFm0" href="/The-Wandering-Oracle/docs/tags/homebrew">homebrew</a></li></ul></div></div></footer></article><nav class="docusaurus-mt-lg pagination-nav" aria-label="Docs pages"><a class="pagination-nav__link pagination-nav__link--prev" href="/The-Wandering-Oracle/docs/homebrew/classes/prestige-classes"><div class="pagination-nav__sublabel">Previous</div><div class="pagination-nav__label">Prestige Classes</div></a><a class="pagination-nav__link pagination-nav__link--next" href="/The-Wandering-Oracle/docs/homebrew/classes/psi-tracker"><div class="pagination-nav__sublabel">Next</div><div class="pagination-nav__label">Psi Tracker</div></a></nav></div></div><div class="col col--3"><div class="tableOfContents_bqdL thin-scrollbar theme-doc-toc-desktop"><ul class="table-of-contents table-of-contents__left-border"><li><a href="#prerequisites" class="table-of-contents__link toc-highlight">Prerequisites</a></li><li><a href="#the-primal-avatar-table" class="table-of-contents__link toc-highlight">The Primal Avatar Table</a></li><li><a href="#primal-avatar-ascendant-casting-table" class="table-of-contents__link toc-highlight">Primal Avatar Ascendant Casting Table</a></li><li><a href="#pl-21-proficiencies" class="table-of-contents__link toc-highlight">PL 21: Proficiencies</a></li><li><a href="#pl-21-ascendant-communion" class="table-of-contents__link toc-highlight">PL 21: Ascendant Communion</a></li><li><a href="#pl-21-primal-spellcasting" class="table-of-contents__link toc-highlight">PL 21: Primal Spellcasting</a></li><li><a href="#pl-21-ascendant-vessel" class="table-of-contents__link toc-highlight">PL 21: Ascendant Vessel</a></li><li><a href="#pl-22-primal-wellspring" class="table-of-contents__link toc-highlight">PL 22: Primal Wellspring</a></li><li><a href="#pl-22-verdant-form" class="table-of-contents__link toc-highlight">PL 22: Verdant Form</a></li><li><a href="#pl-23-primal-conversion" class="table-of-contents__link toc-highlight">PL 23: Primal Conversion</a></li><li><a href="#pl-24-ability-score-improvement" class="table-of-contents__link toc-highlight">PL 24: Ability Score Improvement</a></li><li><a href="#pl-27-tempered-instinct" class="table-of-contents__link toc-highlight">PL 27: Tempered Instinct</a></li><li><a href="#pl-29-hybrid-shape" class="table-of-contents__link toc-highlight">PL 29: Hybrid Shape</a></li><li><a href="#pl-33-overchannel" class="table-of-contents__link toc-highlight">PL 33: Overchannel</a></li><li><a href="#pl-33-wellspring-surge" class="table-of-contents__link toc-highlight">PL 33: Wellspring Surge</a></li><li><a href="#pl-34-unbound-flesh" class="table-of-contents__link toc-highlight">PL 34: Unbound Flesh</a></li><li><a href="#pl-37-spellflesh" class="table-of-contents__link toc-highlight">PL 37: Spellflesh</a></li><li><a href="#pl-37-unnatural-presence" class="table-of-contents__link toc-highlight">PL 37: Unnatural Presence</a></li><li><a href="#pl-38-apex-communion" class="table-of-contents__link toc-highlight">PL 38: Apex Communion</a></li></ul></div></div></div></div></main></div></div></div><footer class="theme-layout-footer footer footer--dark"><div class="container container-fluid"><div class="row footer__links"><div class="theme-layout-footer-column col footer__col"><div class="footer__title">Handbook</div><ul class="footer__items clean-list"><li class="footer__item"><a class="footer__link-item" href="/The-Wandering-Oracle/docs/core/character/character-creation">Character Creation</a></li><li class="footer__item"><a class="footer__link-item" href="/The-Wandering-Oracle/docs/core/gameplay/gameplay-rules">Gameplay Rules</a></li><li class="footer__item"><a class="footer__link-item" href="/The-Wandering-Oracle/docs/homebrew/items/homebrew-system-&amp;-index">Homebrew Index</a></li></ul></div><div class="theme-layout-footer-column col footer__col"><div class="footer__title">Community</div><ul class="footer__items clean-list"><li class="footer__item"><a href="https://the-wandering-realm.fandom.com" target="_blank" rel="noopener noreferrer" class="footer__link-item">TWR Fandom Wiki<svg width="13.5" height="13.5" aria-label="(opens in new tab)" class="iconExternalLink_nPIU"><use href="#theme-svg-external-link"></use></svg></a></li><li class="footer__item"><a href="https://github.com/Sazendrak/The-Wandering-Handbook" target="_blank" rel="noopener noreferrer" class="footer__link-item">GitHub<svg width="13.5" height="13.5" aria-label="(opens in new tab)" class="iconExternalLink_nPIU"><use href="#theme-svg-external-link"></use></svg></a></li></ul></div></div><div class="footer__bottom text--center"><div class="footer__copyright">Content sourced from The Wandering Realm Fandom Wiki. Site built with Docusaurus.</div></div></div></footer></div>
+</body>
+</html>

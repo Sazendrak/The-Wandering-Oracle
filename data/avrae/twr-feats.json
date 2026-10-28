@@ -1,11 +1,18 @@
 {
   "_meta": {
-    "generated": "2026-07-13T10:34:51.806Z",
+    "generated": "2026-10-27T14:16:20.163Z",
     "source": "The Wandering Handbook — Phase 11",
-    "total_feats": 23,
-    "total_boons": 34
+    "total_feats": 34,
+    "total_boons": 48
   },
   "feats": [
+    {
+      "slug": "body-back-up",
+      "name": "Body Back-up",
+      "prerequisite": "Skeleton",
+      "description": "*   Your wisdom score increases by one.\n*   You can designate one inanimate skeleton by touch as an action. After 30 days, an invisible spiritual connection is made between you and the skeleton. If you are destroyed while such a connection is active, you rise again from the skeleton you had designated. You can only have one skeleton designated in this way at a time.",
+      "source_url": "https://the-wandering-realm.fandom.com/wiki/Body_Back-up"
+    },
     {
       "slug": "cartomancer",
       "name": "Cartomancer",
@@ -19,6 +26,20 @@
       "prerequisite": "Aasimar",
       "description": "You learn how to better control your celestial power, and are able to draw more energy from it. You gain one of the following benefits, which will replace your Celestial Revelation feature. You may activate your Celestial Legacy as a bonus action or an action (your choice). Your transformation lasts for 1 minute or until you end it as a bonus action. Once you transform using your Celestial Legacy, you can't use it again until you finish a long rest.\n\nCelestial Reaper.\n\nThis feature replaces your Necrotic Shroud. Your eyes briefly become pools of darkness, and ghostly, flightless wings sprout from your back temporarily. Creatures of your choice within 30 feet of you that can see you must succeed on a Charisma saving throw (DC 8 + your proficiency bonus + your Charisma modifier) or become frightened of you until the end of your next turn. Furthermore, while they are frightened in this way, you have advantage on any attack rolls against them. Until the transformation ends, once on each of your turns, you can deal extra necrotic damage to one target when you deal damage to it with an attack or a spell. The extra damage equals your level.",
       "source_url": "https://the-wandering-realm.fandom.com/wiki/Celestial_Legacy"
+    },
+    {
+      "slug": "changeling-metamorphosis",
+      "name": "Changeling Metamorphosis",
+      "prerequisite": null,
+      "description": "Prerequisite: Changeling\n\nYour ability to shapechange is more than skin deep, and you are able to assume more forms than the average Changeling. You gain the following benefits:\n\nIncrease your Consititution score by 1, to a maximum of 20\n\nWhen you use your Shapechanging trait, you can choose one of these benefits which lasts until you change your shape again:\n\n\\- **Darkvision** You adapt your eyes and gain Darkvision out to 60ft.\n\n\\- **Aquatic Adaption** You sprout gills and are able to breath underwater, and you gain a swimming speed equal to your walking speed.\n\n\\- **Natural Weapons** You grow claws, fangs, spines, horns or a different natural weapon of your choice. Your unarmed strikes deal 1d6 bludgeoning, piercing, or slashing damage as appropriate, and you are considered proficient with unarmed strikes.\n\n\\- **Wings** You grow wings, which can take on whatever appearance/shape you desire. You gain 30 ft. of flying speed.\n\n\\- **Extra Appendage** You grow a prehensile tail, tentacles, crab claws, or another limb of your choice, which can only be used to grapple someone as an action (even if your main hands are currently full), and cannot be used to hold equipment, weapons, or any other objects.\n\nYou can use these features an amount of times equal to your proficiency bonus (shared among all), resetting on a Long Rest.",
+      "source_url": "https://the-wandering-realm.fandom.com/wiki/Changeling_Metamorphosis"
+    },
+    {
+      "slug": "counterriposte-duelist",
+      "name": "Counterriposte Duelist",
+      "prerequisite": null,
+      "description": "**Prerequisite:** Defensive Duelist, 12th level+\n\nYou turn a parry into the opening for a deadly counter.\n\n*   **Counterstance**. While you benefit from the AC bonus of your Defensive Duelist Parry, you gain the following special reaction:\n    *   **Counterattack**. When a creature misses you with a melee attack, due to the AC Bonus from the Defensive Duelist feat, you can make one melee weapon attack against it. You can use this reaction once on each creature’s turn, except your own. You can only use this counterattack a number of times equal to your proficiency bonus per long rest\\*\n*   **Ranged Parry**. When you aren’t wielding a shield, you can also use your Defensive Duelist Parry against a ranged weapon attack that targets only you.",
+      "source_url": "https://the-wandering-realm.fandom.com/wiki/Counterriposte_Duelist"
     },
     {
       "slug": "daredevil",
@@ -77,6 +98,13 @@
       "source_url": "https://the-wandering-realm.fandom.com/wiki/Gladiator_(UA)"
     },
     {
+      "slug": "greater-ritual-casting",
+      "name": "Greater Ritual Casting",
+      "prerequisite": null,
+      "description": "**Prerequisite:** *Ritual Caster feat (2014 or 2024); Intelligence, Wisdom, or Charisma score of 18 or higher*\n\nYour mastery of ritual magic reaches new heights. You gain the following benefits:\n\n    •    **Ability Score Increase.** Increase the same ability score you chose for the Ritual Caster feat (Intelligence, Wisdom, or Charisma) by 1, to a maximum of 20.\n\n    •    **Quick Ritual**. Once more per long rest, you can cast a ritual spell at its normal casting time instead of adding 10 minutes.\n\n    •    **Expanded Ritual Repertoire**. You can learn one additional ritual spell of each level equal to or lower than your spellcasting ability modifier(maximum 5).\n\n    •    **Growth of Knowledge**. For each level you gain, you may replace one ritual spell of that level with another once on a level up, or when you PERMANENTLY increase your casting modifier.",
+      "source_url": "https://the-wandering-realm.fandom.com/wiki/Greater_Ritual_Casting"
+    },
+    {
       "slug": "hammer-mastery",
       "name": "Hammer Mastery",
       "prerequisite": "Proficiency with at least one type of hammer",
@@ -105,6 +133,13 @@
       "source_url": "https://the-wandering-realm.fandom.com/wiki/Iterative_Perfection"
     },
     {
+      "slug": "leonin-pride",
+      "name": "Leonin Pride",
+      "prerequisite": "Leonin",
+      "description": "Your ancestry manifests in your fierceness; the pride of Oreskos echoes through you. You gain the following benefits:\n\n*   Increase your Strength or Constitution score by 1, to a maximum of 20.\n*   You have advantage on saving throws to avoid or end the frightened condition on yourself.\n*   Your natural weapons count as magical for the purpose of overcoming resistance and immunity to nonmagical attacks and damage.\n*   The range of your Daunting Roar trait increases to 30 feet and you can add your Charisma modifier to its Save DC. Additionally, you regain a use of this trait when you bring a Huge or larger creature to 0 hit points.",
+      "source_url": "https://the-wandering-realm.fandom.com/wiki/Leonin_Pride"
+    },
+    {
       "slug": "light-blade-mastery",
       "name": "Light-Blade Mastery",
       "prerequisite": "Proficiency with at least one type of light-blade",
@@ -119,11 +154,25 @@
       "source_url": "https://the-wandering-realm.fandom.com/wiki/Mace_Mastery"
     },
     {
+      "slug": "magebane",
+      "name": "Magebane",
+      "prerequisite": "Mage Slayer",
+      "description": "*   **Guarded Mind:** If you fail an Intelligence, Wisdom, or Charisma saving throw, you can cause yourself to succeed instead. Once you use this ability, you cannot use it again until you complete a short or long rest, but you can only regain uses of this ability up to twice per day through short rests.\n*   **Spellbreaker**: When you hit a creature with an attack as part of your reaction granted by the \\*Mage Slayer\\* feat, and that creature is casting a spell, you can force it to make a Constitution saving throw as if the creature were concentrating on a spell. On a failed save, the spell is interrupted, and the spell slot and action used to cast it are wasted. If the target is concentrating on a spell, they make their concentration save immediately after their Constitution save for this ability. You may use this a number of times equal to your proficiency bonus. You regain all uses upon completing a short or long rest.",
+      "source_url": "https://the-wandering-realm.fandom.com/wiki/Magebane"
+    },
+    {
       "slug": "monk-initiate",
       "name": "Monk Initiate",
       "prerequisite": null,
       "description": "Your training has taught you to strike faster and in key points rather than rely on brute force. You gain the following benefits:\n\n*   Increase your Dexterity score by 1, to a maximum of 20.\n*   You can use Dexterity instead of Strength for the attack and damage rolls of your unarmed strikes.\n*   You can roll a d4 in place of the normal damage of your unarmed strikes.",
       "source_url": "https://the-wandering-realm.fandom.com/wiki/Monk_Initiate"
+    },
+    {
+      "slug": "performer",
+      "name": "Performer",
+      "prerequisite": null,
+      "description": "You master performance so that you can command any stage. You gain the following benefits:\n\n*   Increase your Charisma score by 1, to a maximum of 20.\n*   You gain proficiency in the Performance skill. If you are already proficient in the skill, you add double your proficiency bonus to checks you make with it.\n*   While performing, you can try to distract one humanoid you can see who can see and hear you. Make a Charisma(Performance) check contested by the humanoid’s Wisdom (Insight) check. If your check succeeds, you grab the humanoid’s attention enough that it makes Wisdom (Perception) and Intelligence (Investigation) checks with disadvantage until you stop performing.",
+      "source_url": "https://the-wandering-realm.fandom.com/wiki/Performer"
     },
     {
       "slug": "phalanx",
@@ -140,11 +189,32 @@
       "source_url": "https://the-wandering-realm.fandom.com/wiki/Polearm_Master,_Revised"
     },
     {
+      "slug": "reassemble",
+      "name": "Reassemble",
+      "prerequisite": "Skeleton",
+      "description": "*   Your Constitution Score increases by 1.\n*   The necromancy that stitched you together is shockingly good at keeping you intact. When you become stabilized as a result of succeeding three death saving throws, you regain hit points equal to your level.",
+      "source_url": "https://the-wandering-realm.fandom.com/wiki/Reassemble"
+    },
+    {
+      "slug": "revenant",
+      "name": "Revenant",
+      "prerequisite": "Elf",
+      "description": "You are descended from a master of the double-bladed scimitar, and some of that mastery has passed on to you. You gain the following benefits:\n\n*   Increase your Dexterity or Strength score by 1, to a maximum of 20.\n*   While you are holding a double-bladed scimitar with two hands, you gain a +1 bonus to Armor Class.\n*   A double-bladed scimitar has the finesse property when you wield it.",
+      "source_url": "https://the-wandering-realm.fandom.com/wiki/Revenant"
+    },
+    {
       "slug": "shifter-adaptation",
       "name": "Shifter Adaptation",
       "prerequisite": "Shifter",
       "description": "Your heritage has opened you to exceptional abilities as you tap into the unchecked powers that dwell in your blood.\n\n*   Increase your Strength, Dexterity, Constitution, or Wisdom by 1, to a maximum of 20.\n*   You can use your Shifting trait as a reaction to taking damage (you apply the temporary hit points before taking the damage).\n*   Each of your transformations also gain one more effect:\n    *   **Beasthide**. You gain resistance to nonmagical bludgeoning, piercing, or slashing damage (Your choice when you shift).\n    *   **Longstooth**. You count as one size larger when determining your carrying capacity and the weight you can push, drag, or lift. If you use your Shifting trait as a reaction, you can use your fangs to make an unarmed strike against a target within range as part of the reaction.\n    *   **Swiftstride**. You gain climbing speed equal to your movement speed.\n    *   **Wildhunt**. You don't suffer from disadvantage when making an attack roll against a target within 30 feet of you.",
       "source_url": "https://the-wandering-realm.fandom.com/wiki/Shifter_Adaptation"
+    },
+    {
+      "slug": "speed-reload",
+      "name": "Speed Reload",
+      "prerequisite": null,
+      "description": "*General Feat (Prerequisite: Level 4+)*\n\nAny firearm that could normally be loaded as an action, can now also be reloaded as a bonus action.",
+      "source_url": "https://the-wandering-realm.fandom.com/wiki/Speed_Reload"
     },
     {
       "slug": "swift-action",
@@ -159,6 +229,13 @@
       "prerequisite": "Proficiency with at least one type of sword",
       "description": "You have become adept at using swords and can maneuver them effectively as a result.\n\n*   When you wield a sword, it gains the finesse property if it does not already have it and lacks the heavy property.\n*   Additionally, when a creature misses you with a melee attack while you are wielding a sword, you can use your reaction to make one attack with the sword against that creature.\n\nSwords: Short Sword, Scimitar, Rapier, Longsword, Greatsword",
       "source_url": "https://the-wandering-realm.fandom.com/wiki/Sword_Mastery"
+    },
+    {
+      "slug": "tortle-protector",
+      "name": "Tortle Protector",
+      "prerequisite": "Tortle",
+      "description": "You have a higher grasp in making full use of your shell to better protect yourself and others. You gain the following benefits:\n\n*   Increase your Strength or Wisdom by 1, to a maximum of 20.\n*   Your *Natural Armor* trait now provides a base AC of 18 (your Dexterity modifier doesn't affect this number).\n*   As a reaction when you are forced to make a Dexterity saving throw, you can choose which of the two will take effect:\n    *   You gain a +4 bonus to Dexterity saving throws until the end of your next turn.\n    *   All creatures within 5 feet of you are considered to have half cover against any harmful attacks or effects while within range until the end of your next turn.\n\nOnce you use this ability, you can't use it again until you've finished a short or long rest.",
+      "source_url": "https://the-wandering-realm.fandom.com/wiki/Tortle_Protector"
     },
     {
       "slug": "weapon-master",
@@ -179,6 +256,14 @@
     },
     {
       "slug": "blessing-of-health-(rework)",
+      "name": "Blessing of Health (Rework)",
+      "boon_type": "blessing",
+      "condition": null,
+      "description": "Your constitution score increases to 19. If it is already 19 or above, it instead increases the score by 2, to a maximum of 30.",
+      "source_url": "https://the-wandering-realm.fandom.com/wiki/Blessing_of_Health_(Rework)"
+    },
+    {
+      "slug": "blessing-of-health-rework",
       "name": "Blessing of Health (Rework)",
       "boon_type": "blessing",
       "condition": null,
@@ -210,7 +295,23 @@
       "source_url": "https://the-wandering-realm.fandom.com/wiki/Blessing_of_the_Masked_Lord_(Soulbind)"
     },
     {
+      "slug": "blessing-of-the-masked-lord-soulbind",
+      "name": "Blessing of the Masked Lord (Soulbind)",
+      "boon_type": "blessing",
+      "condition": null,
+      "description": "***Prerequisite:** Blessing of the Masked Lord (Soultheft)*\n\n*The practice of Soultheft has become second nature to you, allowing you to better subjugate the souls you capture and extract even greater potential.*\n\nWhen you use Soultheft, and you can exploit a soul up to 12 times before the soul is released instead of 6. In addition you gain two new ways in which you may exploit souls:\n\n*   Ethereal Stride (2 uses). As a Bonus Action you can teleport to the Ethereal Plane from the Material Plane for up to 1 minute or until you end the effect (no action required). You can expend another use of this exploit to extend the duration by up to 1 minute per use expended. At the end of the duration, you reappear in the same location on the Material Plane, or the nearest unoccupied space if that space is occupied.,\n\n*   Soul Mask (3 uses). You can use an action to call the Soul to you and disguise your appearance. When you do so, your appearance magically transforms into the souls as it was in life, healthy and alive. Another creature can see through this disguise by succeeding on a Wisdom (Insight) check contested by your Charisma (Deception) check. You gain a +5 bonus to your check. This disguise lasts for 1 hour or until you end it as a bonus action. You can expend another use of this exploit to extend the duration by up to 1 hour per use expended.",
+      "source_url": "https://the-wandering-realm.fandom.com/wiki/Blessing_of_the_Masked_Lord_(Soulbind)"
+    },
+    {
       "slug": "blessing-of-the-masked-lord-(soultheft)",
+      "name": "Blessing of the Masked Lord (Soultheft)",
+      "boon_type": "blessing",
+      "condition": null,
+      "description": "*Guided by the Masked Lord himself, the caster can snare a departing soul to fuel their spells, a practice called Soultheft.*\n\n*   Once per day as an action, the caster can touch their holy symbol to a creature that’s been dead no longer than 1 minute, and capture their departing soul into the holy symbol, placing them under the effects of the ‘Soul Cage’ spell until the soul is released, or this blessing is used again.\n*   In addition to the spell's normal effects, the caster can also dispel the effects to cast a spell they know or have prepared without expending a spell slot, of a level equal to proficiency bonus of the captured creature. When casting a spell in this way, the creatures soul is damaged, and cannot be revived by any means short of a wish or divine intervention.\n\n*Souls obtained via the Soultheft blessing MUST be canon. Hunts, Trials, Delves or Raids do not count, the usage must explicitly be approved by staff*",
+      "source_url": "https://the-wandering-realm.fandom.com/wiki/Blessing_of_the_Masked_Lord_(Soultheft)"
+    },
+    {
+      "slug": "blessing-of-the-masked-lord-soultheft",
       "name": "Blessing of the Masked Lord (Soultheft)",
       "boon_type": "blessing",
       "condition": null,
@@ -243,6 +344,14 @@
     },
     {
       "slug": "blessing-of-understanding-(rework)",
+      "name": "Blessing of Understanding (Rework)",
+      "boon_type": "blessing",
+      "condition": null,
+      "description": "Your intelligence or wisdom score increases by 2, to a max of 30.\n\nIn addition, skill checks of the chosen ability score are rolled with advantage.",
+      "source_url": "https://the-wandering-realm.fandom.com/wiki/Blessing_of_Understanding_(Rework)"
+    },
+    {
+      "slug": "blessing-of-understanding-rework",
       "name": "Blessing of Understanding (Rework)",
       "boon_type": "blessing",
       "condition": null,
@@ -290,12 +399,28 @@
       "source_url": "https://the-wandering-realm.fandom.com/wiki/Boon_of_Bewitching_Appeal"
     },
     {
+      "slug": "boon-of-dimension-travel-updated",
+      "name": "Boon of Dimension Travel: Updated",
+      "boon_type": "boon",
+      "condition": null,
+      "description": "Whenever you move, you may instead expend movement and teleport an amount of feet equal to the expended movement to an area you can see. You may do this an amount of times equal to your proficiency bonus, regaining all expended uses on a short or long rest.",
+      "source_url": "https://the-wandering-realm.fandom.com/wiki/Boon_of_Dimension_Travel:_Updated"
+    },
+    {
       "slug": "boon-of-elemental-expertise",
       "name": "Boon of Elemental Expertise",
       "boon_type": "boon",
       "condition": null,
       "description": "**Prerequisites**: Elemental Adept Feat\n\n*   The chosen element for this boon is the element chosen in the elemental adept feat. If you have taken the feat multiple times, you may choose which of these elements applies to this boon. This element cannot be later changed.\n*   You can treat immunity to the given element as resistance. this resistance cannot be overcome by the elemental adept feat.\n*   When you cast a spell of 5th level or lower that deals damage of your chosen element, you can choose to treat all damage dice rolled as their maximum amount. once you use this feature, you cannot do so again until you finish a long rest.",
       "source_url": "https://the-wandering-realm.fandom.com/wiki/Boon_of_Elemental_Expertise"
+    },
+    {
+      "slug": "boon-of-fate-updated",
+      "name": "Boon of Fate: Updated",
+      "boon_type": "boon",
+      "condition": null,
+      "description": "When another creature that you can see within 60 feet of you makes an ability check, an attack roll, or a saving throw, you can roll a d10 and apply the result as a bonus or penalty to the roll. You may do this an amount of times equal to your proficiency bonus, regaining all expended uses at the next dawn.",
+      "source_url": "https://the-wandering-realm.fandom.com/wiki/Boon_of_Fate:_Updated"
     },
     {
       "slug": "boon-of-firepower",
@@ -314,6 +439,14 @@
       "source_url": "https://the-wandering-realm.fandom.com/wiki/Boon_of_Fortitude_(Update)"
     },
     {
+      "slug": "boon-of-fortitude-update",
+      "name": "Boon of Fortitude (Update)",
+      "boon_type": "boon",
+      "condition": null,
+      "description": "Your hit point maximum increases by 40.\n\nIf, instead, you have gestalted or ascended, your hit point maximum increases by 80.",
+      "source_url": "https://the-wandering-realm.fandom.com/wiki/Boon_of_Fortitude_(Update)"
+    },
+    {
       "slug": "boon-of-ice's-heart",
       "name": "Boon of Ice's Heart",
       "boon_type": "boon",
@@ -322,7 +455,23 @@
       "source_url": "https://the-wandering-realm.fandom.com/wiki/Boon_of_Ice's_Heart"
     },
     {
+      "slug": "boon-of-ices-heart",
+      "name": "Boon of Ice's Heart",
+      "boon_type": "boon",
+      "condition": null,
+      "description": "You have immunity to cold damage. You can cast Frost Fingers (save DC 15) at will, without expending a spell slot or using components.",
+      "source_url": "https://the-wandering-realm.fandom.com/wiki/Boon_of_Ice's_Heart"
+    },
+    {
       "slug": "boon-of-ice's-reign",
+      "name": "Boon of Ice's Reign",
+      "boon_type": "boon",
+      "condition": null,
+      "description": "As an action, you unleash a freezing aura that radiates from your body in a persistent chill. This aura remains active until you dismiss it as a free action or until you become incapacitated, at which point you must reactivate it to regain its effects. While this boon is active, any creature that touches you or hits you with a melee attack takes 10 (3d6) cold damage. Additionally, any creature or object that is grappling, restraining, carrying, or otherwise holding you takes the same cold damage at the start of each of your turns.",
+      "source_url": "https://the-wandering-realm.fandom.com/wiki/Boon_of_Ice's_Reign"
+    },
+    {
+      "slug": "boon-of-ices-reign",
       "name": "Boon of Ice's Reign",
       "boon_type": "boon",
       "condition": null,
@@ -354,12 +503,28 @@
       "source_url": "https://the-wandering-realm.fandom.com/wiki/Boon_of_Life's_Embrace"
     },
     {
+      "slug": "boon-of-lifes-embrace",
+      "name": "Boon of Life's Embrace",
+      "boon_type": "boon",
+      "condition": null,
+      "description": "You have a certain level of mastery over positive energies.  You have resistance to necrotic damage, and your maximum hp cannot be reduced.  Additionally, when you cast a spell or use an ability that restores hit points to other creatures, you may apply one of the following additional effects to targets other than yourself:\n\n*   One of the targets gains double the hit points.\n*   All of the targets benefit from a Lesser Restoration\n*   The targets regain lost maximum hp equal to twice the healing done.\n\nAdding on an effect can be done an amount of times equal to your proficiency bonus, resetting upon finishing a long rest.",
+      "source_url": "https://the-wandering-realm.fandom.com/wiki/Boon_of_Life's_Embrace"
+    },
+    {
       "slug": "boon-of-limited-magic-immunity",
       "name": "Boon of Limited Magic Immunity",
       "boon_type": "boon",
       "condition": null,
       "description": "**Prerequisite**: Boon of Magic Resistance\n\nYou may not be affected or detected by spells of 3rd level and lower unless you choose to be. (Disclaimer that upcasting spells past third level bypasses this immunity)",
       "source_url": "https://the-wandering-realm.fandom.com/wiki/Boon_of_Limited_Magic_Immunity"
+    },
+    {
+      "slug": "boon-of-many-forms",
+      "name": "Boon of Many Forms",
+      "boon_type": "boon",
+      "condition": null,
+      "description": "**Prerequisite:** Boon of the Shapechanger\n\nYour mastery over transformation deepens. The CR increase granted by your Boon of the Shapechanger is now equal to your full post-20 level, rather than half your post-20 level.\n\nFor example, an effect normally limited to CR 20 can access CR 22 at level 20p2, CR 24 at level 20p4, and CR 26 at level 20p6.\n\nThis increase only modifies the original CR limit of *wild shape*, *shapechange*, or *polymorph*. It cannot be applied repeatedly through chained transformations. Transforming into a CR 26 creature does not allow that creature's level or CR to establish a new transformation limit. This does not function for things such as chain polymorphing.",
+      "source_url": "https://the-wandering-realm.fandom.com/wiki/Boon_of_Many_Forms"
     },
     {
       "slug": "boon-of-poison-mastery",
@@ -386,12 +551,28 @@
       "source_url": "https://the-wandering-realm.fandom.com/wiki/Boon_of_Resilience_(Update)"
     },
     {
+      "slug": "boon-of-resilience-update",
+      "name": "Boon of Resilience (Update)",
+      "boon_type": "boon",
+      "condition": null,
+      "description": "You have resistance to bludgeoning, piercing, and slashing damage from weapon attacks.",
+      "source_url": "https://the-wandering-realm.fandom.com/wiki/Boon_of_Resilience_(Update)"
+    },
+    {
       "slug": "boon-of-the-cloud-scion",
       "name": "Boon of the Cloud Scion",
       "boon_type": "boon",
       "condition": null,
       "description": "**Prerequisite:** Boon of the Storm Born\n\n**Calamity of the Storm:** First there was lightning…then there was thunder! Once per turn, you may add 10 extra lightning damage to an attack . After you've dealt this damage three times you become supercharged allowing the recipient as a bonus action to emit a wave of thunder dealing 2d8 thunder damage in a 15 ft cube originating from the recipient. When you would take lightning damage you may instead add half of that damage to your next thunder wave.\n\n**Cloud Jumper:** The recipient of this boon gains a flight speed equal to half their movement speed\n\n**Where the wind takes you:**  As an action the recipient of this boon to assume the form of a cloud. While in this cloud form, a creature has a flying speed of 150 feet and has resistance to damage from nonmagical weapons. The only actions a creature can take in this form are the Dash action or to revert to its normal form. Reverting back take a full round during which time the recipient is incapacitated as they reconstitute themselves. If hit by lightning while in cloud form the recipient becomes 'Charged' for 1 minute, while Charged they may cast call lightning at will in the area directly below them (dc 15)",
       "source_url": "https://the-wandering-realm.fandom.com/wiki/Boon_of_the_Cloud_Scion"
+    },
+    {
+      "slug": "boon-of-the-empath",
+      "name": "Boon of the Empath",
+      "boon_type": "boon",
+      "condition": null,
+      "description": "**Awareness.** You automatically know the strongest emotion being experienced by any creature within 30 feet of you. You have advantage on Wisdom (Insight) checks.\n\n**Connection.** As a bonus action, you can establish a telepathic bond with one creature you can see within 60 feet for 1 minute. You do not need to share a language with the target, but the target must know at least one language. While bonded, you can communicate telepathically and know whenever the creature is frightened, charmed, stunned, or reduced below half its hit points.\n\n**Protection.** When a creature bonded to you fails a saving throw made to frighten, charm, or stun them, you can use your reaction to allow them to reroll the save, adding your Wisdom modifier as a bonus. If the creature succeeds, the creature that invoked the saving throw takes the same amount of psychic damage as the new save rolled (including modifiers). You can use this effect a number of times equal to your Proficiency Bonus, resetting on a Long Rest.",
+      "source_url": "https://the-wandering-realm.fandom.com/wiki/Boon_of_the_Empath"
     },
     {
       "slug": "boon-of-the-magical-gardener",
@@ -440,6 +621,14 @@
       "condition": null,
       "description": "*   Your melee weapon attacks deal an additional 1d8 necrotic damage.\n*   Additionally, you regain hit points equal to half the amount of necrotic damage dealt by this boon, unless the target is an undead or construct.",
       "source_url": "https://the-wandering-realm.fandom.com/wiki/Boon_of_Vampiric_Strikes"
+    },
+    {
+      "slug": "boon-of-wings",
+      "name": "Boon of Wings",
+      "boon_type": "boon",
+      "condition": null,
+      "description": "You sprout a pair of wings. You gain a flying speed equal to your walking speed. You can furl the wings against your back as a bonus action and unfurl them the same way — while furled, they don't interfere with armor, but you can't fly. **Grounded:** If you're incapacitated, restrained, or wearing armor you're not proficient with, your wings fail and you fall.\n\n### Wing Style (d8)\n\nRoll or choose. Each grants a minor trait beyond flight.\n\n| d8 | Wings | Trait |\n| --- | --- | --- |\n| 1 | **Bat** | Blindsight 15 ft. while flying. |\n| 2 | **Eagle** | Advantage on Perception checks relying on sight in daylight. |\n| 3 | **Angelic** | Once per long rest, shed *daylight* out to 5 feet from your feathers for 1 minute. |\n| 4 | **Dragon** | Resistance to one damage type matching your scale color. |\n| 5 | **Spectral** | Your flight is silent; you can hover, and you leave no tracks in air or on soft ground. |\n| 6 | **Insectile** | Your flying speed increases by 10 ft., but you can't fly in strong wind. |\n| 7 | **Moth** | Advantage on Stealth checks in dim light or darkness while airborne. |\n| 8 | **Storm-torn** | When you take the Dash action while flying, lightning crackles: one creature you fly past takes 1d6 lightning damage. |",
+      "source_url": "https://the-wandering-realm.fandom.com/wiki/Boon_of_Wings"
     }
   ]
 }

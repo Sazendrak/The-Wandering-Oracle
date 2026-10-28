@@ -1,13 +1,136 @@
 {
   "_meta": {
-    "generated": "2026-07-13T10:34:51.801Z",
+    "generated": "2026-10-27T14:16:20.160Z",
     "source": "The Wandering Handbook — Phase 11",
-    "total_classes": 23,
-    "total_subclasses": 56
+    "total_classes": 37,
+    "total_subclasses": 115
   },
   "classes": [
     {
       "slug": "blood-hunter-(version-x)",
+      "name": "Blood Hunter (Version X)",
+      "hit_die": 12,
+      "primary_ability": null,
+      "saving_throws": [
+        "Dexterity",
+        "Intelligence"
+      ],
+      "armor_proficiencies": [
+        "Light",
+        "Medium",
+        "Shields"
+      ],
+      "weapon_proficiencies": [
+        "Simple",
+        "Martial"
+      ],
+      "tool_proficiencies": [],
+      "level_table": [
+        {
+          "level": 1,
+          "proficiency_bonus": "+2",
+          "features": "Hunter’s Bane, Blood Maledict"
+        },
+        {
+          "level": 2,
+          "proficiency_bonus": "+2",
+          "features": "Fighting Style, Crimson Rite"
+        },
+        {
+          "level": 3,
+          "proficiency_bonus": "+2",
+          "features": "Blood Hunter Order"
+        },
+        {
+          "level": 4,
+          "proficiency_bonus": "+2",
+          "features": "Ability Score Improvement"
+        },
+        {
+          "level": 5,
+          "proficiency_bonus": "+3",
+          "features": "Extra Attack"
+        },
+        {
+          "level": 6,
+          "proficiency_bonus": "+3",
+          "features": "Brand of Castigation"
+        },
+        {
+          "level": 7,
+          "proficiency_bonus": "+3",
+          "features": "Blood Hunter Order Feature"
+        },
+        {
+          "level": 8,
+          "proficiency_bonus": "+3",
+          "features": "Ability Score Improvement"
+        },
+        {
+          "level": 9,
+          "proficiency_bonus": "+4",
+          "features": "Grim Psychometry"
+        },
+        {
+          "level": 10,
+          "proficiency_bonus": "+4",
+          "features": "Dark Augmentation"
+        },
+        {
+          "level": 11,
+          "proficiency_bonus": "+4",
+          "features": "Blood Hunter Order Feature"
+        },
+        {
+          "level": 12,
+          "proficiency_bonus": "+4",
+          "features": "Ability Score Improvement"
+        },
+        {
+          "level": 13,
+          "proficiency_bonus": "+5",
+          "features": "Tethering Brand"
+        },
+        {
+          "level": 14,
+          "proficiency_bonus": "+5",
+          "features": "Hardened Soul"
+        },
+        {
+          "level": 15,
+          "proficiency_bonus": "+5",
+          "features": "Blood Hunter Order Feature"
+        },
+        {
+          "level": 16,
+          "proficiency_bonus": "+5",
+          "features": "Ability Score Improvement"
+        },
+        {
+          "level": 17,
+          "proficiency_bonus": "+6",
+          "features": "Blood Price"
+        },
+        {
+          "level": 18,
+          "proficiency_bonus": "+6",
+          "features": "Blood Hunter Order Feature"
+        },
+        {
+          "level": 19,
+          "proficiency_bonus": "+6",
+          "features": "Ability Score Improvement"
+        },
+        {
+          "level": 20,
+          "proficiency_bonus": "+6",
+          "features": "Blood Hunter Order Feature"
+        }
+      ],
+      "source_url": "https://the-wandering-realm.fandom.com/wiki/Blood_Hunter_(Version_X)"
+    },
+    {
+      "slug": "blood-hunter-version-x",
       "name": "Blood Hunter (Version X)",
       "hit_die": 12,
       "primary_ability": null,
@@ -141,6 +264,131 @@
       "source_url": "https://the-wandering-realm.fandom.com/wiki/Bombardier"
     },
     {
+      "slug": "bulwark",
+      "name": "Bulwark",
+      "hit_die": 10,
+      "primary_ability": null,
+      "saving_throws": [
+        "Constitution",
+        "Charisma"
+      ],
+      "armor_proficiencies": [
+        "Light",
+        "Medium",
+        "and Heavy Armor",
+        "Shields"
+      ],
+      "weapon_proficiencies": [
+        "Simple Weapons",
+        "Warhammers",
+        "Heavy Crossbows"
+      ],
+      "tool_proficiencies": [],
+      "level_table": [
+        {
+          "level": 1,
+          "proficiency_bonus": "+2",
+          "features": "Defensive Stance, Weapon Mastery"
+        },
+        {
+          "level": 2,
+          "proficiency_bonus": "+2",
+          "features": "Fortitude"
+        },
+        {
+          "level": 3,
+          "proficiency_bonus": "+2",
+          "features": "Defensive Specialization"
+        },
+        {
+          "level": 4,
+          "proficiency_bonus": "+2",
+          "features": "Ability Score Improvement"
+        },
+        {
+          "level": 5,
+          "proficiency_bonus": "+3",
+          "features": "Extra Attack, Emissary"
+        },
+        {
+          "level": 6,
+          "proficiency_bonus": "+3",
+          "features": "Conditioning"
+        },
+        {
+          "level": 7,
+          "proficiency_bonus": "+3",
+          "features": "Specialization Feature"
+        },
+        {
+          "level": 8,
+          "proficiency_bonus": "+3",
+          "features": "Ability Score Improvement"
+        },
+        {
+          "level": 9,
+          "proficiency_bonus": "+4",
+          "features": "Dueling Stance"
+        },
+        {
+          "level": 10,
+          "proficiency_bonus": "+4",
+          "features": "Mental Fortitude"
+        },
+        {
+          "level": 11,
+          "proficiency_bonus": "+4",
+          "features": "Shattering Stance"
+        },
+        {
+          "level": 12,
+          "proficiency_bonus": "+4",
+          "features": "Ability Score Improvement"
+        },
+        {
+          "level": 13,
+          "proficiency_bonus": "+5",
+          "features": "Specialization Feature"
+        },
+        {
+          "level": 14,
+          "proficiency_bonus": "+5",
+          "features": "Reinforcing Fortitude"
+        },
+        {
+          "level": 15,
+          "proficiency_bonus": "+5",
+          "features": "Steel Endurance"
+        },
+        {
+          "level": 16,
+          "proficiency_bonus": "+5",
+          "features": "Ability Score Improvement"
+        },
+        {
+          "level": 17,
+          "proficiency_bonus": "+6",
+          "features": "Mountain Stance"
+        },
+        {
+          "level": 18,
+          "proficiency_bonus": "+6",
+          "features": "Specialization Feature"
+        },
+        {
+          "level": 19,
+          "proficiency_bonus": "+6",
+          "features": "Ability Score Improvement"
+        },
+        {
+          "level": 20,
+          "proficiency_bonus": "+6",
+          "features": "Adamantine Endurance"
+        }
+      ],
+      "source_url": "https://the-wandering-realm.fandom.com/wiki/Bulwark"
+    },
+    {
       "slug": "channeler",
       "name": "Channeler",
       "hit_die": 10,
@@ -162,83 +410,103 @@
       "level_table": [
         {
           "level": 1,
-          "proficiency_bonus": "+2"
+          "proficiency_bonus": "+2",
+          "features": "Arcane Channel, Elemental Imbuement"
         },
         {
           "level": 2,
-          "proficiency_bonus": "+2"
+          "proficiency_bonus": "+2",
+          "features": "Arcane Attraction, Fighting Style"
         },
         {
           "level": 3,
-          "proficiency_bonus": "+2"
+          "proficiency_bonus": "+2",
+          "features": "Ante"
         },
         {
           "level": 4,
-          "proficiency_bonus": "+2"
+          "proficiency_bonus": "+2",
+          "features": "Ability Score Improvement"
         },
         {
           "level": 5,
-          "proficiency_bonus": "+3"
+          "proficiency_bonus": "+3",
+          "features": "Overchanneled Imbuement"
         },
         {
           "level": 6,
-          "proficiency_bonus": "+3"
+          "proficiency_bonus": "+3",
+          "features": "Arcane Channel Feature"
         },
         {
           "level": 7,
-          "proficiency_bonus": "+3"
+          "proficiency_bonus": "+3",
+          "features": "Elemental Boon"
         },
         {
           "level": 8,
-          "proficiency_bonus": "+3"
+          "proficiency_bonus": "+3",
+          "features": "Ability Score Improvement"
         },
         {
           "level": 9,
-          "proficiency_bonus": "+4"
+          "proficiency_bonus": "+4",
+          "features": "Overchanneled Imbuement Improvement"
         },
         {
           "level": 10,
-          "proficiency_bonus": "+4"
+          "proficiency_bonus": "+4",
+          "features": "Elemental Imbuement Improvement, Raze"
         },
         {
           "level": 11,
-          "proficiency_bonus": "+4"
+          "proficiency_bonus": "+4",
+          "features": "Arcane Channel Feature"
         },
         {
           "level": 12,
-          "proficiency_bonus": "+4"
+          "proficiency_bonus": "+4",
+          "features": "Ability Score Improvement"
         },
         {
           "level": 13,
-          "proficiency_bonus": "+5"
+          "proficiency_bonus": "+5",
+          "features": "Up The Ante"
         },
         {
           "level": 14,
-          "proficiency_bonus": "+5"
+          "proficiency_bonus": "+5",
+          "features": "Flash Charge"
         },
         {
           "level": 15,
-          "proficiency_bonus": "+5"
+          "proficiency_bonus": "+5",
+          "features": "Greater Boon"
         },
         {
           "level": 16,
-          "proficiency_bonus": "+5"
+          "proficiency_bonus": "+5",
+          "features": "Ability Score Improvement"
         },
         {
           "level": 17,
-          "proficiency_bonus": "+6"
+          "proficiency_bonus": "+6",
+          "features": "Arcane Channel Feature"
         },
         {
           "level": 18,
-          "proficiency_bonus": "+6"
+          "proficiency_bonus": "+6",
+          "features": "Elemental Imbuement Improvement, Ruin"
         },
         {
           "level": 19,
-          "proficiency_bonus": "+6"
+          "proficiency_bonus": "+6",
+          "features": "Ability Score Improvement"
         },
         {
           "level": 20,
-          "proficiency_bonus": "+6"
+          "proficiency_bonus": "+6",
+          "features": "Pinnacle Channel"
         }
       ],
       "source_url": "https://the-wandering-realm.fandom.com/wiki/Channeler"
@@ -310,6 +578,17 @@
       "source_url": "https://the-wandering-realm.fandom.com/wiki/Juggernaut"
     },
     {
+      "slug": "justiciar",
+      "name": "Justiciar",
+      "primary_ability": "Charisma",
+      "saving_throws": [],
+      "armor_proficiencies": [],
+      "weapon_proficiencies": [],
+      "tool_proficiencies": [],
+      "level_table": [],
+      "source_url": "https://the-wandering-realm.fandom.com/wiki/Justiciar"
+    },
+    {
       "slug": "medic",
       "name": "Medic",
       "primary_ability": null,
@@ -341,6 +620,18 @@
       "tool_proficiencies": [],
       "level_table": [],
       "source_url": "https://the-wandering-realm.fandom.com/wiki/Oracle"
+    },
+    {
+      "slug": "pathfinder",
+      "name": "Pathfinder",
+      "hit_die": 10,
+      "primary_ability": null,
+      "saving_throws": [],
+      "armor_proficiencies": [],
+      "weapon_proficiencies": [],
+      "tool_proficiencies": [],
+      "level_table": [],
+      "source_url": "https://the-wandering-realm.fandom.com/wiki/Pathfinder"
     },
     {
       "slug": "performer",
@@ -469,6 +760,28 @@
       "source_url": "https://the-wandering-realm.fandom.com/wiki/Practitioner"
     },
     {
+      "slug": "prestige-classes",
+      "name": "Prestige Classes",
+      "primary_ability": null,
+      "saving_throws": [],
+      "armor_proficiencies": [],
+      "weapon_proficiencies": [],
+      "tool_proficiencies": [],
+      "level_table": [],
+      "source_url": "https://the-wandering-realm.fandom.com/wiki/Prestige_Classes"
+    },
+    {
+      "slug": "primal-avatar",
+      "name": "Primal Avatar",
+      "primary_ability": null,
+      "saving_throws": [],
+      "armor_proficiencies": [],
+      "weapon_proficiencies": [],
+      "tool_proficiencies": [],
+      "level_table": [],
+      "source_url": "https://the-wandering-realm.fandom.com/wiki/Primal_Avatar"
+    },
+    {
       "slug": "psi-tracker",
       "name": "Psi Tracker",
       "primary_ability": null,
@@ -478,6 +791,98 @@
       "tool_proficiencies": [],
       "level_table": [],
       "source_url": "https://the-wandering-realm.fandom.com/wiki/Psi_Tracker"
+    },
+    {
+      "slug": "pugilist-class",
+      "name": "Pugilist Class",
+      "primary_ability": null,
+      "saving_throws": [],
+      "armor_proficiencies": [],
+      "weapon_proficiencies": [],
+      "tool_proficiencies": [],
+      "level_table": [
+        {
+          "level": 1,
+          "features": "Fisticuffs, Iron Chin, Prestige Scaling"
+        },
+        {
+          "level": 2,
+          "features": "Moxie, Bloodied But Unbowed, Swagger Streak"
+        },
+        {
+          "level": 3,
+          "features": "Heavy Hitter, Pugilist Subclass"
+        },
+        {
+          "level": 4,
+          "features": "Ability Score Improvement, Dig Deep"
+        },
+        {
+          "level": 5,
+          "features": "Haymaker"
+        },
+        {
+          "level": 6,
+          "features": "Moxie-Fueled Fists, Subclass Feature"
+        },
+        {
+          "level": 7,
+          "features": "Down But Not Out"
+        },
+        {
+          "level": 8,
+          "features": "Ability Score Improvement"
+        },
+        {
+          "level": 9,
+          "features": "School of Hard Knocks"
+        },
+        {
+          "level": 10,
+          "features": "Herculean, Shake It Off"
+        },
+        {
+          "level": 11,
+          "features": "Subclass Feature"
+        },
+        {
+          "level": 12,
+          "features": "Ability Score Improvement"
+        },
+        {
+          "level": 13,
+          "features": "Dig Deeper"
+        },
+        {
+          "level": 14,
+          "features": "Unbreakable"
+        },
+        {
+          "level": 15,
+          "features": "Pugnacious"
+        },
+        {
+          "level": 16,
+          "features": "Ability Score Improvement"
+        },
+        {
+          "level": 17,
+          "features": "Subclass Feature"
+        },
+        {
+          "level": 18,
+          "features": "Fighting Spirit"
+        },
+        {
+          "level": 19,
+          "features": "Epic Boon"
+        },
+        {
+          "level": 20,
+          "features": "Peak Physical Condition"
+        }
+      ],
+      "source_url": "https://the-wandering-realm.fandom.com/wiki/Pugilist_Class"
     },
     {
       "slug": "ranger-(version-x)",
@@ -499,6 +904,140 @@
       "tool_proficiencies": [],
       "level_table": [],
       "source_url": "https://the-wandering-realm.fandom.com/wiki/Ranger_(Version_X)"
+    },
+    {
+      "slug": "ranger-version-x",
+      "name": "Ranger (Version X)",
+      "hit_die": 10,
+      "primary_ability": "Wisdom",
+      "saving_throws": [
+        "Strength",
+        "Dexterity"
+      ],
+      "armor_proficiencies": [
+        "Light",
+        "Medium",
+        "Shields"
+      ],
+      "weapon_proficiencies": [
+        "Simple and Martial Weapons"
+      ],
+      "tool_proficiencies": [],
+      "level_table": [
+        {
+          "level": 1,
+          "proficiency_bonus": "+2",
+          "features": "Favored Foe, Natural Explorer, Warden Specialization"
+        },
+        {
+          "level": 2,
+          "proficiency_bonus": "+2",
+          "features": "Fighting Style, Spellcasting"
+        },
+        {
+          "level": 3,
+          "proficiency_bonus": "+2",
+          "features": "Ranger Archetype, Primeval Awareness"
+        },
+        {
+          "level": 4,
+          "proficiency_bonus": "+2",
+          "features": "Ability Score Improvement"
+        },
+        {
+          "level": 5,
+          "proficiency_bonus": "+3",
+          "features": "Extra Attack"
+        },
+        {
+          "level": 6,
+          "proficiency_bonus": "+3",
+          "features": "Vigilant Hunter, Natural Explorer Improvement"
+        },
+        {
+          "level": 7,
+          "proficiency_bonus": "+3",
+          "features": "Ranger Archetype Feature"
+        },
+        {
+          "level": 8,
+          "proficiency_bonus": "+3",
+          "features": "Ability Score Improvement, Land’s Stride"
+        },
+        {
+          "level": 9,
+          "proficiency_bonus": "+4",
+          "features": "Warden’s Covenant"
+        },
+        {
+          "level": 10,
+          "proficiency_bonus": "+4",
+          "features": "Swift Hunter, Natural Explorer Improvement"
+        },
+        {
+          "level": 11,
+          "proficiency_bonus": "+4",
+          "features": "Ranger Archetype Feature"
+        },
+        {
+          "level": 12,
+          "proficiency_bonus": "+4",
+          "features": "Ability Score Improvement"
+        },
+        {
+          "level": 13,
+          "proficiency_bonus": "+5",
+          "features": "Nature’s Veil"
+        },
+        {
+          "level": 14,
+          "proficiency_bonus": "+5",
+          "features": "Warden’s Pinnacle"
+        },
+        {
+          "level": 15,
+          "proficiency_bonus": "+5",
+          "features": "Ranger Archetype Feature"
+        },
+        {
+          "level": 16,
+          "proficiency_bonus": "+5",
+          "features": "Ability Score Improvement"
+        },
+        {
+          "level": 17,
+          "proficiency_bonus": "+6",
+          "features": "—"
+        },
+        {
+          "level": 18,
+          "proficiency_bonus": "+6",
+          "features": "Peerless Hunter"
+        },
+        {
+          "level": 19,
+          "proficiency_bonus": "+6",
+          "features": "Ability Score Improvement"
+        },
+        {
+          "level": 20,
+          "proficiency_bonus": "+6",
+          "features": "Foe Slayer"
+        }
+      ],
+      "source_url": "https://the-wandering-realm.fandom.com/wiki/Ranger_(Version_X)"
+    },
+    {
+      "slug": "ranger-wildtrak",
+      "name": "Ranger Wildtrak",
+      "hit_die": 10,
+      "primary_ability": null,
+      "saving_throws": [],
+      "armor_proficiencies": [],
+      "weapon_proficiencies": [],
+      "tool_proficiencies": [],
+      "level_table": [],
+      "source_url": "https://the-wandering-realm.fandom.com/wiki/Ranger_Wildtrak"
     },
     {
       "slug": "rook",
@@ -533,27 +1072,27 @@
         {
           "level": 1,
           "proficiency_bonus": "+2",
-          "features": "Spellcasting, Meditation"
+          "features": "[Spellcasting](#Spellcasting), [Meditation](#Meditation)"
         },
         {
           "level": 2,
           "proficiency_bonus": "+2",
-          "features": "Philosophical Study"
+          "features": "[Philosophical Study](#Philosophical_Study)"
         },
         {
           "level": 3,
           "proficiency_bonus": "+2",
-          "features": "Mind Shaper"
+          "features": "[Mind Shaper](#Mind_Shaper)"
         },
         {
           "level": 4,
           "proficiency_bonus": "+2",
-          "features": "Ability Score Improvement"
+          "features": "[Ability Score Improvement](#Ability_Score_Improvement)"
         },
         {
           "level": 5,
           "proficiency_bonus": "+3",
-          "features": "-"
+          "features": "\\-"
         },
         {
           "level": 6,
@@ -563,37 +1102,37 @@
         {
           "level": 7,
           "proficiency_bonus": "+3",
-          "features": "-"
+          "features": "\\-"
         },
         {
           "level": 8,
           "proficiency_bonus": "+3",
-          "features": "Ability Score Improvement"
+          "features": "[Ability Score Improvement](#Ability_Score_Improvement)"
         },
         {
           "level": 9,
           "proficiency_bonus": "+4",
-          "features": "-"
+          "features": "\\-"
         },
         {
           "level": 10,
           "proficiency_bonus": "+4",
-          "features": "Greater Meditation, Improved ShapingImproved Shaping"
+          "features": "[Greater Meditation](#Greater_Meditation), Improved Shaping[Improved Shaping](#Improved_Shaping)"
         },
         {
           "level": 11,
           "proficiency_bonus": "+4",
-          "features": "-"
+          "features": "\\-"
         },
         {
           "level": 12,
           "proficiency_bonus": "+4",
-          "features": "Ability Score Improvement"
+          "features": "[Ability Score Improvement](#Ability_Score_Improvement)"
         },
         {
           "level": 13,
           "proficiency_bonus": "+5",
-          "features": "-"
+          "features": "\\-"
         },
         {
           "level": 14,
@@ -603,17 +1142,17 @@
         {
           "level": 15,
           "proficiency_bonus": "+5",
-          "features": "-"
+          "features": "\\-"
         },
         {
           "level": 16,
           "proficiency_bonus": "+5",
-          "features": "Ability Score Improvement"
+          "features": "[Ability Score Improvement](#Ability_Score_Improvement)"
         },
         {
           "level": 17,
           "proficiency_bonus": "+6",
-          "features": "Replenish"
+          "features": "[Replenish](#Replenish)"
         },
         {
           "level": 18,
@@ -628,7 +1167,7 @@
         {
           "level": 20,
           "proficiency_bonus": "+6",
-          "features": "Enlightenment"
+          "features": "[Enlightenment](#Enlightenment)"
         }
       ],
       "source_url": "https://the-wandering-realm.fandom.com/wiki/Sage"
@@ -701,7 +1240,7 @@
         {
           "level": 10,
           "proficiency_bonus": "+4",
-          "features": "Improved Nature, Surface Walking"
+          "features": "Improved Nature Affinity, Surface Walking"
         },
         {
           "level": 11,
@@ -881,6 +1420,17 @@
       "source_url": "https://the-wandering-realm.fandom.com/wiki/Spiritualist"
     },
     {
+      "slug": "sublime-bard",
+      "name": "Sublime Bard",
+      "primary_ability": null,
+      "saving_throws": [],
+      "armor_proficiencies": [],
+      "weapon_proficiencies": [],
+      "tool_proficiencies": [],
+      "level_table": [],
+      "source_url": "https://the-wandering-realm.fandom.com/wiki/Sublime_Bard"
+    },
+    {
       "slug": "swindler",
       "name": "Swindler",
       "primary_ability": null,
@@ -890,6 +1440,280 @@
       "tool_proficiencies": [],
       "level_table": [],
       "source_url": "https://the-wandering-realm.fandom.com/wiki/Swindler"
+    },
+    {
+      "slug": "the-gunslinger",
+      "name": "The Gunslinger",
+      "hit_die": 8,
+      "primary_ability": null,
+      "saving_throws": [
+        "Dexterity",
+        "Charisma"
+      ],
+      "armor_proficiencies": [
+        "Light armor",
+        "medium armor"
+      ],
+      "weapon_proficiencies": [
+        "Simple weapons",
+        "martial weapons",
+        "firearms"
+      ],
+      "tool_proficiencies": [],
+      "level_table": [
+        {
+          "level": 1,
+          "proficiency_bonus": "+2",
+          "features": "Grit, Quick Draw, Called Shots"
+        },
+        {
+          "level": 2,
+          "proficiency_bonus": "+2",
+          "features": "Gun Stance, Weapon Mastery"
+        },
+        {
+          "level": 3,
+          "proficiency_bonus": "+2",
+          "features": "Gunfighter Archetype"
+        },
+        {
+          "level": 4,
+          "proficiency_bonus": "+2",
+          "features": "Ability Score Improvement"
+        },
+        {
+          "level": 5,
+          "proficiency_bonus": "+3",
+          "features": "Extra Attack"
+        },
+        {
+          "level": 6,
+          "proficiency_bonus": "+3",
+          "features": "Expertise"
+        },
+        {
+          "level": 7,
+          "proficiency_bonus": "+3",
+          "features": "Archetype Feature"
+        },
+        {
+          "level": 8,
+          "proficiency_bonus": "+3",
+          "features": "Ability Score Improvement"
+        },
+        {
+          "level": 9,
+          "proficiency_bonus": "+4",
+          "features": "Called Shots"
+        },
+        {
+          "level": 10,
+          "proficiency_bonus": "+4",
+          "features": "Steady Aim"
+        },
+        {
+          "level": 11,
+          "proficiency_bonus": "+4",
+          "features": "Called Shots"
+        },
+        {
+          "level": 12,
+          "proficiency_bonus": "+4",
+          "features": "Ability Score Improvement"
+        },
+        {
+          "level": 13,
+          "proficiency_bonus": "+5",
+          "features": "Archetype Feature"
+        },
+        {
+          "level": 14,
+          "proficiency_bonus": "+5",
+          "features": "Unshakable Focus, Extra Attack (2)"
+        },
+        {
+          "level": 15,
+          "proficiency_bonus": "+5",
+          "features": "Superior Grit"
+        },
+        {
+          "level": 16,
+          "proficiency_bonus": "+5",
+          "features": "Ability Score Improvement"
+        },
+        {
+          "level": 17,
+          "proficiency_bonus": "+6",
+          "features": "Archetype Feature"
+        },
+        {
+          "level": 18,
+          "proficiency_bonus": "+6",
+          "features": "Expertise"
+        },
+        {
+          "level": 19,
+          "proficiency_bonus": "+6",
+          "features": "Ability Score Improvement"
+        },
+        {
+          "level": 20,
+          "proficiency_bonus": "+6",
+          "features": "Master of the Gun"
+        }
+      ],
+      "source_url": "https://the-wandering-realm.fandom.com/wiki/The_Gunslinger"
+    },
+    {
+      "slug": "undead-sovereign",
+      "name": "Undead Sovereign",
+      "hit_die": 8,
+      "primary_ability": null,
+      "saving_throws": [],
+      "armor_proficiencies": [],
+      "weapon_proficiencies": [
+        "attacks made by undead under your control count as magical for overcoming resistance and immunity to nonmagical attacks and damage."
+      ],
+      "tool_proficiencies": [],
+      "level_table": [],
+      "source_url": "https://the-wandering-realm.fandom.com/wiki/Undead_Sovereign"
+    },
+    {
+      "slug": "warmage",
+      "name": "Warmage",
+      "hit_die": 8,
+      "primary_ability": "Intelligence",
+      "saving_throws": [
+        "Constitution",
+        "Intelligence"
+      ],
+      "armor_proficiencies": [
+        "Light armor"
+      ],
+      "weapon_proficiencies": [
+        "Simple weapons"
+      ],
+      "tool_proficiencies": [],
+      "level_table": [
+        {
+          "level": 1,
+          "proficiency_bonus": "+2",
+          "features": "Spellcasting, Arcane Initiation, Arcane Fighting Style"
+        },
+        {
+          "level": 2,
+          "proficiency_bonus": "+2",
+          "features": "Warmage Edge, Warmage Tricks, Cantrip Flourishes"
+        },
+        {
+          "level": 3,
+          "proficiency_bonus": "+2",
+          "features": "Warmage House"
+        },
+        {
+          "level": 4,
+          "proficiency_bonus": "+2",
+          "features": "Ability Score Improvement"
+        },
+        {
+          "level": 5,
+          "proficiency_bonus": "+3",
+          "features": "Overcharge"
+        },
+        {
+          "level": 6,
+          "proficiency_bonus": "+3",
+          "features": "Deflective Instinct"
+        },
+        {
+          "level": 7,
+          "proficiency_bonus": "+3",
+          "features": "Warmage House feature"
+        },
+        {
+          "level": 8,
+          "proficiency_bonus": "+3",
+          "features": "Ability Score Improvement"
+        },
+        {
+          "level": 9,
+          "proficiency_bonus": "+4",
+          "features": "Overcharge (3 uses)"
+        },
+        {
+          "level": 10,
+          "proficiency_bonus": "+4",
+          "features": "Warmage House feature"
+        },
+        {
+          "level": 11,
+          "proficiency_bonus": "+4",
+          "features": "Greater Overcharges, Edge Improvement"
+        },
+        {
+          "level": 12,
+          "proficiency_bonus": "+4",
+          "features": "Ability Score Improvement"
+        },
+        {
+          "level": 13,
+          "proficiency_bonus": "+5",
+          "features": "Overcharge (4 uses)"
+        },
+        {
+          "level": 14,
+          "proficiency_bonus": "+5",
+          "features": "Strategic Deflection"
+        },
+        {
+          "level": 15,
+          "proficiency_bonus": "+5",
+          "features": "Warmage House feature"
+        },
+        {
+          "level": 16,
+          "proficiency_bonus": "+5",
+          "features": "Ability Score Improvement"
+        },
+        {
+          "level": 17,
+          "proficiency_bonus": "+6",
+          "features": "Master Overcharges, Edge Improvement"
+        },
+        {
+          "level": 18,
+          "proficiency_bonus": "+6",
+          "features": "Warmage House feature"
+        },
+        {
+          "level": 19,
+          "proficiency_bonus": "+6",
+          "features": "Ability Score Improvement"
+        },
+        {
+          "level": 20,
+          "proficiency_bonus": "+6",
+          "features": "Master Warmage"
+        }
+      ],
+      "source_url": "https://the-wandering-realm.fandom.com/wiki/Warmage"
+    },
+    {
+      "slug": "wizard-version-x",
+      "name": "Wizard (Version X)",
+      "hit_die": 6,
+      "primary_ability": "Intelligence",
+      "saving_throws": [
+        "Intelligence",
+        "Wisdom"
+      ],
+      "armor_proficiencies": [],
+      "weapon_proficiencies": [
+        "Simple Weapons"
+      ],
+      "tool_proficiencies": [],
+      "level_table": [],
+      "source_url": "https://the-wandering-realm.fandom.com/wiki/Wizard_(Version_X)"
     }
   ],
   "subclasses": [
@@ -898,6 +1722,24 @@
       "name": "Artificer Subclasses",
       "parent_class": "Artificer",
       "source_url": "https://the-wandering-realm.fandom.com/wiki/Artificer_Subclasses"
+    },
+    {
+      "slug": "augmenter",
+      "name": "Augmenter",
+      "parent_class": "Artificer",
+      "source_url": "https://the-wandering-realm.fandom.com/wiki/Augmenter"
+    },
+    {
+      "slug": "avenger",
+      "name": "Avenger",
+      "parent_class": "Unknown",
+      "source_url": "https://the-wandering-realm.fandom.com/wiki/Avenger"
+    },
+    {
+      "slug": "barrow-lord",
+      "name": "Barrow Lord",
+      "parent_class": "Fighter",
+      "source_url": "https://the-wandering-realm.fandom.com/wiki/Barrow_Lord"
     },
     {
       "slug": "blood-hunter-subclasses",
@@ -910,6 +1752,48 @@
       "name": "Blood Knight",
       "parent_class": "Fighter",
       "source_url": "https://the-wandering-realm.fandom.com/wiki/Blood_Knight"
+    },
+    {
+      "slug": "blood-magic",
+      "name": "Blood Magic",
+      "parent_class": "Wizard",
+      "source_url": "https://the-wandering-realm.fandom.com/wiki/Blood_Magic"
+    },
+    {
+      "slug": "bombardier",
+      "name": "Bombardier",
+      "parent_class": "Artificer",
+      "source_url": "https://the-wandering-realm.fandom.com/wiki/Bombardier"
+    },
+    {
+      "slug": "channel-of-artistry",
+      "name": "Channel of Artistry",
+      "parent_class": "Unknown",
+      "source_url": "https://the-wandering-realm.fandom.com/wiki/Channel_of_Artistry"
+    },
+    {
+      "slug": "channel-of-containment",
+      "name": "Channel of Containment",
+      "parent_class": "Monk",
+      "source_url": "https://the-wandering-realm.fandom.com/wiki/Channel_of_Containment"
+    },
+    {
+      "slug": "channel-of-devastation",
+      "name": "Channel of Devastation",
+      "parent_class": "Unknown",
+      "source_url": "https://the-wandering-realm.fandom.com/wiki/Channel_of_Devastation"
+    },
+    {
+      "slug": "channel-of-madness",
+      "name": "Channel of Madness",
+      "parent_class": "Unknown",
+      "source_url": "https://the-wandering-realm.fandom.com/wiki/Channel_of_Madness"
+    },
+    {
+      "slug": "channel-of-volatility",
+      "name": "Channel of Volatility",
+      "parent_class": "Unknown",
+      "source_url": "https://the-wandering-realm.fandom.com/wiki/Channel_of_Volatility"
     },
     {
       "slug": "chaos-domain",
@@ -948,6 +1832,12 @@
       "source_url": "https://the-wandering-realm.fandom.com/wiki/Circle_of_the_Warden"
     },
     {
+      "slug": "cleric-prime",
+      "name": "Cleric Prime",
+      "parent_class": "Cleric",
+      "source_url": "https://the-wandering-realm.fandom.com/wiki/Cleric_Prime"
+    },
+    {
       "slug": "cleric-subclasses",
       "name": "Cleric Subclasses",
       "parent_class": "Cleric",
@@ -984,10 +1874,34 @@
       "source_url": "https://the-wandering-realm.fandom.com/wiki/Counterriposte_Duelist"
     },
     {
+      "slug": "cryomancy",
+      "name": "Cryomancy",
+      "parent_class": "Wizard",
+      "source_url": "https://the-wandering-realm.fandom.com/wiki/Cryomancy"
+    },
+    {
+      "slug": "daredevil",
+      "name": "Daredevil",
+      "parent_class": "Fighter",
+      "source_url": "https://the-wandering-realm.fandom.com/wiki/Daredevil"
+    },
+    {
+      "slug": "deadeye",
+      "name": "Deadeye",
+      "parent_class": "Fighter",
+      "source_url": "https://the-wandering-realm.fandom.com/wiki/Deadeye"
+    },
+    {
       "slug": "death-knight",
       "name": "Death Knight",
       "parent_class": "Fighter",
       "source_url": "https://the-wandering-realm.fandom.com/wiki/Death_Knight"
+    },
+    {
+      "slug": "drifter",
+      "name": "Drifter",
+      "parent_class": "Unknown",
+      "source_url": "https://the-wandering-realm.fandom.com/wiki/Drifter"
     },
     {
       "slug": "druid-subclasses",
@@ -996,10 +1910,34 @@
       "source_url": "https://the-wandering-realm.fandom.com/wiki/Druid_Subclasses"
     },
     {
+      "slug": "exorcist",
+      "name": "Exorcist",
+      "parent_class": "Unknown",
+      "source_url": "https://the-wandering-realm.fandom.com/wiki/Exorcist"
+    },
+    {
+      "slug": "fey-duelist",
+      "name": "Fey Duelist",
+      "parent_class": "Rogue",
+      "source_url": "https://the-wandering-realm.fandom.com/wiki/Fey_Duelist"
+    },
+    {
       "slug": "fighter-subclasses",
       "name": "Fighter Subclasses",
       "parent_class": "Fighter",
       "source_url": "https://the-wandering-realm.fandom.com/wiki/Fighter_Subclasses"
+    },
+    {
+      "slug": "fighter-supreme",
+      "name": "Fighter Supreme",
+      "parent_class": "Fighter",
+      "source_url": "https://the-wandering-realm.fandom.com/wiki/Fighter_Supreme"
+    },
+    {
+      "slug": "fortunes-shadow",
+      "name": "Fortune's Shadow",
+      "parent_class": "Rogue",
+      "source_url": "https://the-wandering-realm.fandom.com/wiki/Fortune's_Shadow"
     },
     {
       "slug": "grave-conclave-ranger",
@@ -1008,10 +1946,58 @@
       "source_url": "https://the-wandering-realm.fandom.com/wiki/Grave_Conclave_Ranger"
     },
     {
+      "slug": "greaser",
+      "name": "Greaser",
+      "parent_class": "Artificer",
+      "source_url": "https://the-wandering-realm.fandom.com/wiki/Greaser"
+    },
+    {
+      "slug": "harbinger",
+      "name": "Harbinger",
+      "parent_class": "Barbarian",
+      "source_url": "https://the-wandering-realm.fandom.com/wiki/Harbinger"
+    },
+    {
+      "slug": "house-of-bishops",
+      "name": "House of Bishops",
+      "parent_class": "Wizard",
+      "source_url": "https://the-wandering-realm.fandom.com/wiki/House_of_Bishops"
+    },
+    {
+      "slug": "house-of-fortune",
+      "name": "House of Fortune",
+      "parent_class": "Unknown",
+      "source_url": "https://the-wandering-realm.fandom.com/wiki/House_of_Fortune"
+    },
+    {
+      "slug": "house-of-kings",
+      "name": "House of Kings",
+      "parent_class": "Unknown",
+      "source_url": "https://the-wandering-realm.fandom.com/wiki/House_of_Kings"
+    },
+    {
+      "slug": "house-of-knights",
+      "name": "House of Knights",
+      "parent_class": "Unknown",
+      "source_url": "https://the-wandering-realm.fandom.com/wiki/House_of_Knights"
+    },
+    {
       "slug": "house-of-light",
       "name": "House of Light",
       "parent_class": "Cleric",
       "source_url": "https://the-wandering-realm.fandom.com/wiki/House_of_Light"
+    },
+    {
+      "slug": "house-of-pawns",
+      "name": "House of Pawns",
+      "parent_class": "Unknown",
+      "source_url": "https://the-wandering-realm.fandom.com/wiki/House_of_Pawns"
+    },
+    {
+      "slug": "house-of-rooks",
+      "name": "House of Rooks",
+      "parent_class": "Unknown",
+      "source_url": "https://the-wandering-realm.fandom.com/wiki/House_of_Rooks"
     },
     {
       "slug": "inner-elemental-sorcery-(2024-sorcerer)",
@@ -1020,16 +2006,58 @@
       "source_url": "https://the-wandering-realm.fandom.com/wiki/Inner_Elemental_Sorcery_(2024_Sorcerer)"
     },
     {
+      "slug": "inner-elemental-sorcery-2024-sorcerer",
+      "name": "Inner Elemental Sorcery (2024 Sorcerer)",
+      "parent_class": "Sorcerer",
+      "source_url": "https://the-wandering-realm.fandom.com/wiki/Inner_Elemental_Sorcery_(2024_Sorcerer)"
+    },
+    {
+      "slug": "jade-lord",
+      "name": "Jade Lord",
+      "parent_class": "Fighter",
+      "source_url": "https://the-wandering-realm.fandom.com/wiki/Jade_Lord"
+    },
+    {
+      "slug": "juggernaut",
+      "name": "Juggernaut",
+      "parent_class": "Unknown",
+      "source_url": "https://the-wandering-realm.fandom.com/wiki/Juggernaut"
+    },
+    {
       "slug": "leviathan's-vessel-sorcerous-origin",
       "name": "Leviathan's Vessel Sorcerous Origin",
       "parent_class": "Sorcerer",
       "source_url": "https://the-wandering-realm.fandom.com/wiki/Leviathan's_Vessel_Sorcerous_Origin"
     },
     {
+      "slug": "leviathans-vessel-sorcerous-origin",
+      "name": "Leviathan's Vessel Sorcerous Origin",
+      "parent_class": "Sorcerer",
+      "source_url": "https://the-wandering-realm.fandom.com/wiki/Leviathan's_Vessel_Sorcerous_Origin"
+    },
+    {
+      "slug": "light-weaver",
+      "name": "Light Weaver",
+      "parent_class": "Sorcerer",
+      "source_url": "https://the-wandering-realm.fandom.com/wiki/Light_Weaver"
+    },
+    {
       "slug": "love-domain",
       "name": "Love Domain",
       "parent_class": "Cleric",
       "source_url": "https://the-wandering-realm.fandom.com/wiki/Love_Domain"
+    },
+    {
+      "slug": "maximum-rogue",
+      "name": "Maximum Rogue",
+      "parent_class": "Rogue",
+      "source_url": "https://the-wandering-realm.fandom.com/wiki/Maximum_Rogue"
+    },
+    {
+      "slug": "medium",
+      "name": "Medium",
+      "parent_class": "Fighter",
+      "source_url": "https://the-wandering-realm.fandom.com/wiki/Medium"
     },
     {
       "slug": "memory-thief-sorcery-(2024-sorcerer)",
@@ -1042,6 +2070,12 @@
       "name": "Monk Subclasses",
       "parent_class": "Monk",
       "source_url": "https://the-wandering-realm.fandom.com/wiki/Monk_Subclasses"
+    },
+    {
+      "slug": "night-reaver",
+      "name": "Night Reaver",
+      "parent_class": "Rogue",
+      "source_url": "https://the-wandering-realm.fandom.com/wiki/Night_Reaver"
     },
     {
       "slug": "oath-of-deceit",
@@ -1098,10 +2132,22 @@
       "source_url": "https://the-wandering-realm.fandom.com/wiki/Oath_of_the_Valiant_Guardian"
     },
     {
+      "slug": "oracle",
+      "name": "Oracle",
+      "parent_class": "Unknown",
+      "source_url": "https://the-wandering-realm.fandom.com/wiki/Oracle"
+    },
+    {
       "slug": "order-of-the-symbiote",
       "name": "Order of the Symbiote",
       "parent_class": "Blood Hunter",
       "source_url": "https://the-wandering-realm.fandom.com/wiki/Order_of_the_Symbiote"
+    },
+    {
+      "slug": "path-of-the-battlerager",
+      "name": "Path of the Battlerager",
+      "parent_class": "Barbarian",
+      "source_url": "https://the-wandering-realm.fandom.com/wiki/Path_of_the_Battlerager"
     },
     {
       "slug": "path-of-the-brawler",
@@ -1112,7 +2158,7 @@
     {
       "slug": "path-of-the-pact-sealer",
       "name": "Path of the Pact Sealer",
-      "parent_class": "Warlock",
+      "parent_class": "Barbarian",
       "source_url": "https://the-wandering-realm.fandom.com/wiki/Path_of_the_Pact_Sealer"
     },
     {
@@ -1120,6 +2166,12 @@
       "name": "Path of The Ravager",
       "parent_class": "Barbarian",
       "source_url": "https://the-wandering-realm.fandom.com/wiki/Path_of_The_Ravager"
+    },
+    {
+      "slug": "phalanx",
+      "name": "Phalanx",
+      "parent_class": "Unknown",
+      "source_url": "https://the-wandering-realm.fandom.com/wiki/Phalanx"
     },
     {
       "slug": "philosophy-of-diligence",
@@ -1148,7 +2200,7 @@
     {
       "slug": "philosophy-of-mysticism",
       "name": "Philosophy of Mysticism",
-      "parent_class": "Cleric",
+      "parent_class": "Sage",
       "source_url": "https://the-wandering-realm.fandom.com/wiki/Philosophy_of_Mysticism"
     },
     {
@@ -1156,6 +2208,42 @@
       "name": "Philosophy of Patience",
       "parent_class": "Sage",
       "source_url": "https://the-wandering-realm.fandom.com/wiki/Philosophy_of_Patience"
+    },
+    {
+      "slug": "phoenix",
+      "name": "Phoenix",
+      "parent_class": "Sorcerer",
+      "source_url": "https://the-wandering-realm.fandom.com/wiki/Phoenix"
+    },
+    {
+      "slug": "physicist",
+      "name": "Physicist",
+      "parent_class": "Artificer",
+      "source_url": "https://the-wandering-realm.fandom.com/wiki/Physicist"
+    },
+    {
+      "slug": "powderkeg",
+      "name": "Powderkeg",
+      "parent_class": "Unknown",
+      "source_url": "https://the-wandering-realm.fandom.com/wiki/Powderkeg"
+    },
+    {
+      "slug": "psi-tracker",
+      "name": "Psi Tracker",
+      "parent_class": "Ranger",
+      "source_url": "https://the-wandering-realm.fandom.com/wiki/Psi_Tracker"
+    },
+    {
+      "slug": "pyromancy",
+      "name": "Pyromancy",
+      "parent_class": "Sorcerer",
+      "source_url": "https://the-wandering-realm.fandom.com/wiki/Pyromancy"
+    },
+    {
+      "slug": "raven-knight",
+      "name": "Raven Knight",
+      "parent_class": "Fighter",
+      "source_url": "https://the-wandering-realm.fandom.com/wiki/Raven_Knight"
     },
     {
       "slug": "revised-arcane-archer",
@@ -1176,10 +2264,88 @@
       "source_url": "https://the-wandering-realm.fandom.com/wiki/Revised_Purple_Dragon_Knight"
     },
     {
+      "slug": "rook",
+      "name": "Rook",
+      "parent_class": "Unknown",
+      "source_url": "https://the-wandering-realm.fandom.com/wiki/Rook"
+    },
+    {
       "slug": "school-of-beating-your-ass",
       "name": "School of Beating your Ass",
       "parent_class": "Wizard",
       "source_url": "https://the-wandering-realm.fandom.com/wiki/School_of_Beating_your_Ass"
+    },
+    {
+      "slug": "scrapper",
+      "name": "Scrapper",
+      "parent_class": "Artificer",
+      "source_url": "https://the-wandering-realm.fandom.com/wiki/Scrapper"
+    },
+    {
+      "slug": "sentinel-blade",
+      "name": "Sentinel Blade",
+      "parent_class": "Barbarian",
+      "source_url": "https://the-wandering-realm.fandom.com/wiki/Sentinel_Blade"
+    },
+    {
+      "slug": "spellbreaker",
+      "name": "Spellbreaker",
+      "parent_class": "Wizard",
+      "source_url": "https://the-wandering-realm.fandom.com/wiki/Spellbreaker"
+    },
+    {
+      "slug": "star-blade",
+      "name": "Star Blade",
+      "parent_class": "Unknown",
+      "source_url": "https://the-wandering-realm.fandom.com/wiki/Star_Blade"
+    },
+    {
+      "slug": "storm-chaser",
+      "name": "Storm Chaser",
+      "parent_class": "Ranger",
+      "source_url": "https://the-wandering-realm.fandom.com/wiki/Storm_Chaser"
+    },
+    {
+      "slug": "super-wizard",
+      "name": "Super Wizard",
+      "parent_class": "Wizard",
+      "source_url": "https://the-wandering-realm.fandom.com/wiki/Super_Wizard"
+    },
+    {
+      "slug": "swindler",
+      "name": "Swindler",
+      "parent_class": "Barbarian",
+      "source_url": "https://the-wandering-realm.fandom.com/wiki/Swindler"
+    },
+    {
+      "slug": "sword-saint",
+      "name": "Sword Saint",
+      "parent_class": "Unknown",
+      "source_url": "https://the-wandering-realm.fandom.com/wiki/Sword_Saint"
+    },
+    {
+      "slug": "templar",
+      "name": "Templar",
+      "parent_class": "Cleric",
+      "source_url": "https://the-wandering-realm.fandom.com/wiki/Templar"
+    },
+    {
+      "slug": "the-extraplanar",
+      "name": "The Extraplanar",
+      "parent_class": "Warlock",
+      "source_url": "https://the-wandering-realm.fandom.com/wiki/The_Extraplanar"
+    },
+    {
+      "slug": "the-undead-lord",
+      "name": "The Undead lord",
+      "parent_class": "Sorcerer",
+      "source_url": "https://the-wandering-realm.fandom.com/wiki/The_Undead_lord"
+    },
+    {
+      "slug": "true-path",
+      "name": "True Path",
+      "parent_class": "Unknown",
+      "source_url": "https://the-wandering-realm.fandom.com/wiki/True_Path"
     },
     {
       "slug": "umbral-lord-patron",
@@ -1192,6 +2358,12 @@
       "name": "Undead Warlock 2024",
       "parent_class": "Warlock",
       "source_url": "https://the-wandering-realm.fandom.com/wiki/Undead_Warlock_2024"
+    },
+    {
+      "slug": "unfettered",
+      "name": "Unfettered",
+      "parent_class": "Unknown",
+      "source_url": "https://the-wandering-realm.fandom.com/wiki/Unfettered"
     },
     {
       "slug": "warrior-of-the-unbound-mind",
@@ -1228,6 +2400,12 @@
       "name": "Way of the Mirror Soul",
       "parent_class": "Monk",
       "source_url": "https://the-wandering-realm.fandom.com/wiki/Way_of_the_Mirror_Soul"
+    },
+    {
+      "slug": "weapon-master",
+      "name": "Weapon Master",
+      "parent_class": "Fighter",
+      "source_url": "https://the-wandering-realm.fandom.com/wiki/Weapon_Master"
     }
   ]
 }
